@@ -6,9 +6,11 @@
 [![Travis](https://img.shields.io/travis/idleberg/vscode-nsis-plugins.svg?style=flat-square)](https://travis-ci.org/idleberg/vscode-nsis-plugins)
 [![David](https://img.shields.io/david/dev/idleberg/vscode-nsis-plugins.svg?style=flat-square)](https://david-dm.org/idleberg/vscode-nsis-plugins#info=devDependencies)
 
-Snippets for third-party plugins for Nullsoft Scriptable Install System (NSIS)
+Snippets for third-party plug-ins for Nullsoft Scriptable Install System (NSIS)
 
 ## Installation
+
+Make sure you already got the [basis NSIS extension](https://github.com/idleberg/vscode-nsis) installed before proceeding.
 
 ### Extension Marketplace
 
