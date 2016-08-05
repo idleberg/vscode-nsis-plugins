@@ -1,0 +1,14 @@
+{
+  "md5dll::GetMD5File": {
+    "body": "md5dll::GetMD5File \"${1:file}\"$2",
+    "prefix": "md5dll::GetMD5File"
+  },
+  "md5dll::GetMD5Random": {
+    "body": "md5dll::GetMD5Random$1",
+    "prefix": "md5dll::GetMD5Random"
+  },
+  "md5dll::GetMD5String": {
+    "body": "md5dll::GetMD5String \"${1:string}\"$2",
+    "prefix": "md5dll::GetMD5String"
+  }
+}

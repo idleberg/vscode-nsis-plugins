@@ -1,0 +1,18 @@
+{
+  "NsisCrypt::Base64Decode": {
+    "body": "NsisCrypt::Base64Decode \"${1:string}\"$2",
+    "prefix": "NsisCrypt::Base64Decode"
+  },
+  "NsisCrypt::DecryptSymmetric": {
+    "body": "NsisCrypt::DecryptSymmetric \"${1:encoded_cipher}\" \"${2:algorithm}\" \"${3:encoded_key}\" \"${4:encoded_iv}\"$5",
+    "prefix": "NsisCrypt::DecryptSymmetric"
+  },
+  "NsisCrypt::EncryptSymmetric": {
+    "body": "NsisCrypt::EncryptSymmetric \"${1:string}\" \"${2:algorithm}\" \"${3:encoded_key}\" \"${4:encoded_iv}\"$5",
+    "prefix": "NsisCrypt::EncryptSymmetric"
+  },
+  "NsisCrypt::Hash": {
+    "body": "NsisCrypt::Hash \"${1:string}\" \"${2:algorithm}\"$3",
+    "prefix": "NsisCrypt::Hash"
+  }
+}

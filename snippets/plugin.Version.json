@@ -1,0 +1,70 @@
+{
+  "Version::GetWindowsVersion": {
+    "body": "Version::GetWindowsVersion$1",
+    "prefix": "Version::GetWindowsVersion"
+  },
+  "Version::IsWindows2000": {
+    "body": "Version::IsWindows2000$1",
+    "prefix": "Version::IsWindows2000"
+  },
+  "Version::IsWindows2003": {
+    "body": "Version::IsWindows2003$1",
+    "prefix": "Version::IsWindows2003"
+  },
+  "Version::IsWindows7": {
+    "body": "Version::IsWindows7$1",
+    "prefix": "Version::IsWindows7"
+  },
+  "Version::IsWindows8": {
+    "body": "Version::IsWindows8$1",
+    "prefix": "Version::IsWindows8"
+  },
+  "Version::IsWindows95": {
+    "body": "Version::IsWindows95$1",
+    "prefix": "Version::IsWindows95"
+  },
+  "Version::IsWindows98": {
+    "body": "Version::IsWindows98$1",
+    "prefix": "Version::IsWindows98"
+  },
+  "Version::IsWindowsME": {
+    "body": "Version::IsWindowsME$1",
+    "prefix": "Version::IsWindowsME"
+  },
+  "Version::IsWindowsNT351": {
+    "body": "Version::IsWindowsNT351$1",
+    "prefix": "Version::IsWindowsNT351"
+  },
+  "Version::IsWindowsNT40": {
+    "body": "Version::IsWindowsNT40$1",
+    "prefix": "Version::IsWindowsNT40"
+  },
+  "Version::IsWindowsPlatformNT": {
+    "body": "Version::IsWindowsPlatform9x$1",
+    "prefix": "Version::IsWindowsPlatformNT"
+  },
+  "Version::IsWindowsServer2008": {
+    "body": "Version::IsWindowsServer2008$1",
+    "prefix": "Version::IsWindowsServer2008"
+  },
+  "Version::IsWindowsServer2008R2": {
+    "body": "Version::IsWindowsServer2008R2$1",
+    "prefix": "Version::IsWindowsServer2008R2"
+  },
+  "Version::IsWindowsServer2012": {
+    "body": "Version::IsWindowsServer2012$1",
+    "prefix": "Version::IsWindowsServer2012"
+  },
+  "Version::IsWindowsVista": {
+    "body": "Version::IsWindowsVista$1",
+    "prefix": "Version::IsWindowsVista"
+  },
+  "Version::IsWindowsXP": {
+    "body": "Version::IsWindowsXP$1",
+    "prefix": "Version::IsWindowsXP"
+  },
+  "Version::IsWindowsXPx64": {
+    "body": "Version::IsWindowsXPx64$1",
+    "prefix": "Version::IsWindowsXPx64"
+  }
+}

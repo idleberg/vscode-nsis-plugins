@@ -1,0 +1,70 @@
+{
+  "NsisIIS::CreateAppPool": {
+    "body": "NsisIIS::CreateAppPool \"${1:app_pool}\"$2",
+    "prefix": "NsisIIS::CreateAppPool"
+  },
+  "NsisIIS::CreateVDir": {
+    "body": "NsisIIS::CreateVDir \"${1:vdir_name}\" \"${2:physical_path}\"$3",
+    "prefix": "NsisIIS::CreateVDir"
+  },
+  "NsisIIS::CreateWebSite": {
+    "body": "NsisIIS::CreateWebSite \"${1:name}\" \"${2:physical_path}\" \"${3:host}:${4:port}\"$5",
+    "prefix": "NsisIIS::CreateWebSite"
+  },
+  "NsisIIS::DeleteAppPool": {
+    "body": "NsisIIS::DeleteAppPool \"${1:app_pool}\"$2",
+    "prefix": "NsisIIS::DeleteAppPool"
+  },
+  "NsisIIS::DeleteVDir": {
+    "body": "NsisIIS::DeleteVDir \"${1:vdir_name}\"$2",
+    "prefix": "NsisIIS::DeleteVDir"
+  },
+  "NsisIIS::DeleteWebSite": {
+    "body": "NsisIIS::DeleteWebSite \"${1:index}\"$2",
+    "prefix": "NsisIIS::DeleteWebSite"
+  },
+  "NsisIIS::GetAppPool": {
+    "body": "NsisIIS::GetAppPool \"${1:app_pool}\"$2",
+    "prefix": "NsisIIS::GetAppPool"
+  },
+  "NsisIIS::GetIIsInfo": {
+    "body": "NsisIIS::GetIIsInfo$1",
+    "prefix": "NsisIIS::GetIIsInfo"
+  },
+  "NsisIIS::GetVDir": {
+    "body": "NsisIIS::GetVDir \"${1:vdir_name}\"$2",
+    "prefix": "NsisIIS::GetVDir"
+  },
+  "NsisIIS::GetWebSite": {
+    "body": "NsisIIS::GetWebSite \"${1:index}\"$2",
+    "prefix": "NsisIIS::GetWebSite"
+  },
+  "NsisIIS::ListAppPools": {
+    "body": "NsisIIS::ListAppPools$1",
+    "prefix": "NsisIIS::ListAppPools"
+  },
+  "NsisIIS::ListVDirs": {
+    "body": "NsisIIS::ListVDirs$1",
+    "prefix": "NsisIIS::ListVDirs"
+  },
+  "NsisIIS::ListWebSites": {
+    "body": "NsisIIS::ListWebSites$1",
+    "prefix": "NsisIIS::ListWebSites"
+  },
+  "NsisIIS::Pause": {
+    "body": "NsisIIS::Pause$1",
+    "prefix": "NsisIIS::Pause"
+  },
+  "NsisIIS::Resume": {
+    "body": "NsisIIS::Resume$1",
+    "prefix": "NsisIIS::Resume"
+  },
+  "NsisIIS::Start": {
+    "body": "NsisIIS::Start$1",
+    "prefix": "NsisIIS::Start"
+  },
+  "NsisIIS::Stop": {
+    "body": "NsisIIS::Stop$1",
+    "prefix": "NsisIIS::Stop"
+  }
+}

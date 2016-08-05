@@ -1,0 +1,38 @@
+{
+  "nxs::Destroy": {
+    "body": "nxs::Destroy$1",
+    "prefix": "nxs::Destroy"
+  },
+  "nxs::HasUserAborted": {
+    "body": "nxs::HasUserAborted$3",
+    "prefix": "nxs::HasUserAborted"
+  },
+  "nxs::HasUserAborted /NOUNLOAD": {
+    "body": "nxs::HasUserAborted /NOUNLOAD$1",
+    "prefix": "nxs::HasUserAborted /NOUNLOAD"
+  },
+  "nxs::Show": {
+    "body": "nxs::Show \"${1:caption}\" ${2:options}$3",
+    "prefix": "nxs::Show"
+  },
+  "nxs::Show /NOUNLOAD": {
+    "body": "nxs::Show /NOUNLOAD \"${1:caption}\" ${2:options}$3",
+    "prefix": "nxs::Show /NOUNLOAD"
+  },
+  "nxs::Update": {
+    "body": "nxs::Update \"${1:caption}\" ${2:options}$3",
+    "prefix": "nxs::Update"
+  },
+  "nxs::Update /NOUNLOAD": {
+    "body": "nxs::Update /NOUNLOAD \"${1:caption}\" ${2:options}$3",
+    "prefix": "nxs::Update /NOUNLOAD"
+  },
+  "nxs::getWindow": {
+    "body": "nxs::getWindow$1",
+    "prefix": "nxs::getWindow"
+  },
+  "nxs::getWindow /NOUNLOAD": {
+    "body": "nxs::getWindow /NOUNLOAD$1",
+    "prefix": "nxs::getWindow /NOUNLOAD"
+  }
+}

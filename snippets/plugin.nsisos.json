@@ -1,0 +1,6 @@
+{
+  "nsisos::osversion": {
+    "body": "nsisos::osversion$1",
+    "prefix": "nsisos::osversion"
+  }
+}

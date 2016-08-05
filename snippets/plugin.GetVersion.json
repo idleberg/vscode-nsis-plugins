@@ -1,0 +1,42 @@
+{
+  "GetVersion::WindowsName": {
+    "body": "GetVersion::WindowsName$1",
+    "prefix": "GetVersion::WindowsName"
+  },
+  "GetVersion::WindowsPlatformArchitecture": {
+    "body": "GetVersion::WindowsPlatformArchitecture$1",
+    "prefix": "GetVersion::WindowsPlatformArchitecture"
+  },
+  "GetVersion::WindowsPlatformId": {
+    "body": "GetVersion::WindowsPlatformId$1",
+    "prefix": "GetVersion::WindowsPlatformId"
+  },
+  "GetVersion::WindowsServerName": {
+    "body": "GetVersion::WindowsServerName$1",
+    "prefix": "GetVersion::WindowsServerName"
+  },
+  "GetVersion::WindowsServicePack": {
+    "body": "GetVersion::WindowsServicePack$1",
+    "prefix": "GetVersion::WindowsServicePack"
+  },
+  "GetVersion::WindowsServicePackBuild": {
+    "body": "GetVersion::WindowsServicePackBuild$1",
+    "prefix": "GetVersion::WindowsServicePackBuild"
+  },
+  "GetVersion::WindowsServicePackMajor": {
+    "body": "GetVersion::WindowsServicePackMajor$1",
+    "prefix": "GetVersion::WindowsServicePackMajor"
+  },
+  "GetVersion::WindowsServicePackMinor": {
+    "body": "GetVersion::WindowsServicePackMinor$1",
+    "prefix": "GetVersion::WindowsServicePackMinor"
+  },
+  "GetVersion::WindowsType": {
+    "body": "GetVersion::WindowsType$1",
+    "prefix": "GetVersion::WindowsType"
+  },
+  "GetVersion::WindowsVersion": {
+    "body": "GetVersion::WindowsVersion$1",
+    "prefix": "GetVersion::WindowsVersion"
+  }
+}

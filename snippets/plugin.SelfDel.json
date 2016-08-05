@@ -1,0 +1,34 @@
+{
+  "Services::GetServiceNameFromDisplayName": {
+    "body": "Services::GetServiceNameFromDisplayName \"${1:display_name}\"$2",
+    "prefix": "Services::GetServiceNameFromDisplayName"
+  },
+  "Services::GrantLogonAsAService": {
+    "body": "Services::GrantLogonAsAService \"${1:user_name}\"$2",
+    "prefix": "Services::GrantLogonAsAService"
+  },
+  "Services::HasLogonAsAService": {
+    "body": "Services::HasLogonAsAService \"${1:user_name}\"$2",
+    "prefix": "Services::HasLogonAsAService"
+  },
+  "Services::IsProcessUserAdministrator": {
+    "body": "Services::IsProcessUserAdministrator$1",
+    "prefix": "Services::IsProcessUserAdministrator"
+  },
+  "Services::IsServiceInstalled": {
+    "body": "Services::IsServiceInstalled \"${1:service_name}\"$2",
+    "prefix": "Services::IsServiceInstalled"
+  },
+  "Services::IsServiceRunning": {
+    "body": "Services::IsServiceRunning \"${1:service_name}\"$2",
+    "prefix": "Services::IsServiceRunning"
+  },
+  "Services::RemoveLogonAsAService": {
+    "body": "Services::RemoveLogonAsAService \"${1:user_name}\"$2",
+    "prefix": "Services::RemoveLogonAsAService"
+  },
+  "Services::SendServiceCommand": {
+    "body": "Services::SendServiceCommand \"${1:command}\" \"${2:service_name}\"$3",
+    "prefix": "Services::SendServiceCommand"
+  }
+}

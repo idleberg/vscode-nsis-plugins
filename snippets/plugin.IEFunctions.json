@@ -1,0 +1,22 @@
+{
+  "IEFunctions::CloseBrowser": {
+    "body": "IEFunctions::CloseBrowser$1",
+    "prefix": "IEFunctions::CloseBrowser"
+  },
+  "IEFunctions::OpenBrowser": {
+    "body": "InstallOptionsEx::show /NOUNLOAD$1",
+    "prefix": "IEFunctions::OpenBrowser"
+  },
+  "IEFunctions::ReleaseBrowser": {
+    "body": "IEFunctions::ReleaseBrowser$1",
+    "prefix": "IEFunctions::ReleaseBrowser"
+  },
+  "IEFunctions::ShowBar": {
+    "body": "IEFunctions::ShowBar /NOUNLOAD \"${1:CLSID}\"$2",
+    "prefix": "IEFunctions::ShowBar"
+  },
+  "IEFunctions::SurfTo": {
+    "body": "IEFunctions::SurfTo /NOUNLOAD \"${1:url}\"$2",
+    "prefix": "IEFunctions::SurfTo"
+  }
+}

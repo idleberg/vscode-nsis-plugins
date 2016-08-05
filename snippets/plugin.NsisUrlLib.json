@@ -1,0 +1,14 @@
+{
+  "NsisIIS::IterateChunk": {
+    "body": "NsisIIS::IterateChunk /NOUNLOAD \"${1:url}\"$2",
+    "prefix": "NsisIIS::IterateChunk"
+  },
+  "NsisIIS::IterateLine": {
+    "body": "NsisIIS::IterateLine /NOUNLOAD \"${1:url}\"$2",
+    "prefix": "NsisIIS::IterateLine"
+  },
+  "NsisUrlLib::UrlOpen": {
+    "body": "NsisUrlLib::UrlOpen /NOUNLOAD \"${1:url}\"$2",
+    "prefix": "NsisUrlLib::UrlOpen"
+  }
+}

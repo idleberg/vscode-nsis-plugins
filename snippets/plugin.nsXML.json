@@ -1,0 +1,30 @@
+{
+  "nsXML::endDocument": {
+    "body": "nsXML::endDocument$1",
+    "prefix": "nsXML::endDocument"
+  },
+  "nsXML::init": {
+    "body": "nsXML::init$1",
+    "prefix": "nsXML::init"
+  },
+  "nsXML::initCOM": {
+    "body": "nsXML::initCOM$1",
+    "prefix": "nsXML::initCOM"
+  },
+  "nsXML::insertElemVal": {
+    "body": "nsXML::insertElemVal \"${1:node}\" \"${2:value}\"$3",
+    "prefix": "nsXML::insertElemVal"
+  },
+  "nsXML::startDocument": {
+    "body": "nsXML::startDocument$1",
+    "prefix": "nsXML::startDocument"
+  },
+  "nsXML::uninitCOM": {
+    "body": "nsXML::uninitCOM$1",
+    "prefix": "nsXML::uninitCOM"
+  },
+  "nsXML::write": {
+    "body": "nsXML::write \"${1:file}.xml\"$2",
+    "prefix": "nsXML::write"
+  }
+}

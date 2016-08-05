@@ -1,0 +1,6 @@
+{
+  "IP::get_ip": {
+    "body": "IP::get_ip$1",
+    "prefix": "IP::get_ip"
+  }
+}

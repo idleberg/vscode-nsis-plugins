@@ -1,0 +1,6 @@
+{
+  "ChangeRes::ChangeResolution": {
+    "body": "ChangeRes::ChangeResolution ${1:width} ${2:height} ${3:color_depth} ${4:frequency}$5",
+    "prefix": "ChangeRes::ChangeResolution"
+  }
+}

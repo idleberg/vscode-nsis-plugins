@@ -1,0 +1,10 @@
+{
+  "HelpButton::end": {
+    "body": "HelpButton::end$1",
+    "prefix": "HelpButton::end"
+  },
+  "HelpButton::show": {
+    "body": "HelpButton::show /NOUNLOAD \"${1:x},${2:y}\" \"${3:button_text}\" \"${4:window_title}\" \"${5:window_text}\" ${6:options}$7",
+    "prefix": "HelpButton::show"
+  }
+}

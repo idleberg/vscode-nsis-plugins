@@ -1,0 +1,22 @@
+{
+  "${ForEachInReverse}": {
+    "body": "${ForEachInReverse} ${1:array} $${2:key} $${3:value}\n\t${4:# your code here}\n${Next}$5",
+    "prefix": "ForEachInReverse"
+  },
+  "${ForEachIn}": {
+    "body": "${ForEachIn} ${1:array} $${2:key} $${3:value}\n\t${4:# your code here}\n${Next}$5",
+    "prefix": "ForEachIn"
+  },
+  "${nsArray_CopyKeys}": {
+    "body": "${nsArray_CopyKeys} ${1:source_array} ${2:destination_array}$3",
+    "prefix": "nsArray_CopyKeys"
+  },
+  "${nsArray_Copy}": {
+    "body": "${nsArray_Copy} ${1:source_array} ${2:destination_array}$3",
+    "prefix": "nsArray_Copy"
+  },
+  "${nsArray_ToString}": {
+    "body": "${nsArray_ToString} ${1:array}$2",
+    "prefix": "nsArray_ToString"
+  }
+}

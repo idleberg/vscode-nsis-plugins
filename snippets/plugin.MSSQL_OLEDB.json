@@ -1,0 +1,26 @@
+{
+  "MSSQL_OLEDB::SQL_Execute": {
+    "body": "MSSQL_OLEDB::SQL_Execute \"${1:query}\"$2",
+    "prefix": "MSSQL_OLEDB::SQL_Execute"
+  },
+  "MSSQL_OLEDB::SQL_ExecuteScript": {
+    "body": "MSSQL_OLEDB::SQL_ExecuteScript \"${1:script}\"$2",
+    "prefix": "MSSQL_OLEDB::SQL_ExecuteScript"
+  },
+  "MSSQL_OLEDB::SQL_GetError": {
+    "body": "MSSQL_OLEDB::SQL_GetError$1",
+    "prefix": "MSSQL_OLEDB::SQL_GetError"
+  },
+  "MSSQL_OLEDB::SQL_GetRow": {
+    "body": "MSSQL_OLEDB::SQL_GetRow$1",
+    "prefix": "MSSQL_OLEDB::SQL_GetRow"
+  },
+  "MSSQL_OLEDB::SQL_Logon": {
+    "body": "MSSQL_OLEDB::SQL_Logon \"${1:server}\" \"${2:user}\" \"${3:password}\"$4",
+    "prefix": "MSSQL_OLEDB::SQL_Logon"
+  },
+  "MSSQL_OLEDB::SQL_Logout": {
+    "body": "MSSQL_OLEDB::SQL_Logout$1",
+    "prefix": "MSSQL_OLEDB::SQL_Logout"
+  }
+}

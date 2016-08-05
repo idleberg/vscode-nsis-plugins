@@ -1,0 +1,14 @@
+{
+  "InstallOptionsEx::initDialog": {
+    "body": "InstallOptionsEx::initDialog \"${1:file}.ini\"$2",
+    "prefix": "InstallOptionsEx::initDialog"
+  },
+  "InstallOptionsEx::initDialog /NOUNLOAD": {
+    "body": "InstallOptionsEx::initDialog /NOUNLOAD \"${1:file}.ini\"$2",
+    "prefix": "InstallOptionsEx::initDialog /NOUNLOAD"
+  },
+  "InstallOptionsEx::show": {
+    "body": "InstallOptionsEx::show$1",
+    "prefix": "InstallOptionsEx::show"
+  }
+}

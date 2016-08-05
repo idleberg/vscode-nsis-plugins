@@ -1,0 +1,14 @@
+{
+  "nsisSlideshow::show": {
+    "body": "nsisSlideshow::show /NOUNLOAD \"${1:picture}\"$2",
+    "prefix": "nsisSlideshow::show"
+  },
+  "nsisSlideshow::show [/options]": {
+    "body": "nsisSlideshow::show /NOUNLOAD ${1:options} \"${2:picture}\"$3",
+    "prefix": "nsisSlideshow::show [/options]"
+  },
+  "nsisSlideshow::stop": {
+    "body": "nsisSlideshow::stop$1",
+    "prefix": "nsisSlideshow::stop"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "ShellExecAsUser": {
+    "body": "ShellExecAsUser::ShellExecAsUser ${1:action} \"${2:command}\"$3",
+    "prefix": "ShellExecAsUser"
+  },
+  "ShellExecAsUser open": {
+    "body": "ShellExecAsUser::ShellExecAsUser open \"${1:command}\"$2",
+    "prefix": "ShellExecAsUser open"
+  },
+  "ShellExecAsUser print": {
+    "body": "ShellExecAsUser::ShellExecAsUser print \"${1:command}\"$2",
+    "prefix": "ShellExecAsUser print"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "InvokeShellVerb::DoIt": {
+    "body": "InvokeShellVerb::DoIt \"${1:dir_path}\" \"${2:file_name}\" \"${3:resource_id}\"$4",
+    "prefix": "InvokeShellVerb::DoIt"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "nsisFirewall::AddAuthorizedApplication": {
+    "body": "nsisFirewall::AddAuthorizedApplication \"${1:application_path}\" \"${2:rule_name}\"$3",
+    "prefix": "nsisFirewall::AddAuthorizedApplication"
+  },
+  "nsisFirewall::RemoveAuthorizedApplication": {
+    "body": "nsisFirewall::RemoveAuthorizedApplication \"${1:application_path}\"$2",
+    "prefix": "nsisFirewall::RemoveAuthorizedApplication"
+  }
+}

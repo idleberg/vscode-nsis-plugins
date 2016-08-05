@@ -1,0 +1,6 @@
+{
+  "!insertmacro CheckNetFramework": {
+    "body": "!insertmacro CheckNetFramework \"${1:version}\"$2",
+    "prefix": "CheckNetFramework"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "${Thread_Create}": {
+    "body": "${Thread_Create} \"${1:thread_proc}\" $${2:thread_id}$3",
+    "prefix": "${Thread_Create}"
+  },
+  "${Thread_JoinFor}": {
+    "body": "${Thread_JoinFor} $${1:thread_id} ${2:time_in_ms} $${3:result}$4",
+    "prefix": "${Thread_JoinFor}"
+  },
+  "${Thread_Join}": {
+    "body": "${Thread_Join} $${1:thread_id}$2",
+    "prefix": "${Thread_Join}"
+  }
+}

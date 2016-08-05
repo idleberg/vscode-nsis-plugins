@@ -1,0 +1,54 @@
+{
+  "MoreInfo::GetComments": {
+    "body": "MoreInfo::GetComments \"${1:file}\"$2",
+    "prefix": "MoreInfo::GetComments"
+  },
+  "MoreInfo::GetCompanyName": {
+    "body": "MoreInfo::GetCompanyName \"${1:file}\"$2",
+    "prefix": "MoreInfo::GetCompanyName"
+  },
+  "MoreInfo::GetFileDescription": {
+    "body": "MoreInfo::GetFileDescription \"${1:file}\"$2",
+    "prefix": "MoreInfo::GetFileDescription"
+  },
+  "MoreInfo::GetFileVersion": {
+    "body": "MoreInfo::GetFileVersion \"${1:file}\"$2",
+    "prefix": "MoreInfo::GetFileVersion"
+  },
+  "MoreInfo::GetLegalCopyright": {
+    "body": "MoreInfo::GetLegalCopyright \"${1:file}\"$2",
+    "prefix": "MoreInfo::GetLegalCopyright"
+  },
+  "MoreInfo::GetLegalTrademarks": {
+    "body": "MoreInfo::GetLegalTrademarks \"${1:file}\"$2",
+    "prefix": "MoreInfo::GetLegalTrademarks"
+  },
+  "MoreInfo::GetOSUserinterfaceLanguage": {
+    "body": "MoreInfo::GetOSUserinterfaceLanguage$1",
+    "prefix": "MoreInfo::GetOSUserinterfaceLanguage"
+  },
+  "MoreInfo::GetOriginalFileName": {
+    "body": "MoreInfo::GetOriginalFileName \"${1:file}\"$2",
+    "prefix": "MoreInfo::GetOriginalFileName"
+  },
+  "MoreInfo::GetPrivateBuild": {
+    "body": "MoreInfo::GetPrivateBuild \"${1:file}\"$2",
+    "prefix": "MoreInfo::GetPrivateBuild"
+  },
+  "MoreInfo::GetProductName": {
+    "body": "MoreInfo::GetProductName \"${1:file}\"$2",
+    "prefix": "MoreInfo::GetProductName"
+  },
+  "MoreInfo::GetProductVersion": {
+    "body": "MoreInfo::GetProductVersion \"${1:file}\"$2",
+    "prefix": "MoreInfo::GetProductVersion"
+  },
+  "MoreInfo::GetSpecialBuild": {
+    "body": "MoreInfo::GetSpecialBuild \"${1:file}\"$2",
+    "prefix": "MoreInfo::GetSpecialBuild"
+  },
+  "MoreInfo::GetUserDefined": {
+    "body": "MoreInfo::GetUserDefined \"${1:file}\" \"${2:property}\"$3",
+    "prefix": "MoreInfo::GetUserDefined"
+  }
+}

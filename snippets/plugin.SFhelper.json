@@ -1,0 +1,6 @@
+{
+  "SFhelper::checkFile": {
+    "body": "SFhelper::checkFile \"${1:file}\"$2",
+    "prefix": "SFhelper::checkFile"
+  }
+}

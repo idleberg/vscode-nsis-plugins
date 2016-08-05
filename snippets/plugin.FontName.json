@@ -1,0 +1,6 @@
+{
+  "!insertmacro FontName": {
+    "body": "!insertmacro FontName \"${1:file}.ttf\"$2",
+    "prefix": "FontName"
+  }
+}

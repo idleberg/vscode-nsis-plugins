@@ -1,0 +1,22 @@
+{
+  "nsisFile::BinToHex": {
+    "body": "nsisFile::BinToHex \"${1:string}\"$2",
+    "prefix": "nsisFile::BinToHex"
+  },
+  "nsisFile::FileFindBytes": {
+    "body": "nsisFile::FileFindBytes \"${1:file_handle}\" \"${2:string}\" \"${3:length}\"$4",
+    "prefix": "nsisFile::FileFindBytes"
+  },
+  "nsisFile::FileReadBytes": {
+    "body": "nsisFile::FileReadBytes \"${1:file_handle}\" \"${2:string}\"$3",
+    "prefix": "nsisFile::FileReadBytes"
+  },
+  "nsisFile::FileTruncate": {
+    "body": "nsisFile::FileTruncate \"${1:file_handle}\"$2",
+    "prefix": "nsisFile::FileTruncate"
+  },
+  "nsisFile::HexToBin": {
+    "body": "nsisFile::HexToBin \"${1:hex_string}\"$2",
+    "prefix": "nsisFile::HexToBin"
+  }
+}

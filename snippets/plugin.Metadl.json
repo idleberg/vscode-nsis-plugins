@@ -1,0 +1,10 @@
+{
+  "metadl:download": {
+    "body": "metadl:download \"${1:url}\" \"${2:local_file}\"$3",
+    "prefix": "metadl:download"
+  },
+  "metadl:download  [/options]": {
+    "body": "metadl:download ${1:options} \"${2:url}\" \"${3:local_file}\"$4",
+    "prefix": "metadl:download  [/options]"
+  }
+}

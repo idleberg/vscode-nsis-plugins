@@ -1,0 +1,10 @@
+{
+  "ZipDLL::extractall": {
+    "body": "ZipDLL::extractall \"${1:SOURCE}\" \"${2:DESTINATION}\"$3",
+    "prefix": "ZipDLL::extractall"
+  },
+  "ZipDLL::extractfile": {
+    "body": "ZipDLL::extractfile \"${1:SOURCE}\" \"${2:DESTINATION}\" \"${3:FILE}\"$4",
+    "prefix": "ZipDLL::extractfile"
+  }
+}

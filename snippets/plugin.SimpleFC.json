@@ -1,0 +1,122 @@
+{
+  "SimpleFC::AddApplication": {
+    "body": "SimpleFC::AddApplication \"${1:name}\" \"${2:path}\" ${3:scope} ${4:ip_version} ${5:remote_addresses} ${6:status}$7",
+    "prefix": "SimpleFC::AddApplication"
+  },
+  "SimpleFC::AddPort": {
+    "body": "SimpleFC::AddPort ${1:port} \"${2:name}\" ${3:protocol} ${4:scope} ${5:ip_version} ${6:remote_addresses} ${7:status}$8",
+    "prefix": "SimpleFC::AddPort"
+  },
+  "SimpleFC::AdvExistsRule": {
+    "body": "SimpleFC::AdvAddRule \"${1:name}\" \"${2:description}\" ${3:protocol} ${4:direction} ${5:status} ${6:profile} ${7:action} ${8:application} ${9:icmp_types_and_codes} ${10:group} ${11:local_ports} ${12:remote_ports} ${13:local_address} ${14:remote_address}$15",
+    "prefix": "SimpleFC::AdvExistsRule"
+  },
+  "SimpleFC::AdvRemoveRule": {
+    "body": "SimpleFC::AdvRemoveRule \"${1:name}\"$2",
+    "prefix": "SimpleFC::AdvRemoveRule"
+  },
+  "SimpleFC::AllowDisallowExceptionsNotAllowed": {
+    "body": "SimpleFC::AllowDisallowExceptionsNotAllowed ${1:status}$2",
+    "prefix": "SimpleFC::AllowDisallowExceptionsNotAllowed"
+  },
+  "SimpleFC::AllowDisallowIcmpInboundEchoRequest": {
+    "body": "SimpleFC::AllowDisallowIcmpInboundEchoRequest ${1:status}$2",
+    "prefix": "SimpleFC::AllowDisallowIcmpInboundEchoRequest"
+  },
+  "SimpleFC::AllowDisallowIcmpInboundMaskRequest": {
+    "body": "SimpleFC::AllowDisallowIcmpInboundMaskRequest ${1:status}$2",
+    "prefix": "SimpleFC::AllowDisallowIcmpInboundMaskRequest"
+  },
+  "SimpleFC::AllowDisallowIcmpInboundRouterRequest": {
+    "body": "SimpleFC::AllowDisallowIcmpInboundRouterRequest ${1:status}$2",
+    "prefix": "SimpleFC::AllowDisallowIcmpInboundRouterRequest"
+  },
+  "SimpleFC::AllowDisallowIcmpInboundTimestampRequest": {
+    "body": "SimpleFC::AllowDisallowIcmpInboundTimestampRequest ${1:status}$2",
+    "prefix": "SimpleFC::AllowDisallowIcmpInboundTimestampRequest"
+  },
+  "SimpleFC::AllowDisallowIcmpOutboundDestinationUnreachable": {
+    "body": "SimpleFC::AllowDisallowIcmpOutboundDestinationUnreachable ${1:status}$2",
+    "prefix": "SimpleFC::AllowDisallowIcmpOutboundDestinationUnreachable"
+  },
+  "SimpleFC::AllowDisallowIcmpOutboundPacketTooBig": {
+    "body": "SimpleFC::AllowDisallowIcmpOutboundPacketTooBig ${1:status}$2",
+    "prefix": "SimpleFC::AllowDisallowIcmpOutboundPacketTooBig"
+  },
+  "SimpleFC::AllowDisallowIcmpOutboundParameterProblem": {
+    "body": "SimpleFC::AllowDisallowIcmpOutboundParameterProblem ${1:status}$2",
+    "prefix": "SimpleFC::AllowDisallowIcmpOutboundParameterProblem"
+  },
+  "SimpleFC::AllowDisallowIcmpOutboundSourceQuench": {
+    "body": "SimpleFC::AllowDisallowIcmpOutboundSourceQuench ${1:status}$2",
+    "prefix": "SimpleFC::AllowDisallowIcmpOutboundSourceQuench"
+  },
+  "SimpleFC::AllowDisallowIcmpOutboundTimeExceeded": {
+    "body": "SimpleFC::AllowDisallowIcmpOutboundTimeExceeded ${1:status}$2",
+    "prefix": "SimpleFC::AllowDisallowIcmpOutboundTimeExceeded"
+  },
+  "SimpleFC::AllowDisallowIcmpRedirect": {
+    "body": "SimpleFC::AllowDisallowIcmpRedirect ${1:status}$2",
+    "prefix": "SimpleFC::AllowDisallowIcmpRedirect"
+  },
+  "SimpleFC::AreExceptionsNotAllowed": {
+    "body": "SimpleFC::AreExceptionsNotAllowed$1",
+    "prefix": "SimpleFC::AreExceptionsNotAllowed"
+  },
+  "SimpleFC::AreNotificationsEnabled": {
+    "body": "SimpleFC::AreNotificationsEnabled$1",
+    "prefix": "SimpleFC::AreNotificationsEnabled"
+  },
+  "SimpleFC::EnableDisableApplication": {
+    "body": "SimpleFC::EnableDisableApplication \"${1:path}\"$2",
+    "prefix": "SimpleFC::EnableDisableApplication"
+  },
+  "SimpleFC::EnableDisableFirewall": {
+    "body": "SimpleFC::EnableDisableFirewall ${1:status}$2",
+    "prefix": "SimpleFC::EnableDisableFirewall"
+  },
+  "SimpleFC::EnableDisableNotifications": {
+    "body": "SimpleFC::EnableDisableNotifications ${1:status}$2",
+    "prefix": "SimpleFC::EnableDisableNotifications"
+  },
+  "SimpleFC::EnableDisablePort": {
+    "body": "SimpleFC::EnableDisablePort ${1:port} ${2:protocol}$3",
+    "prefix": "SimpleFC::EnableDisablePort"
+  },
+  "SimpleFC::IsApplicationAdded": {
+    "body": "SimpleFC::IsApplicationAdded \"${1:path}\"$2",
+    "prefix": "SimpleFC::IsApplicationAdded"
+  },
+  "SimpleFC::IsFirewallEnabled": {
+    "body": "SimpleFC::IsFirewallEnabled$1",
+    "prefix": "SimpleFC::IsFirewallEnabled"
+  },
+  "SimpleFC::IsFirewallServiceRunning": {
+    "body": "SimpleFC::IsFirewallServiceRunning$1",
+    "prefix": "SimpleFC::IsFirewallServiceRunning"
+  },
+  "SimpleFC::IsPortAdded": {
+    "body": "SimpleFC::IsPortAdded ${1:port} ${2:protocol}$3",
+    "prefix": "SimpleFC::IsPortAdded"
+  },
+  "SimpleFC::IsPortEnabled": {
+    "body": "SimpleFC::IsPortEnabled ${1:port} ${2:protocol}$3",
+    "prefix": "SimpleFC::IsPortEnabled"
+  },
+  "SimpleFC::RemoveApplication": {
+    "body": "SimpleFC::RemoveApplication \"${1:path}\"$2",
+    "prefix": "SimpleFC::RemoveApplication"
+  },
+  "SimpleFC::RemovePort": {
+    "body": "SimpleFC::RemovePort ${1:port} ${2:protocol}$3",
+    "prefix": "SimpleFC::RemovePort"
+  },
+  "SimpleFC::RestoreDefaults": {
+    "body": "SimpleFC::RestoreDefaults$1",
+    "prefix": "SimpleFC::RestoreDefaults"
+  },
+  "SimpleFC::StartStopFirewallService": {
+    "body": "SimpleFC::StartStopFirewallService ${1:status}$2",
+    "prefix": "SimpleFC::StartStopFirewallService"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "${RECaptureMatches}": {
+    "body": "${RECaptureMatches} $${1:result} \"${2:pattern}\" \"${3:subject}\" \"${4:partial}\"$5",
+    "prefix": "${RECaptureMatches}"
+  },
+  "${RECheckPattern}": {
+    "body": "${RECheckPattern} $${1:result} \"${2:pattern}\"$3",
+    "prefix": "${RECheckPattern}"
+  },
+  "${REClearAllOptions}": {
+    "body": "${REClearAllOptions}$1",
+    "prefix": "${REClearAllOptions}"
+  },
+  "${REClearOption}": {
+    "body": "${REClearOption} \"${1:option}\"$2",
+    "prefix": "${REClearOption}"
+  },
+  "${REFindClose}": {
+    "body": "${REFindClose}",
+    "prefix": "${REFindClose}"
+  },
+  "${REFindNext}": {
+    "body": "${REFindNext} $${1:result} \"${2:pattern}\" \"${3:subject}\"$4",
+    "prefix": "${REFindNext}"
+  },
+  "${REFind}": {
+    "body": "${REFind} $${1:result} \"${2:pattern}\" \"${3:subject}\"$4",
+    "prefix": "${REFind}"
+  },
+  "${REGetOption}": {
+    "body": "${REGetOption} $${1:result} \"${2:option}\"$3",
+    "prefix": "${REGetOption}"
+  },
+  "${REMatches}": {
+    "body": "${REMatches} $${1:result} \"${2:pattern}\" \"${3:subject}\" \"${4:partial}\"$5",
+    "prefix": "${REMatches}"
+  },
+  "${REQuoteMeta}": {
+    "body": "${REQuoteMeta} $${1:result} \"${2:subject}\"$3",
+    "prefix": "${REQuoteMeta}"
+  },
+  "${REReplace}": {
+    "body": "${REReplace} $${1:result} \"${2:pattern}\" \"${3:subject}\" \"${4:replacement}\" ${5:replace_all}$6",
+    "prefix": "${REReplace}"
+  },
+  "${RESetOption}": {
+    "body": "${RESetOption} \"${1:option}\"$2",
+    "prefix": "${RESetOption}"
+  }
+}

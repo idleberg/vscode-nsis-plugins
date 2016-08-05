@@ -1,0 +1,14 @@
+{
+  "nsRichEdit::AddPrintButton": {
+    "body": "nsRichEdit::AddPrintButton \"${1:button_text}\" \"${2:document_name}\"$3",
+    "prefix": "nsRichEdit::AddPrintButton"
+  },
+  "nsRichEdit::Load": {
+    "body": "nsRichEdit::Load $${1:hwnd} \"${2:file_path}\"$3",
+    "prefix": "nsRichEdit::Load"
+  },
+  "nsRichEdit::Print": {
+    "body": "nsRichEdit::Print $${1:hwnd} \"${2:document_name}\"$3",
+    "prefix": "nsRichEdit::Print"
+  }
+}

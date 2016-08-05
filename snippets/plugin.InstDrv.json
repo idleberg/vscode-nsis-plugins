@@ -1,0 +1,66 @@
+{
+  "InstDrv::CountDevices": {
+    "body": "InstDrv::CountDevices$1",
+    "prefix": "InstDrv::CountDevices"
+  },
+  "InstDrv::CountDevices /NOUNLOAD": {
+    "body": "InstDrv::CountDevices /NOUNLOAD$1",
+    "prefix": "InstDrv::CountDevices /NOUNLOAD"
+  },
+  "InstDrv::CreateDevice": {
+    "body": "InstDrv::CreateDevice$1",
+    "prefix": "InstDrv::CreateDevice"
+  },
+  "InstDrv::CreateDevice /NOUNLOAD": {
+    "body": "InstDrv::CreateDevice /NOUNLOAD$1",
+    "prefix": "InstDrv::CreateDevice /NOUNLOAD"
+  },
+  "InstDrv::DeleteOemInfFiles": {
+    "body": "InstDrv::DeleteOemInfFiles$1",
+    "prefix": "InstDrv::DeleteOemInfFiles"
+  },
+  "InstDrv::DeleteOemInfFiles /NOUNLOAD": {
+    "body": "InstDrv::DeleteOemInfFiles /NOUNLOAD$1",
+    "prefix": "InstDrv::DeleteOemInfFiles /NOUNLOAD"
+  },
+  "InstDrv::InitDriverSetup": {
+    "body": "InstDrv::InitDriverSetup \"${1:devClass}\" \"${2:drvHWID}\"$3",
+    "prefix": "InstDrv::InitDriverSetup"
+  },
+  "InstDrv::InitDriverSetup /NOUNLOAD": {
+    "body": "InstDrv::InitDriverSetup /NOUNLOAD \"${1:devClass}\" \"${2:drvHWID}\"$3",
+    "prefix": "InstDrv::InitDriverSetup /NOUNLOAD"
+  },
+  "InstDrv::InstallDriver": {
+    "body": "InstDrv::InstallDriver \"${1:infPath}\"$2",
+    "prefix": "InstDrv::InstallDriver"
+  },
+  "InstDrv::InstallDriver /NOUNLOAD": {
+    "body": "InstDrv::InstallDriver /NOUNLOAD \"${1:infPath}\"$2",
+    "prefix": "InstDrv::InstallDriver /NOUNLOAD"
+  },
+  "InstDrv::RemoveAllDevices": {
+    "body": "InstDrv::RemoveAllDevices$1",
+    "prefix": "InstDrv::RemoveAllDevices"
+  },
+  "InstDrv::RemoveAllDevices /NOUNLOAD": {
+    "body": "InstDrv::RemoveAllDevices /NOUNLOAD$1",
+    "prefix": "InstDrv::RemoveAllDevices /NOUNLOAD"
+  },
+  "InstDrv::StartSystemService": {
+    "body": "InstDrv::StartSystemService \"${1:serviceName}\"$2",
+    "prefix": "InstDrv::StartSystemService"
+  },
+  "InstDrv::StartSystemService /NOUNLOAD": {
+    "body": "InstDrv::StartSystemService /NOUNLOAD \"${1:serviceName}\"$2",
+    "prefix": "InstDrv::StartSystemService /NOUNLOAD"
+  },
+  "InstDrv::StopSystemService": {
+    "body": "InstDrv::StopSystemService \"${1:serviceName}\"$2",
+    "prefix": "InstDrv::StopSystemService"
+  },
+  "InstDrv::StopSystemService /NOUNLOAD": {
+    "body": "InstDrv::StopSystemService /NOUNLOAD \"${1:serviceName}\"$2",
+    "prefix": "InstDrv::StopSystemService /NOUNLOAD"
+  }
+}

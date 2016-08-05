@@ -1,0 +1,10 @@
+{
+  "BrandingURL::Set": {
+    "body": "BrandingURL::Set /NOUNLOAD \"${1:red}\" \"${2:green}\" \"${3:blue}\" \"${4:url}\"$5",
+    "prefix": "BrandingURL::Set"
+  },
+  "BrandingURL::Unload": {
+    "body": "BrandingURL::Unload$1",
+    "prefix": "BrandingURL::Unload"
+  }
+}

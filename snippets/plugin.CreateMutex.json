@@ -1,0 +1,6 @@
+{
+  "CreateMutex::nsCreateMutex": {
+    "body": "CreateMutex::nsCreateMutex \"${1:mutex_name}\" ${2:parameter}$3",
+    "prefix": "CreateMutex::nsCreateMutex"
+  }
+}

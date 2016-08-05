@@ -1,0 +1,18 @@
+{
+  "Animate::hwnd": {
+    "body": "Animate::hwnd$1",
+    "prefix": "Animate::hwnd"
+  },
+  "Animate::show": {
+    "body": "Animate::show ${1:options} \"${2:file}\"$3",
+    "prefix": "Animate::show"
+  },
+  "Animate::show /NOUNLOAD": {
+    "body": "Animate::show /NOUNLOAD ${1:options} \"${2:file}\"$3",
+    "prefix": "Animate::show /NOUNLOAD"
+  },
+  "Animate::wait": {
+    "body": "Animate::wait ${1:options} ${2:time_in_ms}$3",
+    "prefix": "Animate::wait"
+  }
+}

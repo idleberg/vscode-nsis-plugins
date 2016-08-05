@@ -1,0 +1,6 @@
+{
+  "TCP::CheckPort": {
+    "body": "TCP::CheckPort ${1:port}$2",
+    "prefix": "TCP::CheckPort"
+  }
+}

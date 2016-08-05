@@ -1,0 +1,106 @@
+{
+  "xtInfoPlugin::CompareVersion": {
+    "body": "xtInfoPlugin::CompareVersion$1",
+    "prefix": "xtInfoPlugin::CompareVersion"
+  },
+  "xtInfoPlugin::GetDotNetFrameworkId": {
+    "body": "xtInfoPlugin::GetDotNetFrameworkId$1",
+    "prefix": "xtInfoPlugin::GetDotNetFrameworkId"
+  },
+  "xtInfoPlugin::GetDotNetFrameworkVersion": {
+    "body": "xtInfoPlugin::GetDotNetFrameworkVersion$1",
+    "prefix": "xtInfoPlugin::GetDotNetFrameworkVersion"
+  },
+  "xtInfoPlugin::GetInstaller": {
+    "body": "xtInfoPlugin::GetInstaller$1",
+    "prefix": "xtInfoPlugin::GetInstaller"
+  },
+  "xtInfoPlugin::GetInstallerFileName": {
+    "body": "xtInfoPlugin::GetInstallerFileName$1",
+    "prefix": "xtInfoPlugin::GetInstallerFileName"
+  },
+  "xtInfoPlugin::GetInstallerFullPath": {
+    "body": "xtInfoPlugin::GetInstallerFullPath$1",
+    "prefix": "xtInfoPlugin::GetInstallerFullPath"
+  },
+  "xtInfoPlugin::GetInternetExplorerId": {
+    "body": "xtInfoPlugin::GetInternetExplorerId$1",
+    "prefix": "xtInfoPlugin::GetInternetExplorerId"
+  },
+  "xtInfoPlugin::GetInternetExplorerVersion": {
+    "body": "xtInfoPlugin::GetInternetExplorerVersion$1",
+    "prefix": "xtInfoPlugin::GetInternetExplorerVersion"
+  },
+  "xtInfoPlugin::GetLanguage": {
+    "body": "xtInfoPlugin::GetLanguage$1",
+    "prefix": "xtInfoPlugin::GetLanguage"
+  },
+  "xtInfoPlugin::GetMDACId": {
+    "body": "xtInfoPlugin::GetMDACId$1",
+    "prefix": "xtInfoPlugin::GetMDACId"
+  },
+  "xtInfoPlugin::GetMDACVersion": {
+    "body": "xtInfoPlugin::GetMDACVersion$1",
+    "prefix": "xtInfoPlugin::GetMDACVersion"
+  },
+  "xtInfoPlugin::GetOLEDBId": {
+    "body": "xtInfoPlugin::GetOLEDBId$1",
+    "prefix": "xtInfoPlugin::GetOLEDBId"
+  },
+  "xtInfoPlugin::GetOLEDBVersion": {
+    "body": "xtInfoPlugin::GetOLEDBVersion$1",
+    "prefix": "xtInfoPlugin::GetOLEDBVersion"
+  },
+  "xtInfoPlugin::GetWindowsId": {
+    "body": "xtInfoPlugin::GetWindowsId$1",
+    "prefix": "xtInfoPlugin::GetWindowsId"
+  },
+  "xtInfoPlugin::GetWindowsServicePackId": {
+    "body": "xtInfoPlugin::GetWindowsServicePackId$1",
+    "prefix": "xtInfoPlugin::GetWindowsServicePackId"
+  },
+  "xtInfoPlugin::GetWindowsVersion": {
+    "body": "xtInfoPlugin::GetWindowsVersion$1",
+    "prefix": "xtInfoPlugin::GetWindowsVersion"
+  },
+  "xtInfoPlugin::IsAdministrator": {
+    "body": "xtInfoPlugin::IsAdministrator$1",
+    "prefix": "xtInfoPlugin::IsAdministrator"
+  },
+  "xtInfoPlugin::IsDotNetFrameworkInstalled": {
+    "body": "xtInfoPlugin::IsDotNetFrameworkInstalled$1",
+    "prefix": "xtInfoPlugin::IsDotNetFrameworkInstalled"
+  },
+  "xtInfoPlugin::IsWindows2000": {
+    "body": "xtInfoPlugin::IsWindows2000$1",
+    "prefix": "xtInfoPlugin::IsWindows2000"
+  },
+  "xtInfoPlugin::IsWindows2003": {
+    "body": "xtInfoPlugin::IsWindows2003$1",
+    "prefix": "xtInfoPlugin::IsWindows2003"
+  },
+  "xtInfoPlugin::IsWindows95": {
+    "body": "xtInfoPlugin::IsWindows95$1",
+    "prefix": "xtInfoPlugin::IsWindows95"
+  },
+  "xtInfoPlugin::IsWindows98": {
+    "body": "xtInfoPlugin::IsWindows98$1",
+    "prefix": "xtInfoPlugin::IsWindows98"
+  },
+  "xtInfoPlugin::IsWindowsME": {
+    "body": "xtInfoPlugin::IsWindowsME$1",
+    "prefix": "xtInfoPlugin::IsWindowsME"
+  },
+  "xtInfoPlugin::IsWindowsNT3": {
+    "body": "xtInfoPlugin::IsWindowsNT3$1",
+    "prefix": "xtInfoPlugin::IsWindowsNT3"
+  },
+  "xtInfoPlugin::IsWindowsNT4": {
+    "body": "xtInfoPlugin::IsWindowsNT4$1",
+    "prefix": "xtInfoPlugin::IsWindowsNT4"
+  },
+  "xtInfoPlugin::IsWindowsXP": {
+    "body": "xtInfoPlugin::IsWindowsXP$1",
+    "prefix": "xtInfoPlugin::IsWindowsXP"
+  }
+}

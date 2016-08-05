@@ -1,0 +1,6 @@
+{
+  "BaseConvert::Convert": {
+    "body": "BaseConvert::Convert ${1:base_in} ${2:base_out} \"${3:string}\"$4",
+    "prefix": "BaseConvert::Convert"
+  }
+}

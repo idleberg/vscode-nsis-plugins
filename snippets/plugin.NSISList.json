@@ -1,0 +1,130 @@
+{
+  "${List.Add}": {
+    "body": "${List.Add} \"${1:name}\" \"${2:item}\"$3",
+    "prefix": "${List.Add}"
+  },
+  "${List.AllRev}": {
+    "body": "${List.AllRev} \"${1:name}\"$2",
+    "prefix": "${List.AllRev}"
+  },
+  "${List.All}": {
+    "body": "${List.All} \"${1:name}\"$2",
+    "prefix": "${List.All}"
+  },
+  "${List.Append}": {
+    "body": "${List.Append} \"${1:name}\" \"${2:items}\"$3",
+    "prefix": "${List.Append}"
+  },
+  "${List.Clear}": {
+    "body": "${List.Clear} \"${1:name}\"$2",
+    "prefix": "${List.Clear}"
+  },
+  "${List.Concat}": {
+    "body": "${List.Concat} \"${1:key_to}\" \"${2:key_from}\"$3",
+    "prefix": "${List.Concat}"
+  },
+  "${List.Copy}": {
+    "body": "${List.Copy} \"${1:name}\" \"${2:index}\" ${3:count}$4",
+    "prefix": "${List.Copy}"
+  },
+  "${List.Count}": {
+    "body": "${List.Count} $${1:var_out} \"${2:name}\"$3",
+    "prefix": "${List.Count}"
+  },
+  "${List.Create}": {
+    "body": "${List.Create} \"${1:name}\"$2",
+    "prefix": "${List.Create}"
+  },
+  "${List.Debug}": {
+    "body": "${List.Debug}$1",
+    "prefix": "${List.Debug}"
+  },
+  "${List.Delete}": {
+    "body": "${List.Delete} \"${1:name}\" \"${2:index}\"$3",
+    "prefix": "${List.Delete}"
+  },
+  "${List.Destroy}": {
+    "body": "${List.Destroy} \"${1:name}\"$2",
+    "prefix": "${List.Destroy}"
+  },
+  "${List.Dim}": {
+    "body": "${List.Dim} \"${1:name}\" ${2:size}$3",
+    "prefix": "${List.Dim}"
+  },
+  "${List.Exch}": {
+    "body": "${List.Exch} \"${1:name}\" \"${2:index1}\" \"${3:index2}\"$4",
+    "prefix": "${List.Exch}"
+  },
+  "${List.First}": {
+    "body": "${List.First} $${1:var_out} \"${2:name}\"$3",
+    "prefix": "${List.First}"
+  },
+  "${List.Get}": {
+    "body": "${List.Get} $${1:var_out} \"${2:name}\" \"${3:index}\"$4",
+    "prefix": "${List.Get}"
+  },
+  "${List.Index}": {
+    "body": "${List.Index} $${1:var_out} \"${2:name}\" \"${3:index}\"$4",
+    "prefix": "${List.Index}"
+  },
+  "${List.Insert}": {
+    "body": "${List.Insert} \"${1:name}\" \"${2:index}\" \"${3:item}\"$4",
+    "prefix": "${List.Insert}"
+  },
+  "${List.Last}": {
+    "body": "${List.Last} $${1:var_out} \"${2:name}\"$3",
+    "prefix": "${List.Last}"
+  },
+  "${List.Load}": {
+    "body": "${List.Load} $${1:var_out} \"${2:name}\" \"${3:filename}\"$4",
+    "prefix": "${List.Load}"
+  },
+  "${List.Move}": {
+    "body": "${List.Move} \"${1:name}\" \"${2:index_from}\" \"${3:index_to}\"$4",
+    "prefix": "${List.Move}"
+  },
+  "${List.Pop}": {
+    "body": "${List.Pop} $${1:var_out} \"${2:name}\"$3",
+    "prefix": "${List.Pop}"
+  },
+  "${List.Reverse}": {
+    "body": "${List.Reverse} \"${1:name}\"$2",
+    "prefix": "${List.Reverse}"
+  },
+  "${List.Save}": {
+    "body": "${List.Save} $${1:var_out} \"${2:name}\" \"${3:filename}\"$4",
+    "prefix": "${List.Save}"
+  },
+  "${List.Set}": {
+    "body": "${List.Set} \"${1:name}\" \"${2:index}\" \"${3:value}\"$4",
+    "prefix": "${List.Set}"
+  },
+  "${List.Sort}": {
+    "body": "${List.Sort} \"${1:name}\"$2",
+    "prefix": "${List.Sort}"
+  },
+  "${List.Unload}": {
+    "body": "${List.Unload}$1",
+    "prefix": "${List.Unload}"
+  },
+  "${Map.Clear}": {
+    "body": "${Map.Clear} \"${1:name}\"$2",
+    "prefix": "${Map.Clear}"
+  },
+  "${Map.Create}": {
+    "body": "${Map.Create} \"${1:name}\"$2",
+    "prefix": "${Map.Create}"
+  },
+  "${Map.Destroy}": {
+    "body": "${Map.Destroy} \"${1:name}\"$2",
+    "prefix": "${Map.Destroy}"
+  },
+  "${Map.Get}": {
+    "body": "${Map.Set} \"${1:name}\" \"${2:key}\" \"${3:value}\"$4",
+    "prefix": "${Map.Get}"
+  },
+  "${Map.Unset}": {
+    "body": "${Map.Unset} \"${1:name}\" \"${2:key}\"$3",
+    "prefix": "${Map.Unset}"
+  }
+}

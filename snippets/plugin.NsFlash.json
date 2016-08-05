@@ -1,0 +1,26 @@
+{
+  "nsFlash::Destroy": {
+    "body": "nsFlash::Destroy$1",
+    "prefix": "nsFlash::Destroy"
+  },
+  "nsFlash::IsInstalled": {
+    "body": "nsFlash::IsInstalled\nPop ${1:var}$2",
+    "prefix": "nsFlash::IsInstalled"
+  },
+  "nsFlash::Load": {
+    "body": "nsFlash::Load ${1:hwnd} \"${2:swf_path}\"$3",
+    "prefix": "nsFlash::Load"
+  },
+  "nsFlash::Load /replace": {
+    "body": "nsFlash::Load /replace ${1:hwnd} \"${2:swf_path}\"$3",
+    "prefix": "nsFlash::Load /replace"
+  },
+  "nsFlash::Window": {
+    "body": "nsFlash::Window \"${1:swf_path}\" \"${2:caption}\"$3",
+    "prefix": "nsFlash::Window"
+  },
+  "nsFlash::Window /size": {
+    "body": "nsFlash::Window /size ${1:WxH} \"${2:swf_path}\" \"${3:caption}\"$4",
+    "prefix": "nsFlash::Window /size"
+  }
+}

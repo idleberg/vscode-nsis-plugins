@@ -1,0 +1,10 @@
+{
+  "liteFirewall::AddRule": {
+    "body": "liteFirewall::AddRule \"${1:application_path}\" \"${2:rule_name}\"$3",
+    "prefix": "liteFirewall::AddRule"
+  },
+  "liteFirewall::RemoveRule": {
+    "body": "liteFirewall::RemoveRule \"${1:application_path}\" \"${2:rule_name}\"$3",
+    "prefix": "liteFirewall::RemoveRule"
+  }
+}

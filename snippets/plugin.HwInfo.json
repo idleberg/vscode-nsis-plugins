@@ -1,0 +1,22 @@
+{
+  "HwInfo::GetCpuNameAndSpeed": {
+    "body": "HwInfo::GetCpuNameAndSpeed$1",
+    "prefix": "HwInfo::GetCpuNameAndSpeed"
+  },
+  "HwInfo::GetCpuSpeed": {
+    "body": "HwInfo::GetCpuSpeed$1",
+    "prefix": "HwInfo::GetCpuSpeed"
+  },
+  "HwInfo::GetSystemMemory": {
+    "body": "HwInfo::GetSystemMemory$1",
+    "prefix": "HwInfo::GetSystemMemory"
+  },
+  "HwInfo::GetVideoCardMemory": {
+    "body": "HwInfo::GetVideoCardMemory$1",
+    "prefix": "HwInfo::GetVideoCardMemory"
+  },
+  "HwInfo::GetVideoCardName": {
+    "body": "HwInfo::GetVideoCardName$1",
+    "prefix": "HwInfo::GetVideoCardName"
+  }
+}

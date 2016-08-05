@@ -1,0 +1,14 @@
+{
+  "ExLicensePage::showPage": {
+    "body": "ExLicensePage::showPage \"${1:file}\"$2",
+    "prefix": "ExLicensePage::showPage"
+  },
+  "ExLicensePage::showPage rtf": {
+    "body": "ExLicensePage::showPage \"${1:file}.rtf\"$2",
+    "prefix": "ExLicensePage::showPage rtf"
+  },
+  "ExLicensePage::showPage txt": {
+    "body": "ExLicensePage::showPage \"${1:file}.txt\"$2",
+    "prefix": "ExLicensePage::showPage txt"
+  }
+}

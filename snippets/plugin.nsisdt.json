@@ -1,0 +1,6 @@
+{
+  "nsisdt::currentdate": {
+    "body": "nsisdt::currentdate$1",
+    "prefix": "nsisdt::currentdate"
+  }
+}

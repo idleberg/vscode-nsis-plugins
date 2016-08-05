@@ -1,0 +1,6 @@
+{
+  "Pwgen::GeneratePassword": {
+    "body": "Pwgen::GeneratePassword ${1:length}$2",
+    "prefix": "Pwgen::GeneratePassword"
+  }
+}

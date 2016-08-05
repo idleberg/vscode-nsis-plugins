@@ -1,0 +1,6 @@
+{
+  "FindProcDLL::FindProc": {
+    "body": "FindProcDLL::FindProc\"${1:file}.exe\"$2",
+    "prefix": "FindProcDLL::FindProc"
+  }
+}

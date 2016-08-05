@@ -1,0 +1,10 @@
+{
+  "CABSetup::DataSetSize": {
+    "body": "CABSetup::DataSetSize \"/REPORTFILE=${1:file}.rpt\" |$2",
+    "prefix": "CABSetup::DataSetSize"
+  },
+  "CABSetup::Extract": {
+    "body": "CABSetup::Extract \"/SOURCE=${1:file}.cab\" \"/TARGET=${2:target}\" ${3:options} |$4",
+    "prefix": "CABSetup::Extract"
+  }
+}

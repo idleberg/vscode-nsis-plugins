@@ -1,0 +1,18 @@
+{
+  "EnumINI::KeyExist": {
+    "body": "EnumINI::KeyExist \"${1:file}.ini\" \"${2:section}\" \"${3:key}\"$4",
+    "prefix": "EnumINI::KeyExist"
+  },
+  "EnumINI::Section": {
+    "body": "EnumINI::Section \"${1:file}.ini\" \"${2:section}\"$3",
+    "prefix": "EnumINI::Section"
+  },
+  "EnumINI::SectionExist": {
+    "body": "EnumINI::SectionExist \"${1:file}.ini\" \"${2:section}\"$3",
+    "prefix": "EnumINI::SectionExist"
+  },
+  "EnumINI::SectionNames": {
+    "body": "EnumINI::SectionNames \"${1:file}.ini\"$2",
+    "prefix": "EnumINI::SectionNames"
+  }
+}

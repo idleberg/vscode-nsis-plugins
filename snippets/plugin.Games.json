@@ -1,0 +1,10 @@
+{
+  "Games::registerGame": {
+    "body": "Games::registerGame \"/mcicon:${1:file}.png\" \"/mcrun:${2:shortcut}.lnk\" \"${3:file}.exe\"$4",
+    "prefix": "Games::registerGame"
+  },
+  "Games::unregisterGame": {
+    "body": "Games::unregisterGame \"${1:file}.exe\"$2",
+    "prefix": "Games::unregisterGame"
+  }
+}

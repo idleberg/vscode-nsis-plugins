@@ -1,0 +1,6 @@
+{
+  "CPUDesc::tell": {
+    "body": "CPUDesc::tell$1",
+    "prefix": "CPUDesc::tell"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "${Locate::Close}": {
+    "body": "${Locate::Close} \"${1:handle}\"$2",
+    "prefix": "${Locate::Close}"
+  },
+  "${Locate::Find}": {
+    "body": "${Locate::Find} \"${1:handle}\" $${2:path\name} $${3:path} $${4:name} $${5:size} $${6:time} $${7:attributes}$8",
+    "prefix": "${Locate::Find}"
+  },
+  "${Locate::GetSize}": {
+    "body": "${Locate::Find} \"${1:path}\" \"${2:options}\" $${3:size} $${4:sum_files} $${5:sum_directories}$6",
+    "prefix": "${Locate::GetSize}"
+  },
+  "${Locate::Open}": {
+    "body": "${Locate::Open} \"${1:paths}\" \"${2:options}\"$3",
+    "prefix": "${Locate::Open}"
+  },
+  "${Locate::RMDirEmpty}": {
+    "body": "${Locate::Find} \"${1:path}\" \"${2:options}\" $${3:sum_directories}$4",
+    "prefix": "${Locate::RMDirEmpty}"
+  },
+  "${Locate::Unload}": {
+    "body": "${Locate::Unload}$1",
+    "prefix": "${Locate::Unload}"
+  }
+}

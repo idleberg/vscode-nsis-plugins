@@ -1,0 +1,18 @@
+{
+  "ShutDown::LogOff": {
+    "body": "ShutDown::LogOff$1",
+    "prefix": "ShutDown::LogOff"
+  },
+  "ShutDown::PowerOff": {
+    "body": "ShutDown::PowerOff$1",
+    "prefix": "ShutDown::PowerOff"
+  },
+  "ShutDown::Reboot": {
+    "body": "ShutDown::Reboot$1",
+    "prefix": "ShutDown::Reboot"
+  },
+  "ShutDown::ShutDown": {
+    "body": "ShutDown::ShutDown$1",
+    "prefix": "ShutDown::ShutDown"
+  }
+}

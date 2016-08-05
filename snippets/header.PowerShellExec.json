@@ -1,0 +1,6 @@
+{
+  "${PowerShellExec}": {
+    "body": "${PowerShellExec} \"${1:command}\"$2",
+    "prefix": "PowerShellExec"
+  }
+}

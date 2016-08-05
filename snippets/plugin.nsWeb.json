@@ -1,0 +1,18 @@
+{
+  "nsWeb::IsInet": {
+    "body": "nsWeb::IsInet ${1:var}$2",
+    "prefix": "nsWeb::IsInet"
+  },
+  "nsWeb::ShowHTMLInPage": {
+    "body": "nsWeb::ShowHTMLInPage \"${1:html_string}\"$2",
+    "prefix": "nsWeb::ShowHTMLInPage"
+  },
+  "nsWeb::ShowWebInPage": {
+    "body": "nsWeb::ShowWebInPage \"${1:url_or_html}\"$2",
+    "prefix": "nsWeb::ShowWebInPage"
+  },
+  "nsWeb::ShowWebInPopUp": {
+    "body": "nsWeb::ShowWebInPopUp \"${1:url_or_html}\"$2",
+    "prefix": "nsWeb::ShowWebInPopUp"
+  }
+}

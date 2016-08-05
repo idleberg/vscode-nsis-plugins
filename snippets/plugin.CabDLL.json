@@ -1,0 +1,14 @@
+{
+  "CabDLL::CabExtractAll": {
+    "body": "CabExtractAll::CabView \"${1:file}.cab\" \"${2:target}\"$3",
+    "prefix": "CabDLL::CabExtractAll"
+  },
+  "CabDLL::CabInfo": {
+    "body": "CabDLL::CabInfo \"${1:file}.cab\"$2",
+    "prefix": "CabDLL::CabInfo"
+  },
+  "CabDLL::CabView": {
+    "body": "CabDLL::CabView \"${1:file}.cab\"$2",
+    "prefix": "CabDLL::CabView"
+  }
+}

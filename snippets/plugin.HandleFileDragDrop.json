@@ -1,0 +1,10 @@
+{
+  "HandleFileDragDrop::MakeDropWindow": {
+    "body": "HandleFileDragDrop::MakeDropWindow $${1:handle} $${2:result_var}$3",
+    "prefix": "HandleFileDragDrop::MakeDropWindow"
+  },
+  "HandleFileDragDrop::NOP": {
+    "body": "HandleFileDragDrop::NOP$1",
+    "prefix": "HandleFileDragDrop::NOP"
+  }
+}

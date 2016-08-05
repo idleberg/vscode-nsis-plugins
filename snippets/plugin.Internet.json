@@ -1,0 +1,14 @@
+{
+  "Internet::GetLocalHostIP": {
+    "body": "Internet::GetLocalHostIP $${1:return_var}$2",
+    "prefix": "Internet::GetLocalHostIP"
+  },
+  "Internet::GetLocalHostName": {
+    "body": "Internet::GetLocalHostName $${1:return_var}$2",
+    "prefix": "Internet::GetLocalHostName"
+  },
+  "Internet::GetUrlCode": {
+    "body": "Internet::GetUrlCode \"${1:site}\" \"${2:file}\" $${3:return_var}$4",
+    "prefix": "Internet::GetUrlCode"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ComPlusAdmin::CreateApplication": {
+    "body": "ComPlusAdmin::CreateApplication \"${1:application_name}\" ${2:timeout}$3",
+    "prefix": "ComPlusAdmin::CreateApplication"
+  },
+  "ComPlusAdmin::DeleteApplication": {
+    "body": "ComPlusAdmin::DeleteApplication \"${1:application_name}\"$2",
+    "prefix": "ComPlusAdmin::DeleteApplication"
+  },
+  "ComPlusAdmin::GetApplicationProperty": {
+    "body": "ComPlusAdmin::GetApplicationProperty \"${1:application_name}\" \"${2:property}\"$3",
+    "prefix": "ComPlusAdmin::GetApplicationProperty"
+  },
+  "ComPlusAdmin::InstallComponent": {
+    "body": "ComPlusAdmin::InstallComponent \"${1:application_name}\" \"${2:application_path}.dll\"$3",
+    "prefix": "ComPlusAdmin::InstallComponent"
+  },
+  "ComPlusAdmin::IsApplicationPresent": {
+    "body": "ComPlusAdmin::IsApplicationPresent \"${1:application_name}\"$2",
+    "prefix": "ComPlusAdmin::IsApplicationPresent"
+  },
+  "ComPlusAdmin::IsComponentPresent": {
+    "body": "ComPlusAdmin::IsComponentPresent \"${1:application_name}\" \"${2:file}.dll\"$3",
+    "prefix": "ComPlusAdmin::IsComponentPresent"
+  },
+  "ComPlusAdmin::RemoveComponent": {
+    "body": "ComPlusAdmin::RemoveComponent \"${1:application_name}\" \"${2:file}.dll\"$3",
+    "prefix": "ComPlusAdmin::RemoveComponent"
+  },
+  "ComPlusAdmin::SetApplicationProperty": {
+    "body": "ComPlusAdmin::SetApplicationProperty \"${1:application_name}\" \"${2:property}\"$3",
+    "prefix": "ComPlusAdmin::SetApplicationProperty"
+  },
+  "ComPlusAdmin::SetUserNameAndPassword": {
+    "body": "ComPlusAdmin::SetUserNameAndPassword \"${1:application_name}\" \"${2:password}\" \"${3:user_name}\"$4",
+    "prefix": "ComPlusAdmin::SetUserNameAndPassword"
+  }
+}

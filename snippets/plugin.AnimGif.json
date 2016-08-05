@@ -1,0 +1,14 @@
+{
+  "AnimGif::play": {
+    "body": "AnimGif::play ${1:options} \"${2:file}.gif\"$3",
+    "prefix": "AnimGif::play"
+  },
+  "AnimGif::play /NOUNLOAD": {
+    "body": "AnimGif::play /NOUNLOAD ${1:options} \"${2:file}.gif\"$3",
+    "prefix": "AnimGif::play /NOUNLOAD"
+  },
+  "AnimGif::stop": {
+    "body": "AnimGif::stop$1",
+    "prefix": "AnimGif::stop"
+  }
+}

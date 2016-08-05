@@ -1,0 +1,14 @@
+{
+  "ExDlg::create_dlg": {
+    "body": "ExDlg::create_dlg \"${1:dialog_id}\" \"${2:file}.res\"$3",
+    "prefix": "ExDlg::create_dlg"
+  },
+  "ExDlg::dealloc": {
+    "body": "ExDlg::dealloc $${2:handle}$3",
+    "prefix": "ExDlg::dealloc"
+  },
+  "ExDlg::push_windowtext": {
+    "body": "ExDlg::push_windowtext \"${1:control_id}\" $\"${2:handle}\"$3",
+    "prefix": "ExDlg::push_windowtext"
+  }
+}

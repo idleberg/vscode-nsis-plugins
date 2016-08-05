@@ -1,0 +1,6 @@
+{
+  "nsislog::log": {
+    "body": "nsislog::log \"${1:file}.log\" \"${2:text}\"$3",
+    "prefix": "nsislog::log"
+  }
+}

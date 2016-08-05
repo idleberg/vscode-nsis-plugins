@@ -1,0 +1,18 @@
+{
+  "SpiderBanner::Destroy": {
+    "body": "SpiderBanner::Destroy$1",
+    "prefix": "SpiderBanner::Destroy"
+  },
+  "SpiderBanner::Show": {
+    "body": "SpiderBanner::Show ${1:position} ${2:distance}$3",
+    "prefix": "SpiderBanner::Show"
+  },
+  "SpiderBanner::Show /MODERN": {
+    "body": "SpiderBanner::Show ${1:position} ${2:distance} /MODERN$3",
+    "prefix": "SpiderBanner::Show /MODERN"
+  },
+  "SpiderBanner::ShowPBOnly": {
+    "body": "SpiderBanner::ShowPBOnly$1",
+    "prefix": "SpiderBanner::ShowPBOnly"
+  }
+}

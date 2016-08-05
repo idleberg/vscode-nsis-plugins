@@ -1,0 +1,10 @@
+{
+  "GetFirstRemovable::GetAll": {
+    "body": "GetFirstRemovable::GetAll$1",
+    "prefix": "GetFirstRemovable::GetAll"
+  },
+  "GetFirstRemovable::GetFirst": {
+    "body": "GetFirstRemovable::GetFirst$1",
+    "prefix": "GetFirstRemovable::GetFirst"
+  }
+}

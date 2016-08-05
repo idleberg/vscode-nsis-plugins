@@ -1,0 +1,10 @@
+{
+  "Blowfish::decrypt": {
+    "body": "Blowfish::decrypt \"${1:text_to_decrypt}\" \"${2:password_key}\"$3",
+    "prefix": "Blowfish::decrypt"
+  },
+  "Blowfish::encrypt": {
+    "body": "Blowfish::encrypt \"${1:text_to_encrypt}\" \"${2:password_key}\"$3",
+    "prefix": "Blowfish::encrypt"
+  }
+}

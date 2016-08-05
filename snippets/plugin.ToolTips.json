@@ -1,0 +1,10 @@
+{
+  "ToolTips::Classic": {
+    "body": "ToolTips::Classic $${1:hwnd} \"${2:text}\"$3",
+    "prefix": "ToolTips::Classic"
+  },
+  "ToolTips::Modern": {
+    "body": "ToolTips::Modern $${1:hwnd} ${2:icon} \"${3:text}\"$4",
+    "prefix": "ToolTips::Modern"
+  }
+}

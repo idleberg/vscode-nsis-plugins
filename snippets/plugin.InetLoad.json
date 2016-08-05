@@ -1,0 +1,10 @@
+{
+  "InetLoad::load": {
+    "body": "InetLoad::load \"${1:url}\" \"${2:target_file}\"$3",
+    "prefix": "InetLoad::load"
+  },
+  "InetLoad::load [/options]": {
+    "body": "InetLoad::load ${1:options} \"${2:url}\" \"${3:target_file}\"$4",
+    "prefix": "InetLoad::load [/options]"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "${StdUtils.ExecShellAsUser}": {
+    "body": "${StdUtils.ExecShellAsUser} $${1:output} \"${2:file}\" ${3:verb} \"${4:args}\"$5",
+    "prefix": "${StdUtils.ExecShellAsUser}"
+  },
+  "${StdUtils.ExecShellWaitEx}": {
+    "body": "${StdUtils.ExecShellWaitEx} $${1:output1} $${2:output2} \"${3:file}\" ${4:verb} \"${5:args}\"$6",
+    "prefix": "${StdUtils.ExecShellWaitEx}"
+  },
+  "${StdUtils.FormatStr2}": {
+    "body": "${StdUtils.FormatStr2} $${1:output} ${2:format} ${3:value1} ${4:value2}$5",
+    "prefix": "${StdUtils.FormatStr2}"
+  },
+  "${StdUtils.FormatStr3}": {
+    "body": "${StdUtils.FormatStr3} $${1:output} ${2:format} ${3:value1} ${4:value2} ${5:value3}$6",
+    "prefix": "${StdUtils.FormatStr3}"
+  },
+  "${StdUtils.FormatStr}": {
+    "body": "${StdUtils.FormatStr} $${1:output} ${2:format} ${3:value}$4",
+    "prefix": "${StdUtils.FormatStr}"
+  },
+  "${StdUtils.GetAllParameter}": {
+    "body": "${StdUtils.GetAllParameter} $${1:output} ${2:truncate}$3",
+    "prefix": "${StdUtils.GetAllParameter}"
+  },
+  "${StdUtils.GetDays}": {
+    "body": "${StdUtils.GetDays} $${1:output}$2",
+    "prefix": "${StdUtils.GetDays}"
+  },
+  "${StdUtils.GetHours}": {
+    "body": "${StdUtils.GetHours} $${1:output}$2",
+    "prefix": "${StdUtils.GetHours}"
+  },
+  "${StdUtils.GetLibVersion}": {
+    "body": "${StdUtils.GetLibVersion} $${1:out_ver} $${2:out_tst}$3",
+    "prefix": "${StdUtils.GetLibVersion}"
+  },
+  "${StdUtils.GetMinutes}": {
+    "body": "${StdUtils.GetMinutes} $${1:output}$3",
+    "prefix": "${StdUtils.GetMinutes}"
+  },
+  "${StdUtils.GetParameter}": {
+    "body": "${StdUtils.GetParameter} $${1:output} ${2:name} ${3:default}$4",
+    "prefix": "${StdUtils.GetParameter}"
+  },
+  "${StdUtils.GetRealOSVersion}": {
+    "body": "${StdUtils.GetRealOSVersion} $${1:out_major} $${2:out_minor}$3",
+    "prefix": "${StdUtils.GetRealOSVersion}"
+  },
+  "${StdUtils.InvokeShellVerb}": {
+    "body": "${StdUtils.InvokeShellVerb} $${1:output} ${2:path} ${3:file} ${4:verb_id}$5",
+    "prefix": "${StdUtils.InvokeShellVerb}"
+  },
+  "${StdUtils.RandList}": {
+    "body": "${StdUtils.RandList} $${1:count} ${2:max}$3",
+    "prefix": "${StdUtils.RandList}"
+  },
+  "${StdUtils.RandMax}": {
+    "body": "${StdUtils.RandMax} $${1:output} ${2:max}$3",
+    "prefix": "${StdUtils.RandMax}"
+  },
+  "${StdUtils.RandMinMax}": {
+    "body": "${StdUtils.RandMinMax} $${1:output} ${2:min} ${3:max}$4",
+    "prefix": "${StdUtils.RandMinMax}"
+  },
+  "${StdUtils.Rand}": {
+    "body": "${StdUtils.Rand} $${1:output}$2",
+    "prefix": "${StdUtils.Rand}"
+  },
+  "${StdUtils.RevStr}": {
+    "body": "${StdUtils.RevStr} $${1:output}$2",
+    "prefix": "${StdUtils.RevStr}"
+  },
+  "${StdUtils.SHFileCopy}": {
+    "body": "${StdUtils.SHFileCopy} $${1:output} ${2:from} ${3:to} ${4:hwnd}$5",
+    "prefix": "${StdUtils.SHFileCopy}"
+  },
+  "${StdUtils.SHFileMove}": {
+    "body": "${StdUtils.SHFileMove} $${1:output} ${2:from} ${3:to} ${4:hwnd}$5",
+    "prefix": "${StdUtils.SHFileMove}"
+  },
+  "${StdUtils.ScanStr2}": {
+    "body": "${StdUtils.ScanStr2} $${1:output} ${2:format} ${3:input} ${4:default1} ${5:default2}$6",
+    "prefix": "${StdUtils.ScanStr2}"
+  },
+  "${StdUtils.ScanStr3}": {
+    "body": "${StdUtils.ScanStr3} $${1:output} ${2:format} ${3:input} ${4:default1} ${5:default2} ${6:default3}}$7",
+    "prefix": "${StdUtils.ScanStr3}"
+  },
+  "${StdUtils.ScanStr}": {
+    "body": "${StdUtils.ScanStr} $${1:output} ${2:format} ${3:input} ${4:default}$5",
+    "prefix": "${StdUtils.ScanStr}"
+  },
+  "${StdUtils.SetVerbose}": {
+    "body": "${StdUtils.SetVerbose} ${1:on|off}$2",
+    "prefix": "${StdUtils.SetVerbose}"
+  },
+  "${StdUtils.Time}": {
+    "body": "${StdUtils.Time} $${1:output}$2",
+    "prefix": "${StdUtils.Time}"
+  },
+  "${StdUtils.TrimStrLeft}": {
+    "body": "${StdUtils.TrimStrLeft} $${1:output}$2",
+    "prefix": "${StdUtils.TrimStrLeft}"
+  },
+  "${StdUtils.TrimStrRight}": {
+    "body": "${StdUtils.TrimStrRight} $${1:output}$2",
+    "prefix": "${StdUtils.TrimStrRight}"
+  },
+  "${StdUtils.TrimStr}": {
+    "body": "${StdUtils.TrimStr} $${1:output}$2",
+    "prefix": "${StdUtils.TrimStr}"
+  },
+  "${StdUtils.WaitForProcEx}": {
+    "body": "${StdUtils.WaitForProcEx} $${1:output} ${2:handle}$3",
+    "prefix": "${StdUtils.WaitForProcEx}"
+  }
+}

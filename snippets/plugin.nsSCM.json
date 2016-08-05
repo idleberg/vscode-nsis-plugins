@@ -1,0 +1,42 @@
+{
+  "nsSCM::Install": {
+    "body": "nsSCM::Install \"${1:name_of_service}\" \"${2:display_name}\" \"${3:service_type}\" \"${4:start_type}\" \"${5:service_commandline}\" \"${6:load_order_group}\" \"${7:dependencies}\" \"${8:account}\" \"${9:password}\"$10",
+    "prefix": "nsSCM::Install"
+  },
+  "nsSCM::Install /NOUNLOAD": {
+    "body": "nsSCM::Install /NOUNLOAD \"${1:name_of_service}\" \"${2:display_name}\" \"${3:service_type}\" \"${4:start_type}\" \"${5:service_commandline}\" \"${6:load_order_group}\" \"${7:dependencies}\" \"${8:account}\" \"${9:password}\"$10",
+    "prefix": "nsSCM::Install /NOUNLOAD"
+  },
+  "nsSCM::QueryStatus": {
+    "body": "nsSCM::QueryStatus \"${1:name_of_service}\"$2",
+    "prefix": "nsSCM::QueryStatus"
+  },
+  "nsSCM::QueryStatus /NOUNLOAD": {
+    "body": "nsSCM::QueryStatus /NOUNLOAD \"${1:name_of_service}\"$2",
+    "prefix": "nsSCM::QueryStatus /NOUNLOAD"
+  },
+  "nsSCM::Remove": {
+    "body": "nsSCM::Remove \"${1:name_of_service}\"$2",
+    "prefix": "nsSCM::Remove"
+  },
+  "nsSCM::Remove /NOUNLOAD": {
+    "body": "nsSCM::Remove /NOUNLOAD \"${1:name_of_service}\"$2",
+    "prefix": "nsSCM::Remove /NOUNLOAD"
+  },
+  "nsSCM::Start": {
+    "body": "nsSCM::Start \"${1:name_of_service}\"$2",
+    "prefix": "nsSCM::Start"
+  },
+  "nsSCM::Start /NOUNLOAD": {
+    "body": "nsSCM::Start /NOUNLOAD \"${1:name_of_service}\"$2",
+    "prefix": "nsSCM::Start /NOUNLOAD"
+  },
+  "nsSCM::Stop": {
+    "body": "nsSCM::Stop \"${1:name_of_service}\"$2",
+    "prefix": "nsSCM::Stop"
+  },
+  "nsSCM::Stop /NOUNLOAD": {
+    "body": "nsSCM::Stop /NOUNLOAD \"${1:name_of_service}\"$2",
+    "prefix": "nsSCM::Stop /NOUNLOAD"
+  }
+}

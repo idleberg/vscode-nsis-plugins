@@ -1,0 +1,14 @@
+{
+  "UnTGZ::extract": {
+    "body": "UnTGZ::extract ${1:options} \"${2:archive}.tgz\"$3",
+    "prefix": "UnTGZ::extract"
+  },
+  "UnTGZ::extractFile": {
+    "body": "UnTGZ::extractFile ${1:options} \"${2:archive}.tgz\" \"${3:file}\"$4",
+    "prefix": "UnTGZ::extractFile"
+  },
+  "UnTGZ::extractV": {
+    "body": "UnTGZ::extractV ${1:options} \"${2:archive}.tgz\"$3",
+    "prefix": "UnTGZ::extractV"
+  }
+}

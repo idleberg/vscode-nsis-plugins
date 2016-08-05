@@ -1,0 +1,10 @@
+{
+  "nsScreenshot::Grab": {
+    "body": "nsScreenshot::Grab$1",
+    "prefix": "nsScreenshot::Grab"
+  },
+  "nsScreenshot::Grab_FullScreen": {
+    "body": "nsScreenshot::Grab_FullScreen$1",
+    "prefix": "nsScreenshot::Grab_FullScreen"
+  }
+}

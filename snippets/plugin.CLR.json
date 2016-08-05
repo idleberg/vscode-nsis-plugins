@@ -1,0 +1,10 @@
+{
+  "CLR::Call /NOUNLOAD": {
+    "body": "CLR::Call /NOUNLOAD \"${1:file}.dll\" \"${2:class}\" ${3:options}$4",
+    "prefix": "CLR::Call /NOUNLOAD"
+  },
+  "CLR::Destroy": {
+    "body": "CLR::Destroy$1",
+    "prefix": "CLR::Destroy"
+  }
+}

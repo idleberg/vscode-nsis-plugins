@@ -1,0 +1,6 @@
+{
+  "nsRandom::GetRandom": {
+    "body": "nsRandom::GetRandom$1",
+    "prefix": "nsRandom::GetRandom"
+  }
+}

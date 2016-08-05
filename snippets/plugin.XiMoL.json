@@ -1,0 +1,66 @@
+{
+  "!insertmacro XiMoL_GetAttributeName": {
+    "body": "!insertmacro XiMoL_GetAttributeName \"${1:HANDLER}\" \"${2:NB}\" \"${3:NAME}\"$4",
+    "prefix": "XiMoL_GetAttributeName"
+  },
+  "!insertmacro XiMoL_GetAttributeValue": {
+    "body": "!insertmacro XiMoL_GetAttributeValue \"${1:HANDLER}\" \"${2:ATTRIBUTE_NAME}\" \"${3:VALUE}\"$4",
+    "prefix": "XiMoL_GetAttributeValue"
+  },
+  "!insertmacro XiMoL_GetContent": {
+    "body": "!insertmacro XiMoL_GetTag \"${1:HANDLER}\" \"${2:CONTENT}\"$3",
+    "prefix": "XiMoL_GetContent"
+  },
+  "!insertmacro XiMoL_GetElement": {
+    "body": "!insertmacro XiMoL_GetElement \"${1:HANDLER}\" \"${2:NB}\" \"${3:NEW_HANDLER}\"$4",
+    "prefix": "XiMoL_GetElement"
+  },
+  "!insertmacro XiMoL_GetElementFromPath": {
+    "body": "!insertmacro XiMoL_GetElementFromPath \"${1:HANDLER}\" \"${2:NB}\" \"${3:NEW_HANDLER}\"$4",
+    "prefix": "XiMoL_GetElementFromPath"
+  },
+  "!insertmacro XiMoL_GetElementName": {
+    "body": "!insertmacro XiMoL_GetElementName \"${1:HANDLER}\" \"${2:NB}\" \"${3:NAME}\"$4",
+    "prefix": "XiMoL_GetElementName"
+  },
+  "!insertmacro XiMoL_GetErrorMessage": {
+    "body": "!insertmacro XiMoL_GetErrorMessage $${2:VAR}$3",
+    "prefix": "XiMoL_GetErrorMessage"
+  },
+  "!insertmacro XiMoL_GetLastCall": {
+    "body": "!insertmacro XiMoL_GetLastCall $${2:VAR}$3",
+    "prefix": "XiMoL_GetLastCall"
+  },
+  "!insertmacro XiMoL_GetNextElement": {
+    "body": "!insertmacro XiMoL_GetNextElement \"${1:HANDLER}\" \"${2:GOTO_IF_SUCCESS}\"$3",
+    "prefix": "XiMoL_GetNextElement"
+  },
+  "!insertmacro XiMoL_GetNumberOfAttributes": {
+    "body": "!insertmacro XiMoL_GetNumberOfAttributes \"${1:HANDLER}\" \"${2:NB}\"$3",
+    "prefix": "XiMoL_GetNumberOfAttributes"
+  },
+  "!insertmacro XiMoL_GetNumberOfElements": {
+    "body": "!insertmacro XiMoL_GetNumberOfElements \"${1:HANDLER}\" \"${2:NB}\"$3",
+    "prefix": "XiMoL_GetNumberOfElements"
+  },
+  "!insertmacro XiMoL_GetTag": {
+    "body": "!insertmacro XiMoL_GetTag \"${1:HANDLER}\" \"${2:TAG}\"$3",
+    "prefix": "XiMoL_GetTag"
+  },
+  "!insertmacro XiMoL_IfPathExists": {
+    "body": "!insertmacro XiMoL_IfPathExists \"${1:HANDLER}\" \"${2:PATH}\" \"${3:GOTO_IF_PATH_EXISTS}\" \"${4:GOTO_IF_NOT}\"$5",
+    "prefix": "XiMoL_IfPathExists"
+  },
+  "!insertmacro XiMoL_ReadXmlFile": {
+    "body": "!insertmacro XiMoL_ReadXmlFile \"${1:HANDLER}\" \"${2:FILENAME}\"$3",
+    "prefix": "XiMoL_ReadXmlFile"
+  },
+  "!insertmacro XiMoL_ResetErrorGotoLabel": {
+    "body": "!insertmacro XiMoL_ResetErrorGotoLabel$1",
+    "prefix": "XiMoL_ResetErrorGotoLabel"
+  },
+  "!insertmacro XiMoL_SetErrorGotoLabel": {
+    "body": "!insertmacro XiMoL_SetErrorGotoLabel \"${1:LABEL}\"$2",
+    "prefix": "XiMoL_SetErrorGotoLabel"
+  }
+}

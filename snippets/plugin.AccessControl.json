@@ -1,0 +1,138 @@
+{
+  "AccessControl::ClearOnFile": {
+    "body": "AccessControl::ClearOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$0",
+    "prefix": "AccessControl::ClearOnFile"
+  },
+  "AccessControl::ClearOnFile /NOINHERIT": {
+    "body": "AccessControl::ClearOnFile /NOINHERIT \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$0",
+    "prefix": "AccessControl::ClearOnFile /NOINHERIT"
+  },
+  "AccessControl::ClearOnRegKey": {
+    "body": "AccessControl::ClearOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$0",
+    "prefix": "AccessControl::ClearOnRegKey"
+  },
+  "AccessControl::ClearOnRegKey /NOINHERIT": {
+    "body": "AccessControl::ClearOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$0",
+    "prefix": "AccessControl::ClearOnRegKey /NOINHERIT"
+  },
+  "AccessControl::DenyOnFile": {
+    "body": "AccessControl::DenyOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$0",
+    "prefix": "AccessControl::DenyOnFile"
+  },
+  "AccessControl::DenyOnFile /NOINHERIT": {
+    "body": "AccessControl::DenyOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$0",
+    "prefix": "AccessControl::DenyOnFile /NOINHERIT"
+  },
+  "AccessControl::DenyOnRegKey": {
+    "body": "AccessControl::DenyOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$0",
+    "prefix": "AccessControl::DenyOnRegKey"
+  },
+  "AccessControl::DenyOnRegKey /NOINHERIT": {
+    "body": "AccessControl::DenyOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$0",
+    "prefix": "AccessControl::DenyOnRegKey /NOINHERIT"
+  },
+  "AccessControl::DisableFileInheritance": {
+    "body": "AccessControl::DisableFileInheritance \"${1:filename}\"$0",
+    "prefix": "AccessControl::DisableFileInheritance"
+  },
+  "AccessControl::DisableRegKeyInheritance": {
+    "body": "AccessControl::DisableRegKeyInheritance \"${1:rootkey}\" \"${2:regkey}\"$0",
+    "prefix": "AccessControl::DisableRegKeyInheritance"
+  },
+  "AccessControl::EnableFileInheritance": {
+    "body": "AccessControl::EnableFileInheritance \"${1:filename}\"$0",
+    "prefix": "AccessControl::EnableFileInheritance"
+  },
+  "AccessControl::EnableRegKeyInheritance": {
+    "body": "AccessControl::EnableRegKeyInheritance \"${1:rootkey}\" \"${2:regkey}\"$0",
+    "prefix": "AccessControl::EnableRegKeyInheritance"
+  },
+  "AccessControl::GetCurrentUserName": {
+    "body": "AccessControl::GetCurrentUserName",
+    "prefix": "AccessControl::GetCurrentUserName"
+  },
+  "AccessControl::GetFileGroup": {
+    "body": "AccessControl::GetFileGroup \"${1:filename}\"$0",
+    "prefix": "AccessControl::GetFileGroup"
+  },
+  "AccessControl::GetFileOwner": {
+    "body": "AccessControl::GetFileOwner \"${1:filename}\"$0",
+    "prefix": "AccessControl::GetFileOwner"
+  },
+  "AccessControl::GetRegKeyGroup": {
+    "body": "AccessControl::GetRegKeyGroup \"${1:rootkey}\" \"${2:regkey}\"$0",
+    "prefix": "AccessControl::GetRegKeyGroup"
+  },
+  "AccessControl::GetRegKeyOwner": {
+    "body": "AccessControl::GetRegKeyOwner \"${1:rootkey}\" \"${2:regkey}\"$0",
+    "prefix": "AccessControl::GetRegKeyOwner"
+  },
+  "AccessControl::GrantOnFile": {
+    "body": "AccessControl::GrantOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$0",
+    "prefix": "AccessControl::GrantOnFile"
+  },
+  "AccessControl::GrantOnFile /NOINHERIT": {
+    "body": "AccessControl::GrantOnFile /NOINHERIT \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$0",
+    "prefix": "AccessControl::GrantOnFile /NOINHERIT"
+  },
+  "AccessControl::GrantOnRegKey": {
+    "body": "AccessControl::GrantOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$0",
+    "prefix": "AccessControl::GrantOnRegKey"
+  },
+  "AccessControl::GrantOnRegKey /NOINHERIT": {
+    "body": "AccessControl::GrantOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$0",
+    "prefix": "AccessControl::GrantOnRegKey /NOINHERIT"
+  },
+  "AccessControl::RevokeOnFile": {
+    "body": "AccessControl::RevokeOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
+    "prefix": "AccessControl::RevokeOnFile"
+  },
+  "AccessControl::RevokeOnFile /NOINHERIT": {
+    "body": "AccessControl::RevokeOnFile /NOINHERIT \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
+    "prefix": "AccessControl::RevokeOnFile /NOINHERIT"
+  },
+  "AccessControl::RevokeOnRegKey": {
+    "body": "AccessControl::RevokeOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
+    "prefix": "AccessControl::RevokeOnRegKey"
+  },
+  "AccessControl::RevokeOnRegKey /NOINHERIT": {
+    "body": "AccessControl::RevokeOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
+    "prefix": "AccessControl::RevokeOnRegKey /NOINHERIT"
+  },
+  "AccessControl::SetFileGroup": {
+    "body": "AccessControl::SetFileGroup \"${1:filename}\" \"${2:trustee}\"$3",
+    "prefix": "AccessControl::SetFileGroup"
+  },
+  "AccessControl::SetFileOwner": {
+    "body": "AccessControl::SetFileOwner \"${1:filename}\" \"${2:trustee}\"$3",
+    "prefix": "AccessControl::SetFileOwner"
+  },
+  "AccessControl::SetOnFile": {
+    "body": "AccessControl::GrantOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
+    "prefix": "AccessControl::SetOnFile"
+  },
+  "AccessControl::SetOnFile /NOINHERIT": {
+    "body": "AccessControl::GrantOnFile /NOINHERIT \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
+    "prefix": "AccessControl::SetOnFile /NOINHERIT"
+  },
+  "AccessControl::SetOnRegKey": {
+    "body": "AccessControl::SetOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
+    "prefix": "AccessControl::SetOnRegKey"
+  },
+  "AccessControl::SetOnRegKey /NOINHERIT": {
+    "body": "AccessControl::SetOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
+    "prefix": "AccessControl::SetOnRegKey /NOINHERIT"
+  },
+  "AccessControl::SetRegKeyGroup": {
+    "body": "AccessControl::SetRegKeyGroup \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\"$4",
+    "prefix": "AccessControl::SetRegKeyGroup"
+  },
+  "AccessControl::SetRegKeyOwner": {
+    "body": "AccessControl::SetRegKeyOwner \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\"$4",
+    "prefix": "AccessControl::SetRegKeyOwner"
+  },
+  "AccessControl::SidToName": {
+    "body": "AccessControl::SidToName \"${1:sidstring}\"$2",
+    "prefix": "AccessControl::SidToName"
+  }
+}

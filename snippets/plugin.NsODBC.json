@@ -1,0 +1,30 @@
+{
+  "NsODBC::AddDSN": {
+    "body": "NsODBC::AddDSN \"${1:driver}\" \"${2:parameters}\"$3",
+    "prefix": "NsODBC::AddDSN"
+  },
+  "NsODBC::AddSysDSN": {
+    "body": "NsODBC::AddSysDSN \"${1:driver}\" \"${2:parameters}\"$3",
+    "prefix": "NsODBC::AddSysDSN"
+  },
+  "NsODBC::ConfDSN": {
+    "body": "NsODBC::ConfDSN \"${1:driver}\" \"${2:parameters}\"$3",
+    "prefix": "NsODBC::ConfDSN"
+  },
+  "NsODBC::ConfSysDSN": {
+    "body": "NsODBC::ConfSysDSN \"${1:driver}\" \"${2:parameters}\"$3",
+    "prefix": "NsODBC::ConfSysDSN"
+  },
+  "NsODBC::RemoveDSN": {
+    "body": "NsODBC::RemoveDSN \"${1:driver}\" \"${2:parameters}\"$3",
+    "prefix": "NsODBC::RemoveDSN"
+  },
+  "NsODBC::RemoveDefDSN": {
+    "body": "NsODBC::RemoveDefDSN \"${1:driver}\" \"${2:parameters}\"$3",
+    "prefix": "NsODBC::RemoveDefDSN"
+  },
+  "NsODBC::RemoveSysDSN": {
+    "body": "NsODBC::RemoveSysDSN \"${1:driver}\" \"${2:parameters}\"$3",
+    "prefix": "NsODBC::RemoveSysDSN"
+  }
+}

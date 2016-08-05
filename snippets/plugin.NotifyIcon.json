@@ -1,0 +1,6 @@
+{
+  "NotifyIcon::Icon": {
+    "body": "NotifyIcon::Icon ${1:flags} ${2:arguments}$3",
+    "prefix": "NotifyIcon::Icon"
+  }
+}

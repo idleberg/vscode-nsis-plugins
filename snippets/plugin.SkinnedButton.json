@@ -1,0 +1,10 @@
+{
+  "SkinnedButton::skinit": {
+    "body": "SkinnedButton::skinit \"{1:BitmapImage}\"$2",
+    "prefix": "SkinnedButton::skinit"
+  },
+  "SkinnedButton::skinit 0xRRGGBB": {
+    "body": "SkinnedButton::skinit \"{1:BitmapImage}\" 0x\"${2:RRGGBB}\"$3",
+    "prefix": "SkinnedButton::skinit 0xRRGGBB"
+  }
+}

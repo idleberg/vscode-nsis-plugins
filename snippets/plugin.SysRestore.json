@@ -1,0 +1,18 @@
+{
+  "SysRestore::FinishRestorePoint": {
+    "body": "SysRestore::FinishRestorePoint$1",
+    "prefix": "SysRestore::FinishRestorePoint"
+  },
+  "SysRestore::RemoveRestorePoint": {
+    "body": "SysRestore::RemoveRestorePoint$1",
+    "prefix": "SysRestore::RemoveRestorePoint"
+  },
+  "SysRestore::StartInstallPoint": {
+    "body": "SysRestore::StartInstallPoint \"${1:text}\"$2",
+    "prefix": "SysRestore::StartInstallPoint"
+  },
+  "SysRestore::StartUninstallPoint": {
+    "body": "SysRestore::StartUninstallPoint \"${1:text}\"$2",
+    "prefix": "SysRestore::StartUninstallPoint"
+  }
+}

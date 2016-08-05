@@ -1,0 +1,10 @@
+{
+  "${Base64_Decode}": {
+    "body": "${Base64_Decode} \"${1:text}\"$2",
+    "prefix": "Base64_Decode"
+  },
+  "${Base64_Encode}": {
+    "body": "${Base64_Encode} \"${1:text}\"$2",
+    "prefix": "Base64_Encode"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "PassDialog::Dialog": {
+    "body": "PassDialog::Dialog \"${1:dialog_name}\" ${2:parameters}$3",
+    "prefix": "PassDialog::Dialog"
+  },
+  "PassDialog::InitDialog": {
+    "body": "PassDialog::InitDialog /NOUNLOAD \"${1:dialog_name}\" ${2:parameters}$3",
+    "prefix": "PassDialog::InitDialog"
+  }
+}

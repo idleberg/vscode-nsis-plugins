@@ -1,0 +1,26 @@
+{
+  "CDRom::Close": {
+    "body": "CDRom::Close \"${1:drive}\" .${2:R0}$3",
+    "prefix": "CDRom::Close"
+  },
+  "CDRom::FindNext": {
+    "body": "CDRom::FindNext /NOUNLOAD \"${1:drive}\" .${2:R0}$3",
+    "prefix": "CDRom::FindNext"
+  },
+  "CDRom::Open": {
+    "body": "CDRom::Open \"${1:drive}\" .${2:R0}$3",
+    "prefix": "CDRom::Open"
+  },
+  "CDRom::Status": {
+    "body": "CDRom::Status \"${1:drive}\" .${2:R0}$3",
+    "prefix": "CDRom::Status"
+  },
+  "CDRom::VolumeName": {
+    "body": "CDRom::VolumeName \"${1:drive}\" .${2:R0}$3",
+    "prefix": "CDRom::VolumeName"
+  },
+  "CDRom::VolumeSerialNumber": {
+    "body": "CDRom::VolumeSerialNumber \"${1:drive}\" .${2:R0}$3",
+    "prefix": "CDRom::VolumeSerialNumber"
+  }
+}

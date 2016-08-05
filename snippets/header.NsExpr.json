@@ -1,0 +1,10 @@
+{
+  "${ExprEval}": {
+    "body": "${ExprEval} ${1:expression}$2",
+    "prefix": "ExprEval"
+  },
+  "${Expr}": {
+    "body": "${Expr} ${1:expression}$2",
+    "prefix": "Expr"
+  }
+}

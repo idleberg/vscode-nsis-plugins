@@ -1,0 +1,54 @@
+{
+  "WmiInspector::AntiVirus": {
+    "body": "WmiInspector::AntiVirus$1",
+    "prefix": "WmiInspector::AntiVirus"
+  },
+  "WmiInspector::CPU": {
+    "body": "WmiInspector::CPU$1",
+    "prefix": "WmiInspector::CPU"
+  },
+  "WmiInspector::FireWall": {
+    "body": "WmiInspector::FireWall$1",
+    "prefix": "WmiInspector::FireWall"
+  },
+  "WmiInspector::FullOS": {
+    "body": "WmiInspector::FullOS$1",
+    "prefix": "WmiInspector::FullOS"
+  },
+  "WmiInspector::FullSQLVersion": {
+    "body": "WmiInspector::FullSQLVersion$1",
+    "prefix": "WmiInspector::FullSQLVersion"
+  },
+  "WmiInspector::OS": {
+    "body": "WmiInspector::OS$1",
+    "prefix": "WmiInspector::OS"
+  },
+  "WmiInspector::OSVersion": {
+    "body": "WmiInspector::OSVersion$1",
+    "prefix": "WmiInspector::OSVersion"
+  },
+  "WmiInspector::Request": {
+    "body": "WmiInspector::Request \"${1:DomainNamespot}\" \"${2:TableName}\" \"${3:ValueName}\"$4",
+    "prefix": "WmiInspector::Request"
+  },
+  "WmiInspector::Resolution": {
+    "body": "WmiInspector::Resolution$1",
+    "prefix": "WmiInspector::Resolution"
+  },
+  "WmiInspector::SQLVersion": {
+    "body": "WmiInspector::SQLVersion$1",
+    "prefix": "WmiInspector::SQLVersion"
+  },
+  "WmiInspector::ShortUserName": {
+    "body": "WmiInspector::ShortUserName$1",
+    "prefix": "WmiInspector::ShortUserName"
+  },
+  "WmiInspector::UserName": {
+    "body": "WmiInspector::UserName$1",
+    "prefix": "WmiInspector::UserName"
+  },
+  "WmiInspector::UserSID": {
+    "body": "WmiInspector::UserSID \"${1:user_name}\"$2",
+    "prefix": "WmiInspector::UserSID"
+  }
+}

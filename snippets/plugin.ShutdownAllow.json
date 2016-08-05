@@ -1,0 +1,10 @@
+{
+  "ShutdownAllow::Allow": {
+    "body": "ShutdownAllow::Allow /NOUNLOAD$1",
+    "prefix": "ShutdownAllow::Allow"
+  },
+  "ShutdownAllow::Unload": {
+    "body": "ShutdownAllow::Unload$1",
+    "prefix": "ShutdownAllow::Unload"
+  }
+}

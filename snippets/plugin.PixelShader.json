@@ -1,0 +1,6 @@
+{
+  "PixelShader::GetPixelShaderVersion": {
+    "body": "PixelShader::GetPixelShaderVersion$1",
+    "prefix": "PixelShader::GetPixelShaderVersion"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "nsRestartExplorer::nsRestartExplorer": {
+    "body": "nsRestartExplorer::nsRestartExplorer ${1:command} ${2:timeout}$3",
+    "prefix": "nsRestartExplorer::nsRestartExplorer"
+  },
+  "nsRestartExplorer::nsRestartExplorer quit": {
+    "body": "nsRestartExplorer::nsRestartExplorer quit ${1:timeout}$2",
+    "prefix": "nsRestartExplorer::nsRestartExplorer quit"
+  },
+  "nsRestartExplorer::nsRestartExplorer restart": {
+    "body": "nsRestartExplorer::nsRestartExplorer restart ${1:timeout}$2",
+    "prefix": "nsRestartExplorer::nsRestartExplorer restart"
+  },
+  "nsRestartExplorer::nsRestartExplorer start": {
+    "body": "nsRestartExplorer::nsRestartExplorer start ${1:timeout}$2",
+    "prefix": "nsRestartExplorer::nsRestartExplorer start"
+  }
+}

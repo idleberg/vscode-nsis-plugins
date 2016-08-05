@@ -1,0 +1,46 @@
+{
+  "!insertmacro UAC_AsUser_Call": {
+    "body": "!insertmacro UAC_AsUser_Call ${1:Function|Label} ${2:NSISAddressName} ${3:UACFlags}$4",
+    "prefix": "UAC_AsUser_Call"
+  },
+  "!insertmacro UAC_AsUser_ExecShell": {
+    "body": "!insertmacro UAC_AsUser_ExecShell ${1:Verb} ${2:ApplicationOrFile} ${3:Parameters} ${4:Working Directory} ${5:SW_*}$6",
+    "prefix": "UAC_AsUser_ExecShell"
+  },
+  "!insertmacro UAC_AsUser_GetGlobal": {
+    "body": "!insertmacro UAC_AsUser_GetGlobal $${1:Output} $${2:Source}$3",
+    "prefix": "UAC_AsUser_GetGlobal"
+  },
+  "!insertmacro UAC_AsUser_GetGlobalVar": {
+    "body": "!insertmacro UAC_AsUser_GetGlobalVar $${1:Output}$2",
+    "prefix": "UAC_AsUser_GetGlobalVar"
+  },
+  "!insertmacro UAC_AsUser_GetSection": {
+    "body": "!insertmacro UAC_AsUser_GetSection ${1:Flags|InstTypes|Size|Text} ${2:SectionIndex} $${3:Output}$4",
+    "prefix": "UAC_AsUser_GetSection"
+  },
+  "!insertmacro UAC_GetIntegrityLevel": {
+    "body": "!insertmacro UAC_GetIntegrityLevel $${1:Output}$2",
+    "prefix": "UAC_GetIntegrityLevel"
+  },
+  "!insertmacro UAC_PageElevation_OnGuiInit": {
+    "body": "!insertmacro UAC_PageElevation_OnGuiInit$1",
+    "prefix": "UAC_PageElevation_OnGuiInit"
+  },
+  "!insertmacro UAC_PageElevation_OnInit": {
+    "body": "!insertmacro UAC_PageElevation_OnInit$1",
+    "prefix": "UAC_PageElevation_OnInit"
+  },
+  "!insertmacro UAC_RunElevated": {
+    "body": "!insertmacro UAC_RunElevated$1",
+    "prefix": "UAC_RunElevated"
+  },
+  "$(UAC_IsAdmin}": {
+    "body": "${UAC_IsAdmin}$1",
+    "prefix": "$(UAC_IsAdmin}"
+  },
+  "$(UAC_IsInnerInstance}": {
+    "body": "${UAC_IsInnerInstance}$1",
+    "prefix": "$(UAC_IsInnerInstance}"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "InetBgDL::Get": {
+    "body": "InetBgDL::Get \"${1:url}\" \"${2:local_file1}\" /END$3",
+    "prefix": "InetBgDL::Get"
+  },
+  "InetBgDL::Get /RESET": {
+    "body": "InetBgDL::Get /RESET \"${1:url}\" \"${2:local_file1}\" /END$3",
+    "prefix": "InetBgDL::Get /RESET"
+  },
+  "InetBgDL::GetStats": {
+    "body": "InetBgDL::GetStats$1",
+    "prefix": "InetBgDL::GetStats"
+  }
+}

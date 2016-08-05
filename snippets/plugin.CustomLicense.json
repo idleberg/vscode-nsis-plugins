@@ -1,0 +1,14 @@
+{
+  "CustomLicense::LoadFile": {
+    "body": "CustomLicense::LoadFile \"${1:file}\" ${2:hwnd}$3",
+    "prefix": "CustomLicense::LoadFile"
+  },
+  "CustomLicense::LoadFile rtf": {
+    "body": "CustomLicense::LoadFile \"${1:file}.rtf\" ${2:hwnd}$3",
+    "prefix": "CustomLicense::LoadFile rtf"
+  },
+  "CustomLicense::LoadFile txt": {
+    "body": "CustomLicense::LoadFile \"${1:file}.txt\" ${2:hwnd}$3",
+    "prefix": "CustomLicense::LoadFile txt"
+  }
+}

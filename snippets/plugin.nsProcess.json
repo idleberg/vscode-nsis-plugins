@@ -1,0 +1,14 @@
+{
+  "${nsProcess::FindProcess}": {
+    "body": "${nsProcess::FindProcess} \"${1:file}.exe\" $${2:var}$3",
+    "prefix": "${nsProcess::FindProcess}"
+  },
+  "${nsProcess::KillProcess}": {
+    "body": "${nsProcess::KillProcess} \"${1:file}.exe\" $${2:var}$3",
+    "prefix": "${nsProcess::KillProcess}"
+  },
+  "${nsProcess::Unload}": {
+    "body": "${nsProcess::Unload}$1",
+    "prefix": "${nsProcess::Unload}"
+  }
+}

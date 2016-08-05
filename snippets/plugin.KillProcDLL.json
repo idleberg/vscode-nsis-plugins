@@ -1,0 +1,6 @@
+{
+  "KillProcDLL::KillProc": {
+    "body": "KillProcDLL::KillProc \"${1:file}.exe\"$2",
+    "prefix": "KillProcDLL::KillProc"
+  }
+}

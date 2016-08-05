@@ -1,0 +1,14 @@
+{
+  "nsmci::GetErrorString": {
+    "body": "nsmci::GetErrorString \"${1:error_code}\"$2",
+    "prefix": "nsmci::GetErrorString"
+  },
+  "nsmci::GetFirstCDROMDrive": {
+    "body": "nsmci::GetFirstCDROMDrive$1",
+    "prefix": "nsmci::GetFirstCDROMDrive"
+  },
+  "nsmci::SendString": {
+    "body": "nsmci::SendString \"${1:command}\"$2",
+    "prefix": "nsmci::SendString"
+  }
+}

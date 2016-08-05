@@ -1,0 +1,14 @@
+{
+  "EmbeddedLists::Dialog": {
+    "body": "EmbeddedLists::Dialog \"${1:file}.ini\"$2",
+    "prefix": "EmbeddedLists::Dialog"
+  },
+  "EmbeddedLists::InitDialog": {
+    "body": "EmbeddedLists::InitDialog \"${1:file}.ini\"$2",
+    "prefix": "EmbeddedLists::InitDialog"
+  },
+  "EmbeddedLists::Show": {
+    "body": "EmbeddedLists::Show$1",
+    "prefix": "EmbeddedLists::Show"
+  }
+}

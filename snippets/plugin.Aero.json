@@ -1,0 +1,10 @@
+{
+  "Aero::Apply": {
+    "body": "Aero::Apply \"${1:options}\"$2",
+    "prefix": "Aero::Apply"
+  },
+  "Aero::Apply /NOBRANDING": {
+    "body": "Aero::Apply /NOBRANDING \"${1:options}\"$2",
+    "prefix": "Aero::Apply /NOBRANDING"
+  }
+}

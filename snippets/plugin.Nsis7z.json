@@ -1,0 +1,14 @@
+{
+  "Nsis7z::Extract": {
+    "body": "Nsis7z::Extract \"${1:file}.7z\"$2",
+    "prefix": "Nsis7z::Extract"
+  },
+  "Nsis7z::ExtractWithCallback": {
+    "body": "Nsis7z::ExtractWithCallback \"${1:file}.7z\" $${2:var}$3",
+    "prefix": "Nsis7z::ExtractWithCallback"
+  },
+  "Nsis7z::ExtractWithDetails": {
+    "body": "Nsis7z::ExtractWithDetails \"${1:file}.7z\" \"${2:%s}\"$3",
+    "prefix": "Nsis7z::ExtractWithDetails"
+  }
+}

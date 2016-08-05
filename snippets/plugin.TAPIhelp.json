@@ -1,0 +1,10 @@
+{
+  "TAPIhelp::GetModemID": {
+    "body": "TAPIhelp::GetModemID$1",
+    "prefix": "TAPIhelp::GetModemID"
+  },
+  "TAPIhelp::GetModemName": {
+    "body": "TAPIhelp::GetModemName$1",
+    "prefix": "TAPIhelp::GetModemName"
+  }
+}

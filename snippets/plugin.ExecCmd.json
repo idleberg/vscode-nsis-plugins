@@ -1,0 +1,14 @@
+{
+  "ExecCmd::exec": {
+    "body": "ExecCmd::exec \"${1:application_to_run}.exe\" \"${2:stdin_string}\"$3",
+    "prefix": "ExecCmd::exec"
+  },
+  "ExecCmd::exec [/options]": {
+    "body": "ExecCmd::exec ${1:options} \"${2:application_to_run}.exe\" \"${3:stdin_string}\"$4",
+    "prefix": "ExecCmd::exec [/options]"
+  },
+  "ExecCmd::wait": {
+    "body": "ExecCmd::wait ${1:handle}$2",
+    "prefix": "ExecCmd::wait"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "${ANY_ALT}": {
+    "body": "${ANY_ALT}$1",
+    "prefix": "${ANY_ALT}"
+  },
+  "${ANY_CTRL}": {
+    "body": "${ANY_CTRL}$1",
+    "prefix": "${ANY_CTRL}"
+  },
+  "${ANY_SHIFT}": {
+    "body": "${ANY_SHIFT}$1",
+    "prefix": "${ANY_SHIFT}"
+  },
+  "${LEFT_ALT}": {
+    "body": "${LEFT_ALT}$1",
+    "prefix": "${LEFT_ALT}"
+  },
+  "${LEFT_CTRL}": {
+    "body": "${LEFT_CTRL}$1",
+    "prefix": "${LEFT_CTRL}"
+  },
+  "${LEFT_SHIFT}": {
+    "body": "${LEFT_SHIFT}$1",
+    "prefix": "${LEFT_SHIFT}"
+  },
+  "${NSKH_OnChar}": {
+    "body": "${NSKH_OnChar} $${1:control_handle} \"${2:key}\" \"${3:modifiers}\" \"${4:function}\"$5",
+    "prefix": "${NSKH_OnChar}"
+  },
+  "${NSKH_OnKeyDown}": {
+    "body": "${NSKH_OnKeyDown} $${1:control_handle} \"${2:key}\" \"${3:modifiers}\" \"${4:function}\"$5",
+    "prefix": "${NSKH_OnKeyDown}"
+  },
+  "${NSKH_OnKeyUp}": {
+    "body": "${NSKH_OnKeyUp} $${1:control_handle} \"${2:key}\" \"${3:modifiers}\" \"${4:function}\"$5",
+    "prefix": "${NSKH_OnKeyUp}"
+  },
+  "${NSKH_OnPaste}": {
+    "body": "${NSKH_OnPaste} $${1:control_handle} \"${2:key}\" \"${3:modifiers}\" \"${4:function}\"$5",
+    "prefix": "${NSKH_OnPaste}"
+  },
+  "${NSKH_OnPostChar}": {
+    "body": "${NSKH_OnPostChar} $${1:control_handle} \"${2:key}\" \"${3:modifiers}\" \"${4:function}\"$5",
+    "prefix": "${NSKH_OnPostChar}"
+  },
+  "${NSKH_OnPostKeyDown}": {
+    "body": "${NSKH_OnPostKeyDown} $${1:control_handle} \"${2:key}\" \"${3:modifiers}\" \"${4:function}\"$5",
+    "prefix": "${NSKH_OnPostKeyDown}"
+  },
+  "${NSKH_OnPostKeyUp}": {
+    "body": "${NSKH_OnPostKeyUp} $${1:control_handle} \"${2:key}\" \"${3:modifiers}\" \"${4:function}\"$5",
+    "prefix": "${NSKH_OnPostKeyUp}"
+  },
+  "${NSKH_OnPostPaste}": {
+    "body": "${NSKH_OnPostPaste} $${1:control_handle} \"${2:key}\" \"${3:modifiers}\" \"${4:function}\"$5",
+    "prefix": "${NSKH_OnPostPaste}"
+  },
+  "${RIGHT_ALT}": {
+    "body": "${RIGHT_ALT}$1",
+    "prefix": "${RIGHT_ALT}"
+  },
+  "${RIGHT_CTRL}": {
+    "body": "${RIGHT_CTRL}$1",
+    "prefix": "${RIGHT_CTRL}"
+  },
+  "${RIGHT_SHIFT}": {
+    "body": "${RIGHT_SHIFT}$1",
+    "prefix": "${RIGHT_SHIFT}"
+  }
+}

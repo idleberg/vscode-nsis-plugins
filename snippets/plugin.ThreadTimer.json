@@ -1,0 +1,10 @@
+{
+  "ThreadTimer::Start": {
+    "body": "ThreadTimer::Start /NOUNLOAD ${1:interval} ${2:ticks} $${3:function}$4",
+    "prefix": "ThreadTimer::Start"
+  },
+  "ThreadTimer::Stop": {
+    "body": "ThreadTimer::Stop$1",
+    "prefix": "ThreadTimer::Stop"
+  }
+}

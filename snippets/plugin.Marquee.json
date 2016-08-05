@@ -1,0 +1,10 @@
+{
+  "Marquee::start": {
+    "body": "Marquee::start ${1:parameters} \"${2:text}\"$3",
+    "prefix": "Marquee::start"
+  },
+  "Marquee::stop": {
+    "body": "Marquee::stop$1",
+    "prefix": "Marquee::stop"
+  }
+}

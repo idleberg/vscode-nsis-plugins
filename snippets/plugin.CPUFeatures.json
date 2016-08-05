@@ -1,0 +1,38 @@
+{
+  "${CPUFeatures.CPUIsAMD}": {
+    "body": "${CPUFeatures.CPUIsAMD}$1",
+    "prefix": "${CPUFeatures.CPUIsAMD}"
+  },
+  "${CPUFeatures.CPUIsIntel}": {
+    "body": "${CPUFeatures.CPUIsIntel}$1",
+    "prefix": "${CPUFeatures.CPUIsIntel}"
+  },
+  "${CPUFeatures.CPUSupportsAll}": {
+    "body": "${CPUFeatures.CPUSupportsAll}$1",
+    "prefix": "${CPUFeatures.CPUSupportsAll}"
+  },
+  "${CPUFeatures.CPUSupports}": {
+    "body": "${CPUFeatures.CPUSupports}$1",
+    "prefix": "${CPUFeatures.CPUSupports}"
+  },
+  "${CPUFeatures.CheckFeature}": {
+    "body": "${CPUFeatures.CheckFeature} \"${1:feature(s)}\" $${2:out_var}$3",
+    "prefix": "${CPUFeatures.CheckFeature}"
+  },
+  "${CPUFeatures.GetCount}": {
+    "body": "${CPUFeatures.GetCount} $${1:out_var}$2",
+    "prefix": "${CPUFeatures.GetCount}"
+  },
+  "${CPUFeatures.GetFeatures}": {
+    "body": "${CPUFeatures.GetFeatures} $${1:out_var}$2",
+    "prefix": "${CPUFeatures.GetFeatures}"
+  },
+  "${CPUFeatures.GetFlags}": {
+    "body": "${CPUFeatures.GetFlags} $${1:out_var}$2",
+    "prefix": "${CPUFeatures.GetFlags}"
+  },
+  "${CPUFeatures.GetVendor}": {
+    "body": "${CPUFeatures.GetVendor} $${1:out_var}$2",
+    "prefix": "${CPUFeatures.GetVendor}"
+  }
+}

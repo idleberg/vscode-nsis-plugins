@@ -1,0 +1,10 @@
+{
+  "BDEAlias::AddAliasDebug": {
+    "body": "BDEAlias::AddAliasDebug ${1:arguments}$2",
+    "prefix": "BDEAlias::AddAliasDebug"
+  },
+  "BDEAlias::DeleteAlias": {
+    "body": "BDEAlias::DeleteAlias$1",
+    "prefix": "BDEAlias::DeleteAlias"
+  }
+}

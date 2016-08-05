@@ -1,0 +1,18 @@
+{
+  "Unicode::FileAnsi2Unicode": {
+    "body": "Unicode::FileAnsi2Unicode \"${1:input}\" \"${2:input}\" ${3:type}$4",
+    "prefix": "Unicode::FileAnsi2Unicode"
+  },
+  "Unicode::FileUnicode2Ansi": {
+    "body": "Unicode::FileUnicode2Ansi \"${1:input}\" \"${2:input}\" ${3:type}$4",
+    "prefix": "Unicode::FileUnicode2Ansi"
+  },
+  "Unicode::FileUnicode2UTF8": {
+    "body": "Unicode::FileUnicode2UTF8 \"${1:input}\" \"${2:input}\" ${3:type}$4",
+    "prefix": "Unicode::FileUnicode2UTF8"
+  },
+  "Unicode::UnicodeType": {
+    "body": "Unicode::UnicodeType \"${1:input}\"$2",
+    "prefix": "Unicode::UnicodeType"
+  }
+}

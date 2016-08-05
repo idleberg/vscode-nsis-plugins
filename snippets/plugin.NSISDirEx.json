@@ -1,0 +1,18 @@
+{
+  "NSISDirEx::AddInstFile": {
+    "body": "NSISDirEx::AddInstFile /NOUNLOAD \"${1:file}\" \"${2:text}\"$3",
+    "prefix": "NSISDirEx::AddInstFile"
+  },
+  "NSISDirEx::GetUncompressedSize": {
+    "body": "NSISDirEx::GetUncompressedSize /NOUNLOAD$1",
+    "prefix": "NSISDirEx::GetUncompressedSize"
+  },
+  "NSISDirEx::Init": {
+    "body": "NSISDirEx::Init /NOUNLOAD \"${1:caption}\" \"${2:text}\" \"${3:directory}\" \"${4:required_space}\"$5",
+    "prefix": "NSISDirEx::Init"
+  },
+  "NSISDirEx::Install": {
+    "body": "NSISDirEx::Install \"${1:directory}\"$2",
+    "prefix": "NSISDirEx::Install"
+  }
+}

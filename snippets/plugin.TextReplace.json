@@ -1,0 +1,18 @@
+{
+  "${TextReplace::FillReadBuffer}": {
+    "body": "${TextReplace::FillReadBuffer} \"${1:file}\" $${2:var}$3",
+    "prefix": "${TextReplace::FillReadBuffer}"
+  },
+  "${TextReplace::FindInFile}": {
+    "body": "${TextReplace::FindInFile} \"${1:input_file}\" \"${2:string}\" ${3:options} $${4:var}$5",
+    "prefix": "${TextReplace::FindInFile}"
+  },
+  "${TextReplace::ReplaceInFile}": {
+    "body": "${TextReplace::ReplaceInFile} \"${1:input_file}\" \"${2:output_file}\" \"${3:string}\" \"${4:replacement}\" ${5:options} $${6:var}$7",
+    "prefix": "${TextReplace::ReplaceInFile}"
+  },
+  "${TextReplace::Unload}": {
+    "body": "${TextReplace::Unload}$1",
+    "prefix": "${TextReplace::Unload}"
+  }
+}

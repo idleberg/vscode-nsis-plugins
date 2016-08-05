@@ -1,0 +1,14 @@
+{
+  "Nmwdll::nmwMakensis": {
+    "body": "Nmwdll::nmwMakensis \"${1:${NSISDIR}makensis.exe}\" ${2:parameters} \"${3:file}.nsi\"$4",
+    "prefix": "Nmwdll::nmwMakensis"
+  },
+  "Nzipdll::nzip": {
+    "body": "Nzipdll::nzip ${1:dialog} \"${2:file}.zip\" \"${3:target}\"$4",
+    "prefix": "Nzipdll::nzip"
+  },
+  "Nzwdll::nzwUnzip": {
+    "body": "Nzwdll::nzwUnzip \"${1:file}.zip\" \"${2:target}\"$3",
+    "prefix": "Nzwdll::nzwUnzip"
+  }
+}

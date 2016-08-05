@@ -1,0 +1,10 @@
+{
+  "${IniGetSectionNames}": {
+    "body": "${IniGetSectionNames} \"${1:file}.ini\" ${2:function}$3",
+    "prefix": "IniGetSectionNames"
+  },
+  "IniGetSectionNames_StopEnum": {
+    "body": "${IniGetSectionNames_StopEnum}$1",
+    "prefix": "IniGetSectionNames_StopEnum"
+  }
+}

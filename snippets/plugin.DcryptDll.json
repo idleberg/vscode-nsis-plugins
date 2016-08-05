@@ -1,0 +1,22 @@
+{
+  "DcryptDll::Decrypt": {
+    "body": "DcryptDll::Decrypt \"${1:function}\" \"${2:HexKeyFileName}\" \"${3:InputFileName}\" \"${4:OutputFileName}\"$5",
+    "prefix": "DcryptDll::Decrypt"
+  },
+  "DcryptDll::HexDecoder": {
+    "body": "DcryptDll::HexDecoder \"${1:function}\" \"${2:InputFileName}\" \"${3:OutputFileName}\"$4",
+    "prefix": "DcryptDll::HexDecoder"
+  },
+  "DcryptDll::HexEncoder": {
+    "body": "DcryptDll::HexEncoder \"${1:function}\" \"${2:InputFileName}\" \"${3:OutputFileName}\"$4",
+    "prefix": "DcryptDll::HexEncoder"
+  },
+  "DcryptDll::LoadStr": {
+    "body": "DcryptDll::LoadStr \"${1:InputFileName}\"",
+    "prefix": "DcryptDll::LoadStr"
+  },
+  "DcryptDll::MD5Hash": {
+    "body": "DcryptDll::MD5Hash \"${1:function}\" \"${2:InputFileName}\" \"${3:OutputFileName}\"$4",
+    "prefix": "DcryptDll::MD5Hash"
+  }
+}
