@@ -1,6 +1,6 @@
 {
   "CRCCheck::GenCRC": {
-    "body": "CRCCheck::GenCRC \"${1:file}\"$2",
+    "body": "CRCCheck::GenCRC \"${1:file}\"\n${2:var}$3",
     "prefix": "CRCCheck::GenCRC"
   }
 }
