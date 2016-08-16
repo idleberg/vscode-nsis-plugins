@@ -187,7 +187,7 @@
             },
             {
                 "language": "nsis",
-                "path": "./snippets/plugin.Dumpstate.json"
+                "path": "./snippets/plugin.DumpState.json"
             },
             {
                 "language": "nsis",
