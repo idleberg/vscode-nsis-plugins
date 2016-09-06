@@ -4,7 +4,7 @@
 [![GNU General Public License](https://img.shields.io/badge/license-GPL%20v2-orange.svg?style=flat-square)](http://www.gnu.org/licenses/gpl-2.0.html)
 [![GitHub](https://img.shields.io/github/release/idleberg/vscode-nsis-plugins.svg?style=flat-square)](https://github.com/idleberg/vscode-nsis-plugins/releases)
 [![Travis](https://img.shields.io/travis/idleberg/vscode-nsis-plugins.svg?style=flat-square)](https://travis-ci.org/idleberg/vscode-nsis-plugins)
-[![David](https://img.shields.io/david/dev/idleberg/vscode-nsis-plugins.svg?style=flat-square)](https://david-dm.org/idleberg/vscode-nsis-plugins#info=devDependencies)
+[![David](https://img.shields.io/david/dev/idleberg/vscode-nsis-plugins.svg?style=flat-square)](https://david-dm.org/idleberg/vscode-nsis-plugins?type=dev)
 
 Snippets for third-party plug-ins for Nullsoft Scriptable Install System (NSIS)
 
