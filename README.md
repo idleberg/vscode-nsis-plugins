@@ -18,7 +18,15 @@ Launch Quick Open, paste the following command, and press <kbd>Enter</kbd>
 
 `ext install nsis-plugins`
 
-### GitHub
+### Install a Packaged Extension
+
+Download the package extension from the the [release page](https://github.com/idleberg/vscode-nsis-plugins/releases) and install it from the command-line:
+
+```bash
+code --install-extension nsis-plugins.vsix
+```
+
+### Clone Repository
 
 Change to your Visual Studio Code extensions directory:
 
