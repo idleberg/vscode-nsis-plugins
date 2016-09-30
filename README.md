@@ -23,7 +23,7 @@ Launch Quick Open, paste the following command, and press <kbd>Enter</kbd>
 Download the package extension from the the [release page](https://github.com/idleberg/vscode-nsis-plugins/releases) and install it from the command-line:
 
 ```bash
-code --install-extension nsis-plugins.vsix
+$ code --install-extension nsis-plugins.vsix
 ```
 
 ### Clone Repository
