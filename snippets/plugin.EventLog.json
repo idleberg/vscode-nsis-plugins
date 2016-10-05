@@ -1,6 +1,6 @@
 {
   "EventLog::WriteEventLog": {
-    "body": "EventLog::WriteEventLog \"${1:server}\" \"${2:log}\" \"${3:type}\" \"${4:type}\" \"${5:category}\" \"${6:message}\" \"${7:text}\"$8",
+    "body": "EventLog::WriteEventLog \"${1:server}\" \"${2:log}\" \"${3:type}\" \"${4:category}\" \"${5:message}\" \"${6:text}\"$7",
     "prefix": "EventLog::WriteEventLog"
   }
 }
