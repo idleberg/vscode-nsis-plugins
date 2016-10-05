@@ -101,7 +101,7 @@ $ git clone https://github.com/idleberg/vscode-nsis-plugins nsis-plugins
 * [FreeArc](http://nsis.sourceforge.net/FreeArc_plug-in)
 * [Games](http://nsis.sourceforge.net/Games_plug-in)
 * [GetFirstRemovableDrive](http://nsis.sourceforge.net/GetFirstRemovableDrive_plug-in)
-* [GetVersion](http://nsis.sourceforge.net/GetVersion_\(Windows\)_plug-in)
+* [GetVersion](http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in)
 * [HandleFileDragDrop](http://nsis.sourceforge.net/HandleFileDragDrop_plug-in)
 * [HelpButton](http://nsis.sourceforge.net/HelpButton_plug-in)
 * [HwInfo](http://nsis.sourceforge.net/HwInfo_plug-in)
