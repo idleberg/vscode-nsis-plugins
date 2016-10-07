@@ -4,7 +4,7 @@
     "prefix": "${Registry::Close}"
   },
   "${Registry::CopyKey}": {
-    "body": "${Registry::CopyKey} \"${1:full_path_source}\" \"${2:full_path_target\new_key_name}\" $${3:var}$4",
+    "body": "${Registry::CopyKey} \"${1:full_path_source}\" \"${2:full_path_target\\new_key_name}\" $${3:var}$4",
     "prefix": "${Registry::CopyKey}"
   },
   "${Registry::CopyValue}": {
@@ -40,7 +40,7 @@
     "prefix": "${Registry::KeyExists}"
   },
   "${Registry::MoveKey}": {
-    "body": "${Registry::MoveKey} \"${1:full_path_source}\" \"${2:full_path_target\new_key_name}\" $${3:var}$4",
+    "body": "${Registry::MoveKey} \"${1:full_path_source}\" \"${2:full_path_target\\new_key_name}\" $${3:var}$4",
     "prefix": "${Registry::MoveKey}"
   },
   "${Registry::MoveValue}": {

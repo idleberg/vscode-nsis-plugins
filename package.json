@@ -71,6 +71,10 @@
             },
             {
                 "language": "nsis",
+                "path": "./snippets/header.UMUI.json"
+            },
+            {
+                "language": "nsis",
                 "path": "./snippets/plugin.Aero.json"
             },
             {
@@ -684,10 +688,6 @@
             {
                 "language": "nsis",
                 "path": "./snippets/plugin.UAC.json"
-            },
-            {
-                "language": "nsis",
-                "path": "./snippets/plugin.UMUI.json"
             },
             {
                 "language": "nsis",
