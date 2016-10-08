@@ -1,118 +1,205 @@
 {
   "${StdUtils.ExecShellAsUser}": {
     "body": "${StdUtils.ExecShellAsUser} $${1:output} \"${2:file}\" ${3:verb} \"${4:args}\"$5",
+    "description": "Usage: ${StdUtils.ExecShellAsUser} output file verb args",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.ExecShellAsUser}"
   },
   "${StdUtils.ExecShellWaitEx}": {
     "body": "${StdUtils.ExecShellWaitEx} $${1:output1} $${2:output2} \"${3:file}\" ${4:verb} \"${5:args}\"$6",
+    "description": "Usage: ${StdUtils.ExecShellWaitEx} output1 output2 file verb args",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.ExecShellWaitEx}"
   },
   "${StdUtils.FormatStr2}": {
     "body": "${StdUtils.FormatStr2} $${1:output} ${2:format} ${3:value1} ${4:value2}$5",
+    "description": "Usage: ${StdUtils.FormatStr2} output format value1 value2",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.FormatStr2}"
   },
   "${StdUtils.FormatStr3}": {
     "body": "${StdUtils.FormatStr3} $${1:output} ${2:format} ${3:value1} ${4:value2} ${5:value3}$6",
+    "description": "Usage: ${StdUtils.FormatStr3} output format value1 value2 value3",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.FormatStr3}"
   },
   "${StdUtils.FormatStr}": {
     "body": "${StdUtils.FormatStr} $${1:output} ${2:format} ${3:value}$4",
+    "description": "Usage: ${StdUtils.FormatStr} output format value",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.FormatStr}"
   },
   "${StdUtils.GetAllParameter}": {
     "body": "${StdUtils.GetAllParameter} $${1:output} ${2:truncate}$3",
+    "description": "Usage: ${StdUtils.GetAllParameter} output truncate",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.GetAllParameter}"
   },
   "${StdUtils.GetDays}": {
     "body": "${StdUtils.GetDays} $${1:output}$2",
+    "description": "Usage: ${StdUtils.GetDays} output",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.GetDays}"
   },
   "${StdUtils.GetHours}": {
     "body": "${StdUtils.GetHours} $${1:output}$2",
+    "description": "Usage: ${StdUtils.GetHours} output",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.GetHours}"
   },
   "${StdUtils.GetLibVersion}": {
     "body": "${StdUtils.GetLibVersion} $${1:out_ver} $${2:out_tst}$3",
+    "description": "Usage: ${StdUtils.GetLibVersion} out_ver out_tst",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.GetLibVersion}"
   },
   "${StdUtils.GetMinutes}": {
     "body": "${StdUtils.GetMinutes} $${1:output}$3",
+    "description": "Usage: ${StdUtils.GetMinutes} output",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.GetMinutes}"
   },
   "${StdUtils.GetParameter}": {
     "body": "${StdUtils.GetParameter} $${1:output} ${2:name} ${3:default}$4",
+    "description": "Usage: ${StdUtils.GetParameter} output name default",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.GetParameter}"
   },
   "${StdUtils.GetRealOSVersion}": {
     "body": "${StdUtils.GetRealOSVersion} $${1:out_major} $${2:out_minor}$3",
+    "description": "Usage: ${StdUtils.GetRealOSVersion} out_major out_minor",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.GetRealOSVersion}"
   },
   "${StdUtils.InvokeShellVerb}": {
     "body": "${StdUtils.InvokeShellVerb} $${1:output} ${2:path} ${3:file} ${4:verb_id}$5",
+    "description": "Usage: ${StdUtils.InvokeShellVerb} output path file verb_id",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.InvokeShellVerb}"
   },
   "${StdUtils.RandList}": {
     "body": "${StdUtils.RandList} $${1:count} ${2:max}$3",
+    "description": "Usage: ${StdUtils.RandList} count max",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.RandList}"
   },
   "${StdUtils.RandMax}": {
     "body": "${StdUtils.RandMax} $${1:output} ${2:max}$3",
+    "description": "Usage: ${StdUtils.RandMax} output max",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.RandMax}"
   },
   "${StdUtils.RandMinMax}": {
     "body": "${StdUtils.RandMinMax} $${1:output} ${2:min} ${3:max}$4",
+    "description": "Usage: ${StdUtils.RandMinMax} output min max",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.RandMinMax}"
   },
   "${StdUtils.Rand}": {
     "body": "${StdUtils.Rand} $${1:output}$2",
+    "description": "Usage: ${StdUtils.Rand} output",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.Rand}"
   },
   "${StdUtils.RevStr}": {
     "body": "${StdUtils.RevStr} $${1:output}$2",
+    "description": "Usage: ${StdUtils.RevStr} output",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.RevStr}"
   },
   "${StdUtils.SHFileCopy}": {
     "body": "${StdUtils.SHFileCopy} $${1:output} ${2:from} ${3:to} ${4:hwnd}$5",
+    "description": "Usage: ${StdUtils.SHFileCopy} output from to hwnd",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.SHFileCopy}"
   },
   "${StdUtils.SHFileMove}": {
     "body": "${StdUtils.SHFileMove} $${1:output} ${2:from} ${3:to} ${4:hwnd}$5",
+    "description": "Usage: ${StdUtils.SHFileMove} output from to hwnd",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.SHFileMove}"
   },
   "${StdUtils.ScanStr2}": {
     "body": "${StdUtils.ScanStr2} $${1:output} ${2:format} ${3:input} ${4:default1} ${5:default2}$6",
+    "description": "Usage: ${StdUtils.ScanStr2} output format input default1 default2",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.ScanStr2}"
   },
   "${StdUtils.ScanStr3}": {
-    "body": "${StdUtils.ScanStr3} $${1:output} ${2:format} ${3:input} ${4:default1} ${5:default2} ${6:default3}}$7",
+    "body": "${StdUtils.ScanStr3} $${1:output} ${2:format} ${3:input} ${4:default1} ${5:default2} ${6:default3}$7",
+    "description": "Usage: ${StdUtils.ScanStr3} output format input default1 default2 default3",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.ScanStr3}"
   },
   "${StdUtils.ScanStr}": {
     "body": "${StdUtils.ScanStr} $${1:output} ${2:format} ${3:input} ${4:default}$5",
+    "description": "Usage: ${StdUtils.ScanStr} output format input default",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.ScanStr}"
   },
   "${StdUtils.SetVerbose}": {
     "body": "${StdUtils.SetVerbose} ${1:on|off}$2",
+    "description": "Usage: ${StdUtils.SetVerbose} onoff}",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.SetVerbose}"
   },
   "${StdUtils.Time}": {
     "body": "${StdUtils.Time} $${1:output}$2",
+    "description": "Usage: ${StdUtils.Time} output",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.Time}"
   },
   "${StdUtils.TrimStrLeft}": {
     "body": "${StdUtils.TrimStrLeft} $${1:output}$2",
+    "description": "Usage: ${StdUtils.TrimStrLeft} output",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.TrimStrLeft}"
   },
   "${StdUtils.TrimStrRight}": {
     "body": "${StdUtils.TrimStrRight} $${1:output}$2",
+    "description": "Usage: ${StdUtils.TrimStrRight} output",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.TrimStrRight}"
   },
   "${StdUtils.TrimStr}": {
     "body": "${StdUtils.TrimStr} $${1:output}$2",
+    "description": "Usage: ${StdUtils.TrimStr} output",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.TrimStr}"
   },
   "${StdUtils.WaitForProcEx}": {
     "body": "${StdUtils.WaitForProcEx} $${1:output} ${2:handle}$3",
+    "description": "Usage: ${StdUtils.WaitForProcEx} output handle",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/StdUtils_plug-in",
+    "leftLabelHTML": "<span class='support class'>StdUtils.dll</span>",
     "prefix": "${StdUtils.WaitForProcEx}"
   }
 }

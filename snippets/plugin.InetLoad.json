@@ -1,10 +1,16 @@
 {
   "InetLoad::load": {
     "body": "InetLoad::load \"${1:url}\" \"${2:target_file}\"$3",
+    "description": "Usage: InetLoad::load url target_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InetLoad_plug-in",
+    "leftLabelHTML": "<span class='support class'>InetLoad.dll</span>",
     "prefix": "InetLoad::load"
   },
   "InetLoad::load [/options]": {
     "body": "InetLoad::load ${1:options} \"${2:url}\" \"${3:target_file}\"$4",
+    "description": "Usage: InetLoad::load options url target_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InetLoad_plug-in",
+    "leftLabelHTML": "<span class='support class'>InetLoad.dll</span>",
     "prefix": "InetLoad::load [/options]"
   }
 }

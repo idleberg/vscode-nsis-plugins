@@ -1,10 +1,16 @@
 {
   "ZipDLL::extractall": {
     "body": "ZipDLL::extractall \"${1:SOURCE}\" \"${2:DESTINATION}\"$3",
+    "description": "Usage: ZipDLL::extractall source destination",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ZipDLL_plug-in",
+    "leftLabelHTML": "<span class='support class'>ZipDLL.dll</span>",
     "prefix": "ZipDLL::extractall"
   },
   "ZipDLL::extractfile": {
     "body": "ZipDLL::extractfile \"${1:SOURCE}\" \"${2:DESTINATION}\" \"${3:FILE}\"$4",
+    "description": "Usage: ZipDLL::extractall source destination file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ZipDLL_plug-in",
+    "leftLabelHTML": "<span class='support class'>ZipDLL.dll</span>",
     "prefix": "ZipDLL::extractfile"
   }
 }

@@ -1,10 +1,16 @@
 {
   "HandleFileDragDrop::MakeDropWindow": {
     "body": "HandleFileDragDrop::MakeDropWindow $${1:handle} $${2:result_var}$3",
+    "descriptions": "Usage: HandleFileDragDrop::MakeDropWindow handle result_var",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/HandleFileDragDrop_plug-in",
+    "leftLabelHTML": "<span class='support class'>HandleFileDragDrop.dll</span>",
     "prefix": "HandleFileDragDrop::MakeDropWindow"
   },
   "HandleFileDragDrop::NOP": {
     "body": "HandleFileDragDrop::NOP$1",
+    "descriptions": "Usage: HandleFileDragDrop::NOP",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/HandleFileDragDrop_plug-in",
+    "leftLabelHTML": "<span class='support class'>HandleFileDragDrop.dll</span>",
     "prefix": "HandleFileDragDrop::NOP"
   }
 }

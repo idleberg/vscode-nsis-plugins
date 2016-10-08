@@ -1,106 +1,158 @@
 {
-  "!include CPUFeatures.nsh": {
+  "CPUFeatures.nsh": {
     "body": "!include \"CPUFeatures.nsh\"$1",
+    "description": "Usage: !include CPUFeatures.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "CPUFeatures.nsh"
   },
-  "!include DlgHost.nsh": {
+  "DlgHost.nsh": {
     "body": "!include \"DlgHost.nsh\"$1",
+    "description": "Usage: !include DlgHost.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "DlgHost.nsh"
   },
-  "!include DotNetChecker.nsh": {
+  "DotNetChecker.nsh": {
     "body": "!include \"DotNetChecker.nsh\"$1",
+    "description": "Usage: !include DotNetChecker.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "DotNetChecker.nsh"
   },
-  "!include Locate.nsh": {
+  "Locate.nsh": {
     "body": "!include \"Locate.nsh\"$1",
+    "description": "Usage: !include Locate.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "Locate.nsh"
   },
-  "!include MUIEx.nsh": {
+  "MUIEx.nsh": {
     "body": "!include \"MUIEx.nsh\"$1",
+    "description": "Usage: !include MUIEx.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "MUIEx.nsh"
   },
-  "!include NSISList.nsh": {
+  "NSISList.nsh": {
     "body": "!include \"NSISList.nsh\"$1",
+    "description": "Usage: !include NSISList.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "NSISList.nsh"
   },
-  "!include NSISpcre.nsh": {
+  "NSISpcre.nsh": {
     "body": "!include \"NSISpcre.nsh\"$1",
+    "description": "Usage: !include NSISpcre.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "NSISpcre.nsh"
   },
-  "!include NsExpr.nsh": {
+  "NsExpr.nsh": {
     "body": "!include \"NsExpr.nsh\"$1",
+    "description": "Usage: !include NsExpr.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "NsExpr.nsh"
   },
-  "!include OLEDB.nsh": {
+  "OLEDB.nsh": {
     "body": "!include \"OLEDB.nsh\"$1",
+    "description": "Usage: !include OLEDB.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "OLEDB.nsh"
   },
-  "!include Registry.nsh": {
+  "Registry.nsh": {
     "body": "!include \"Registry.nsh\"$1",
+    "description": "Usage: !include Registry.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "Registry.nsh"
   },
-  "!include Stack.nsh": {
+  "Stack.nsh": {
     "body": "!include \"Stack.nsh\"$1",
+    "description": "Usage: !include Stack.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "Stack.nsh"
   },
-  "!include StdUtils.nsh": {
+  "StdUtils.nsh": {
     "body": "!include \"StdUtils.nsh\"$1",
+    "description": "Usage: !include StdUtils.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "StdUtils.nsh"
   },
-  "!include TextReplace.nsh": {
+  "TextReplace.nsh": {
     "body": "!include \"TextReplace.nsh\"$1",
+    "description": "Usage: !include TextReplace.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "TextReplace.nsh"
   },
-  "!include Time.nsh": {
+  "Time.nsh": {
     "body": "!include \"Time.nsh\"$1",
+    "description": "Usage: !include Time.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "Time.nsh"
   },
-  "!include UAC.nsh": {
+  "UAC.nsh": {
     "body": "!include \"UAC.nsh\"$1",
+    "description": "Usage: !include UAC.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "UAC.nsh"
   },
-  "!include UMUI.nsh": {
+  "UMUI.nsh": {
     "body": "!include \"UMUI.nsh\"$1",
+    "description": "Usage: !include UMUI.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "UMUI.nsh"
   },
-  "!include XML.nsh": {
+  "XML.nsh": {
     "body": "!include \"XML.nsh\"$1",
+    "description": "Usage: !include XML.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "XML.nsh"
   },
-  "!include XiMoL.nsh": {
+  "XiMoL.nsh": {
     "body": "!include \"XiMoL.nsh\"$1",
+    "description": "Usage: !include XiMoL.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "XiMoL.nsh"
   },
-  "!include ZipDLL.nsh": {
+  "ZipDLL.nsh": {
     "body": "!include \"ZipDLL.nsh\"$1",
+    "description": "Usage: !include ZipDLL.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "ZipDLL.nsh"
   },
-  "!include name2ip.nsh": {
+  "name2ip.nsh": {
     "body": "!include \"name2ip.nsh\"$1",
+    "description": "Usage: !include name2ip.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "name2ip.nsh"
   },
-  "!include nsArray.nsh": {
+  "nsArray.nsh": {
     "body": "!include \"nsArray.nsh\"$1",
+    "description": "Usage: !include nsArray.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "nsArray.nsh"
   },
-  "!include nsKeyHook.nsh": {
+  "nsKeyHook.nsh": {
     "body": "!include \"nsKeyHook.nsh\"$1",
+    "description": "Usage: !include nsKeyHook.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "nsKeyHook.nsh"
   },
-  "!include nsProcess.nsh": {
+  "nsProcess.nsh": {
     "body": "!include \"nsProcess.nsh\"$1",
+    "description": "Usage: !include nsProcess.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "nsProcess.nsh"
   },
-  "!include nsResize.nsh": {
+  "nsResize.nsh": {
     "body": "!include \"nsResize.nsh\"$1",
+    "description": "Usage: !include nsResize.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "nsResize.nsh"
   },
-  "!include nsThread.nsh": {
+  "nsThread.nsh": {
     "body": "!include \"nsThread.nsh\"$1",
+    "description": "Usage: !include nsThread.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "nsThread.nsh"
   },
-  "!include nsisXML.nsh": {
+  "nsisXML.nsh": {
     "body": "!include \"nsisXML.nsh\"$1",
+    "description": "Usage: !include nsisXML.nsh",
+    "leftLabelHTML": "<span class='keyword'>!</span>",
     "prefix": "nsisXML.nsh"
   }
 }

@@ -1,54 +1,93 @@
 {
   "WmiInspector::AntiVirus": {
     "body": "WmiInspector::AntiVirus$1",
+    "description": "Usage: WmiInspector::AntiVirus",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WmiInspector_plug-in",
+    "leftLabelHTML": "<span class='support class'>WmiInspector.dll</span>",
     "prefix": "WmiInspector::AntiVirus"
   },
   "WmiInspector::CPU": {
     "body": "WmiInspector::CPU$1",
+    "description": "Usage: WmiInspector::CPU",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WmiInspector_plug-in",
+    "leftLabelHTML": "<span class='support class'>WmiInspector.dll</span>",
     "prefix": "WmiInspector::CPU"
   },
   "WmiInspector::FireWall": {
     "body": "WmiInspector::FireWall$1",
+    "description": "Usage: WmiInspector::FireWall",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WmiInspector_plug-in",
+    "leftLabelHTML": "<span class='support class'>WmiInspector.dll</span>",
     "prefix": "WmiInspector::FireWall"
   },
   "WmiInspector::FullOS": {
     "body": "WmiInspector::FullOS$1",
+    "description": "Usage: WmiInspector::FullOS",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WmiInspector_plug-in",
+    "leftLabelHTML": "<span class='support class'>WmiInspector.dll</span>",
     "prefix": "WmiInspector::FullOS"
   },
   "WmiInspector::FullSQLVersion": {
     "body": "WmiInspector::FullSQLVersion$1",
+    "description": "Usage: WmiInspector::FullSQLVersion",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WmiInspector_plug-in",
+    "leftLabelHTML": "<span class='support class'>WmiInspector.dll</span>",
     "prefix": "WmiInspector::FullSQLVersion"
   },
   "WmiInspector::OS": {
     "body": "WmiInspector::OS$1",
+    "description": "Usage: WmiInspector::OS",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WmiInspector_plug-in",
+    "leftLabelHTML": "<span class='support class'>WmiInspector.dll</span>",
     "prefix": "WmiInspector::OS"
   },
   "WmiInspector::OSVersion": {
     "body": "WmiInspector::OSVersion$1",
+    "description": "Usage: WmiInspector::OSVersion",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WmiInspector_plug-in",
+    "leftLabelHTML": "<span class='support class'>WmiInspector.dll</span>",
     "prefix": "WmiInspector::OSVersion"
   },
   "WmiInspector::Request": {
     "body": "WmiInspector::Request \"${1:DomainNamespot}\" \"${2:TableName}\" \"${3:ValueName}\"$4",
+    "description": "Usage: WmiInspector::Request DomainNamespot TableName ValueName",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WmiInspector_plug-in",
+    "leftLabelHTML": "<span class='support class'>WmiInspector.dll</span>",
     "prefix": "WmiInspector::Request"
   },
   "WmiInspector::Resolution": {
     "body": "WmiInspector::Resolution$1",
+    "description": "Usage: WmiInspector::Resolution",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WmiInspector_plug-in",
+    "leftLabelHTML": "<span class='support class'>WmiInspector.dll</span>",
     "prefix": "WmiInspector::Resolution"
   },
   "WmiInspector::SQLVersion": {
     "body": "WmiInspector::SQLVersion$1",
+    "description": "Usage: WmiInspector::SQLVersion",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WmiInspector_plug-in",
+    "leftLabelHTML": "<span class='support class'>WmiInspector.dll</span>",
     "prefix": "WmiInspector::SQLVersion"
   },
   "WmiInspector::ShortUserName": {
     "body": "WmiInspector::ShortUserName$1",
+    "description": "Usage: WmiInspector::ShortUserName",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WmiInspector_plug-in",
+    "leftLabelHTML": "<span class='support class'>WmiInspector.dll</span>",
     "prefix": "WmiInspector::ShortUserName"
   },
   "WmiInspector::UserName": {
     "body": "WmiInspector::UserName$1",
+    "description": "Usage: WmiInspector::UserName",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WmiInspector_plug-in",
+    "leftLabelHTML": "<span class='support class'>WmiInspector.dll</span>",
     "prefix": "WmiInspector::UserName"
   },
   "WmiInspector::UserSID": {
     "body": "WmiInspector::UserSID \"${1:user_name}\"$2",
+    "description": "Usage: WmiInspector::UserSID user_name",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WmiInspector_plug-in",
+    "leftLabelHTML": "<span class='support class'>WmiInspector.dll</span>",
     "prefix": "WmiInspector::UserSID"
   }
 }

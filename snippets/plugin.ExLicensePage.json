@@ -1,14 +1,7 @@
 {
-  "ExLicensePage::showPage": {
-    "body": "ExLicensePage::showPage \"${1:file}\"$2",
-    "prefix": "ExLicensePage::showPage"
-  },
-  "ExLicensePage::showPage rtf": {
-    "body": "ExLicensePage::showPage \"${1:file}.rtf\"$2",
-    "prefix": "ExLicensePage::showPage rtf"
-  },
-  "ExLicensePage::showPage txt": {
-    "body": "ExLicensePage::showPage \"${1:file}.txt\"$2",
-    "prefix": "ExLicensePage::showPage txt"
-  }
+  "body": "ExLicensePage::showPage \"${1:file}\"$2",
+  "description": "Usage: ExLicensePage::showPage file",
+  "descriptionMoreURL": "http://nsis.sourceforge.net/ExLicensePage_plug-in",
+  "leftLabelHTML": "<span class='support class'>ExLicensePage.dll</span>",
+  "prefix": "ExLicensePage::showPage"
 }

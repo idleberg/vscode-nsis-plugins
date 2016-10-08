@@ -1,22 +1,37 @@
 {
   "IEFunctions::CloseBrowser": {
     "body": "IEFunctions::CloseBrowser$1",
+    "description": "Usage: IEFunctions::CloseBrowser",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/IEFunctions_plug-in",
+    "leftLabelHTML": "<span class='support class'>IEFunctions.dll</span>",
     "prefix": "IEFunctions::CloseBrowser"
   },
   "IEFunctions::OpenBrowser": {
     "body": "InstallOptionsEx::show /NOUNLOAD$1",
+    "description": "Usage: InstallOptionsEx::show /NOUNLOAD",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/IEFunctions_plug-in",
+    "leftLabelHTML": "<span class='support class'>IEFunctions.dll</span>",
     "prefix": "IEFunctions::OpenBrowser"
   },
   "IEFunctions::ReleaseBrowser": {
     "body": "IEFunctions::ReleaseBrowser$1",
+    "description": "Usage: IEFunctions::ReleaseBrowser",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/IEFunctions_plug-in",
+    "leftLabelHTML": "<span class='support class'>IEFunctions.dll</span>",
     "prefix": "IEFunctions::ReleaseBrowser"
   },
   "IEFunctions::ShowBar": {
     "body": "IEFunctions::ShowBar /NOUNLOAD \"${1:CLSID}\"$2",
+    "description": "Usage: IEFunctions::ShowBar /NOUNLOAD CLSID",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/IEFunctions_plug-in",
+    "leftLabelHTML": "<span class='support class'>IEFunctions.dll</span>",
     "prefix": "IEFunctions::ShowBar"
   },
   "IEFunctions::SurfTo": {
     "body": "IEFunctions::SurfTo /NOUNLOAD \"${1:url}\"$2",
+    "description": "Usage: IEFunctions::SurfTo /NOUNLOAD url",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/IEFunctions_plug-in",
+    "leftLabelHTML": "<span class='support class'>IEFunctions.dll</span>",
     "prefix": "IEFunctions::SurfTo"
   }
 }

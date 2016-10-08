@@ -1,10 +1,16 @@
 {
   "ToggleInstFiles::Set": {
     "body": "ToggleInstFiles::Set /NOUNLOAD$1",
+    "description": "Usage: ToggleInstFiles::Set /NOUNLOAD",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ToggleInstFiles_plug-in",
+    "leftLabelHTML": "<span class='support class'>ToggleInstFiles.dll</span>",
     "prefix": "ToggleInstFiles::Set"
   },
   "ToggleInstFiles::Unload": {
     "body": "ToggleInstFiles::Unload$1",
+    "description": "Usage: ToggleInstFiles::Unload",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ToggleInstFiles_plug-in",
+    "leftLabelHTML": "<span class='support class'>ToggleInstFiles.dll</span>",
     "prefix": "ToggleInstFiles::Unload"
   }
 }

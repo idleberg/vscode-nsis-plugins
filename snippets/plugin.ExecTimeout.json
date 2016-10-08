@@ -1,10 +1,16 @@
 {
   "${ExecTimeout}": {
     "body": "${ExecTimeout} \"${1:application_to_run}.exe\" ${2:timeout} ${3:terminate} ${4:exit_code}$5",
+    "description": "Usage: ${ExecTimeout} application_to_run timeout terminate exit_code",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ExecTimeout_plug-in",
+    "leftLabelHTML": "<span class='support class'>Timeout.dll</span>",
     "prefix": "${ExecTimeout}"
   },
   "Timeout::ExecTimeout": {
     "body": "Timeout::ExecTimeout \"${1:application_to_run}.exe\" ${2:timeout} ${3:terminate} ${4:exit_code}$5",
+    "description": "Usage: Timeout::ExecTimeout application_to_run timeout terminate exit_code",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ExecTimeout_plug-in",
+    "leftLabelHTML": "<span class='support class'>Timeout.dll</span>",
     "prefix": "Timeout::ExecTimeout"
   }
 }

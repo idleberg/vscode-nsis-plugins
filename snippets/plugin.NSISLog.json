@@ -1,6 +1,9 @@
 {
   "nsislog::log": {
     "body": "nsislog::log \"${1:file}.log\" \"${2:text}\"$3",
+    "description": "Usage: nsislog::log log_file text",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NSISLog_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsislog.dll</span>",
     "prefix": "nsislog::log"
   }
 }

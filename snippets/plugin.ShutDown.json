@@ -1,18 +1,30 @@
 {
   "ShutDown::LogOff": {
     "body": "ShutDown::LogOff$1",
+    "description": "Usage: ShutDown::LogOff",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ShutDown_plug-in",
+    "leftLabelHTML": "<span class='support class'>ShutDown.dll</span>",
     "prefix": "ShutDown::LogOff"
   },
   "ShutDown::PowerOff": {
     "body": "ShutDown::PowerOff$1",
+    "description": "Usage: ShutDown::PowerOff",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ShutDown_plug-in",
+    "leftLabelHTML": "<span class='support class'>ShutDown.dll</span>",
     "prefix": "ShutDown::PowerOff"
   },
   "ShutDown::Reboot": {
     "body": "ShutDown::Reboot$1",
+    "description": "Usage: ShutDown::Reboot",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ShutDown_plug-in",
+    "leftLabelHTML": "<span class='support class'>ShutDown.dll</span>",
     "prefix": "ShutDown::Reboot"
   },
   "ShutDown::ShutDown": {
     "body": "ShutDown::ShutDown$1",
+    "description": "Usage: ShutDown::ShutDown",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ShutDown_plug-in",
+    "leftLabelHTML": "<span class='support class'>ShutDown.dll</span>",
     "prefix": "ShutDown::ShutDown"
   }
 }

@@ -1,6 +1,9 @@
 {
   "KillProcDLL::KillProc": {
     "body": "KillProcDLL::KillProc \"${1:file}.exe\"$2",
+    "description": "Usage: KillProcDLL::KillProc",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/KillProc_plug-in",
+    "leftLabelHTML": "<span class='support class'>KillProcDLL.dll</span>",
     "prefix": "KillProcDLL::KillProc"
   }
 }

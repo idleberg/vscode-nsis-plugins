@@ -1,10 +1,16 @@
 {
   "${BlowFish_Decrypt}": {
     "body": "blowfish::decrypt \\$${1:return_variable} \"${2:text_to_decrypt}\" \"${3:password_key}\"$4",
+    "description": "Usage: blowfish::decrypt return_variable text_to_decrypt password_key",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Blowfish_plug-in",
+    "leftLabelHTML": "<span class='support class'>Blowfish.dll</span>",
     "prefix": "BlowFish_Decrypt"
   },
   "${BlowFish_Encrypt}": {
     "body": "blowfish::encrypt \\$${1:return_variable} \"${2:text_to_encrypt}\" \"${3:password_key}\"$4",
+    "description": "Usage: blowfish::encrypt return_variable text_to_encrypt password_key",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Blowfish_plug-in",
+    "leftLabelHTML": "<span class='support class'>Blowfish.dll</span>",
     "prefix": "BlowFish_Encrypt"
   }
 }

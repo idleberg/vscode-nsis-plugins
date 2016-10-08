@@ -1,6 +1,9 @@
 {
   "Pwgen::GeneratePassword": {
     "body": "Pwgen::GeneratePassword ${1:length}$2",
+    "description": "Usage: Pwgen::GeneratePassword length",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Pwgen_plug-in",
+    "leftLabelHTML": "<span class='support class'>pwgen.dll</span>",
     "prefix": "Pwgen::GeneratePassword"
   }
 }

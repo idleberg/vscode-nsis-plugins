@@ -1,10 +1,16 @@
 {
   "KillProc::FindProcesses": {
     "body": "KillProc::FindProcesses$1",
+    "description": "Usage: KillProc::FindProcesses",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/KillProc_plug-in",
+    "leftLabelHTML": "<span class='support class'>KillProc.dll</span>",
     "prefix": "KillProc::FindProcesses"
   },
   "KillProc::KillProcesses": {
     "body": "KillProc::KillProcesses$1",
+    "description": "Usage: KillProc::KillProcesses",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/KillProc_plug-in",
+    "leftLabelHTML": "<span class='support class'>KillProc.dll</span>",
     "prefix": "KillProc::KillProcesses"
   }
 }

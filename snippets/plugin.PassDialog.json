@@ -1,10 +1,16 @@
 {
   "PassDialog::Dialog": {
     "body": "PassDialog::Dialog \"${1:dialog_name}\" ${2:parameters}$3",
+    "description": "Usage: PassDialog::Dialog dialog_name parameters",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/PassDialog_plug-in",
+    "leftLabelHTML": "<span class='support class'>PassDialog.dll</span>",
     "prefix": "PassDialog::Dialog"
   },
   "PassDialog::InitDialog": {
     "body": "PassDialog::InitDialog /NOUNLOAD \"${1:dialog_name}\" ${2:parameters}$3",
+    "description": "Usage: PassDialog::InitDialog /NOUNLOAD dialog_name parameters",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/PassDialog_plug-in",
+    "leftLabelHTML": "<span class='support class'>PassDialog.dll</span>",
     "prefix": "PassDialog::InitDialog"
   }
 }

@@ -1,26 +1,44 @@
 {
   "${Locate::Close}": {
     "body": "${Locate::Close} \"${1:handle}\"$2",
+    "description": "Usage: ${Locate::Close} handle",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Locate_plugin",
+    "leftLabelHTML": "<span class='support class'>locate.dll</span>",
     "prefix": "${Locate::Close}"
   },
   "${Locate::Find}": {
-    "body": "${Locate::Find} \"${1:handle}\" $${2:path\name} $${3:path} $${4:name} $${5:size} $${6:time} $${7:attributes}$8",
+    "body": "${Locate::Find} \"${1:handle}\" $${2:path_name} $${3:path} $${4:name} $${5:size} $${6:time} $${7:attributes}$8",
+    "description": "Usage: ${Locate::Find} handle path_name path name size time attributes",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Locate_plugin",
+    "leftLabelHTML": "<span class='support class'>locate.dll</span>",
     "prefix": "${Locate::Find}"
   },
   "${Locate::GetSize}": {
     "body": "${Locate::Find} \"${1:path}\" \"${2:options}\" $${3:size} $${4:sum_files} $${5:sum_directories}$6",
+    "description": "Usage: ${Locate::Find} path options size sum_files sum_directories",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Locate_plugin",
+    "leftLabelHTML": "<span class='support class'>locate.dll</span>",
     "prefix": "${Locate::GetSize}"
   },
   "${Locate::Open}": {
     "body": "${Locate::Open} \"${1:paths}\" \"${2:options}\"$3",
+    "description": "Usage: ${Locate::Open} paths options",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Locate_plugin",
+    "leftLabelHTML": "<span class='support class'>locate.dll</span>",
     "prefix": "${Locate::Open}"
   },
   "${Locate::RMDirEmpty}": {
     "body": "${Locate::Find} \"${1:path}\" \"${2:options}\" $${3:sum_directories}$4",
+    "description": "Usage: ${Locate::Find} path options sum_directories",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Locate_plugin",
+    "leftLabelHTML": "<span class='support class'>locate.dll</span>",
     "prefix": "${Locate::RMDirEmpty}"
   },
   "${Locate::Unload}": {
     "body": "${Locate::Unload}$1",
+    "description": "Usage: ${Locate::Unload}",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Locate_plugin",
+    "leftLabelHTML": "<span class='support class'>locate.dll</span>",
     "prefix": "${Locate::Unload}"
   }
 }

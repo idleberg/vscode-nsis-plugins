@@ -1,6 +1,9 @@
 {
   "NotifyIcon::Icon": {
     "body": "NotifyIcon::Icon ${1:flags} ${2:arguments}$3",
+    "description": "Usage: NotifyIcon::Icon flags arguments",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NotifyIcon_plug-in",
+    "leftLabelHTML": "<span class='support class'>NotifyIcon.dll</span>",
     "prefix": "NotifyIcon::Icon"
   }
 }

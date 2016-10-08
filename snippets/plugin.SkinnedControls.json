@@ -1,10 +1,16 @@
 {
   "SkinnedControls::Unload": {
     "body": "SkinnedControls::Unload$1",
+    "description": "Usage: SkinnedControls::Unload",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/SkinnedControls_plug-in",
+    "leftLabelHTML": "<span class='support class'>SkinnedControls.dll</span>",
     "prefix": "SkinnedControls::Unload"
   },
   "SkinnedControls::skinit": {
     "body": "SkinnedControls::skinit /NOUNLOAD /disabledtextcolor=${1:RRGGBB} /selectedtextcolor=${2:RRGGBB} /selectedtextcolor=${3:textcolor} \"/scrollbar=${4:file}.bmp\" \"/button=${5:file}.bmp\"$6",
+    "description": "Usage: SkinnedControls::skinit /NOUNLOAD /disabledtextcolor=RRGGBB /selectedtextcolor=RRGGBB /selectedtextcolor=textcolor /scrollbar=bitmap /button=bitmap",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/SkinnedControls_plug-in",
+    "leftLabelHTML": "<span class='support class'>SkinnedControls.dll</span>",
     "prefix": "SkinnedControls::skinit"
   }
 }

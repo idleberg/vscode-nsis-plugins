@@ -1,66 +1,114 @@
 {
   "nsisXML::appendChild": {
     "body": "nsisXML::appendChild$1",
+    "description": "Usage: nsisXML::appendChild",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::appendChild"
   },
   "nsisXML::create": {
     "body": "nsisXML::create$1",
+    "description": "Usage: nsisXML::create",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::create"
   },
   "nsisXML::createElement": {
     "body": "nsisXML::createElement \"${1:tag}\"$2",
+    "description": "Usage: nsisXML::createElement tag",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::createElement"
   },
   "nsisXML::createProcessingInstruction": {
     "body": "nsisXML::createProcessingInstruction \"${1:target}\" \"${2:data}\"$3",
+    "description": "Usage: nsisXML::createProcessingInstruction target data",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::createProcessingInstruction"
   },
   "nsisXML::getAttribute": {
     "body": "nsisXML::getAttribute \"${1:attributes}\"$2",
+    "description": "Usage: nsisXML::getAttribute attributes",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::getAttribute"
   },
   "nsisXML::getText": {
     "body": "nsisXML::getText$1",
+    "description": "Usage: nsisXML::getText",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::getText"
   },
   "nsisXML::insertBefore": {
     "body": "nsisXML::insertBefore$1",
+    "description": "Usage: nsisXML::insertBefore",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::insertBefore"
   },
   "nsisXML::load": {
     "body": "nsisXML::load \"${1:file}.xml\"$2",
+    "description": "Usage: nsisXML::load file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::load"
   },
   "nsisXML::loadAndValidate": {
     "body": "nsisXML::loadAndValidate \"${1:file}.xml\"$2",
+    "description": "Usage: nsisXML::loadAndValidate file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::loadAndValidate"
   },
   "nsisXML::parentNode": {
     "body": "nsisXML::parentNode$1",
+    "description": "Usage: nsisXML::parentNode",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::parentNode"
   },
   "nsisXML::release": {
     "body": "nsisXML::release \"${1:node_reference}\"$2",
+    "description": "Usage: nsisXML::release node_reference",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::release"
   },
   "nsisXML::removeChild": {
     "body": "nsisXML::removeChild$1",
+    "description": "Usage: nsisXML::removeChild",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::removeChild"
   },
   "nsisXML::save": {
     "body": "nsisXML::save \"${1:file}.xml\"$2",
+    "description": "Usage: nsisXML::save file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::save"
   },
   "nsisXML::select": {
     "body": "nsisXML::select \"${1:xpath_expression}\"$2",
+    "description": "Usage: nsisXML::select xpath_expression",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::select"
   },
   "nsisXML::setAttribute": {
     "body": "nsisXML::setAttribute \"${1:attributes}\" \"${2:value}\"$3",
+    "description": "Usage: nsisXML::setAttribute attributes value",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::setAttribute"
   },
   "nsisXML::setText": {
     "body": "nsisXML::setText \"${1:text}\"$2",
+    "description": "Usage: nsisXML::setText text",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisXML_plug-in_(by_Wizou)",
+    "leftLabelHTML": "<span class='support class'>nsisXML.dll (Wizou)</span>",
     "prefix": "nsisXML::setText"
   }
 }

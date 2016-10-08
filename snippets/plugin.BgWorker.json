@@ -1,6 +1,9 @@
 {
   "BgWorker::CallAndWait": {
     "body": "BgWorker::CallAndWait$1",
-    "prefix": "BgWorker::CallAndWait$1"
+    "description": "Usage: BgWorker::AddAliasDebug arguments",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/BgWorker_plug-in",
+    "leftLabelHTML": "<span class='support class'>BgWorker.dll</span>",
+    "prefix": "BgWorker::CallAndWait"
   }
 }

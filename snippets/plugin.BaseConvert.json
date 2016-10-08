@@ -1,6 +1,9 @@
 {
   "BaseConvert::Convert": {
     "body": "BaseConvert::Convert ${1:base_in} ${2:base_out} \"${3:string}\"$4",
+    "description": "Usage: BaseConvert::Convert base_in base_out string",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/BaseConvert_plug-in",
+    "leftLabelHTML": "<span class='support class'>BaseConvert.dll</span>",
     "prefix": "BaseConvert::Convert"
   }
 }

@@ -1,6 +1,9 @@
 {
   "CreateMutex::nsCreateMutex": {
     "body": "CreateMutex::nsCreateMutex \"${1:mutex_name}\" ${2:parameter}$3",
+    "description": "Usage: CreateMutex::nsCreateMutex mutex_name parameter",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/CreateMutex_plug-in",
+    "leftLabelHTML": "<span class='support class'>CreateMutex.dll</span>",
     "prefix": "CreateMutex::nsCreateMutex"
   }
 }

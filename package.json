@@ -67,11 +67,11 @@
             },
             {
                 "language": "nsis",
-                "path": "./snippets/plugin.AccessControl.json"
+                "path": "./snippets/header.UMUI.json"
             },
             {
                 "language": "nsis",
-                "path": "./snippets/header.UMUI.json"
+                "path": "./snippets/plugin.AccessControl.json"
             },
             {
                 "language": "nsis",
@@ -599,6 +599,10 @@
             },
             {
                 "language": "nsis",
+                "path": "./snippets/plugin.Services.json"
+            },
+            {
+                "language": "nsis",
                 "path": "./snippets/plugin.SFhelper.json"
             },
             {
@@ -751,7 +755,7 @@
         "gulp": "^3.9.1",
         "gulp-debug": "^2.1.2",
         "gulp-eslint": "^3.0.1",
-        "gulp-json-lint": "^0.1.0",
+        "gulp-jsonlint": "^1.1.2",
         "gulp-xml-validator": "^0.1.2",
         "vscode": "^1.0.0"
     }

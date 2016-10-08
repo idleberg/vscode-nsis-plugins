@@ -1,54 +1,93 @@
 {
   "MoreInfo::GetComments": {
     "body": "MoreInfo::GetComments \"${1:file}\"$2",
+    "description": "Usage: MoreInfo::GetComments file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MoreInfo_plug-in",
+    "leftLabelHTML": "<span class='support class'>MoreInfo.dll</span>",
     "prefix": "MoreInfo::GetComments"
   },
   "MoreInfo::GetCompanyName": {
     "body": "MoreInfo::GetCompanyName \"${1:file}\"$2",
+    "description": "Usage: MoreInfo::GetCompanyName file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MoreInfo_plug-in",
+    "leftLabelHTML": "<span class='support class'>MoreInfo.dll</span>",
     "prefix": "MoreInfo::GetCompanyName"
   },
   "MoreInfo::GetFileDescription": {
     "body": "MoreInfo::GetFileDescription \"${1:file}\"$2",
+    "description": "Usage: MoreInfo::GetFileDescription file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MoreInfo_plug-in",
+    "leftLabelHTML": "<span class='support class'>MoreInfo.dll</span>",
     "prefix": "MoreInfo::GetFileDescription"
   },
   "MoreInfo::GetFileVersion": {
     "body": "MoreInfo::GetFileVersion \"${1:file}\"$2",
+    "description": "Usage: MoreInfo::GetFileVersion file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MoreInfo_plug-in",
+    "leftLabelHTML": "<span class='support class'>MoreInfo.dll</span>",
     "prefix": "MoreInfo::GetFileVersion"
   },
   "MoreInfo::GetLegalCopyright": {
     "body": "MoreInfo::GetLegalCopyright \"${1:file}\"$2",
+    "description": "Usage: MoreInfo::GetLegalCopyright file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MoreInfo_plug-in",
+    "leftLabelHTML": "<span class='support class'>MoreInfo.dll</span>",
     "prefix": "MoreInfo::GetLegalCopyright"
   },
   "MoreInfo::GetLegalTrademarks": {
     "body": "MoreInfo::GetLegalTrademarks \"${1:file}\"$2",
+    "description": "Usage: MoreInfo::GetLegalTrademarks file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MoreInfo_plug-in",
+    "leftLabelHTML": "<span class='support class'>MoreInfo.dll</span>",
     "prefix": "MoreInfo::GetLegalTrademarks"
   },
   "MoreInfo::GetOSUserinterfaceLanguage": {
     "body": "MoreInfo::GetOSUserinterfaceLanguage$1",
+    "description": "Usage: MoreInfo::GetOSUserinterfaceLanguage",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MoreInfo_plug-in",
+    "leftLabelHTML": "<span class='support class'>MoreInfo.dll</span>",
     "prefix": "MoreInfo::GetOSUserinterfaceLanguage"
   },
   "MoreInfo::GetOriginalFileName": {
     "body": "MoreInfo::GetOriginalFileName \"${1:file}\"$2",
+    "description": "Usage: MoreInfo::GetOriginalFileName file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MoreInfo_plug-in",
+    "leftLabelHTML": "<span class='support class'>MoreInfo.dll</span>",
     "prefix": "MoreInfo::GetOriginalFileName"
   },
   "MoreInfo::GetPrivateBuild": {
     "body": "MoreInfo::GetPrivateBuild \"${1:file}\"$2",
+    "description": "Usage: MoreInfo::GetPrivateBuild file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MoreInfo_plug-in",
+    "leftLabelHTML": "<span class='support class'>MoreInfo.dll</span>",
     "prefix": "MoreInfo::GetPrivateBuild"
   },
   "MoreInfo::GetProductName": {
     "body": "MoreInfo::GetProductName \"${1:file}\"$2",
+    "description": "Usage: MoreInfo::GetProductName file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MoreInfo_plug-in",
+    "leftLabelHTML": "<span class='support class'>MoreInfo.dll</span>",
     "prefix": "MoreInfo::GetProductName"
   },
   "MoreInfo::GetProductVersion": {
     "body": "MoreInfo::GetProductVersion \"${1:file}\"$2",
+    "description": "Usage: MoreInfo::GetProductVersion file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MoreInfo_plug-in",
+    "leftLabelHTML": "<span class='support class'>MoreInfo.dll</span>",
     "prefix": "MoreInfo::GetProductVersion"
   },
   "MoreInfo::GetSpecialBuild": {
     "body": "MoreInfo::GetSpecialBuild \"${1:file}\"$2",
+    "description": "Usage: MoreInfo::GetSpecialBuild file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MoreInfo_plug-in",
+    "leftLabelHTML": "<span class='support class'>MoreInfo.dll</span>",
     "prefix": "MoreInfo::GetSpecialBuild"
   },
   "MoreInfo::GetUserDefined": {
     "body": "MoreInfo::GetUserDefined \"${1:file}\" \"${2:property}\"$3",
+    "description": "Usage: MoreInfo::GetUserDefined file property",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MoreInfo_plug-in",
+    "leftLabelHTML": "<span class='support class'>MoreInfo.dll</span>",
     "prefix": "MoreInfo::GetUserDefined"
   }
 }

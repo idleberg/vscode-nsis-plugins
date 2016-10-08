@@ -1,6 +1,9 @@
 {
   "FreeArc::ExtractFreeArcArchive": {
     "body": "FreeArc::ExtractFreeArcArchive /NOUNLOAD \"${1:file}.arc\" ${2:0|1} \"${3:Extracting %s...}\"$4",
+    "description": "Usage: !insertmacro FreeArc::ExtractFreeArcArchive /NOUNLOAD file.arc show_details detail_text",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/FreeArc_plug-in",
+    "leftLabelHTML": "<span class='support class'>FreeArc.dll</span>",
     "prefix": "FreeArc::ExtractFreeArcArchive"
   }
 }

@@ -1,66 +1,114 @@
 {
   "InstDrv::CountDevices": {
     "body": "InstDrv::CountDevices$1",
+    "description": "Usage: InstDrv::CountDevices",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::CountDevices"
   },
   "InstDrv::CountDevices /NOUNLOAD": {
     "body": "InstDrv::CountDevices /NOUNLOAD$1",
+    "description": "Usage: InstDrv::CountDevices /NOUNLOAD",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::CountDevices /NOUNLOAD"
   },
   "InstDrv::CreateDevice": {
     "body": "InstDrv::CreateDevice$1",
+    "description": "Usage: InstDrv::CreateDevice",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::CreateDevice"
   },
   "InstDrv::CreateDevice /NOUNLOAD": {
     "body": "InstDrv::CreateDevice /NOUNLOAD$1",
+    "description": "Usage: InstDrv::CreateDevice /NOUNLOAD",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::CreateDevice /NOUNLOAD"
   },
   "InstDrv::DeleteOemInfFiles": {
     "body": "InstDrv::DeleteOemInfFiles$1",
+    "description": "Usage: InstDrv::DeleteOemInfFiles",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::DeleteOemInfFiles"
   },
   "InstDrv::DeleteOemInfFiles /NOUNLOAD": {
     "body": "InstDrv::DeleteOemInfFiles /NOUNLOAD$1",
+    "description": "Usage: InstDrv::DeleteOemInfFiles /NOUNLOAD",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::DeleteOemInfFiles /NOUNLOAD"
   },
   "InstDrv::InitDriverSetup": {
     "body": "InstDrv::InitDriverSetup \"${1:devClass}\" \"${2:drvHWID}\"$3",
+    "description": "Usage: InstDrv::InitDriverSetup devClass drvHWID",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::InitDriverSetup"
   },
   "InstDrv::InitDriverSetup /NOUNLOAD": {
     "body": "InstDrv::InitDriverSetup /NOUNLOAD \"${1:devClass}\" \"${2:drvHWID}\"$3",
+    "description": "Usage: InstDrv::InitDriverSetup /NOUNLOAD devClass drvHWID",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::InitDriverSetup /NOUNLOAD"
   },
   "InstDrv::InstallDriver": {
     "body": "InstDrv::InstallDriver \"${1:infPath}\"$2",
+    "description": "Usage: InstDrv::InstallDriver infPath",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::InstallDriver"
   },
   "InstDrv::InstallDriver /NOUNLOAD": {
     "body": "InstDrv::InstallDriver /NOUNLOAD \"${1:infPath}\"$2",
+    "description": "Usage: InstDrv::InstallDriver /NOUNLOAD infPath",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::InstallDriver /NOUNLOAD"
   },
   "InstDrv::RemoveAllDevices": {
     "body": "InstDrv::RemoveAllDevices$1",
+    "description": "Usage: InstDrv::RemoveAllDevices",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::RemoveAllDevices"
   },
   "InstDrv::RemoveAllDevices /NOUNLOAD": {
     "body": "InstDrv::RemoveAllDevices /NOUNLOAD$1",
+    "description": "Usage: InstDrv::RemoveAllDevices /NOUNLOAD",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::RemoveAllDevices /NOUNLOAD"
   },
   "InstDrv::StartSystemService": {
     "body": "InstDrv::StartSystemService \"${1:serviceName}\"$2",
+    "description": "Usage: InstDrv::StartSystemService serviceName",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::StartSystemService"
   },
   "InstDrv::StartSystemService /NOUNLOAD": {
     "body": "InstDrv::StartSystemService /NOUNLOAD \"${1:serviceName}\"$2",
+    "description": "Usage: InstDrv::StartSystemService /NOUNLOAD serviceName",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::StartSystemService /NOUNLOAD"
   },
   "InstDrv::StopSystemService": {
     "body": "InstDrv::StopSystemService \"${1:serviceName}\"$2",
+    "description": "Usage: InstDrv::StopSystemService serviceName",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::StopSystemService"
   },
   "InstDrv::StopSystemService /NOUNLOAD": {
     "body": "InstDrv::StopSystemService /NOUNLOAD \"${1:serviceName}\"$2",
+    "description": "Usage: InstDrv::StopSystemService /NOUNLOAD serviceName",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InstDrv_plug-in",
+    "leftLabelHTML": "<span class='support class'>InstDrv.dll</span>",
     "prefix": "InstDrv::StopSystemService /NOUNLOAD"
   }
 }

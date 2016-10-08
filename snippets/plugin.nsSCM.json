@@ -1,42 +1,72 @@
 {
   "nsSCM::Install": {
     "body": "nsSCM::Install \"${1:name_of_service}\" \"${2:display_name}\" \"${3:service_type}\" \"${4:start_type}\" \"${5:service_commandline}\" \"${6:load_order_group}\" \"${7:dependencies}\" \"${8:account}\" \"${9:password}\"$10",
+    "description": "Usage: nsSCM::Install \"${1:name_of_service}\" \"${2:display_name}\" \"${3:service_type}\" \"${4:start_type}\" \"${5:service_commandline}\" \"${6:load_order_group}\" \"${7:dependencies}\" \"${8:account}\" \"${9:password}\"$10",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsSCM_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsSCM.dll</span>",
     "prefix": "nsSCM::Install"
   },
   "nsSCM::Install /NOUNLOAD": {
     "body": "nsSCM::Install /NOUNLOAD \"${1:name_of_service}\" \"${2:display_name}\" \"${3:service_type}\" \"${4:start_type}\" \"${5:service_commandline}\" \"${6:load_order_group}\" \"${7:dependencies}\" \"${8:account}\" \"${9:password}\"$10",
+    "description": "Usage: nsSCM::Install /NOUNLOAD \"${1:name_of_service}\" \"${2:display_name}\" \"${3:service_type}\" \"${4:start_type}\" \"${5:service_commandline}\" \"${6:load_order_group}\" \"${7:dependencies}\" \"${8:account}\" \"${9:password}\"$10",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsSCM_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsSCM.dll</span>",
     "prefix": "nsSCM::Install /NOUNLOAD"
   },
   "nsSCM::QueryStatus": {
     "body": "nsSCM::QueryStatus \"${1:name_of_service}\"$2",
+    "description": "Usage: nsSCM::QueryStatus \"${1:name_of_service}\"$2",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsSCM_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsSCM.dll</span>",
     "prefix": "nsSCM::QueryStatus"
   },
   "nsSCM::QueryStatus /NOUNLOAD": {
     "body": "nsSCM::QueryStatus /NOUNLOAD \"${1:name_of_service}\"$2",
+    "description": "Usage: nsSCM::QueryStatus /NOUNLOAD \"${1:name_of_service}\"$2",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsSCM_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsSCM.dll</span>",
     "prefix": "nsSCM::QueryStatus /NOUNLOAD"
   },
   "nsSCM::Remove": {
     "body": "nsSCM::Remove \"${1:name_of_service}\"$2",
+    "description": "Usage: nsSCM::Remove \"${1:name_of_service}\"$2",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsSCM_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsSCM.dll</span>",
     "prefix": "nsSCM::Remove"
   },
   "nsSCM::Remove /NOUNLOAD": {
     "body": "nsSCM::Remove /NOUNLOAD \"${1:name_of_service}\"$2",
+    "description": "Usage: nsSCM::Remove /NOUNLOAD \"${1:name_of_service}\"$2",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsSCM_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsSCM.dll</span>",
     "prefix": "nsSCM::Remove /NOUNLOAD"
   },
   "nsSCM::Start": {
     "body": "nsSCM::Start \"${1:name_of_service}\"$2",
+    "description": "Usage: nsSCM::Start \"${1:name_of_service}\"$2",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsSCM_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsSCM.dll</span>",
     "prefix": "nsSCM::Start"
   },
   "nsSCM::Start /NOUNLOAD": {
     "body": "nsSCM::Start /NOUNLOAD \"${1:name_of_service}\"$2",
+    "description": "Usage: nsSCM::Start /NOUNLOAD \"${1:name_of_service}\"$2",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsSCM_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsSCM.dll</span>",
     "prefix": "nsSCM::Start /NOUNLOAD"
   },
   "nsSCM::Stop": {
     "body": "nsSCM::Stop \"${1:name_of_service}\"$2",
+    "description": "Usage: nsSCM::Stop \"${1:name_of_service}\"$2",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsSCM_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsSCM.dll</span>",
     "prefix": "nsSCM::Stop"
   },
   "nsSCM::Stop /NOUNLOAD": {
     "body": "nsSCM::Stop /NOUNLOAD \"${1:name_of_service}\"$2",
+    "description": "Usage: nsSCM::Stop /NOUNLOAD \"${1:name_of_service}\"$2",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsSCM_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsSCM.dll</span>",
     "prefix": "nsSCM::Stop /NOUNLOAD"
   }
 }

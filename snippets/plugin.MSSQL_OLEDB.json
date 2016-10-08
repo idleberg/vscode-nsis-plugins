@@ -1,26 +1,44 @@
 {
   "MSSQL_OLEDB::SQL_Execute": {
     "body": "MSSQL_OLEDB::SQL_Execute \"${1:query}\"$2",
+    "description": "Usage: MSSQL_OLEDB::SQL_Execute query",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MSSQL_OLEDB_plug-in",
+    "leftLabelHTML": "<span class='support class'>MSSQL_OLEDB.dll</span>",
     "prefix": "MSSQL_OLEDB::SQL_Execute"
   },
   "MSSQL_OLEDB::SQL_ExecuteScript": {
     "body": "MSSQL_OLEDB::SQL_ExecuteScript \"${1:script}\"$2",
+    "description": "Usage: MSSQL_OLEDB::SQL_ExecuteScript script",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MSSQL_OLEDB_plug-in",
+    "leftLabelHTML": "<span class='support class'>MSSQL_OLEDB.dll</span>",
     "prefix": "MSSQL_OLEDB::SQL_ExecuteScript"
   },
   "MSSQL_OLEDB::SQL_GetError": {
     "body": "MSSQL_OLEDB::SQL_GetError$1",
+    "description": "Usage: MSSQL_OLEDB::SQL_GetError",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MSSQL_OLEDB_plug-in",
+    "leftLabelHTML": "<span class='support class'>MSSQL_OLEDB.dll</span>",
     "prefix": "MSSQL_OLEDB::SQL_GetError"
   },
   "MSSQL_OLEDB::SQL_GetRow": {
     "body": "MSSQL_OLEDB::SQL_GetRow$1",
+    "description": "Usage: MSSQL_OLEDB::SQL_GetRow",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MSSQL_OLEDB_plug-in",
+    "leftLabelHTML": "<span class='support class'>MSSQL_OLEDB.dll</span>",
     "prefix": "MSSQL_OLEDB::SQL_GetRow"
   },
   "MSSQL_OLEDB::SQL_Logon": {
     "body": "MSSQL_OLEDB::SQL_Logon \"${1:server}\" \"${2:user}\" \"${3:password}\"$4",
+    "description": "Usage: MSSQL_OLEDB::SQL_Logon server user password",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MSSQL_OLEDB_plug-in",
+    "leftLabelHTML": "<span class='support class'>MSSQL_OLEDB.dll</span>",
     "prefix": "MSSQL_OLEDB::SQL_Logon"
   },
   "MSSQL_OLEDB::SQL_Logout": {
     "body": "MSSQL_OLEDB::SQL_Logout$1",
+    "description": "Usage: MSSQL_OLEDB::SQL_Logout",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/MSSQL_OLEDB_plug-in",
+    "leftLabelHTML": "<span class='support class'>MSSQL_OLEDB.dll</span>",
     "prefix": "MSSQL_OLEDB::SQL_Logout"
   }
 }

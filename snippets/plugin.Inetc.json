@@ -1,34 +1,58 @@
 {
   "Inetc::get": {
     "body": "Inetc::get \"${1:url}\" \"${2:target_file}\"$3",
+    "description": "Usage: Inetc::get url target_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Inetc_plug-in",
+    "leftLabelHTML": "<span class='support class'>Inetc.dll</span>",
     "prefix": "Inetc::get"
   },
   "Inetc::get [/options]": {
     "body": "Inetc::get ${1:options} \"${2:url}\" \"${3:target_file}\"$4",
+    "description": "Usage: Inetc::get options url target_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Inetc_plug-in",
+    "leftLabelHTML": "<span class='support class'>Inetc.dll</span>",
     "prefix": "Inetc::get [/options]"
   },
   "Inetc::head": {
     "body": "Inetc::head \"${1:url}\" \"${2:target_file}\"$3",
+    "description": "Usage: Inetc::head url target_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Inetc_plug-in",
+    "leftLabelHTML": "<span class='support class'>Inetc.dll</span>",
     "prefix": "Inetc::head"
   },
   "Inetc::head [/options]": {
     "body": "Inetc::head ${1:options} \"${2:url}\" \"${3:target_file}\"$4",
+    "description": "Usage: Inetc::head options url target_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Inetc_plug-in",
+    "leftLabelHTML": "<span class='support class'>Inetc.dll</span>",
     "prefix": "Inetc::head [/options]"
   },
   "Inetc::post": {
     "body": "Inetc::post \"${1:text}\" \"${2:url}\" \"${3:target_file}\"$4",
+    "description": "Usage: Inetc::post text url target_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Inetc_plug-in",
+    "leftLabelHTML": "<span class='support class'>Inetc.dll</span>",
     "prefix": "Inetc::post"
   },
   "Inetc::post [/options]": {
     "body": "Inetc::post \"${1:text}\" ${2:options} \"${3:url}\" \"${4:target_file}\"$5",
+    "description": "Usage: Inetc::post text options url target_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Inetc_plug-in",
+    "leftLabelHTML": "<span class='support class'>Inetc.dll</span>",
     "prefix": "Inetc::post [/options]"
   },
   "Inetc::put": {
     "body": "Inetc::put \"${1:url}\" \"${2:target_file}\"$3",
+    "description": "Usage: Inetc::put url target_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Inetc_plug-in",
+    "leftLabelHTML": "<span class='support class'>Inetc.dll</span>",
     "prefix": "Inetc::put"
   },
   "Inetc::put [/options]": {
     "body": "Inetc::put ${1:options} \"${2:url}\" \"${3:target_file}\"$4",
+    "description": "Usage: Inetc::put options url target_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Inetc_plug-in",
+    "leftLabelHTML": "<span class='support class'>Inetc.dll</span>",
     "prefix": "Inetc::put [/options]"
   }
 }

@@ -1,18 +1,30 @@
 {
   "SysRestore::FinishRestorePoint": {
     "body": "SysRestore::FinishRestorePoint$1",
+    "description": "Usage: SysRestore::FinishRestorePoint",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/SysRestore_plug-in",
+    "leftLabelHTML": "<span class='support class'>SysRestore.dll</span>",
     "prefix": "SysRestore::FinishRestorePoint"
   },
   "SysRestore::RemoveRestorePoint": {
     "body": "SysRestore::RemoveRestorePoint$1",
+    "description": "Usage: SysRestore::RemoveRestorePoint",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/SysRestore_plug-in",
+    "leftLabelHTML": "<span class='support class'>SysRestore.dll</span>",
     "prefix": "SysRestore::RemoveRestorePoint"
   },
   "SysRestore::StartInstallPoint": {
     "body": "SysRestore::StartInstallPoint \"${1:text}\"$2",
+    "description": "Usage: SysRestore::StartInstallPoint text",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/SysRestore_plug-in",
+    "leftLabelHTML": "<span class='support class'>SysRestore.dll</span>",
     "prefix": "SysRestore::StartInstallPoint"
   },
   "SysRestore::StartUninstallPoint": {
     "body": "SysRestore::StartUninstallPoint \"${1:text}\"$2",
+    "description": "Usage: SysRestore::StartUninstallPoint text",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/SysRestore_plug-in",
+    "leftLabelHTML": "<span class='support class'>SysRestore.dll</span>",
     "prefix": "SysRestore::StartUninstallPoint"
   }
 }

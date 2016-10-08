@@ -1,14 +1,23 @@
 {
   "WimImage::AddDir": {
     "body": "WimImage::AddDir ${1:options}$2",
+    "description": "Usage: WimImage::AddDir options",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WimImage_plug-in",
+    "leftLabelHTML": "<span class='support class'>WimImage.dll</span>",
     "prefix": "WimImage::AddDir"
   },
   "WimImage::AppendDir": {
     "body": "WimImage::AppendDir ${1:options}$2",
+    "description": "Usage: WimImage::AppendDir options",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WimImage_plug-in",
+    "leftLabelHTML": "<span class='support class'>WimImage.dll</span>",
     "prefix": "WimImage::AppendDir"
   },
   "WimImage::Extract": {
     "body": "WimImage::Extract ${1:options}$2",
+    "description": "Usage: WimImage::Extract options",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WimImage_plug-in",
+    "leftLabelHTML": "<span class='support class'>WimImage.dll</span>",
     "prefix": "WimImage::Extract"
   }
 }

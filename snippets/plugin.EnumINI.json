@@ -1,18 +1,30 @@
 {
   "EnumINI::KeyExist": {
     "body": "EnumINI::KeyExist \"${1:file}.ini\" \"${2:section}\" \"${3:key}\"$4",
+    "description": "Usage: EnumINI::KeyExist ini_file section key",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/EnumINI_plug-in",
+    "leftLabelHTML": "<span class='support class'>EnumINI.dll</span>",
     "prefix": "EnumINI::KeyExist"
   },
   "EnumINI::Section": {
     "body": "EnumINI::Section \"${1:file}.ini\" \"${2:section}\"$3",
+    "description": "Usage: EnumINI::Section ini_file section",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/EnumINI_plug-in",
+    "leftLabelHTML": "<span class='support class'>EnumINI.dll</span>",
     "prefix": "EnumINI::Section"
   },
   "EnumINI::SectionExist": {
     "body": "EnumINI::SectionExist \"${1:file}.ini\" \"${2:section}\"$3",
+    "description": "Usage: EnumINI::SectionExist ini_file section",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/EnumINI_plug-in",
+    "leftLabelHTML": "<span class='support class'>EnumINI.dll</span>",
     "prefix": "EnumINI::SectionExist"
   },
   "EnumINI::SectionNames": {
     "body": "EnumINI::SectionNames \"${1:file}.ini\"$2",
+    "description": "Usage: EnumINI::SectionNames ini_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/EnumINI_plug-in",
+    "leftLabelHTML": "<span class='support class'>EnumINI.dll</span>",
     "prefix": "EnumINI::SectionNames"
   }
 }

@@ -1,30 +1,51 @@
 {
   "LogEx::AddFile": {
     "body": "LogEx::AddFile \"${1:prefix}\" \"${2:file}.log\"$3",
+    "description": "Usage: LogEx::AddFile prefix log_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LogEx_plug-in",
+    "leftLabelHTML": "<span class='support class'>LogEx.dll</span>",
     "prefix": "LogEx::AddFile"
   },
   "LogEx::AddFile [/options]": {
     "body": "LogEx::AddFile ${1:options} \"${2:prefix}\" \"${3:file}.log\"$4",
+    "description": "Usage: LogEx::AddFile options prefix log_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LogEx_plug-in",
+    "leftLabelHTML": "<span class='support class'>LogEx.dll</span>",
     "prefix": "LogEx::AddFile [/options]"
   },
   "LogEx::Close": {
     "body": "LogEx::Close$1",
+    "description": "Usage: LogEx::Close",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LogEx_plug-in",
+    "leftLabelHTML": "<span class='support class'>LogEx.dll</span>",
     "prefix": "LogEx::Close"
   },
   "LogEx::Init": {
     "body": "LogEx::Init \"${1:file}.txt\"$2",
+    "description": "Usage: LogEx::Init file.txt",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LogEx_plug-in",
+    "leftLabelHTML": "<span class='support class'>LogEx.dll</span>",
     "prefix": "LogEx::Init"
   },
   "LogEx::Init bTruncateFile": {
     "body": "LogEx::Init true \"${1:file}.log\"$2",
+    "description": "Usage: LogEx::Init true log_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LogEx_plug-in",
+    "leftLabelHTML": "<span class='support class'>LogEx.dll</span>",
     "prefix": "LogEx::Init bTruncateFile"
   },
   "LogEx::Write": {
     "body": "LogEx::Write \"${1:log_string}\"$2",
+    "description": "Usage: LogEx::Write log_string",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LogEx_plug-in",
+    "leftLabelHTML": "<span class='support class'>LogEx.dll</span>",
     "prefix": "LogEx::Write"
   },
   "LogEx::Write [/options]": {
     "body": "LogEx::Write ${1:options} \"${2:log_string}\"$3",
+    "description": "Usage: LogEx::Write options log_string",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LogEx_plug-in",
+    "leftLabelHTML": "<span class='support class'>LogEx.dll</span>",
     "prefix": "LogEx::Write [/options]"
   }
 }

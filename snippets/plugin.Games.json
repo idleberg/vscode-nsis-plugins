@@ -1,10 +1,16 @@
 {
   "Games::registerGame": {
     "body": "Games::registerGame \"/mcicon:${1:file}.png\" \"/mcrun:${2:shortcut}.lnk\" \"${3:file}.exe\"$4",
+    "description": "Usage: Games::registerGame /mcicon path_to_png /mcrun shortcut exe_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Games_plug-in",
+    "leftLabelHTML": "<span class='support class'>Games.dll</span>",
     "prefix": "Games::registerGame"
   },
   "Games::unregisterGame": {
     "body": "Games::unregisterGame \"${1:file}.exe\"$2",
+    "description": "Usage: Games::registerGame exe_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Games_plug-in",
+    "leftLabelHTML": "<span class='support class'>Games.dll</span>",
     "prefix": "Games::unregisterGame"
   }
 }

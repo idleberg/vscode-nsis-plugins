@@ -1,14 +1,23 @@
 {
   "nsUnzip::Extract": {
     "body": "nsUnzip::Extract \"${1:file}.zip\" ${2:files} /END$3",
+    "description": "Usage: nsUnzip::Extract file files /END",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsUnzip_plugin",
+    "leftLabelHTML": "<span class='support class'>nsUnzip.dll</span>",
     "prefix": "nsUnzip::Extract"
   },
   "nsUnzip::Extract [/options]": {
     "body": "nsUnzip::Extract ${1:options} \"${2:file}.zip\" ${3:files} /END$4",
+    "description": "Usage: nsUnzip::Extract options file files /END",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsUnzip_plugin",
+    "leftLabelHTML": "<span class='support class'>nsUnzip.dll</span>",
     "prefix": "nsUnzip::Extract [/options]"
   },
   "nsUnzip::GetPassword": {
     "body": "nsUnzip::GetPassword /NOUNLOAD \"${1:title}\" \"${2:group}\" \"${3:label}\" \"${4:ok_button}\" \"${5:cancel_button}\"$6",
+    "description": "Usage: nsUnzip::GetPassword /NOUNLOAD title group label ok_button cancel_button",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsUnzip_plugin",
+    "leftLabelHTML": "<span class='support class'>nsUnzip.dll</span>",
     "prefix": "nsUnzip::GetPassword"
   }
 }

@@ -1,6 +1,9 @@
 {
   "CPUDesc::tell": {
     "body": "CPUDesc::tell$1",
+    "description": "Usage: CPUDesc::tell",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/CPUDesc_plug-in",
+    "leftLabelHTML": "<span class='support class'>CPUDesc.dll</span>",
     "prefix": "CPUDesc::tell"
   }
 }

@@ -1,26 +1,44 @@
 {
   "AppAssocReg::ClearUserAssociations": {
     "body": "AppAssocReg::ClearUserAssociations$1",
+    "description": "Usage: AppAssocReg::ClearUserAssociations",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Application_Association_Registration_plug-in",
+    "leftLabelHTML": "<span class='support class'>AppAssocReg.dll</span>",
     "prefix": "AppAssocReg::ClearUserAssociations"
   },
   "AppAssocReg::QueryAppIsDefault": {
     "body": "AppAssocReg::QueryAppIsDefault \"${1:app_name}\" \"${2:assoc_name}\" \"${3:type}\" \"${4:level}\"$5",
+    "description": "Usage: AppAssocReg::QueryAppIsDefault app_name assoc_name type level",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Application_Association_Registration_plug-in",
+    "leftLabelHTML": "<span class='support class'>AppAssocReg.dll</span>",
     "prefix": "AppAssocReg::QueryAppIsDefault"
   },
   "AppAssocReg::QueryAppIsDefaultAll": {
     "body": "AppAssocReg::QueryAppIsDefaultAll \"${1:app_name}\" \"${2:level}\"$3",
+    "description": "Usage: AppAssocReg::QueryAppIsDefaultAll app_name level",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Application_Association_Registration_plug-in",
+    "leftLabelHTML": "<span class='support class'>AppAssocReg.dll</span>",
     "prefix": "AppAssocReg::QueryAppIsDefaultAll"
   },
   "AppAssocReg::QueryCurrentDefault": {
     "body": "AppAssocReg::QueryCurrentDefault \"${1:assoc_name}\" \"${2:type}\" \"${3:level}\"$4",
+    "description": "Usage: AppAssocReg::QueryCurrentDefault assoc_name type level",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Application_Association_Registration_plug-in",
+    "leftLabelHTML": "<span class='support class'>AppAssocReg.dll</span>",
     "prefix": "AppAssocReg::QueryCurrentDefault"
   },
   "AppAssocReg::SetAppAsDefault": {
     "body": "AppAssocReg::SetAppAsDefault \"${1:app_name}\" \"${2:assoc_name}\" \"${3:type}\"$4",
+    "description": "Usage: AppAssocReg::SetAppAsDefault app_name assoc_name type",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Application_Association_Registration_plug-in",
+    "leftLabelHTML": "<span class='support class'>AppAssocReg.dll</span>",
     "prefix": "AppAssocReg::SetAppAsDefault"
   },
   "AppAssocReg::SetAppAsDefaultAll": {
     "body": "AppAssocReg::SetAppAsDefaultAll \"${1:app_name}\"$2",
+    "description": "Usage: AppAssocReg::SetAppAsDefaultAll app_name",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Application_Association_Registration_plug-in",
+    "leftLabelHTML": "<span class='support class'>AppAssocReg.dll</span>",
     "prefix": "AppAssocReg::SetAppAsDefaultAll"
   }
 }

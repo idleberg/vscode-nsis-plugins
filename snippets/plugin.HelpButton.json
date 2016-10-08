@@ -1,10 +1,16 @@
 {
   "HelpButton::end": {
     "body": "HelpButton::end$1",
+    "descriptions": "Usage: HelpButton::end",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/HelpButton_plug-in",
+    "leftLabelHTML": "<span class='support class'>HelpButton.dll</span>",
     "prefix": "HelpButton::end"
   },
   "HelpButton::show": {
     "body": "HelpButton::show /NOUNLOAD \"${1:x},${2:y}\" \"${3:button_text}\" \"${4:window_title}\" \"${5:window_text}\" ${6:options}$7",
+    "descriptions": "Usage: HelpButton::show /NOUNLOAD x,y button-text window_title window_text options",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/HelpButton_plug-in",
+    "leftLabelHTML": "<span class='support class'>HelpButton.dll</span>",
     "prefix": "HelpButton::show"
   }
 }

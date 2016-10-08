@@ -1,6 +1,9 @@
 {
   "nsPerl::exec": {
     "body": "nsPerl::exec \"${1:perl_code}\"$2",
+    "description": "Usage: nsPerl::exec perl_code",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Perl_plugin",
+    "leftLabelHTML": "<span class='support class'>nsperl.dll</span>",
     "prefix": "nsPerl::exec"
   }
 }

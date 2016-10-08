@@ -1,34 +1,58 @@
 {
   "nsPython::Finalize": {
     "body": "nsPython::Finalize$1",
+    "description": "Usage: nsPython::Finalize",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsPython_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsPython.dll</span>",
     "prefix": "nsPython::Finalize"
   },
   "nsPython::Init": {
     "body": "nsPython::Init$1",
+    "description": "Usage: nsPython::Init",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsPython_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsPython.dll</span>",
     "prefix": "nsPython::Init"
   },
   "nsPython::eval": {
     "body": "nsPython::eval \"${1:expr}\"$2",
+    "description": "Usage: nsPython::eval expr",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsPython_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsPython.dll</span>",
     "prefix": "nsPython::eval"
   },
   "nsPython::evalFin": {
     "body": "nsPython::evalFin \"${1:expr}\"$2",
+    "description": "Usage: nsPython::evalFin expr",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsPython_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsPython.dll</span>",
     "prefix": "nsPython::evalFin"
   },
   "nsPython::exec": {
     "body": "nsPython::exec \"${1:statements}\"$2",
+    "description": "Usage: nsPython::exec statements",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsPython_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsPython.dll</span>",
     "prefix": "nsPython::exec"
   },
   "nsPython::execFile": {
     "body": "nsPython::execFile \"${1:file}.py\"$2",
+    "description": "Usage: nsPython::execFile file.py",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsPython_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsPython.dll</span>",
     "prefix": "nsPython::execFile"
   },
   "nsPython::execFileFin": {
     "body": "nsPython::execFileFin \"${1:file}.py\"$2",
+    "description": "Usage: nsPython::execFileFin file.py",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsPython_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsPython.dll</span>",
     "prefix": "nsPython::execFileFin"
   },
   "nsPython::execFin": {
     "body": "nsPython::execFin \"${1:statements}\"$2",
+    "description": "Usage: nsPython::execFin statements",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsPython_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsPython.dll</span>",
     "prefix": "nsPython::execFin"
   }
 }

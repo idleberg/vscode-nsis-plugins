@@ -1,14 +1,23 @@
 {
   "WinShell::SetLnkAUMI": {
     "body": "WinShell::SetLnkAUMI \"${1:shortcut}.lnk\" \"${2:id}\"$3",
+    "description": "Usage: WinShell::SetLnkAUMI shortcut id",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WinShell_plug-in",
+    "leftLabelHTML": "<span class='support class'>WinShell.dll</span>",
     "prefix": "WinShell::SetLnkAUMI"
   },
   "WinShell::UninstAppUserModelId": {
     "body": "WinShell::UninstAppUserModelId \"${1:id}\"$3",
+    "description": "Usage: WinShell::UninstAppUserModelId id",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WinShell_plug-in",
+    "leftLabelHTML": "<span class='support class'>WinShell.dll</span>",
     "prefix": "WinShell::UninstAppUserModelId"
   },
   "WinShell::UninstShortcut": {
     "body": "WinShell::UninstShortcut \"${1:shortcut}.lnk\"$2",
+    "description": "Usage: WinShell::UninstShortcut shortcut",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/WinShell_plug-in",
+    "leftLabelHTML": "<span class='support class'>WinShell.dll</span>",
     "prefix": "WinShell::UninstShortcut"
   }
 }

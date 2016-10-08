@@ -1,22 +1,37 @@
 {
   "NewAdvSplash::hwnd": {
     "body": "NewAdvSplash::hwnd$1",
+    "description": "Usage: NewAdvSplash::hwnd",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NewAdvSplash_plug-in",
+    "leftLabelHTML": "<span class='support class'>NewAdvSplash.dll</span>",
     "prefix": "NewAdvSplash::hwnd"
   },
   "NewAdvSplash::play": {
     "body": "NewAdvSplash::play /NOUNLOAD ${1:options} \"${2:file}\"$3",
+    "description": "Usage: NewAdvSplash::play /NOUNLOAD options file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NewAdvSplash_plug-in",
+    "leftLabelHTML": "<span class='support class'>NewAdvSplash.dll</span>",
     "prefix": "NewAdvSplash::play"
   },
   "NewAdvSplash::show": {
     "body": "NewAdvSplash::show ${1:delay} ${2:fade_in} ${3:fade_out} ${4:0xRRGGBB} ${5:options} \"${6:file}\"$7",
+    "description": "Usage: NewAdvSplash::show delay fade_in fade_out 0xRRGGBB options file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NewAdvSplash_plug-in",
+    "leftLabelHTML": "<span class='support class'>NewAdvSplash.dll</span>",
     "prefix": "NewAdvSplash::show"
   },
   "NewAdvSplash::show /NOUNLOAD": {
     "body": "NewAdvSplash::show /NOUNLOAD ${1:delay} ${2:fade_in} ${3:fade_out} ${4:0xRRGGBB} ${5:options} \"${6:file}\"$7",
+    "description": "Usage: NewAdvSplash::show /NOUNLOAD delay fade_in fade_out 0xRRGGBB options file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NewAdvSplash_plug-in",
+    "leftLabelHTML": "<span class='support class'>NewAdvSplash.dll</span>",
     "prefix": "NewAdvSplash::show /NOUNLOAD"
   },
   "NewAdvSplash::stop": {
     "body": "NewAdvSplash::stop ${1:options}$2",
+    "description": "Usage: NewAdvSplash::stop options",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NewAdvSplash_plug-in",
+    "leftLabelHTML": "<span class='support class'>NewAdvSplash.dll</span>",
     "prefix": "NewAdvSplash::stop"
   }
 }

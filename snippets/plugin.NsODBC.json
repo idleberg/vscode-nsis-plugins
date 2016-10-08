@@ -1,30 +1,51 @@
 {
   "NsODBC::AddDSN": {
     "body": "NsODBC::AddDSN \"${1:driver}\" \"${2:parameters}\"$3",
+    "description": "Usage: NsODBC::AddDSN driver parameters",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsODBC_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsODBC.dll</span>",
     "prefix": "NsODBC::AddDSN"
   },
   "NsODBC::AddSysDSN": {
     "body": "NsODBC::AddSysDSN \"${1:driver}\" \"${2:parameters}\"$3",
+    "description": "Usage: NsODBC::AddSysDSN driver parameters",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsODBC_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsODBC.dll</span>",
     "prefix": "NsODBC::AddSysDSN"
   },
   "NsODBC::ConfDSN": {
     "body": "NsODBC::ConfDSN \"${1:driver}\" \"${2:parameters}\"$3",
+    "description": "Usage: NsODBC::ConfDSN driver parameters",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsODBC_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsODBC.dll</span>",
     "prefix": "NsODBC::ConfDSN"
   },
   "NsODBC::ConfSysDSN": {
     "body": "NsODBC::ConfSysDSN \"${1:driver}\" \"${2:parameters}\"$3",
+    "description": "Usage: NsODBC::ConfSysDSN driver parameters",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsODBC_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsODBC.dll</span>",
     "prefix": "NsODBC::ConfSysDSN"
   },
   "NsODBC::RemoveDSN": {
     "body": "NsODBC::RemoveDSN \"${1:driver}\" \"${2:parameters}\"$3",
+    "description": "Usage: NsODBC::RemoveDSN driver parameters",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsODBC_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsODBC.dll</span>",
     "prefix": "NsODBC::RemoveDSN"
   },
   "NsODBC::RemoveDefDSN": {
     "body": "NsODBC::RemoveDefDSN \"${1:driver}\" \"${2:parameters}\"$3",
+    "description": "Usage: NsODBC::RemoveDefDSN driver parameters",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsODBC_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsODBC.dll</span>",
     "prefix": "NsODBC::RemoveDefDSN"
   },
   "NsODBC::RemoveSysDSN": {
     "body": "NsODBC::RemoveSysDSN \"${1:driver}\" \"${2:parameters}\"$3",
+    "description": "Usage: NsODBC::RemoveSysDSN driver parameters",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsODBC_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsODBC.dll</span>",
     "prefix": "NsODBC::RemoveSysDSN"
   }
 }

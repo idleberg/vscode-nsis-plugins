@@ -1,6 +1,9 @@
 {
   "UnicodePathTest::UnicodePathTest": {
     "body": "UnicodePathTest::UnicodePathTest \"${1:path}\"$2",
+    "description": "Usage: UnicodePathTest::UnicodePathTest path",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/UnicodePathTest_plug-in",
+    "leftLabelHTML": "<span class='support class'>UnicodePathTest.dll</span>",
     "prefix": "UnicodePathTest::UnicodePathTest"
   }
 }

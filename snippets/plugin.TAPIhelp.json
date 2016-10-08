@@ -1,10 +1,16 @@
 {
   "TAPIhelp::GetModemID": {
     "body": "TAPIhelp::GetModemID$1",
+    "description": "Usage: TAPIhelp::GetModemID",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/TAPIhelp_plug-in",
+    "leftLabelHTML": "<span class='support class'>tapihelp.dll</span>",
     "prefix": "TAPIhelp::GetModemID"
   },
   "TAPIhelp::GetModemName": {
     "body": "TAPIhelp::GetModemName$1",
+    "description": "Usage: TAPIhelp::GetModemName",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/TAPIhelp_plug-in",
+    "leftLabelHTML": "<span class='support class'>tapihelp.dll</span>",
     "prefix": "TAPIhelp::GetModemName"
   }
 }

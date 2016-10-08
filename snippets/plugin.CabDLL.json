@@ -1,14 +1,23 @@
 {
   "CabDLL::CabExtractAll": {
     "body": "CabExtractAll::CabView \"${1:file}.cab\" \"${2:target}\"$3",
+    "description": "Usage: CabExtractAll::CabView file target",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/CabDLL_plug-in",
+    "leftLabelHTML": "<span class='support class'>CabDLL.dll</span>",
     "prefix": "CabDLL::CabExtractAll"
   },
   "CabDLL::CabInfo": {
     "body": "CabDLL::CabInfo \"${1:file}.cab\"$2",
+    "description": "Usage: CabDLL::CabInfo file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/CabDLL_plug-in",
+    "leftLabelHTML": "<span class='support class'>CabDLL.dll</span>",
     "prefix": "CabDLL::CabInfo"
   },
   "CabDLL::CabView": {
     "body": "CabDLL::CabView \"${1:file}.cab\"$2",
+    "description": "Usage: CabDLL::CabView file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/CabDLL_plug-in",
+    "leftLabelHTML": "<span class='support class'>CabDLL.dll</span>",
     "prefix": "CabDLL::CabView"
   }
 }

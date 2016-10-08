@@ -1,6 +1,9 @@
 {
   "ApplicationID::Set": {
     "body": "ApplicationID::Set \"${1:shortcut}.lnk\" \"${2:MyAppId}\"$3",
+    "description": "Usage: ApplicationID::Set shortcut MyAppId",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Application_Association_Registration_plug-in",
+    "leftLabelHTML": "<span class='support class'>AppAssocReg.dll</span>",
     "prefix": "ApplicationID::Set"
   }
 }

@@ -1,18 +1,30 @@
 {
   "ExecDos::exec": {
     "body": "ExecDos::exec \"${1:application_to_run}.exe\" \"${2:stdin_string}\" \"${3:log_file_name}.log\"$4",
+    "description": "Usage: ExecDos::exec application_to_run stdin_string log_file_name",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ExecDos_plug-in",
+    "leftLabelHTML": "<span class='support class'>ExecDos.dll</span>",
     "prefix": "ExecDos::exec"
   },
   "ExecDos::exec [/options]": {
     "body": "ExecDos::exec ${1:options} \"${2:application_to_run}.exe\" \"${3:stdin_string}\" \"${4:log_file_name}.log\"$5",
+    "description": "Usage: [/NOUNLOAD /ASYNC] [/TOSTACK | /DETAILED | /TOWINDOW | /TOFUNC | /DISABLEFSR] [/TIMEOUT=xxx] [/ENDFUNC=func] application_to_run stdin_string log_file_name",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ExecDos_plug-in",
+    "leftLabelHTML": "<span class='support class'>ExecDos.dll</span>",
     "prefix": "ExecDos::exec [/options]"
   },
   "ExecDos::isdone": {
     "body": "ExecDos::isdone /NOUNLOAD ${1:handle}$2",
+    "description": "Usage: ExecDos::isdone /NOUNLOAD handle",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ExecDos_plug-in",
+    "leftLabelHTML": "<span class='support class'>ExecDos.dll</span>",
     "prefix": "ExecDos::isdone"
   },
   "ExecDos::wait": {
     "body": "ExecDos::wait ${1:handle}$2",
+    "description": "Usage: ExecDos::wait handle",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ExecDos_plug-in",
+    "leftLabelHTML": "<span class='support class'>ExecDos.dll</span>",
     "prefix": "ExecDos::wait"
   }
 }

@@ -1,14 +1,23 @@
 {
   "ExecCmd::exec": {
     "body": "ExecCmd::exec \"${1:application_to_run}.exe\" \"${2:stdin_string}\"$3",
+    "description": "Usage: ExecCmd::exec application_to_run stdin_string",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ExecCmd_plug-in",
+    "leftLabelHTML": "<span class='support class'>ExecCmd.dll</span>",
     "prefix": "ExecCmd::exec"
   },
   "ExecCmd::exec [/options]": {
     "body": "ExecCmd::exec ${1:options} \"${2:application_to_run}.exe\" \"${3:stdin_string}\"$4",
+    "description": "Usage: ExecCmd::exec [/NOUNLOAD /ASYNC] [/TEST] [/TIMEOUT=xxx] application_to_run stdin_string",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ExecCmd_plug-in",
+    "leftLabelHTML": "<span class='support class'>ExecCmd.dll</span>",
     "prefix": "ExecCmd::exec [/options]"
   },
   "ExecCmd::wait": {
     "body": "ExecCmd::wait ${1:handle}$2",
+    "description": "Usage: ExecCmd::wait handle",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ExecCmd_plug-in",
+    "leftLabelHTML": "<span class='support class'>ExecCmd.dll</span>",
     "prefix": "ExecCmd::wait"
   }
 }

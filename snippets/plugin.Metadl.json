@@ -1,10 +1,16 @@
 {
   "metadl:download": {
     "body": "metadl:download \"${1:url}\" \"${2:local_file}\"$3",
+    "description": "Usage: metadl:download url local_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Metadl",
+    "leftLabelHTML": "<span class='support class'>metadl.dll</span>",
     "prefix": "metadl:download"
   },
   "metadl:download  [/options]": {
     "body": "metadl:download ${1:options} \"${2:url}\" \"${3:local_file}\"$4",
+    "description": "Usage: metadl:download options url local_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Metadl",
+    "leftLabelHTML": "<span class='support class'>metadl.dll</span>",
     "prefix": "metadl:download  [/options]"
   }
 }

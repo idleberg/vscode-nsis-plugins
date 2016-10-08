@@ -1,10 +1,16 @@
 {
   "Linker::link": {
     "body": "Linker::link /NOUNLOAD $${1:hwnd} \"${2:url}\"$3",
+    "description": "Usage: Linker::link hwnd url",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Linker_plug-in",
+    "leftLabelHTML": "<span class='support class'>Linker.dll</span>",
     "prefix": "Linker::link"
   },
   "Linker::lvlink": {
     "body": "Linker::lvlink /NOUNLOAD $${1:hwnd} ${2:item} ${3:sub_item} \"${4:url}\"$5",
+    "description": "Usage: Linker::lvlink hwnd item sub_item url",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Linker_plug-in",
+    "leftLabelHTML": "<span class='support class'>Linker.dll</span>",
     "prefix": "Linker::lvlink"
   }
 }

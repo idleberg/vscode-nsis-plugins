@@ -1,74 +1,128 @@
 {
   "LockedList::AddApplications": {
     "body": "LockedList::AddApplications$1",
+    "description": "Usage: LockedList::AddApplications",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::AddApplications"
   },
   "LockedList::AddCaption": {
     "body": "LockedList::AddCaption \"${1:caption}\"$2",
+    "description": "Usage: LockedList::AddCaption caption",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::AddCaption"
   },
   "LockedList::AddClass": {
     "body": "LockedList::AddClass \"${1:class_with_wildcards}\"$2",
+    "description": "Usage: LockedList::AddClass class_with_wildcards",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::AddClass"
   },
   "LockedList::AddCustom": {
     "body": "LockedList::AddCustom \"${1:application_name}\" \"${2:process_name}\" $${3:var}$4",
+    "description": "Usage: LockedList::AddCustom application_name process_name var",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::AddCustom"
   },
   "LockedList::AddCustom /icon": {
     "body": "LockedList::AddCustom /icon \"${1:icon}\" \"${2:application_name}\" \"${3:process_name}\" $${4:var}$5",
+    "description": "Usage: LockedList::AddCustom /icon icon application_name process_name var",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::AddCustom /icon"
   },
   "LockedList::AddFile": {
     "body": "LockedList::AddFile \"${1:file}\"$2",
+    "description": "Usage: LockedList::AddFile file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::AddFile"
   },
   "LockedList::AddFolder": {
     "body": "LockedList::AddFolder \"${1:folder}\"$2",
+    "description": "Usage: LockedList::AddFolder folder",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::AddFolder"
   },
   "LockedList::AddModule": {
     "body": "LockedList::AddModule \"${1:file}\"$2",
+    "description": "Usage: LockedList::AddModule file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::AddModule"
   },
   "LockedList::Dialog": {
     "body": "LockedList::Dialog ${1:parameters}$2",
+    "description": "Usage: LockedList::Dialog parameters",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::Dialog"
   },
   "LockedList::EnumProcesses": {
     "body": "LockedList::EnumProcesses $${1:var}$2",
+    "description": "Usage: LockedList::EnumProcesses var",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::EnumProcesses"
   },
   "LockedList::FindProcess": {
     "body": "LockedList::FindProcess \"${1:file}\"$2",
+    "description": "Usage: LockedList::FindProcess file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::FindProcess"
   },
   "LockedList::FindProcess /yesno": {
     "body": "LockedList::FindProcess /yesno \"${1:file}\"$2",
+    "description": "Usage: LockedList::FindProcess /yesno file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::FindProcess /yesno"
   },
   "LockedList::InitDialog": {
     "body": "LockedList::InitDialog ${1:parameters}$2",
+    "description": "Usage: LockedList::InitDialog parameters",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::InitDialog"
   },
   "LockedList::IsFileLocked": {
     "body": "LockedList::IsFileLocked \"${1:file}\"$2",
+    "description": "Usage: LockedList::IsFileLocked file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::IsFileLocked"
   },
   "LockedList::Show": {
     "body": "LockedList::Show$1",
+    "description": "Usage: LockedList::Show",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::Show"
   },
   "LockedList::SilentPercentComplete": {
     "body": "LockedList::SilentPercentComplete$1",
+    "description": "Usage: LockedList::SilentPercentComplete",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::SilentPercentComplete"
   },
   "LockedList::SilentWait": {
     "body": "LockedList::SilentWait$1",
+    "description": "Usage: LockedList::SilentWait",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::SilentWait"
   },
   "LockedList::SilentWait /time": {
     "body": "LockedList::SilentWait /time ${1:time_in_ms}$2",
+    "description": "Usage: LockedList::SilentWait /time time_in_ms",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/LockedList_plug-in",
+    "leftLabelHTML": "<span class='support class'>LockedList.dll</span>",
     "prefix": "LockedList::SilentWait /time"
   }
 }

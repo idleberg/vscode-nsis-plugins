@@ -1,10 +1,16 @@
 {
   "CLR::Call /NOUNLOAD": {
     "body": "CLR::Call /NOUNLOAD \"${1:file}.dll\" \"${2:class}\" ${3:options}$4",
+    "description": "Usage: CLR::Call /NOUNLOAD file class options",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Call_.NET_DLL_methods_plug-in",
+    "leftLabelHTML": "<span class='support class'>CLR.dll</span>",
     "prefix": "CLR::Call /NOUNLOAD"
   },
   "CLR::Destroy": {
     "body": "CLR::Destroy$1",
+    "description": "Usage: CLR::Destroy",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Call_.NET_DLL_methods_plug-in",
+    "leftLabelHTML": "<span class='support class'>CLR.dll</span>",
     "prefix": "CLR::Destroy"
   }
 }

@@ -1,6 +1,9 @@
 {
   "FindProcDLL::FindProc": {
     "body": "FindProcDLL::FindProc\"${1:file}.exe\"$2",
+    "description": "Usage: FindProcDLL::extract exe_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/FindProcDLL_plug-in",
+    "leftLabelHTML": "<span class='support class'>FindProcDLL.dll</span>",
     "prefix": "FindProcDLL::FindProc"
   }
 }

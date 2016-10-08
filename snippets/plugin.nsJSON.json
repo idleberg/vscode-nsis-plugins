@@ -1,70 +1,121 @@
 {
   "nsJSON::Delete": {
     "body": "nsJSON::Delete \"${1:NodePath}\" /end$2",
+    "description": "Usage: nsJSON::Delete NodePath /end",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Delete"
   },
   "nsJSON::Get": {
     "body": "nsJSON::Get \"${1:NodePath}\" /end$2",
+    "description": "Usage: nsJSON::Get NodePath /end",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Get"
   },
   "nsJSON::Get /count": {
     "body": "nsJSON::Get /count \"${1:NodePath}\" /end$2",
+    "description": "Usage: nsJSON::Get /count NodePath /end",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Get /count"
   },
   "nsJSON::Get /exists": {
     "body": "nsJSON::Get /exists \"${1:NodePath}\" /end$2",
+    "description": "Usage: nsJSON::Get /exists NodePath /end",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Get /exists"
   },
   "nsJSON::Get /isempty": {
     "body": "nsJSON::Get /isempty \"${1:NodePath}\" /end$2",
+    "description": "Usage: nsJSON::Get /isempty NodePath /end",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Get /isempty"
   },
   "nsJSON::Get /key": {
     "body": "nsJSON::Get /key \"${1:NodePath}\" /end$2",
+    "description": "Usage: nsJSON::Get /key NodePath /end",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Get /key"
   },
   "nsJSON::Get /noexpand": {
     "body": "nsJSON::Get /noexpand \"${1:NodePath}\" /end$2",
+    "description": "Usage: nsJSON::Get /noexpand NodePath /end",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Get /noexpand"
   },
   "nsJSON::Get /type": {
     "body": "nsJSON::Get /type \"${1:NodePath}\" /end$2",
+    "description": "Usage: nsJSON::Get /type NodePath /end",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Get /type"
   },
   "nsJSON::Serialize": {
     "body": "nsJSON::Serialize$1",
+    "description": "Usage: nsJSON::Serialize",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Serialize"
   },
   "nsJSON::Serialize /file": {
     "body": "nsJSON::Serialize /file \"${1:file}.json\"$2",
+    "description": "Usage: nsJSON::Serialize /file file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Serialize /file"
   },
   "nsJSON::Serialize /file /unicode": {
     "body": "nsJSON::Serialize /file /unicode \"${1:file}.json\"$2",
+    "description": "Usage: nsJSON::Serialize /file /unicode file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Serialize /file /unicode"
   },
   "nsJSON::Serialize /format /file": {
     "body": "nsJSON::Serialize /file \"${1:file}.json\"$2",
+    "description": "Usage: nsJSON::Serialize /file file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Serialize /format /file"
   },
   "nsJSON::Serialize /format /file /unicode": {
     "body": "nsJSON::Serialize /file /unicode \"${1:file}.json\"$2",
+    "description": "Usage: nsJSON::Serialize /file /unicode file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Serialize /format /file /unicode"
   },
   "nsJSON::Serialize format": {
     "body": "nsJSON::Serialize /format$1",
+    "description": "Usage: nsJSON::Serialize /format",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Serialize format"
   },
   "nsJSON::Set /file": {
     "body": "nsJSON::Set \"${1:NodePath}\" /file \"${2:file}.json\"$3",
+    "description": "Usage: nsJSON::Set NodePath /file file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Set /file"
   },
   "nsJSON::Set /unicode": {
     "body": "nsJSON::Set \"${1:NodePath}\" /file /unicode \"${2:file}.json\"$3",
+    "description": "Usage: nsJSON::Set NodePath /file /unicode file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Set /unicode"
   },
   "nsJSON::Set /value": {
     "body": "nsJSON::Set \"${1:NodePath}\" /value \"${2:value}\"$3",
+    "description": "Usage: nsJSON::Set NodePath /value value",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsJSON_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsJSON.dll</span>",
     "prefix": "nsJSON::Set /value"
   }
 }

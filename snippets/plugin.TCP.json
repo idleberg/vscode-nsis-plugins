@@ -1,6 +1,9 @@
 {
   "TCP::CheckPort": {
     "body": "TCP::CheckPort ${1:port}$2",
+    "description": "Usage: TCP::CheckPort port",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/TCP_plug-in",
+    "leftLabelHTML": "<span class='support class'>TCP.dll</span>",
     "prefix": "TCP::CheckPort"
   }
 }

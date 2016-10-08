@@ -1,14 +1,23 @@
 {
-  "NsisIIS::IterateChunk": {
-    "body": "NsisIIS::IterateChunk /NOUNLOAD \"${1:url}\"$2",
-    "prefix": "NsisIIS::IterateChunk"
+  "NsisUrlLib::IterateChunk": {
+    "body": "NsisUrlLib::IterateChunk /NOUNLOAD \"${1:url}\"$2",
+    "description": "Usage: NsisUrlLib::IterateChunk /NOUNLOAD \"${1:url}\"$2",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisUrlLib_plug-in",
+    "leftLabelHTML": "<span class='support class'>NsisUrlLib.dll</span>",
+    "prefix": "NsisUrlLib::IterateChunk"
   },
-  "NsisIIS::IterateLine": {
-    "body": "NsisIIS::IterateLine /NOUNLOAD \"${1:url}\"$2",
-    "prefix": "NsisIIS::IterateLine"
+  "NsisUrlLib::IterateLine": {
+    "body": "NsisUrlLib::IterateLine /NOUNLOAD \"${1:url}\"$2",
+    "description": "Usage: NsisUrlLib::IterateLine /NOUNLOAD \"${1:url}\"$2",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisUrlLib_plug-in",
+    "leftLabelHTML": "<span class='support class'>NsisUrlLib.dll</span>",
+    "prefix": "NsisUrlLib::IterateLine"
   },
   "NsisUrlLib::UrlOpen": {
     "body": "NsisUrlLib::UrlOpen /NOUNLOAD \"${1:url}\"$2",
+    "description": "Usage: NsisUrlLib::UrlOpen /NOUNLOAD \"${1:url}\"$2",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisUrlLib_plug-in",
+    "leftLabelHTML": "<span class='support class'>NsisUrlLib.dll</span>",
     "prefix": "NsisUrlLib::UrlOpen"
   }
 }

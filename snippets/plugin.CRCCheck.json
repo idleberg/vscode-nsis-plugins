@@ -1,6 +1,9 @@
 {
   "CRCCheck::GenCRC": {
-    "body": "CRCCheck::GenCRC \"${1:file}\"\n${2:var}$3",
+    "body": "CRCCheck::GenCRC \"${1:file}\"\nPop ${2:var}$3",
+    "description": "Usage: CRCCheck::GenCRC file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/CRCCheck_plug-in",
+    "leftLabelHTML": "<span class=\"support class\">CRCCheck.dll</span>",
     "prefix": "CRCCheck::GenCRC"
   }
 }

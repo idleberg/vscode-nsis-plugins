@@ -1,10 +1,16 @@
 {
   "ThreadTimer::Start": {
     "body": "ThreadTimer::Start /NOUNLOAD ${1:interval} ${2:ticks} $${3:function}$4",
+    "description": "Usage: ThreadTimer::Start /NOUNLOAD interval ticks function",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ThreadTimer_plug-in",
+    "leftLabelHTML": "<span class='support class'>ThreadTimer.dll</span>",
     "prefix": "ThreadTimer::Start"
   },
   "ThreadTimer::Stop": {
     "body": "ThreadTimer::Stop$1",
+    "description": "Usage: ThreadTimer::Stop",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ThreadTimer_plug-in",
+    "leftLabelHTML": "<span class='support class'>ThreadTimer.dll</span>",
     "prefix": "ThreadTimer::Stop"
   }
 }

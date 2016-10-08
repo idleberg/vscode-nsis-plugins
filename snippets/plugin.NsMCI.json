@@ -1,14 +1,23 @@
 {
   "nsmci::GetErrorString": {
     "body": "nsmci::GetErrorString \"${1:error_code}\"$2",
+    "description": "Usage: nsmci::GetErrorString error_code",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsMCI_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsMCI.dll</span>",
     "prefix": "nsmci::GetErrorString"
   },
   "nsmci::GetFirstCDROMDrive": {
     "body": "nsmci::GetFirstCDROMDrive$1",
+    "description": "Usage: nsmci::GetFirstCDROMDrive",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsMCI_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsMCI.dll</span>",
     "prefix": "nsmci::GetFirstCDROMDrive"
   },
   "nsmci::SendString": {
     "body": "nsmci::SendString \"${1:command}\"$2",
+    "description": "Usage: nsmci::SendString command",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsMCI_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsMCI.dll</span>",
     "prefix": "nsmci::SendString"
   }
 }

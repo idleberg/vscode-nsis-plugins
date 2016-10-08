@@ -1,6 +1,9 @@
 {
   "CallAnsiPlugin::Call": {
     "body": "CallAnsiPlugin::Call \"${1:plugin_path}\" \"${2:function}\" \"${3:parameter_count}\" ${4:parameters}$5",
+    "description": "Usage: CallAnsiPlugin::Call plugin_path function parameter_count parameters",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/CallAnsiPlugin_plug-in",
+    "leftLabelHTML": "<span class='support class'>CallAnsiPlugin.dll</span>",
     "prefix": "CallAnsiPlugin::Call"
   }
 }

@@ -1,18 +1,30 @@
 {
   "RegBin::append": {
     "body": "RegBin::append /NOUNLOAD \"${1:value}\"$2",
+    "description": "Usage: RegBin::append /NOUNLOAD value",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Write_arbitrary_sized,_runtime_assigned_binary_data_to_Registry",
+    "leftLabelHTML": "<span class='support class'>RegBin.dll</span>",
     "prefix": "RegBin::append"
   },
   "RegBin::init": {
     "body": "RegBin::init /NOUNLOAD ${1:root_key} \"${2:sub_key}\" \"${3:key_name}\" \"${4:value}\"$5",
+    "description": "Usage: RegBin::init /NOUNLOAD root_key sub_key key_name value",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Write_arbitrary_sized,_runtime_assigned_binary_data_to_Registry",
+    "leftLabelHTML": "<span class='support class'>RegBin.dll</span>",
     "prefix": "RegBin::init"
   },
   "RegBin::write": {
     "body": "RegBin::write \"${1:value}\"$2",
+    "description": "Usage: RegBin::write value",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Write_arbitrary_sized,_runtime_assigned_binary_data_to_Registry",
+    "leftLabelHTML": "<span class='support class'>RegBin.dll</span>",
     "prefix": "RegBin::write"
   },
   "RegBin::writeRegBin": {
     "body": "RegBin::writeRegBin ${1:root_key} \"${2:sub_key}\" \"${3:key_name}\" \"${4:value}\"$5",
+    "description": "Usage: RegBin::writeRegBin root_key sub_key key_name value",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Write_arbitrary_sized,_runtime_assigned_binary_data_to_Registry",
+    "leftLabelHTML": "<span class='support class'>RegBin.dll</span>",
     "prefix": "RegBin::writeRegBin"
   }
 }

@@ -1,18 +1,30 @@
 {
   "ButtonEvent::AddEventHandler": {
     "body": "ButtonEvent::AddEventHandler ${1:control_id} ${2:function_address}$3",
+    "description": "Usage: ButtonEvent::AddEventHandler control_id function_address",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ButtonEvent_plug-in",
+    "leftLabelHTML": "<span class='support class'>ButtonEvent.dll</span>",
     "prefix": "ButtonEvent::AddEventHandler"
   },
   "ButtonEvent::AddEventHandler /NOTIFY": {
     "body": "ButtonEvent::AddEventHandler ${1:control_id} /NOTIFY$2",
+    "description": "Usage: ButtonEvent::AddEventHandler control_id /NOTIFY",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ButtonEvent_plug-in",
+    "leftLabelHTML": "<span class='support class'>ButtonEvent.dll</span>",
     "prefix": "ButtonEvent::AddEventHandler /NOTIFY"
   },
   "ButtonEvent::UnsetEventHandler": {
     "body": "ButtonEvent::UnsetEventHandler ${1:control_id}$2",
+    "description": "Usage: ButtonEvent::UnsetEventHandler control_id",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ButtonEvent_plug-in",
+    "leftLabelHTML": "<span class='support class'>ButtonEvent.dll</span>",
     "prefix": "ButtonEvent::UnsetEventHandler"
   },
   "ButtonEvent::WhichButtonId": {
     "body": "ButtonEvent::WhichButtonId /NOUNLOAD$1",
+    "description": "Usage: ButtonEvent::WhichButtonId /NOUNLOAD",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/ButtonEvent_plug-in",
+    "leftLabelHTML": "<span class='support class'>ButtonEvent.dll</span>",
     "prefix": "ButtonEvent::WhichButtonId"
   }
 }

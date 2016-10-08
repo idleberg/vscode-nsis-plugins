@@ -1,14 +1,23 @@
 {
   "NSIS_SkinCrafter_Plugin::destroy": {
     "body": "NSIS_SkinCrafter_Plugin::destroy$1",
+    "description": "Usage: NSIS_SkinCrafter_Plugin::destroy",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_SkinCrafter_Plugin_plug-in",
+    "leftLabelHTML": "<span class='support class'>NSIS_SkinCrafter_Plugin.dll</span>",
     "prefix": "NSIS_SkinCrafter_Plugin::destroy"
   },
   "NSIS_SkinCrafter_Plugin::skin": {
     "body": "NSIS_SkinCrafter_Plugin::skin /NOUNLOAD$1",
+    "description": "Usage: NSIS_SkinCrafter_Plugin::skin /NOUNLOAD",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_SkinCrafter_Plugin_plug-in",
+    "leftLabelHTML": "<span class='support class'>NSIS_SkinCrafter_Plugin.dll</span>",
     "prefix": "NSIS_SkinCrafter_Plugin::skin"
   },
   "NSIS_SkinCrafter_Plugin::skin [file]": {
     "body": "NSIS_SkinCrafter_Plugin::skin /NOUNLOAD \"${1:file}.skf\"$2",
+    "description": "Usage: NSIS_SkinCrafter_Plugin::skin /NOUNLOAD skf_file",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_SkinCrafter_Plugin_plug-in",
+    "leftLabelHTML": "<span class='support class'>NSIS_SkinCrafter_Plugin.dll</span>",
     "prefix": "NSIS_SkinCrafter_Plugin::skin [file]"
   }
 }

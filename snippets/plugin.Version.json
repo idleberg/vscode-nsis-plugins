@@ -1,70 +1,121 @@
 {
   "Version::GetWindowsVersion": {
     "body": "Version::GetWindowsVersion$1",
+    "description": "Usage: Version::GetWindowsVersion",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::GetWindowsVersion"
   },
   "Version::IsWindows2000": {
     "body": "Version::IsWindows2000$1",
+    "description": "Usage: Version::IsWindows2000",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindows2000"
   },
   "Version::IsWindows2003": {
     "body": "Version::IsWindows2003$1",
+    "description": "Usage: Version::IsWindows2003",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindows2003"
   },
   "Version::IsWindows7": {
     "body": "Version::IsWindows7$1",
+    "description": "Usage: Version::IsWindows7",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindows7"
   },
   "Version::IsWindows8": {
     "body": "Version::IsWindows8$1",
+    "description": "Usage: Version::IsWindows8",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindows8"
   },
   "Version::IsWindows95": {
     "body": "Version::IsWindows95$1",
+    "description": "Usage: Version::IsWindows95",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindows95"
   },
   "Version::IsWindows98": {
     "body": "Version::IsWindows98$1",
+    "description": "Usage: Version::IsWindows98",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindows98"
   },
   "Version::IsWindowsME": {
     "body": "Version::IsWindowsME$1",
+    "description": "Usage: Version::IsWindowsME",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindowsME"
   },
   "Version::IsWindowsNT351": {
     "body": "Version::IsWindowsNT351$1",
+    "description": "Usage: Version::IsWindowsNT351",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindowsNT351"
   },
   "Version::IsWindowsNT40": {
     "body": "Version::IsWindowsNT40$1",
+    "description": "Usage: Version::IsWindowsNT40",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindowsNT40"
   },
   "Version::IsWindowsPlatformNT": {
     "body": "Version::IsWindowsPlatform9x$1",
+    "description": "Usage: Version::IsWindowsPlatform9x",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindowsPlatformNT"
   },
   "Version::IsWindowsServer2008": {
     "body": "Version::IsWindowsServer2008$1",
+    "description": "Usage: Version::IsWindowsServer2008",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindowsServer2008"
   },
   "Version::IsWindowsServer2008R2": {
     "body": "Version::IsWindowsServer2008R2$1",
+    "description": "Usage: Version::IsWindowsServer2008R2",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindowsServer2008R2"
   },
   "Version::IsWindowsServer2012": {
     "body": "Version::IsWindowsServer2012$1",
+    "description": "Usage: Version::IsWindowsServer2012",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindowsServer2012"
   },
   "Version::IsWindowsVista": {
     "body": "Version::IsWindowsVista$1",
+    "description": "Usage: Version::IsWindowsVista",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindowsVista"
   },
   "Version::IsWindowsXP": {
     "body": "Version::IsWindowsXP$1",
+    "description": "Usage: Version::IsWindowsXP",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindowsXP"
   },
   "Version::IsWindowsXPx64": {
     "body": "Version::IsWindowsXPx64$1",
+    "description": "Usage: Version::IsWindowsXPx64",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Version_plug-in",
+    "leftLabelHTML": "<span class='support class'>version.dll</span>",
     "prefix": "Version::IsWindowsXPx64"
   }
 }

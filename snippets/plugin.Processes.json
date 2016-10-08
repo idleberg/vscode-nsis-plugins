@@ -1,14 +1,23 @@
 {
   "Processes::FindDevice": {
     "body": "Processes::FindDevice \"${1:device_base_name}\"$2",
+    "description": "Usage: Processes::FindDevice device_base_name",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Processes_plug-in",
+    "leftLabelHTML": "<span class='support class'>Processes.dll</span>",
     "prefix": "Processes::FindDevice"
   },
   "Processes::FindProcess": {
     "body": "Processes::FindProcess \"${1:process_name}\"$2",
+    "description": "Usage: Processes::FindProcess process_name",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Processes_plug-in",
+    "leftLabelHTML": "<span class='support class'>Processes.dll</span>",
     "prefix": "Processes::FindProcess"
   },
   "Processes::KillProcess": {
     "body": "Processes::KillProcess \"${1:process_name}\"$2",
+    "description": "Usage: Processes::KillProcess process_name",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/Processes_plug-in",
+    "leftLabelHTML": "<span class='support class'>Processes.dll</span>",
     "prefix": "Processes::KillProcess"
   }
 }

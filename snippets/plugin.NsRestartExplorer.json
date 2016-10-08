@@ -1,18 +1,30 @@
 {
   "nsRestartExplorer::nsRestartExplorer": {
     "body": "nsRestartExplorer::nsRestartExplorer ${1:command} ${2:timeout}$3",
+    "description": "Usage: nsRestartExplorer::nsRestartExplorer command timeout",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsRestartExplorer_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsRestartExplorer.dll</span>",
     "prefix": "nsRestartExplorer::nsRestartExplorer"
   },
   "nsRestartExplorer::nsRestartExplorer quit": {
     "body": "nsRestartExplorer::nsRestartExplorer quit ${1:timeout}$2",
+    "description": "Usage: nsRestartExplorer::nsRestartExplorer quit timeout",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsRestartExplorer_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsRestartExplorer.dll</span>",
     "prefix": "nsRestartExplorer::nsRestartExplorer quit"
   },
   "nsRestartExplorer::nsRestartExplorer restart": {
     "body": "nsRestartExplorer::nsRestartExplorer restart ${1:timeout}$2",
+    "description": "Usage: nsRestartExplorer::nsRestartExplorer restart timeout",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsRestartExplorer_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsRestartExplorer.dll</span>",
     "prefix": "nsRestartExplorer::nsRestartExplorer restart"
   },
   "nsRestartExplorer::nsRestartExplorer start": {
     "body": "nsRestartExplorer::nsRestartExplorer start ${1:timeout}$2",
+    "description": "Usage: nsRestartExplorer::nsRestartExplorer start timeout",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/NsRestartExplorer_plug-in",
+    "leftLabelHTML": "<span class='support class'>nsRestartExplorer.dll</span>",
     "prefix": "nsRestartExplorer::nsRestartExplorer start"
   }
 }

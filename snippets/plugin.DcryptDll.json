@@ -1,22 +1,37 @@
 {
   "DcryptDll::Decrypt": {
     "body": "DcryptDll::Decrypt \"${1:function}\" \"${2:HexKeyFileName}\" \"${3:InputFileName}\" \"${4:OutputFileName}\"$5",
+    "description": "Usage: DcryptDll::Decrypt function HexKeyFileName InputFileName OutputFileName",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/DcryptDll_plug-in",
+    "leftLabelHTML": "<span class='support class'>DcryptDll.dll</span>",
     "prefix": "DcryptDll::Decrypt"
   },
   "DcryptDll::HexDecoder": {
     "body": "DcryptDll::HexDecoder \"${1:function}\" \"${2:InputFileName}\" \"${3:OutputFileName}\"$4",
+    "description": "Usage: DcryptDll::HexDecoder function InputFileName OutputFileName",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/DcryptDll_plug-in",
+    "leftLabelHTML": "<span class='support class'>DcryptDll.dll</span>",
     "prefix": "DcryptDll::HexDecoder"
   },
   "DcryptDll::HexEncoder": {
     "body": "DcryptDll::HexEncoder \"${1:function}\" \"${2:InputFileName}\" \"${3:OutputFileName}\"$4",
+    "description": "Usage: DcryptDll::HexEncoder function InputFileName OutputFileName",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/DcryptDll_plug-in",
+    "leftLabelHTML": "<span class='support class'>DcryptDll.dll</span>",
     "prefix": "DcryptDll::HexEncoder"
   },
   "DcryptDll::LoadStr": {
     "body": "DcryptDll::LoadStr \"${1:InputFileName}\"",
+    "description": "Usage: DcryptDll::LoadStr InputFileName",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/DcryptDll_plug-in",
+    "leftLabelHTML": "<span class='support class'>DcryptDll.dll</span>",
     "prefix": "DcryptDll::LoadStr"
   },
   "DcryptDll::MD5Hash": {
     "body": "DcryptDll::MD5Hash \"${1:function}\" \"${2:InputFileName}\" \"${3:OutputFileName}\"$4",
+    "description": "Usage: DcryptDll::MD5Hash function InputFileName OutputFileName",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/DcryptDll_plug-in",
+    "leftLabelHTML": "<span class='support class'>DcryptDll.dll</span>",
     "prefix": "DcryptDll::MD5Hash"
   }
 }

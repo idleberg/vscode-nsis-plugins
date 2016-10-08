@@ -1,14 +1,23 @@
 {
   "InetBgDL::Get": {
     "body": "InetBgDL::Get \"${1:url}\" \"${2:local_file1}\" /END$3",
+    "description": "Usage: InetBgDL::Get url local_file1 /END",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InetBgDL_plug-in",
+    "leftLabelHTML": "<span class='support class'>InetBgDL.dll</span>",
     "prefix": "InetBgDL::Get"
   },
   "InetBgDL::Get /RESET": {
     "body": "InetBgDL::Get /RESET \"${1:url}\" \"${2:local_file1}\" /END$3",
+    "description": "Usage: InetBgDL::Get /RESET url local_file1 /END",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InetBgDL_plug-in",
+    "leftLabelHTML": "<span class='support class'>InetBgDL.dll</span>",
     "prefix": "InetBgDL::Get /RESET"
   },
   "InetBgDL::GetStats": {
     "body": "InetBgDL::GetStats$1",
+    "description": "Usage: InetBgDL::GetStats",
+    "descriptionMoreURL": "http://nsis.sourceforge.net/InetBgDL_plug-in",
+    "leftLabelHTML": "<span class='support class'>InetBgDL.dll</span>",
     "prefix": "InetBgDL::GetStats"
   }
 }
