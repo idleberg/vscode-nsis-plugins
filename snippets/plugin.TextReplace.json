@@ -1,30 +1,30 @@
 {
   "${TextReplace::FillReadBuffer}": {
-    "body": "${TextReplace::FillReadBuffer} \"${1:file}\" $${2:var}$3",
+    "body": "$\\{TextReplace::FillReadBuffer\\} \"${1:file}\" $${2:var}$3",
     "description": "Usage: ${TextReplace::FillReadBuffer} file var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/TextReplace_plugin",
     "leftLabelHTML": "<span class='support class'>textreplace.dll</span>",
-    "prefix": "${TextReplace::FillReadBuffer}"
+    "prefix": "TextReplace::FillReadBuffer"
   },
   "${TextReplace::FindInFile}": {
-    "body": "${TextReplace::FindInFile} \"${1:input_file}\" \"${2:string}\" ${3:options} $${4:var}$5",
+    "body": "$\\{TextReplace::FindInFile\\} \"${1:input_file}\" \"${2:string}\" ${3:options} $${4:var}$5",
     "description": "Usage: ${TextReplace::FindInFile} input_file string options var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/TextReplace_plugin",
     "leftLabelHTML": "<span class='support class'>textreplace.dll</span>",
-    "prefix": "${TextReplace::FindInFile}"
+    "prefix": "TextReplace::FindInFile"
   },
   "${TextReplace::ReplaceInFile}": {
-    "body": "${TextReplace::ReplaceInFile} \"${1:input_file}\" \"${2:output_file}\" \"${3:string}\" \"${4:replacement}\" ${5:options} $${6:var}$7",
+    "body": "$\\{TextReplace::ReplaceInFile\\} \"${1:input_file}\" \"${2:output_file}\" \"${3:string}\" \"${4:replacement}\" ${5:options} $${6:var}$7",
     "description": "Usage: ${TextReplace::ReplaceInFile} input_file output_file string replacement options var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/TextReplace_plugin",
     "leftLabelHTML": "<span class='support class'>textreplace.dll</span>",
-    "prefix": "${TextReplace::ReplaceInFile}"
+    "prefix": "TextReplace::ReplaceInFile"
   },
   "${TextReplace::Unload}": {
-    "body": "${TextReplace::Unload}$1",
+    "body": "$\\{TextReplace::Unload\\}$1",
     "description": "Usage: ${TextReplace::Unload}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/TextReplace_plugin",
     "leftLabelHTML": "<span class='support class'>textreplace.dll</span>",
-    "prefix": "${TextReplace::Unload}"
+    "prefix": "TextReplace::Unload"
   }
 }

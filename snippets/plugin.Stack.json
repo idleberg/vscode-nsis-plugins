@@ -1,17 +1,17 @@
 {
   "${Stack::Debug}": {
-    "body": "${Stack::Debug} \"${1:handle}\"$2",
+    "body": "$\\{Stack::Debug\\} \"${1:handle}\"$2",
     "description": "Usage: ${Stack::Debug} handle",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
     "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::Debug}"
+    "prefix": "Stack::Debug"
   },
   "${Stack::Unload}": {
-    "body": "${Stack::Unload}$1",
+    "body": "$\\{Stack::Unload\\}$1",
     "description": "Usage: ${Stack::Unload}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
     "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::Unload}"
+    "prefix": "Stack::Unload"
   },
   "${Stack::dll_clear}": {
     "body": "${Stack::dll_clear} \"${1:handle}\"$2",

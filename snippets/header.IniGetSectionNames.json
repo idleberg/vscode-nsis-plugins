@@ -1,6 +1,6 @@
 {
   "IniGetSectionNames": {
-    "body": "${IniGetSectionNames} \"${1:file}.ini\" ${2:function}$3",
+    "body": "$\\{IniGetSectionNames\\} \"${1:file}.ini\" ${2:function}$3",
     "description": "Usage: ${CharToASCII} file function",
     "descriptionMoreURL": "http://nsis.sourceforge.net/IniGetSectionNames",
     "leftLabelHTML": "<span class='support function'>IniGetSectionNames.nsh</span>",

@@ -1,13 +1,13 @@
 {
   "ForEachIn": {
-    "body": "${ForEachIn} ${1:array} $${2:key} $${3:value}\n\t${4:# your code here}\n${Next}$5",
+    "body": "$\\{ForEachIn\\} ${1:array} $${2:key} $${3:value}\n\t${4:# your code here}\n${Next}$5",
     "description": "Usage: ${ForEachIn}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
     "leftLabelHTML": "<span class='support function'>nsArray.nsh</span>",
     "prefix": "ForEachIn"
   },
   "ForEachInReverse": {
-    "body": "${ForEachInReverse} ${1:array} $${2:key} $${3:value}\n\t${4:# your code here}\n${Next}$5",
+    "body": "$\\{ForEachInReverse\\} ${1:array} $${2:key} $${3:value}\n\t${4:# your code here}\n${Next}$5",
     "description": "Usage: ${ForEachInReverse}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
     "leftLabelHTML": "<span class='support function'>nsArray.nsh</span>",

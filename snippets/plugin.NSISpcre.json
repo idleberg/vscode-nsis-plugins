@@ -1,86 +1,86 @@
 {
   "${RECaptureMatches}": {
-    "body": "${RECaptureMatches} $${1:result} \"${2:pattern}\" \"${3:subject}\" \"${4:partial}\"$5",
+    "body": "$\\{RECaptureMatches\\} $${1:result} \"${2:pattern}\" \"${3:subject}\" \"${4:partial}\"$5",
     "description": "Usage: ${RECaptureMatches} result pattern subject partial",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISpcre_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISpcre.dll</span>",
-    "prefix": "${RECaptureMatches}"
+    "prefix": "RECaptureMatches"
   },
   "${RECheckPattern}": {
-    "body": "${RECheckPattern} $${1:result} \"${2:pattern}\"$3",
+    "body": "$\\{RECheckPattern\\} $${1:result} \"${2:pattern}\"$3",
     "description": "Usage: ${RECheckPattern} result pattern",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISpcre_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISpcre.dll</span>",
-    "prefix": "${RECheckPattern}"
+    "prefix": "RECheckPattern"
   },
   "${REClearAllOptions}": {
-    "body": "${REClearAllOptions}$1",
+    "body": "$\\{REClearAllOptions\\}$1",
     "description": "Usage: ${REClearAllOptions}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISpcre_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISpcre.dll</span>",
-    "prefix": "${REClearAllOptions}"
+    "prefix": "REClearAllOptions"
   },
   "${REClearOption}": {
-    "body": "${REClearOption} \"${1:option}\"$2",
+    "body": "$\\{REClearOption\\} \"${1:option}\"$2",
     "description": "Usage: ${REClearOption} option",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISpcre_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISpcre.dll</span>",
-    "prefix": "${REClearOption}"
+    "prefix": "REClearOption"
   },
   "${REFindClose}": {
-    "body": "${REFindClose}",
+    "body": "$\\{REFindClose\\}",
     "description": "Usage: ${REFindClos",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISpcre_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISpcre.dll</span>",
-    "prefix": "${REFindClose}"
+    "prefix": "REFindClose"
   },
   "${REFindNext}": {
-    "body": "${REFindNext} $${1:result} \"${2:pattern}\" \"${3:subject}\"$4",
+    "body": "$\\{REFindNext\\} $${1:result} \"${2:pattern}\" \"${3:subject}\"$4",
     "description": "Usage: ${REFindNext} result pattern subject",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISpcre_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISpcre.dll</span>",
-    "prefix": "${REFindNext}"
+    "prefix": "REFindNext"
   },
   "${REFind}": {
-    "body": "${REFind} $${1:result} \"${2:pattern}\" \"${3:subject}\"$4",
+    "body": "$\\{REFind\\} $${1:result} \"${2:pattern}\" \"${3:subject}\"$4",
     "description": "Usage: ${REFind} result pattern subject",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISpcre_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISpcre.dll</span>",
-    "prefix": "${REFind}"
+    "prefix": "REFind"
   },
   "${REGetOption}": {
-    "body": "${REGetOption} $${1:result} \"${2:option}\"$3",
+    "body": "$\\{REGetOption\\} $${1:result} \"${2:option}\"$3",
     "description": "Usage: ${REGetOption} result option",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISpcre_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISpcre.dll</span>",
-    "prefix": "${REGetOption}"
+    "prefix": "REGetOption"
   },
   "${REMatches}": {
-    "body": "${REMatches} $${1:result} \"${2:pattern}\" \"${3:subject}\" \"${4:partial}\"$5",
+    "body": "$\\{REMatches\\} $${1:result} \"${2:pattern}\" \"${3:subject}\" \"${4:partial}\"$5",
     "description": "Usage: ${REMatches} result pattern subject partial",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISpcre_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISpcre.dll</span>",
-    "prefix": "${REMatches}"
+    "prefix": "REMatches"
   },
   "${REQuoteMeta}": {
-    "body": "${REQuoteMeta} $${1:result} \"${2:subject}\"$3",
+    "body": "$\\{REQuoteMeta\\} $${1:result} \"${2:subject}\"$3",
     "description": "Usage: ${REQuoteMeta} result subject",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISpcre_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISpcre.dll</span>",
-    "prefix": "${REQuoteMeta}"
+    "prefix": "REQuoteMeta"
   },
   "${REReplace}": {
-    "body": "${REReplace} $${1:result} \"${2:pattern}\" \"${3:subject}\" \"${4:replacement}\" ${5:replace_all}$6",
+    "body": "$\\{REReplace\\} $${1:result} \"${2:pattern}\" \"${3:subject}\" \"${4:replacement}\" ${5:replace_all}$6",
     "description": "Usage: ${REReplace} result pattern subject replacement replace_all",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISpcre_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISpcre.dll</span>",
-    "prefix": "${REReplace}"
+    "prefix": "REReplace"
   },
   "${RESetOption}": {
-    "body": "${RESetOption} \"${1:option}\"$2",
+    "body": "$\\{RESetOption\\} \"${1:option}\"$2",
     "description": "Usage: ${RESetOption} option",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISpcre_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISpcre.dll</span>",
-    "prefix": "${RESetOption}"
+    "prefix": "RESetOption"
   }
 }

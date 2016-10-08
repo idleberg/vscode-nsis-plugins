@@ -1,226 +1,226 @@
 {
   "${List.Add}": {
-    "body": "${List.Add} \"${1:name}\" \"${2:item}\"$3",
+    "body": "$\\{List.Add\\} \"${1:name}\" \"${2:item}\"$3",
     "description": "Usage: ${List.Add} name item",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Add}"
+    "prefix": "List.Add"
   },
   "${List.AllRev}": {
-    "body": "${List.AllRev} \"${1:name}\"$2",
+    "body": "$\\{List.AllRev\\} \"${1:name}\"$2",
     "description": "Usage: ${List.AllRev} name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.AllRev}"
+    "prefix": "List.AllRev"
   },
   "${List.All}": {
-    "body": "${List.All} \"${1:name}\"$2",
+    "body": "$\\{List.All\\} \"${1:name}\"$2",
     "description": "Usage: ${List.All} name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.All}"
+    "prefix": "List.All"
   },
   "${List.Append}": {
-    "body": "${List.Append} \"${1:name}\" \"${2:items}\"$3",
+    "body": "$\\{List.Append\\} \"${1:name}\" \"${2:items}\"$3",
     "description": "Usage: ${List.Append} name items",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Append}"
+    "prefix": "List.Append"
   },
   "${List.Clear}": {
-    "body": "${List.Clear} \"${1:name}\"$2",
+    "body": "$\\{List.Clear\\} \"${1:name}\"$2",
     "description": "Usage: ${List.Clear} name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Clear}"
+    "prefix": "List.Clear"
   },
   "${List.Concat}": {
-    "body": "${List.Concat} \"${1:key_to}\" \"${2:key_from}\"$3",
+    "body": "$\\{List.Concat\\} \"${1:key_to}\" \"${2:key_from}\"$3",
     "description": "Usage: ${List.Concat} key_to key_from",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Concat}"
+    "prefix": "List.Concat"
   },
   "${List.Copy}": {
-    "body": "${List.Copy} \"${1:name}\" \"${2:index}\" ${3:count}$4",
+    "body": "$\\{List.Copy\\} \"${1:name}\" \"${2:index}\" ${3:count}$4",
     "description": "Usage: ${List.Copy} name index count",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Copy}"
+    "prefix": "List.Copy"
   },
   "${List.Count}": {
-    "body": "${List.Count} $${1:var_out} \"${2:name}\"$3",
+    "body": "$\\{List.Count\\} $${1:var_out} \"${2:name}\"$3",
     "description": "Usage: ${List.Count} $var_out name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Count}"
+    "prefix": "List.Count"
   },
   "${List.Create}": {
-    "body": "${List.Create} \"${1:name}\"$2",
+    "body": "$\\{List.Create\\} \"${1:name}\"$2",
     "description": "Usage: ${List.Create} name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Create}"
+    "prefix": "List.Create"
   },
   "${List.Debug}": {
-    "body": "${List.Debug}$1",
+    "body": "$\\{List.Debug\\}$1",
     "description": "Usage: ${List.Debug}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Debug}"
+    "prefix": "List.Debug"
   },
   "${List.Delete}": {
-    "body": "${List.Delete} \"${1:name}\" \"${2:index}\"$3",
+    "body": "$\\{List.Delete\\} \"${1:name}\" \"${2:index}\"$3",
     "description": "Usage: ${List.Delete} name index",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Delete}"
+    "prefix": "List.Delete"
   },
   "${List.Destroy}": {
-    "body": "${List.Destroy} \"${1:name}\"$2",
+    "body": "$\\{List.Destroy\\} \"${1:name}\"$2",
     "description": "Usage: ${List.Destroy} name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Destroy}"
+    "prefix": "List.Destroy"
   },
   "${List.Dim}": {
-    "body": "${List.Dim} \"${1:name}\" ${2:size}$3",
+    "body": "$\\{List.Dim\\} \"${1:name}\" ${2:size}$3",
     "description": "Usage: ${List.Dim} name size",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Dim}"
+    "prefix": "List.Dim"
   },
   "${List.Exch}": {
-    "body": "${List.Exch} \"${1:name}\" \"${2:index1}\" \"${3:index2}\"$4",
+    "body": "$\\{List.Exch\\} \"${1:name}\" \"${2:index1}\" \"${3:index2}\"$4",
     "description": "Usage: ${List.Exch} name index1 index2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Exch}"
+    "prefix": "List.Exch"
   },
   "${List.First}": {
-    "body": "${List.First} $${1:var_out} \"${2:name}\"$3",
+    "body": "$\\{List.First\\} $${1:var_out} \"${2:name}\"$3",
     "description": "Usage: ${List.First} $var_out name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.First}"
+    "prefix": "List.First"
   },
   "${List.Get}": {
-    "body": "${List.Get} $${1:var_out} \"${2:name}\" \"${3:index}\"$4",
+    "body": "$\\{List.Get\\} $${1:var_out} \"${2:name}\" \"${3:index}\"$4",
     "description": "Usage: ${List.Get} $var_out name index",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Get}"
+    "prefix": "List.Get"
   },
   "${List.Index}": {
-    "body": "${List.Index} $${1:var_out} \"${2:name}\" \"${3:index}\"$4",
+    "body": "$\\{List.Index\\} $${1:var_out} \"${2:name}\" \"${3:index}\"$4",
     "description": "Usage: ${List.Index} $var_out name index",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Index}"
+    "prefix": "List.Index"
   },
   "${List.Insert}": {
-    "body": "${List.Insert} \"${1:name}\" \"${2:index}\" \"${3:item}\"$4",
+    "body": "$\\{List.Insert\\} \"${1:name}\" \"${2:index}\" \"${3:item}\"$4",
     "description": "Usage: ${List.Insert} name index item",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Insert}"
+    "prefix": "List.Insert"
   },
   "${List.Last}": {
-    "body": "${List.Last} $${1:var_out} \"${2:name}\"$3",
+    "body": "$\\{List.Last\\} $${1:var_out} \"${2:name}\"$3",
     "description": "Usage: ${List.Last} $var_out name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Last}"
+    "prefix": "List.Last"
   },
   "${List.Load}": {
-    "body": "${List.Load} $${1:var_out} \"${2:name}\" \"${3:filename}\"$4",
+    "body": "$\\{List.Load\\} $${1:var_out} \"${2:name}\" \"${3:filename}\"$4",
     "description": "Usage: ${List.Load} $var_out name filename",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Load}"
+    "prefix": "List.Load"
   },
   "${List.Move}": {
-    "body": "${List.Move} \"${1:name}\" \"${2:index_from}\" \"${3:index_to}\"$4",
+    "body": "$\\{List.Move\\} \"${1:name}\" \"${2:index_from}\" \"${3:index_to}\"$4",
     "description": "Usage: ${List.Move} name index_from index_to",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Move}"
+    "prefix": "List.Move"
   },
   "${List.Pop}": {
-    "body": "${List.Pop} $${1:var_out} \"${2:name}\"$3",
+    "body": "$\\{List.Pop\\} $${1:var_out} \"${2:name}\"$3",
     "description": "Usage: ${List.Pop} $var_out name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Pop}"
+    "prefix": "List.Pop"
   },
   "${List.Reverse}": {
-    "body": "${List.Reverse} \"${1:name}\"$2",
+    "body": "$\\{List.Reverse\\} \"${1:name}\"$2",
     "description": "Usage: ${List.Reverse} name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Reverse}"
+    "prefix": "List.Reverse"
   },
   "${List.Save}": {
-    "body": "${List.Save} $${1:var_out} \"${2:name}\" \"${3:filename}\"$4",
+    "body": "$\\{List.Save\\} $${1:var_out} \"${2:name}\" \"${3:filename}\"$4",
     "description": "Usage: ${List.Save} $var_out name filename",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Save}"
+    "prefix": "List.Save"
   },
   "${List.Set}": {
-    "body": "${List.Set} \"${1:name}\" \"${2:index}\" \"${3:value}\"$4",
+    "body": "$\\{List.Set\\} \"${1:name}\" \"${2:index}\" \"${3:value}\"$4",
     "description": "Usage: ${List.Set} name index value",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Set}"
+    "prefix": "List.Set"
   },
   "${List.Sort}": {
-    "body": "${List.Sort} \"${1:name}\"$2",
+    "body": "$\\{List.Sort\\} \"${1:name}\"$2",
     "description": "Usage: ${List.Sort} name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Sort}"
+    "prefix": "List.Sort"
   },
   "${List.Unload}": {
-    "body": "${List.Unload}$1",
+    "body": "$\\{List.Unload\\}$1",
     "description": "Usage: ${List.Unload}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${List.Unload}"
+    "prefix": "List.Unload"
   },
   "${Map.Clear}": {
-    "body": "${Map.Clear} \"${1:name}\"$2",
+    "body": "$\\{Map.Clear\\} \"${1:name}\"$2",
     "description": "Usage: ${Map.Clear} name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${Map.Clear}"
+    "prefix": "Map.Clear"
   },
   "${Map.Create}": {
-    "body": "${Map.Create} \"${1:name}\"$2",
+    "body": "$\\{Map.Create\\} \"${1:name}\"$2",
     "description": "Usage: ${Map.Create} name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${Map.Create}"
+    "prefix": "Map.Create"
   },
   "${Map.Destroy}": {
-    "body": "${Map.Destroy} \"${1:name}\"$2",
+    "body": "$\\{Map.Destroy\\} \"${1:name}\"$2",
     "description": "Usage: ${Map.Destroy} name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${Map.Destroy}"
+    "prefix": "Map.Destroy"
   },
   "${Map.Get}": {
-    "body": "${Map.Set} \"${1:name}\" \"${2:key}\" \"${3:value}\"$4",
+    "body": "$\\{Map.Set\\} \"${1:name}\" \"${2:key}\" \"${3:value}\"$4",
     "description": "Usage: ${Map.Set} name key value",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${Map.Get}"
+    "prefix": "Map.Get"
   },
   "${Map.Unset}": {
-    "body": "${Map.Unset} \"${1:name}\" \"${2:key}\"$3",
+    "body": "$\\{Map.Unset\\} \"${1:name}\" \"${2:key}\"$3",
     "description": "Usage: ${Map.Unset} name key",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NSISList_plug-in",
     "leftLabelHTML": "<span class='support class'>NSISList.dll</span>",
-    "prefix": "${Map.Unset}"
+    "prefix": "Map.Unset"
   }
 }
