@@ -1,4 +1,4 @@
-pre{
+{
   "${xml::CloneNode}": {
     "body": "$\\{xml::CloneNode\\} $${1:var}$2",
     "description": "Usage: ${xml::CloneNode} var",
