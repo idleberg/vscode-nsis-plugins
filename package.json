@@ -747,6 +747,9 @@
             }
         ]
     },
+    "extensionDependencies": [
+        "idleberg.nsis"
+    ],
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "gulp lint"
