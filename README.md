@@ -11,7 +11,7 @@ Snippets for third-party plug-ins for Nullsoft Scriptable Install System (NSIS)
 
 ## Installation
 
-Make sure you already got the [basis NSIS extension](https://github.com/idleberg/vscode-nsis) installed before proceeding.
+Visual Studio Code 1.7 (and higher) will automatically install the [NSIS extension](https://github.com/idleberg/vscode-nsis) as dependency. If you're using an older version, you will have to do so yourself.
 
 ### Extension Marketplace
 
