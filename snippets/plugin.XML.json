@@ -1,377 +1,377 @@
 {
   "${xml::CloneNode}": {
-    "body": "$\\{xml::CloneNode\\} $${1:var}$2",
+    "body": "\\${xml::CloneNode} $${1:var}$2",
     "description": "Usage: ${xml::CloneNode} var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::CloneNode"
   },
   "${xml::Coordinate}": {
-    "body": "$\\{xml::Coordinate\\} $${1:var1} $${2:var2} $${3:var3}$4",
+    "body": "\\${xml::Coordinate} $${1:var1} $${2:var2} $${3:var3}$4",
     "description": "Usage: ${xml::Coordinate} var1 var2 var3",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::Coordinate"
   },
   "${xml::CreateNode}": {
-    "body": "$\\{xml::CreateNode\\} \"<${1:node}>${2:text}</${1:node}>\" $${3:var}$4",
+    "body": "\\${xml::CreateNode} \"<${1:node}>${2:text}</${1:node}>\" $${3:var}$4",
     "description": "Usage: ${xml::CreateNode} node var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::CreateNode"
   },
   "${xml::CreateText}": {
-    "body": "$\\{xml::CreateText\\} \"${1:text}\" $${2:var}$3",
+    "body": "\\${xml::CreateText} \"${1:text}\" $${2:var}$3",
     "description": "Usage: ${xml::CreateText} text var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::CreateText"
   },
   "${xml::CurrentAttribute}": {
-    "body": "$\\{xml::CurrentAttribute\\} $${1:var1} $${2:var2} $${3:var3}$4",
+    "body": "\\${xml::CurrentAttribute} $${1:var1} $${2:var2} $${3:var3}$4",
     "description": "Usage: ${xml::CurrentAttribute} var1 var2 var3",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::CurrentAttribute"
   },
   "${xml::DeclarationEncoding}": {
-    "body": "$\\{xml::DeclarationEncoding\\} $${1:var1} $${2:var2}$3",
+    "body": "\\${xml::DeclarationEncoding} $${1:var1} $${2:var2}$3",
     "description": "Usage: ${xml::DeclarationEncoding} var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::DeclarationEncoding"
   },
   "${xml::DeclarationStandalone}": {
-    "body": "$\\{xml::DeclarationStandalone\\} $${1:var1} $${2:var2}$3",
+    "body": "\\${xml::DeclarationStandalone} $${1:var1} $${2:var2}$3",
     "description": "Usage: ${xml::DeclarationStandalone} var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::DeclarationStandalone"
   },
   "${xml::DeclarationVersion}": {
-    "body": "$\\{xml::DeclarationVersion\\} $${1:var1} $${2:var2}$3",
+    "body": "\\${xml::DeclarationVersion} $${1:var1} $${2:var2}$3",
     "description": "Usage: ${xml::DeclarationVersion} var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::DeclarationVersion"
   },
   "${xml::ElementPath}": {
-    "body": "$\\{xml::ElementPath\\} $${1:var}$2",
+    "body": "\\${xml::ElementPath} $${1:var}$2",
     "description": "Usage: ${xml::ElementPath} var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::ElementPath"
   },
   "${xml::FindCloseElement}": {
-    "body": "$\\{xml::FindCloseElement\\}$1",
+    "body": "\\${xml::FindCloseElement}$1",
     "description": "Usage: ${xml::FindCloseElement}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::FindCloseElement"
   },
   "${xml::FindNextElement}": {
-    "body": "$\\{xml::FindNextElement\\} \"${1:value}\" $${2:var1} $${3:var2}$4",
+    "body": "\\${xml::FindNextElement} \"${1:value}\" $${2:var1} $${3:var2}$4",
     "description": "Usage: ${xml::FindNextElement} value var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::FindNextElement"
   },
   "${xml::FirstAttribute}": {
-    "body": "$\\{xml::FirstAttribute\\} $${1:var1} $${2:var2} $${3:var3}$4",
+    "body": "\\${xml::FirstAttribute} $${1:var1} $${2:var2} $${3:var3}$4",
     "description": "Usage: ${xml::FirstAttribute} var1 var2 var3",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::FirstAttribute"
   },
   "${xml::FirstChildElement}": {
-    "body": "$\\{xml::FirstChildElement\\} \"${1:name}\" $${2:var1} $${3:var2}$4",
+    "body": "\\${xml::FirstChildElement} \"${1:name}\" $${2:var1} $${3:var2}$4",
     "description": "Usage: ${xml::FirstChildElement} name var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::FirstChildElement"
   },
   "${xml::FirstChild}": {
-    "body": "$\\{xml::FirstChild\\} \"${1:name}\" $${2:var1} $${3:var2}$4",
+    "body": "\\${xml::FirstChild} \"${1:name}\" $${2:var1} $${3:var2}$4",
     "description": "Usage: ${xml::FirstChild} name var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::FirstChild"
   },
   "${xml::FreeNode}": {
-    "body": "$\\{xml::FreeNode\\} \"${1:handle}\" $${2:var}$3",
+    "body": "\\${xml::FreeNode} \"${1:handle}\" $${2:var}$3",
     "description": "Usage: ${xml::FreeNode} handle var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::FreeNode"
   },
   "${xml::GetAttribute}": {
-    "body": "$\\{xml::GetAttribute\\} \"${1:name}\" $${2:var1} $${3:var2}$4",
+    "body": "\\${xml::GetAttribute} \"${1:name}\" $${2:var1} $${3:var2}$4",
     "description": "Usage: ${xml::GetAttribute} name var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::GetAttribute"
   },
   "${xml::GetNodeValue}": {
-    "body": "$\\{xml::GetNodeValue\\} $${1:var}$2",
+    "body": "\\${xml::GetNodeValue} $${1:var}$2",
     "description": "Usage: ${xml::GetNodeValue} var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::GetNodeValue"
   },
   "${xml::GetText}": {
-    "body": "$\\{xml::GetText\\} $${1:var1} $${2:var2}$3",
+    "body": "\\${xml::GetText} $${1:var1} $${2:var2}$3",
     "description": "Usage: ${xml::GetText} var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::GetText"
   },
   "${xml::GotoHandle}": {
-    "body": "$\\{xml::GotoHandle\\} \"${1:handle}\" $${2:var}$3",
+    "body": "\\${xml::GotoHandle} \"${1:handle}\" $${2:var}$3",
     "description": "Usage: ${xml::GotoHandle} handle var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::GotoHandle"
   },
   "${xml::GotoPath}": {
-    "body": "$\\{xml::GotoPath\\} \"${1:path}\" $${2:var}$3",
+    "body": "\\${xml::GotoPath} \"${1:path}\" $${2:var}$3",
     "description": "Usage: ${xml::GotoPath} path var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::GotoPath"
   },
   "${xml::InsertAfterNode}": {
-    "body": "$\\{xml::InsertAfterNode\\} \"${1:handle}\" $${2:var}$3",
+    "body": "\\${xml::InsertAfterNode} \"${1:handle}\" $${2:var}$3",
     "description": "Usage: ${xml::InsertAfterNode} handle var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::InsertAfterNode"
   },
   "${xml::InsertBeforeNode}": {
-    "body": "$\\{xml::InsertBeforeNode\\} \"${1:handle}\" $${2:var}$3",
+    "body": "\\${xml::InsertBeforeNode} \"${1:handle}\" $${2:var}$3",
     "description": "Usage: ${xml::InsertBeforeNode} handle var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::InsertBeforeNode"
   },
   "${xml::InsertEndChild}": {
-    "body": "$\\{xml::InsertEndChild\\} \"${1:handle}\" $${2:var}$3",
+    "body": "\\${xml::InsertEndChild} \"${1:handle}\" $${2:var}$3",
     "description": "Usage: ${xml::InsertEndChild} handle var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::InsertEndChild"
   },
   "${xml::IsCDATA}": {
-    "body": "$\\{xml::IsCDATA\\} $${1:var}$2",
+    "body": "\\${xml::IsCDATA} $${1:var}$2",
     "description": "Usage: ${xml::IsCDATA} var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::IsCDATA"
   },
   "${xml::LastAttribute}": {
-    "body": "$\\{xml::LastAttribute\\} $${1:var1} $${2:var2} $${3:var3}$4",
+    "body": "\\${xml::LastAttribute} $${1:var1} $${2:var2} $${3:var3}$4",
     "description": "Usage: ${xml::LastAttribute} var1 var2 var3",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::LastAttribute"
   },
   "${xml::LastChild}": {
-    "body": "$\\{xml::LastChild\\} \"${1:name}\" $${2:var1} $${3:var2}$4",
+    "body": "\\${xml::LastChild} \"${1:name}\" $${2:var1} $${3:var2}$4",
     "description": "Usage: ${xml::LastChild} name var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::LastChild"
   },
   "${xml::LoadFile}": {
-    "body": "$\\{xml::LoadFile\\} \"${1:file}\" $${2:var}$3",
+    "body": "\\${xml::LoadFile} \"${1:file}\" $${2:var}$3",
     "description": "Usage: ${xml::LoadFile} file var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::LoadFile"
   },
   "${xml::NextAttribute}": {
-    "body": "$\\{xml::NextAttribute\\} $${1:var1} $${2:var2} $${3:var3}$4",
+    "body": "\\${xml::NextAttribute} $${1:var1} $${2:var2} $${3:var3}$4",
     "description": "Usage: ${xml::NextAttribute} var1 var2 var3",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::NextAttribute"
   },
   "${xml::NextSiblingElement}": {
-    "body": "$\\{xml::NextSiblingElement\\} \"${1:name}\" $${2:var1} $${3:var2}$4",
+    "body": "\\${xml::NextSiblingElement} \"${1:name}\" $${2:var1} $${3:var2}$4",
     "description": "Usage: ${xml::NextSiblingElement} name var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::NextSiblingElement"
   },
   "${xml::NextSibling}": {
-    "body": "$\\{xml::NextSibling\\} \"${1:name}\" $${2:var1} $${3:var2}$4",
+    "body": "\\${xml::NextSibling} \"${1:name}\" $${2:var1} $${3:var2}$4",
     "description": "Usage: ${xml::NextSibling} name var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::NextSibling"
   },
   "${xml::NoChildren}": {
-    "body": "$\\{xml::NoChildren\\} $${1:var}$2",
+    "body": "\\${xml::NoChildren} $${1:var}$2",
     "description": "Usage: ${xml::NoChildren} var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::NoChildren"
   },
   "${xml::NodeHandle}": {
-    "body": "$\\{xml::NodeHandle\\} $${1:var}$2",
+    "body": "\\${xml::NodeHandle} $${1:var}$2",
     "description": "Usage: ${xml::NodeHandle} var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::NodeHandle"
   },
   "${xml::NodeType}": {
-    "body": "$\\{xml::NodeType\\} $${1:var}$2",
+    "body": "\\${xml::NodeType} $${1:var}$2",
     "description": "Usage: ${xml::NodeType} var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::NodeType"
   },
   "${xml::Parent}": {
-    "body": "$\\{xml::Parent\\} $${1:var1} $${2:var2}$3",
+    "body": "\\${xml::Parent} $${1:var1} $${2:var2}$3",
     "description": "Usage: ${xml::Parent} var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::Parent"
   },
   "${xml::PreviousAttribute}": {
-    "body": "$\\{xml::PreviousAttribute\\} $${1:var1} $${2:var2} $${3:var3}$4",
+    "body": "\\${xml::PreviousAttribute} $${1:var1} $${2:var2} $${3:var3}$4",
     "description": "Usage: ${xml::PreviousAttribute} var1 var2 var3",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::PreviousAttribute"
   },
   "${xml::PreviousSibling}": {
-    "body": "$\\{xml::PreviousSibling\\} \"${1:name}\" $${2:var1} $${3:var2}$4",
+    "body": "\\${xml::PreviousSibling} \"${1:name}\" $${2:var1} $${3:var2}$4",
     "description": "Usage: ${xml::PreviousSibling} name var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::PreviousSibling"
   },
   "${xml::RemoveAllChild}": {
-    "body": "$\\{xml::RemoveAllChild\\}$1",
+    "body": "\\${xml::RemoveAllChild}$1",
     "description": "Usage: ${xml::RemoveAllChild}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::RemoveAllChild"
   },
   "${xml::RemoveAttribute}": {
-    "body": "$\\{xml::RemoveAttribute\\} \"${1:name}\" $${2:var}$3",
+    "body": "\\${xml::RemoveAttribute} \"${1:name}\" $${2:var}$3",
     "description": "Usage: ${xml::RemoveAttribute} name var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::RemoveAttribute"
   },
   "${xml::RemoveNode}": {
-    "body": "$\\{xml::RemoveNode\\} $${1:var}$2",
+    "body": "\\${xml::RemoveNode} $${1:var}$2",
     "description": "Usage: ${xml::RemoveNode} var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::RemoveNode"
   },
   "${xml::ReplaceNode}": {
-    "body": "$\\{xml::ReplaceNode\\} \"${1:handle}\" $${2:var}$3",
+    "body": "\\${xml::ReplaceNode} \"${1:handle}\" $${2:var}$3",
     "description": "Usage: ${xml::ReplaceNode} handle var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::ReplaceNode"
   },
   "${xml::RootElement}": {
-    "body": "$\\{xml::RootElement\\} $${1:var1} $${2:var2}$3",
+    "body": "\\${xml::RootElement} $${1:var1} $${2:var2}$3",
     "description": "Usage: ${xml::RootElement} var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::RootElement"
   },
   "${xml::SaveFile}": {
-    "body": "$\\{xml::SaveFile\\} \"${1:file}\" $${2:var}$3",
+    "body": "\\${xml::SaveFile} \"${1:file}\" $${2:var}$3",
     "description": "Usage: ${xml::SaveFile} file var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::SaveFile"
   },
   "${xml::SetAttributeName}": {
-    "body": "$\\{xml::SetAttributeName\\} \"${1:name}\"$2",
+    "body": "\\${xml::SetAttributeName} \"${1:name}\"$2",
     "description": "Usage: ${xml::SetAttributeName} name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::SetAttributeName"
   },
   "${xml::SetAttributeValue}": {
-    "body": "$\\{xml::SetAttributeValue\\} \"${1:value}\"$2",
+    "body": "\\${xml::SetAttributeValue} \"${1:value}\"$2",
     "description": "Usage: ${xml::SetAttributeValue} value",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::SetAttributeValue"
   },
   "${xml::SetAttribute}": {
-    "body": "$\\{xml::SetAttribute\\} \"${1:name}\" \"${2:value}\" $${3:var2}$4",
+    "body": "\\${xml::SetAttribute} \"${1:name}\" \"${2:value}\" $${3:var2}$4",
     "description": "Usage: ${xml::SetAttribute} name value var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::SetAttribute"
   },
   "${xml::SetCDATA}": {
-    "body": "$\\{xml::SetCDATA\\} ${1:0|1} $${2:var}$3",
+    "body": "\\${xml::SetCDATA} ${1:0|1} $${2:var}$3",
     "description": "Usage: ${xml::SetCDATA}01} var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::SetCDATA"
   },
   "${xml::SetCondenseWhiteSpace}": {
-    "body": "$\\{xml::SetCondenseWhiteSpace\\} ${1:0|1}$2",
+    "body": "\\${xml::SetCondenseWhiteSpace} ${1:0|1}$2",
     "description": "Usage: ${xml::SetCondenseWhiteSpace}01}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::SetCondenseWhiteSpace"
   },
   "${xml::SetEncoding}": {
-    "body": "$\\{xml::SetEncoding\\} \"${1:encoding}\"$2",
+    "body": "\\${xml::SetEncoding} \"${1:encoding}\"$2",
     "description": "Usage: ${xml::SetEncoding} encoding",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::SetEncoding"
   },
   "${xml::SetNodeValue}": {
-    "body": "$\\{xml::SetNodeValue\\} \"${1:value}\"$2",
+    "body": "\\${xml::SetNodeValue} \"${1:value}\"$2",
     "description": "Usage: ${xml::SetNodeValue} value",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::SetNodeValue"
   },
   "${xml::SetText}": {
-    "body": "$\\{xml::SetText\\} \"${1:value}\" $${2:var}$3",
+    "body": "\\${xml::SetText} \"${1:value}\" $${2:var}$3",
     "description": "Usage: ${xml::SetText} value var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::SetText"
   },
   "${xml::Unload}": {
-    "body": "$\\{xml::Unload\\}$1",
+    "body": "\\${xml::Unload}$1",
     "description": "Usage: ${xml::Unload}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::Unload"
   },
   "${xml::XPathAttribute}": {
-    "body": "$\\{xml::XPathAttribute\\} \"${1:expression}\" $${2:var}$3",
+    "body": "\\${xml::XPathAttribute} \"${1:expression}\" $${2:var}$3",
     "description": "Usage: ${xml::XPathAttribute} expression var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::XPathAttribute"
   },
   "${xml::XPathNode}": {
-    "body": "$\\{xml::XPathNode\\} \"${1:expression}\" $${2:var}$3",
+    "body": "\\${xml::XPathNode} \"${1:expression}\" $${2:var}$3",
     "description": "Usage: ${xml::XPathNode} expression var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",
     "prefix": "xml::XPathNode"
   },
   "${xml::XPathString}": {
-    "body": "$\\{xml::XPathString\\} \"${1:expression}\" $${2:var1} $${3:var2}$4",
+    "body": "\\${xml::XPathString} \"${1:expression}\" $${2:var1} $${3:var2}$4",
     "description": "Usage: ${xml::XPathString} expression var1 var2",
     "descriptionMoreURL": "http://nsis.sourceforge.net/XML_plug-in",
     "leftLabelHTML": "<span class='support class'>xml.dll</span>",

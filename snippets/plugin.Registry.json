@@ -1,146 +1,146 @@
 {
   "${Registry::Close}": {
-    "body": "$\\{Registry::Close\\} \"${1:handle}\"$2",
+    "body": "\\${Registry::Close} \"${1:handle}\"$2",
     "description": "Usage: ${Registry::Close} handle",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::Close"
   },
   "${Registry::CopyKey}": {
-    "body": "$\\{Registry::CopyKey\\} \"${1:full_path_source}\" \"${2:full_path_target\\new_key_name}\" $${3:var}$4",
+    "body": "\\${Registry::CopyKey} \"${1:full_path_source}\" \"${2:full_path_target\\new_key_name}\" $${3:var}$4",
     "description": "Usage: ${Registry::CopyKey} full_path_source full_path_target\\new_key_name var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::CopyKey"
   },
   "${Registry::CopyValue}": {
-    "body": "$\\{Registry::CopyValue\\} \"${1:full_path_source}\" \"${2:value_source}\" \"${3:full_path_target}\" \"${4:value_source}\" $${5:var}$6",
+    "body": "\\${Registry::CopyValue} \"${1:full_path_source}\" \"${2:value_source}\" \"${3:full_path_target}\" \"${4:value_source}\" $${5:var}$6",
     "description": "Usage: ${Registry::CopyValue} full_path_source value_source full_path_target value_source var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::CopyValue"
   },
   "${Registry::CreateKey}": {
-    "body": "$\\{Registry::CreateKey\\} \"${1:full_path}\" $${2:var}$3",
+    "body": "\\${Registry::CreateKey} \"${1:full_path}\" $${2:var}$3",
     "description": "Usage: ${Registry::CreateKey} full_path var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::CreateKey"
   },
   "${Registry::DeleteKeyEmpty}": {
-    "body": "$\\{Registry::DeleteKeyEmpty\\} \"${1:full_path}\" $${2:var}$3",
+    "body": "\\${Registry::DeleteKeyEmpty} \"${1:full_path}\" $${2:var}$3",
     "description": "Usage: ${Registry::DeleteKeyEmpty} full_path var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::DeleteKeyEmpty"
   },
   "${Registry::DeleteKey}": {
-    "body": "$\\{Registry::DeleteKey\\} \"${1:full_path}\" $${2:var}$3",
+    "body": "\\${Registry::DeleteKey} \"${1:full_path}\" $${2:var}$3",
     "description": "Usage: ${Registry::DeleteKey} full_path var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::DeleteKey"
   },
   "${Registry::DeleteValue}": {
-    "body": "$\\{Registry::DeleteValue\\} \"${1:full_path}\" \"${2:value}\" $${3:var}$4",
+    "body": "\\${Registry::DeleteValue} \"${1:full_path}\" \"${2:value}\" $${3:var}$4",
     "description": "Usage: ${Registry::DeleteValue} full_path value var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::DeleteValue"
   },
   "${Registry::Find}": {
-    "body": "$\\{Registry::Find\\} \"${1:handle}\" \"${2:options}\" $${3:path} $${4:value_or_key} $${5:string} $${6:type}$7",
+    "body": "\\${Registry::Find} \"${1:handle}\" \"${2:options}\" $${3:path} $${4:value_or_key} $${5:string} $${6:type}$7",
     "description": "Usage: ${Registry::Find} handle options path value_or_key string type",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::Find"
   },
   "${Registry::HexToStr}": {
-    "body": "$\\{Registry::HexToStr\\} \"${1:string}\" $${2:var}$4",
+    "body": "\\${Registry::HexToStr} \"${1:string}\" $${2:var}$4",
     "description": "Usage: ${Registry::HexToStr} string var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::HexToStr"
   },
   "${Registry::KeyExists}": {
-    "body": "$\\{Registry::KeyExists\\} \"${1:full_path}\" $${2:var}$3",
+    "body": "\\${Registry::KeyExists} \"${1:full_path}\" $${2:var}$3",
     "description": "Usage: ${Registry::KeyExists} full_path var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::KeyExists"
   },
   "${Registry::MoveKey}": {
-    "body": "$\\{Registry::MoveKey\\} \"${1:full_path_source}\" \"${2:full_path_target\\new_key_name}\" $${3:var}$4",
+    "body": "\\${Registry::MoveKey} \"${1:full_path_source}\" \"${2:full_path_target\\new_key_name}\" $${3:var}$4",
     "description": "Usage: ${Registry::MoveKey} full_path_source full_path_target\\new_key_name var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::MoveKey"
   },
   "${Registry::MoveValue}": {
-    "body": "$\\{Registry::MoveValue\\} \"${1:full_path_source}\" \"${2:value_source}\" \"${3:full_path_target}\" \"${4:value_source}\" $${5:var}$6",
+    "body": "\\${Registry::MoveValue} \"${1:full_path_source}\" \"${2:value_source}\" \"${3:full_path_target}\" \"${4:value_source}\" $${5:var}$6",
     "description": "Usage: ${Registry::MoveValue} full_path_source value_source full_path_target value_source var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::MoveValue"
   },
   "${Registry::Open}": {
-    "body": "$\\{Registry::Open\\} \"${1:full_path}\" \"${2:options}\" $${3:var}$4",
+    "body": "\\${Registry::Open} \"${1:full_path}\" \"${2:options}\" $${3:var}$4",
     "description": "Usage: ${Registry::Open} full_path options var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::Open"
   },
   "${Registry::ReadExtra}": {
-    "body": "$\\{Registry::ReadExtra\\} \"${1:full_path}\" \"${2:value}\" \"${3:number}\" $${4:value_read} $${5:type_read}$6",
+    "body": "\\${Registry::ReadExtra} \"${1:full_path}\" \"${2:value}\" \"${3:number}\" $${4:value_read} $${5:type_read}$6",
     "description": "Usage: ${Registry::ReadExtra} full_path value number value_read type_read",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::ReadExtra"
   },
   "${Registry::Read}": {
-    "body": "$\\{Registry::Read\\} \"${1:full_path}\" \"${2:value}\" $${3:value_read} $${4:type_read}$5",
+    "body": "\\${Registry::Read} \"${1:full_path}\" \"${2:value}\" $${3:value_read} $${4:type_read}$5",
     "description": "Usage: ${Registry::Read} full_path value value_read type_read",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::Read"
   },
   "${Registry::RestoreKey}": {
-    "body": "$\\{Registry::RestoreKey\\} \"${1:file}\" $${2:var}$3",
+    "body": "\\${Registry::RestoreKey} \"${1:file}\" $${2:var}$3",
     "description": "Usage: ${Registry::RestoreKey} file var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::RestoreKey"
   },
   "${Registry::SaveKey}": {
-    "body": "$\\{Registry::SaveKey\\} \"${1:full_path}\" \"${2:file}\" \"${3:options}\" $${4:var}$5",
+    "body": "\\${Registry::SaveKey} \"${1:full_path}\" \"${2:file}\" \"${3:options}\" $${4:var}$5",
     "description": "Usage: ${Registry::SaveKey} full_path file options var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::SaveKey"
   },
   "${Registry::StrToHex}": {
-    "body": "$\\{Registry::StrToHex\\} \"${1:string}\" $${2:var}$3",
+    "body": "\\${Registry::StrToHex} \"${1:string}\" $${2:var}$3",
     "description": "Usage: ${Registry::StrToHex} string var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::StrToHex"
   },
   "${Registry::Unload}": {
-    "body": "$\\{Registry::Unload\\}$1",
+    "body": "\\${Registry::Unload}$1",
     "description": "Usage: ${Registry::Unload}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::Unload"
   },
   "${Registry::WriteExtra}": {
-    "body": "$\\{Registry::WriteExtra\\} \"${1:full_path}\" \"${2:value}\" \"${3:string}\" $${4:var}$5",
+    "body": "\\${Registry::WriteExtra} \"${1:full_path}\" \"${2:value}\" \"${3:string}\" $${4:var}$5",
     "description": "Usage: ${Registry::WriteExtra} full_path value string var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",
     "prefix": "Registry::WriteExtra"
   },
   "${Registry::Write}": {
-    "body": "$\\{Registry::Write\\} \"${1:full_path}\" \"${2:value}\" \"${3:string}\" \"${4:type}\" $${5:var}$6",
+    "body": "\\${Registry::Write} \"${1:full_path}\" \"${2:value}\" \"${3:string}\" \"${4:type}\" $${5:var}$6",
     "description": "Usage: ${Registry::Write} full_path value string type var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Registry_plug-in",
     "leftLabelHTML": "<span class='support class'>registry.dll</span>",

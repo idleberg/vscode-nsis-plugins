@@ -1,20 +1,20 @@
 {
   "${nsProcess::FindProcess}": {
-    "body": "$\\{nsProcess::FindProcess\\} \"${1:file}.exe\" $${2:var}$3",
+    "body": "\\${nsProcess::FindProcess} \"${1:file}.exe\" $${2:var}$3",
     "description": "Usage: ${nsProcess::FindProcess} file var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NsProcess_plugin",
     "leftLabelHTML": "<span class='support class'>nsProcess.dll</span>",
     "prefix": "nsProcess::FindProcess"
   },
   "${nsProcess::KillProcess}": {
-    "body": "$\\{nsProcess::KillProcess\\} \"${1:file}.exe\" $${2:var}$3",
+    "body": "\\${nsProcess::KillProcess} \"${1:file}.exe\" $${2:var}$3",
     "description": "Usage: ${nsProcess::KillProcess} file var",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NsProcess_plugin",
     "leftLabelHTML": "<span class='support class'>nsProcess.dll</span>",
     "prefix": "nsProcess::KillProcess"
   },
   "${nsProcess::Unload}": {
-    "body": "$\\{nsProcess::Unload\\}$1",
+    "body": "\\${nsProcess::Unload}$1",
     "description": "Usage: ${nsProcess::Unload}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/NsProcess_plugin",
     "leftLabelHTML": "<span class='support class'>nsProcess.dll</span>",

@@ -1,20 +1,20 @@
 {
   "${name2ip::FindCloseIP}": {
-    "body": "$\\{name2ip::FindCloseIP\\}$1",
+    "body": "\\${name2ip::FindCloseIP}$1",
     "description": "Usage: ${name2ip::FindCloseIP}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Name2ip_plugin",
     "leftLabelHTML": "<span class='support class'>name2ip.dll</span>",
     "prefix": "name2ip::FindCloseIP"
   },
   "${name2ip::FindFirstIP}": {
-    "body": "$\\{name2ip::FindFirstIP\\} \"${1:host_name}\" $${2:result}$3",
+    "body": "\\${name2ip::FindFirstIP} \"${1:host_name}\" $${2:result}$3",
     "description": "Usage: ${name2ip::FindFirstIP} host_name result",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Name2ip_plugin",
     "leftLabelHTML": "<span class='support class'>name2ip.dll</span>",
     "prefix": "name2ip::FindFirstIP"
   },
   "${name2ip::FindNextIP}": {
-    "body": "$\\{name2ip::FindNextIP\\} $${1:result}$2",
+    "body": "\\${name2ip::FindNextIP} $${1:result}$2",
     "description": "Usage: ${name2ip::FindNextIP} result",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Name2ip_plugin",
     "leftLabelHTML": "<span class='support class'>name2ip.dll</span>",
