@@ -7,7 +7,7 @@
 [![David](https://img.shields.io/david/dev/idleberg/vscode-nsis-plugins.svg?style=flat-square)](https://david-dm.org/idleberg/vscode-nsis-plugins?type=dev)
 [![Gitter](https://img.shields.io/badge/chat-Gitter-ed1965.svg?style=flat-square)](https://gitter.im/NSIS-Dev/vscode)
 
-Snippets for third-party plug-ins for Nullsoft Scriptable Install System (NSIS)
+IntelliSense for third-party plug-ins for Nullsoft Scriptable Install System (NSIS)
 
 ## Installation
 
