@@ -1,765 +1,765 @@
 {
-  "name": "nsis-plugins",
-  "displayName": "NSIS Plug-ins",
-  "description": "IntelliSense for third-party plug-ins for Nullsoft Scriptable Install System (NSIS)",
-  "version": "1.0.4",
-  "publisher": "idleberg",
-  "license": "MIT OR GPL-2.0",
-  "author": {
-    "name": "Jan T. Sott",
-    "url": "http://github.com/idleberg"
-  },
-  "keywords": [
-    "nsis",
-    "nullsoft",
-    "installer",
-    "setup",
-    "windows"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/idleberg/vscode-nsis-plugins.git"
-  },
-  "homepage": "https://github.com/idleberg/vscode-nsis-plugins",
-  "bugs": {
-    "url": "https://github.com/idleberg/vscode-nsis-plugins/issues"
-  },
-  "icon": "images/logo.svg",
-  "galleryBanner": {
-    "color": "#9e90aa",
-    "theme": "dark"
-  },
-  "engines": {
-    "vscode": "^1.0.0"
-  },
-  "categories": [
-    "Snippets"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "language": "nsis",
-        "path": "./snippets/core.include.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/header.Base64.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/header.CharToASCII.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/header.IniGetSectionNames.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/header.nsArray.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/header.NsExpr.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/header.PowerShellExec.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/header.UMUI.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.AccessControl.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Aero.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Animate.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.AnimGif.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.AppAssocReg.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ApplicationID.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.BaseConvert.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.BDEAlias.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.BgWorker.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Blowfish.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Blowfish++.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.BrandingURL.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ButtonEvent.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.CabDLL.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.CABSetup.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.CallAnsiPlugin.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.CDRom.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ChangeRes.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.CLR.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ComPlusAdmin.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.CPUDesc.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.CPUFeatures.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.CRCCheck.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.CreateMutex.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Crypto.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.CustomLicense.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.DcryptDll.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Dialogs.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.DlgHost.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.DotNetChecker.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.DumpLog.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.DumpState.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.EBanner.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Email.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.EmbeddedLists.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.EnumCDs.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.EnumINI.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.EventLog.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ExDlg.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ExecCmd.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ExecDos.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ExecPri.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ExecTimeout.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ExLicensePage.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ExtractDllEx.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.FindProcDLL.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.FloatOP.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.FontName.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.FreeArc.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Games.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.GetFirstRemovableDrive.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.GetVersion.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.HandleFileDragDrop.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.HelpButton.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.HwInfo.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.IEFunctions.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.InetBgDL.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Inetc.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.InetLoad.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.InstallOptionsEx.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.InstDrv.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Internet.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.InvokeShellVerb.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.IP.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.IpConfig.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.KillProc.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.KillProcDLL.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Linker.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.LiteFirewall.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Locate.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.LockedList.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.LogEx.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Marquee.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.MD5.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Metadl.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.MoreInfo.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.MSIBanner.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.MSSQL_OLEDB.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.name2ip.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NewAdvSplash.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NotifyIcon.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsArray.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NsFlash.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NSIS_SkinCrafter_Plugin.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Nsis7z.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NsisCrypt.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsisDDE.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NSISDirEx.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsisdt.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsisFile.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsisFirewall.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NsisIIS.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NSISList.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NSISLog.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsisMultiMon.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsisos.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NSISpcre.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NsisSlideshow.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsisStartMenu.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsisunz.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NsisUrlLib.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsisXML.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsJSON.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsKeyHook.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NsMCI.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NsODBC.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsProcess.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsPython.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NsRandom.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NsResize.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NsRestartExplorer.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.NsRichEdit.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsSCM.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsScreenshot.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsThread.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsUnzip.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsVersionInfo.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsWeb.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nsXML.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Nwiz.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.nxs.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.PassDialog.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Perl.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.PixelShader.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Processes.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ProxySettings.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Pwgen.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.RegBin.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Registry.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.SAFER.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ScrollLicense.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.SelfDel.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Services.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.SFhelper.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ShellExecAsUser.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ShellLink.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ShutDown.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ShutdownAllow.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.SimpleBg.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.SimpleFC.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.SimpleSC.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.SkinnedButton.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.SkinnedControls.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.SpiderBanner.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Stack.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.StdUtils.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.SysRestore.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.TAPIhelp.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.TCP.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.TextReplace.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ThreadTimer.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Time.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.TitlebarProgress.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ToggleInstFiles.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ToolTips.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.UAC.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Unicode.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.UnicodePathTest.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.UnTGZ.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.UserMgr.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.Version.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.w7tbp.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.WimImage.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.WinShell.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.WmiInspector.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.XiMoL.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.XML.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.xtInfoPlugin.json"
-      },
-      {
-        "language": "nsis",
-        "path": "./snippets/plugin.ZipDLL.json"
-      }
-    ]
-  },
-  "extensionDependencies": [
-    "idleberg.nsis"
-  ],
-  "scripts": {
-    "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "gulp lint"
-  },
-  "devDependencies": {
-    "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-debug": "^3.0.0",
-    "gulp-eslint": "^3.0.1",
-    "gulp-jsonlint": "^1.2.0",
-    "gulp-xml-validator": "^0.1.2",
-    "vscode": "^1.0.3"
-  }
+    "name": "nsis-plugins",
+    "displayName": "NSIS Plug-ins",
+    "description": "IntelliSense for third-party plug-ins for Nullsoft Scriptable Install System (NSIS)",
+    "version": "1.0.5",
+    "publisher": "idleberg",
+    "license": "MIT OR GPL-2.0",
+    "author": {
+        "name": "Jan T. Sott",
+        "url": "http://github.com/idleberg"
+    },
+    "keywords": [
+        "nsis",
+        "nullsoft",
+        "installer",
+        "setup",
+        "windows"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/idleberg/vscode-nsis-plugins.git"
+    },
+    "homepage": "https://github.com/idleberg/vscode-nsis-plugins",
+    "bugs": {
+        "url": "https://github.com/idleberg/vscode-nsis-plugins/issues"
+    },
+    "icon": "images/logo.svg",
+    "galleryBanner": {
+        "color": "#9e90aa",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "nsis",
+                "path": "./snippets/core.include.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/header.Base64.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/header.CharToASCII.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/header.IniGetSectionNames.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/header.nsArray.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/header.NsExpr.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/header.PowerShellExec.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/header.UMUI.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.AccessControl.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Aero.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Animate.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.AnimGif.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.AppAssocReg.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ApplicationID.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.BaseConvert.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.BDEAlias.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.BgWorker.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Blowfish.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Blowfish++.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.BrandingURL.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ButtonEvent.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.CabDLL.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.CABSetup.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.CallAnsiPlugin.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.CDRom.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ChangeRes.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.CLR.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ComPlusAdmin.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.CPUDesc.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.CPUFeatures.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.CRCCheck.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.CreateMutex.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Crypto.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.CustomLicense.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.DcryptDll.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Dialogs.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.DlgHost.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.DotNetChecker.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.DumpLog.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.DumpState.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.EBanner.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Email.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.EmbeddedLists.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.EnumCDs.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.EnumINI.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.EventLog.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ExDlg.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ExecCmd.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ExecDos.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ExecPri.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ExecTimeout.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ExLicensePage.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ExtractDllEx.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.FindProcDLL.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.FloatOP.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.FontName.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.FreeArc.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Games.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.GetFirstRemovableDrive.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.GetVersion.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.HandleFileDragDrop.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.HelpButton.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.HwInfo.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.IEFunctions.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.InetBgDL.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Inetc.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.InetLoad.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.InstallOptionsEx.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.InstDrv.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Internet.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.InvokeShellVerb.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.IP.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.IpConfig.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.KillProc.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.KillProcDLL.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Linker.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.LiteFirewall.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Locate.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.LockedList.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.LogEx.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Marquee.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.MD5.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Metadl.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.MoreInfo.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.MSIBanner.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.MSSQL_OLEDB.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.name2ip.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NewAdvSplash.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NotifyIcon.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsArray.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NsFlash.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NSIS_SkinCrafter_Plugin.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Nsis7z.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NsisCrypt.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsisDDE.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NSISDirEx.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsisdt.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsisFile.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsisFirewall.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NsisIIS.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NSISList.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NSISLog.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsisMultiMon.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsisos.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NSISpcre.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NsisSlideshow.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsisStartMenu.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsisunz.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NsisUrlLib.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsisXML.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsJSON.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsKeyHook.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NsMCI.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NsODBC.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsProcess.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsPython.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NsRandom.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NsResize.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NsRestartExplorer.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.NsRichEdit.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsSCM.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsScreenshot.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsThread.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsUnzip.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsVersionInfo.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsWeb.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nsXML.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Nwiz.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.nxs.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.PassDialog.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Perl.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.PixelShader.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Processes.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ProxySettings.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Pwgen.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.RegBin.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Registry.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.SAFER.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ScrollLicense.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.SelfDel.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Services.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.SFhelper.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ShellExecAsUser.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ShellLink.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ShutDown.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ShutdownAllow.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.SimpleBg.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.SimpleFC.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.SimpleSC.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.SkinnedButton.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.SkinnedControls.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.SpiderBanner.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Stack.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.StdUtils.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.SysRestore.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.TAPIhelp.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.TCP.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.TextReplace.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ThreadTimer.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Time.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.TitlebarProgress.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ToggleInstFiles.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ToolTips.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.UAC.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Unicode.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.UnicodePathTest.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.UnTGZ.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.UserMgr.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.Version.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.w7tbp.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.WimImage.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.WinShell.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.WmiInspector.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.XiMoL.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.XML.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.xtInfoPlugin.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/plugin.ZipDLL.json"
+            }
+        ]
+    },
+    "extensionDependencies": [
+        "idleberg.nsis"
+    ],
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "gulp lint"
+    },
+    "devDependencies": {
+        "gulp": "github:gulpjs/gulp#4.0",
+        "gulp-debug": "^3.0.0",
+        "gulp-eslint": "^3.0.1",
+        "gulp-jsonlint": "^1.2.0",
+        "gulp-xml-validator": "^0.1.2",
+        "vscode": "^1.0.3"
+    }
 }
