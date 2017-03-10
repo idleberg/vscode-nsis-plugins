@@ -1,3 +1,8 @@
+# v1.0.6 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.0.6)
+
+- include `CHANGELOG.md
+- update devDependencies
+
 # v1.0.5 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.0.5)
 
 - integrate `yarn.lock` into Travis CI tests
@@ -47,3 +52,4 @@
 # v0.1.0 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/0.1.0)
 
 - first release
+
