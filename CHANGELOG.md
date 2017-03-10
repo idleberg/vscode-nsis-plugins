@@ -1,6 +1,6 @@
 # v1.0.6 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.0.6)
 
-- include `CHANGELOG.md
+- include `CHANGELOG.md`
 - update devDependencies
 
 # v1.0.5 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.0.5)
