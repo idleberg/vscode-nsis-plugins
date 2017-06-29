@@ -1,7 +1,12 @@
+# v1.0.7 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.0.7)
+
+- use PNG logo (as required by upcoming versions of Code)
+- update `devDependencies`
+
 # v1.0.6 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.0.6)
 
 - include `CHANGELOG.md`
-- update devDependencies
+- update `devDependencies``
 
 # v1.0.5 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.0.5)
 
