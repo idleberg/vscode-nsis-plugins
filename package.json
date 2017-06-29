@@ -24,7 +24,7 @@
     "bugs": {
         "url": "https://github.com/idleberg/vscode-nsis-plugins/issues"
     },
-    "icon": "images/logo.svg",
+    "icon": "images/logo.png",
     "galleryBanner": {
         "color": "#9e90aa",
         "theme": "dark"
