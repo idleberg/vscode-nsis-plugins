@@ -7,7 +7,7 @@
     "prefix": "IniGetSectionNames"
   },
   "IniGetSectionNames_StopEnum": {
-    "body": "${IniGetSectionNames_StopEnum}$1",
+    "body": "\\${IniGetSectionNames_StopEnum}$1",
     "description": "Usage: ${IniGetSectionNames}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/IniGetSectionNames",
     "leftLabelHTML": "<span class='support function'>IniGetSectionNames.nsh</span>",

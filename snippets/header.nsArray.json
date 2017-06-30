@@ -1,34 +1,34 @@
 {
   "ForEachIn": {
-    "body": "\\${ForEachIn} ${1:array} $${2:key} $${3:value}\n\t${4:# your code here}\n${Next}$5",
+    "body": "\\${ForEachIn} ${1:array} \\$${2:key} \\$${3:value}\n\t${4:# your code here}\n\\${Next}$5",
     "description": "Usage: ${ForEachIn}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
     "leftLabelHTML": "<span class='support function'>nsArray.nsh</span>",
     "prefix": "ForEachIn"
   },
   "ForEachInReverse": {
-    "body": "\\${ForEachInReverse} ${1:array} $${2:key} $${3:value}\n\t${4:# your code here}\n${Next}$5",
+    "body": "\\${ForEachInReverse} ${1:array} \\$${2:key} \\$${3:value}\n\t${4:# your code here}\n\\${Next}$5",
     "description": "Usage: ${ForEachInReverse}",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
     "leftLabelHTML": "<span class='support function'>nsArray.nsh</span>",
     "prefix": "ForEachInReverse"
   },
   "nsArray_Copy": {
-    "body": "${nsArray_Copy} ${1:source_array} ${2:destination_array}$3",
+    "body": "\\${nsArray_Copy} ${1:source_array} ${2:destination_array}$3",
     "description": "Usage: ${nsArray_Copy} source_array destination_array",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
     "leftLabelHTML": "<span class='support function'>nsArray.nsh</span>",
     "prefix": "nsArray_Copy"
   },
   "nsArray_CopyKeys": {
-    "body": "${nsArray_CopyKeys} ${1:source_array} ${2:destination_array}$3",
+    "body": "\\${nsArray_CopyKeys} ${1:source_array} ${2:destination_array}$3",
     "description": "Usage: ${nsArray_CopyKeys} source_array destination_array",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
     "leftLabelHTML": "<span class='support function'>nsArray.nsh</span>",
     "prefix": "nsArray_CopyKeys"
   },
   "nsArray_ToString": {
-    "body": "${nsArray_ToString} ${1:array}$2",
+    "body": "\\${nsArray_ToString} ${1:array}$2",
     "description": "Usage: ${nsArray_ToString} array",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
     "leftLabelHTML": "<span class='support function'>Base64.nsh</span>",

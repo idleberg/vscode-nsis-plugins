@@ -1,6 +1,6 @@
 {
   "Nmwdll::nmwMakensis": {
-    "body": "Nmwdll::nmwMakensis \"${1:${NSISDIR}makensis.exe}\" ${2:parameters} \"${3:file}.nsi\"$4",
+    "body": "Nmwdll::nmwMakensis \"${1:\\${NSISDIR}makensis.exe}\" ${2:parameters} \"${3:file}.nsi\"$4",
     "description": "Usage: Nmwdll::nmwMakensis ${NSISDIR}\\makensis.exe parameters file",
     "descriptionMoreURL": "http://nsis.sourceforge.net/Nwiz_plug-in",
     "leftLabelHTML": "<span class='support class'>Nmwdll.dll</span>",
