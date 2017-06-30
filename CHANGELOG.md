@@ -1,3 +1,7 @@
+# v1.0.8 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.0.8)
+
+- fix unescaped characters in some snippets
+
 # v1.0.7 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.0.7)
 
 - use PNG logo (as required by upcoming versions of Code)
