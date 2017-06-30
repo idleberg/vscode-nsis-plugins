@@ -2,7 +2,7 @@
     "name": "nsis-plugins",
     "displayName": "NSIS Plug-ins",
     "description": "IntelliSense for third-party plug-ins for Nullsoft Scriptable Install System (NSIS)",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "publisher": "idleberg",
     "license": "MIT OR GPL-2.0",
     "author": {
