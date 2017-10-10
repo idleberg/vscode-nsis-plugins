@@ -1,3 +1,8 @@
+# v1.0.9 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.0.9)
+
+- update development toolchain
+- update Travis CI configuration
+
 # v1.0.8 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.0.8)
 
 - fix unescaped characters in some snippets
