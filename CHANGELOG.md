@@ -1,3 +1,8 @@
+# v1.0.10 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.0.10)
+
+- replace linter
+- update dependencies
+
 # v1.0.9 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.0.9)
 
 - update development toolchain
