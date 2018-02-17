@@ -18,9 +18,9 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/idleberg/vscode-nsis-plugins.git"
+        "url": "https://github.com/idleberg/vscode-nsis-plugins"
     },
-    "homepage": "https://github.com/idleberg/vscode-nsis-plugins",
+    "homepage": "https://github.com/idleberg/vscode-nsis-plugins#readme",
     "bugs": {
         "url": "https://github.com/idleberg/vscode-nsis-plugins/issues"
     },
