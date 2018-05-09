@@ -222,6 +222,12 @@ $ git clone https://github.com/idleberg/vscode-nsis-plugins nsis-plugins
 * [xtInfoPlugin](http://nsis.sourceforge.net/XtInfoPlugin_plug-in)
 * [ZipDLL](http://nsis.sourceforge.net/ZipDLL_plug-in)
 
+## Related
+
+- [vscode-nsis](https://marketplace.visualstudio.com/items?itemName=idleberg.nsis) - NSIS package for Visual Studio Code
+- [node-makensis](https://www.npmjs.com/package/makensis) - Node wrapper for `makensis`
+- [atom-language-nsis](https://atom.io/packages/language-nsis) - NSIS package for Atom
+
 ## License
 
 This work is dual-licensed under [The MIT License](https://opensource.org/licenses/MIT) and the [GNU General Public License, version 2.0](https://opensource.org/licenses/GPL-2.0)
