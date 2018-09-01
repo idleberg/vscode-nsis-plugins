@@ -87,6 +87,7 @@ $ git clone https://github.com/idleberg/vscode-nsis-plugins nsis-plugins
 * [EmbeddedLists](http://nsis.sourceforge.net/EmbeddedLists_plug-in)
 * [EnumCDs](http://nsis.sourceforge.net/EnumCDs_plug-in)
 * [EnumINI](http://nsis.sourceforge.net/EnumINI_plug-in)
+* [EnVar](http://nsis.sourceforge.net/EnVar_plug-in)
 * [EventLog](http://nsis.sourceforge.net/EventLog_plug-in)
 * [ExDlg](http://nsis.sourceforge.net/ExDlg_plug-in)
 * [ExecCmd](http://nsis.sourceforge.net/ExecCmd_plug-in)
