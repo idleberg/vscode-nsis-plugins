@@ -765,7 +765,7 @@
         "gulp-raster": "^0.2.0",
         "gulp-rename": "^1.2.2",
         "husky": "^0.14.3",
-        "vscode": "^1.1.1",
+        "vscode": "^1.1.21",
         "vscode-linter": "^0.2.1"
     }
 }
