@@ -1,3 +1,7 @@
+# v1.1.1 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.1.1)
+
+- fix typo
+
 # v1.1.0 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.1.0)
 
 - add EnVar plug-in
