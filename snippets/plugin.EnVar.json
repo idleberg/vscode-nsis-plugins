@@ -1,51 +1,51 @@
 {
   "EnVar::AddValue": {
-    "body": "EmbeddedLists::AddValue ${1:variable} \"${2:path}\"$0",
-    "description": "Usage: EmbeddedLists::AddValue variable_name path",
+    "body": "EnVar::AddValue ${1:variable} \"${2:path}\"$0",
+    "description": "Usage: EnVar::AddValue variable_name path",
     "descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
     "leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
-    "prefix": "EmbeddedLists::AddValue"
+    "prefix": "EnVar::AddValue"
   },
   "EnVar::AddValueEx": {
-    "body": "EmbeddedLists::AddValueEx ${1:variable} \"${2:path}\"$0",
-    "description": "Usage: EmbeddedLists::AddValueEx variable_name path",
+    "body": "EnVar::AddValueEx ${1:variable} \"${2:path}\"$0",
+    "description": "Usage: EnVar::AddValueEx variable_name path",
     "descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
     "leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
-    "prefix": "EmbeddedLists::AddValueEx"
+    "prefix": "EnVar::AddValueEx"
   },
   "EnVar::Check": {
-    "body": "EmbeddedLists::Check ${1:variable} \"${2:path}\"$0",
-    "description": "Usage: EmbeddedLists::Check variable_name path",
+    "body": "EnVar::Check ${1:variable} \"${2:path}\"$0",
+    "description": "Usage: EnVar::Check variable_name path",
     "descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
     "leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
-    "prefix": "EmbeddedLists::Check"
+    "prefix": "EnVar::Check"
   },
   "EnVar::Delete": {
-    "body": "EmbeddedLists::Delete ${1:variable}$0",
-    "description": "Usage: EmbeddedLists::Delete variable_name",
+    "body": "EnVar::Delete ${1:variable}$0",
+    "description": "Usage: EnVar::Delete variable_name",
     "descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
     "leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
-    "prefix": "EmbeddedLists::Delete"
+    "prefix": "EnVar::Delete"
   },
   "EnVar::DeleteValue": {
-    "body": "EmbeddedLists::DeleteValue ${1:variable} \"${2:path}\"$0",
-    "description": "Usage: EmbeddedLists::DeleteValue variable_name path",
+    "body": "EnVar::DeleteValue ${1:variable} \"${2:path}\"$0",
+    "description": "Usage: EnVar::DeleteValue variable_name path",
     "descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
     "leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
-    "prefix": "EmbeddedLists::DeleteValue"
+    "prefix": "EnVar::DeleteValue"
   },
   "EnVar::SetHKCU": {
-    "body": "EmbeddedLists::SetHKCU$0",
-    "description": "Usage: EmbeddedLists::SetHKCU ",
+    "body": "EnVar::SetHKCU$0",
+    "description": "Usage: EnVar::SetHKCU ",
     "descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
     "leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
-    "prefix": "EmbeddedLists::SetHKCU"
+    "prefix": "EnVar::SetHKCU"
   },
   "EnVar::SetHKLM": {
-    "body": "EmbeddedLists::SetHKLM$0",
-    "description": "Usage: EmbeddedLists::SetHKLM ",
+    "body": "EnVar::SetHKLM$0",
+    "description": "Usage: EnVar::SetHKLM ",
     "descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
     "leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
-    "prefix": "EmbeddedLists::SetHKLM"
+    "prefix": "EnVar::SetHKLM"
   }
 }
