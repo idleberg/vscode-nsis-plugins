@@ -1,3 +1,7 @@
+# v1.3.0 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.3.0)
+
+- re-add package dependency
+
 # v1.2.0 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.2.0)
 
 - remove package dependency

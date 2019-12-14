@@ -756,6 +756,9 @@
             }
         ]
     },
+    "extensionDependencies": [
+        "idleberg.nsis"
+    ],
     "devDependencies": {
         "gulp": "^4.0.2",
         "gulp-raster": "^0.2.0",
