@@ -11,7 +11,6 @@
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
-        "precommit": "npm run test",
         "test": "vscode-linter",
         "vscode:prepublish": "gulp"
     },
@@ -757,15 +756,17 @@
             }
         ]
     },
-    "extensionDependencies": [
-        "idleberg.nsis"
-    ],
     "devDependencies": {
-        "gulp": "^4.0.0",
+        "gulp": "^4.0.2",
         "gulp-raster": "^0.2.0",
-        "gulp-rename": "^1.2.2",
-        "husky": "^0.14.3",
-        "vscode": "^1.1.21",
-        "vscode-linter": "^0.2.1"
+        "gulp-rename": "^2.0.0",
+        "husky": "^3.1.0",
+        "vscode": "^1.1.36",
+        "vscode-linter": "^0.2.3"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run test"
+        }
     }
 }

@@ -1,3 +1,7 @@
+# v1.2.0 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.2.0)
+
+- remove package dependency
+
 # v1.1.1 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/1.1.1)
 
 - fix typo
