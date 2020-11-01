@@ -43,10 +43,15 @@ $ ovsx get idleberg.nsis-plugins
 
 Change to your Visual Studio Code extensions directory:
 
-```bash
-# Windows
-$ cd %USERPROFILE%\.vscode\extensions
+```powershell
+# Windows Powershell
+cd $Env:USERPROFILES\.vscode/extensions
 
+# Windows Command Prompt
+$ cd %USERPROFILE%\.vscode/extensions
+```
+
+```bash
 # Linux & macOS
 $ cd ~/.vscode/extensions/
 ```
