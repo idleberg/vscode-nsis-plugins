@@ -1,4 +1,4 @@
-# NSIS Plug-ins for Visual Studio Code
+# vscode-nsis-plugins
 
 [![The MIT License](https://flat.badgen.net/badge/license/MIT/orange)](http://opensource.org/licenses/MIT)
 [![GNU General Public License](https://flat.badgen.net/badge/license/GPL%20v2/orange)](http://www.gnu.org/licenses/gpl-2.0.html)
