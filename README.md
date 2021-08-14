@@ -5,7 +5,6 @@
 [![GitHub](https://flat.badgen.net/github/release/idleberg/vscode-nsis-plugins)](https://github.com/idleberg/vscode-nsis-plugins/releases)
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/idleberg.nsis-plugins.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=idleberg.nsis-plugins)
 [![CI](https://img.shields.io/github/workflow/status/idleberg/vscode-nsis-plugins/CI?style=flat-square)](https://github.com/idleberg/vscode-nsis-plugins/actions)
-[![Gitter](https://flat.badgen.net/badge/chat/on%20gitter/ff69b4)](https://gitter.im/NSIS-Dev/vscode)
 
 IntelliSense for third-party plug-ins for Nullsoft Scriptable Install System (NSIS)
 
