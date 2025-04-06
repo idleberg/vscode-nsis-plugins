@@ -1,51 +1,51 @@
 {
-  "nsVersionInfo::getFixedFileVersion": {
-    "body": "nsVersionInfo::getFixedFileVersion \"${1:file}.exe\"$2",
-    "description": "Usage: nsVersionInfo::getFixedFileVersion file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsVersionInfo_plugin",
-    "leftLabelHTML": "<span class='support class'>nsVersionInfo.dll</span>",
-    "prefix": "nsVersionInfo::getFixedFileVersion"
-  },
-  "nsVersionInfo::getFixedProductVersion": {
-    "body": "nsVersionInfo::getFixedProductVersion \"${1:file}.exe\"$2",
-    "description": "Usage: nsVersionInfo::getFixedProductVersion file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsVersionInfo_plugin",
-    "leftLabelHTML": "<span class='support class'>nsVersionInfo.dll</span>",
-    "prefix": "nsVersionInfo::getFixedProductVersion"
-  },
-  "nsVersionInfo::getLibVersion": {
-    "body": "nsVersionInfo::getLibVersion$1",
-    "description": "Usage: nsVersionInfo::getLibVersion",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsVersionInfo_plugin",
-    "leftLabelHTML": "<span class='support class'>nsVersionInfo.dll</span>",
-    "prefix": "nsVersionInfo::getLibVersion"
-  },
-  "nsVersionInfo::getStringFileInfo": {
-    "body": "nsVersionInfo::getStringFileInfo \"${1:file}.exe\" \"${2:field}\"$3",
-    "description": "Usage: nsVersionInfo::getStringFileInfo file field",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsVersionInfo_plugin",
-    "leftLabelHTML": "<span class='support class'>nsVersionInfo.dll</span>",
-    "prefix": "nsVersionInfo::getStringFileInfo"
-  },
-  "nsVersionInfo::setFixedFileVersion": {
-    "body": "nsVersionInfo::setFixedFileVersion \"${1:file}.exe\" ${2:1} ${3:2} ${4:3} ${5:4}$6",
-    "description": "Usage: nsVersionInfo::setFixedFileVersion file 1 2 3 4",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsVersionInfo_plugin",
-    "leftLabelHTML": "<span class='support class'>nsVersionInfo.dll</span>",
-    "prefix": "nsVersionInfo::setFixedFileVersion"
-  },
-  "nsVersionInfo::setFixedProductVersion": {
-    "body": "nsVersionInfo::setFixedProductVersion \"${1:file}.exe\" ${2:1} ${3:2} ${4:3} ${5:4}$6",
-    "description": "Usage: nsVersionInfo::setFixedProductVersion file 1 2 3 4",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsVersionInfo_plugin",
-    "leftLabelHTML": "<span class='support class'>nsVersionInfo.dll</span>",
-    "prefix": "nsVersionInfo::setFixedProductVersion"
-  },
-  "nsVersionInfo::setStringFileInfo": {
-    "body": "nsVersionInfo::setStringFileInfo \"${1:file}.exe\" \"${2:field}\" \"${3:value}\"$4",
-    "description": "Usage: nsVersionInfo::setStringFileInfo file field value",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsVersionInfo_plugin",
-    "leftLabelHTML": "<span class='support class'>nsVersionInfo.dll</span>",
-    "prefix": "nsVersionInfo::setStringFileInfo"
-  }
+	"nsVersionInfo::getFixedFileVersion": {
+		"body": "nsVersionInfo::getFixedFileVersion \"${1:file}.exe\"$2",
+		"description": "Usage: nsVersionInfo::getFixedFileVersion file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsVersionInfo_plugin",
+		"leftLabelHTML": "<span class='support class'>nsVersionInfo.dll</span>",
+		"prefix": "nsVersionInfo::getFixedFileVersion"
+	},
+	"nsVersionInfo::getFixedProductVersion": {
+		"body": "nsVersionInfo::getFixedProductVersion \"${1:file}.exe\"$2",
+		"description": "Usage: nsVersionInfo::getFixedProductVersion file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsVersionInfo_plugin",
+		"leftLabelHTML": "<span class='support class'>nsVersionInfo.dll</span>",
+		"prefix": "nsVersionInfo::getFixedProductVersion"
+	},
+	"nsVersionInfo::getLibVersion": {
+		"body": "nsVersionInfo::getLibVersion$1",
+		"description": "Usage: nsVersionInfo::getLibVersion",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsVersionInfo_plugin",
+		"leftLabelHTML": "<span class='support class'>nsVersionInfo.dll</span>",
+		"prefix": "nsVersionInfo::getLibVersion"
+	},
+	"nsVersionInfo::getStringFileInfo": {
+		"body": "nsVersionInfo::getStringFileInfo \"${1:file}.exe\" \"${2:field}\"$3",
+		"description": "Usage: nsVersionInfo::getStringFileInfo file field",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsVersionInfo_plugin",
+		"leftLabelHTML": "<span class='support class'>nsVersionInfo.dll</span>",
+		"prefix": "nsVersionInfo::getStringFileInfo"
+	},
+	"nsVersionInfo::setFixedFileVersion": {
+		"body": "nsVersionInfo::setFixedFileVersion \"${1:file}.exe\" ${2:1} ${3:2} ${4:3} ${5:4}$6",
+		"description": "Usage: nsVersionInfo::setFixedFileVersion file 1 2 3 4",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsVersionInfo_plugin",
+		"leftLabelHTML": "<span class='support class'>nsVersionInfo.dll</span>",
+		"prefix": "nsVersionInfo::setFixedFileVersion"
+	},
+	"nsVersionInfo::setFixedProductVersion": {
+		"body": "nsVersionInfo::setFixedProductVersion \"${1:file}.exe\" ${2:1} ${3:2} ${4:3} ${5:4}$6",
+		"description": "Usage: nsVersionInfo::setFixedProductVersion file 1 2 3 4",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsVersionInfo_plugin",
+		"leftLabelHTML": "<span class='support class'>nsVersionInfo.dll</span>",
+		"prefix": "nsVersionInfo::setFixedProductVersion"
+	},
+	"nsVersionInfo::setStringFileInfo": {
+		"body": "nsVersionInfo::setStringFileInfo \"${1:file}.exe\" \"${2:field}\" \"${3:value}\"$4",
+		"description": "Usage: nsVersionInfo::setStringFileInfo file field value",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsVersionInfo_plugin",
+		"leftLabelHTML": "<span class='support class'>nsVersionInfo.dll</span>",
+		"prefix": "nsVersionInfo::setStringFileInfo"
+	}
 }

@@ -1,9 +1,9 @@
 {
-  "w7tbp::Start": {
-    "body": "w7tbp::Start$1",
-    "description": "Usage: w7tbp::Start",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/TaskbarProgress_plug-in",
-    "leftLabelHTML": "<span class='support class'>w7tbp.dll</span>",
-    "prefix": "w7tbp::Start"
-  }
+	"w7tbp::Start": {
+		"body": "w7tbp::Start$1",
+		"description": "Usage: w7tbp::Start",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/TaskbarProgress_plug-in",
+		"leftLabelHTML": "<span class='support class'>w7tbp.dll</span>",
+		"prefix": "w7tbp::Start"
+	}
 }

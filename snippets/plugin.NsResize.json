@@ -1,58 +1,58 @@
 {
-  "nsResize::Add": {
-    "body": "nsResize::Add $${1:hwnd} ${2:x} ${3:y} ${4:width} ${5:height}$6",
-    "description": "Usage: nsResize::Add hwnd x y width height",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
-    "prefix": "nsResize::Add"
-  },
-  "nsResize::GetPos": {
-    "body": "nsResize::GetPos $${1:hwnd}$2",
-    "description": "Usage: nsResize::GetPos hwnd",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
-    "prefix": "nsResize::GetPos"
-  },
-  "nsResize::GetPosPx": {
-    "body": "nsResize::GetPosPx $${1:hwnd}$2",
-    "description": "Usage: nsResize::GetPosPx hwnd",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
-    "prefix": "nsResize::GetPosPx"
-  },
-  "nsResize::GetSize": {
-    "body": "nsResize::GetSize $${1:hwnd}$2",
-    "description": "Usage: nsResize::GetSize hwnd",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
-    "prefix": "nsResize::GetSize"
-  },
-  "nsResize::GetSizePx": {
-    "body": "nsResize::GetSizePx $${1:hwnd}$2",
-    "description": "Usage: nsResize::GetSizePx hwnd",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
-    "prefix": "nsResize::GetSizePx"
-  },
-  "nsResize::Set": {
-    "body": "nsResize::Set $${1:hwnd} ${2:x} ${3:y} ${4:width} ${5:height}$6",
-    "description": "Usage: nsResize::Set hwnd x y width height",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
-    "prefix": "nsResize::Set"
-  },
-  "nsResize::SetRTL": {
-    "body": "nsResize::SetRTL $(^RTL)$1",
-    "description": "Usage: nsResize::SetRTL $(^RTL)",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
-    "prefix": "nsResize::SetRTL"
-  },
-  "nsResize::Top": {
-    "body": "nsResize::Top $${1:hwnd}$2",
-    "description": "Usage: nsResize::Top hwnd",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
-    "prefix": "nsResize::Top"
-  }
+	"nsResize::Add": {
+		"body": "nsResize::Add $${1:hwnd} ${2:x} ${3:y} ${4:width} ${5:height}$6",
+		"description": "Usage: nsResize::Add hwnd x y width height",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
+		"prefix": "nsResize::Add"
+	},
+	"nsResize::GetPos": {
+		"body": "nsResize::GetPos $${1:hwnd}$2",
+		"description": "Usage: nsResize::GetPos hwnd",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
+		"prefix": "nsResize::GetPos"
+	},
+	"nsResize::GetPosPx": {
+		"body": "nsResize::GetPosPx $${1:hwnd}$2",
+		"description": "Usage: nsResize::GetPosPx hwnd",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
+		"prefix": "nsResize::GetPosPx"
+	},
+	"nsResize::GetSize": {
+		"body": "nsResize::GetSize $${1:hwnd}$2",
+		"description": "Usage: nsResize::GetSize hwnd",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
+		"prefix": "nsResize::GetSize"
+	},
+	"nsResize::GetSizePx": {
+		"body": "nsResize::GetSizePx $${1:hwnd}$2",
+		"description": "Usage: nsResize::GetSizePx hwnd",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
+		"prefix": "nsResize::GetSizePx"
+	},
+	"nsResize::Set": {
+		"body": "nsResize::Set $${1:hwnd} ${2:x} ${3:y} ${4:width} ${5:height}$6",
+		"description": "Usage: nsResize::Set hwnd x y width height",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
+		"prefix": "nsResize::Set"
+	},
+	"nsResize::SetRTL": {
+		"body": "nsResize::SetRTL $(^RTL)$1",
+		"description": "Usage: nsResize::SetRTL $(^RTL)",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
+		"prefix": "nsResize::SetRTL"
+	},
+	"nsResize::Top": {
+		"body": "nsResize::Top $${1:hwnd}$2",
+		"description": "Usage: nsResize::Top hwnd",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsResize_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsResize.dll</span>",
+		"prefix": "nsResize::Top"
+	}
 }

@@ -1,58 +1,58 @@
 {
-  "nsisMultiMon::CenterInstallerOnMonitor": {
-    "body": "nsisMultiMon::CenterInstallerOnMonitor ${1:id} ${2:work_area}$3",
-    "description": "Usage: nsisMultiMon::CenterInstallerOnMonitor id work_area",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
-    "prefix": "nsisMultiMon::CenterInstallerOnMonitor"
-  },
-  "nsisMultiMon::GetActiveMonitorCount": {
-    "body": "nsisMultiMon::GetActiveMonitorCount$1",
-    "description": "Usage: nsisMultiMon::GetActiveMonitorCount",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
-    "prefix": "nsisMultiMon::GetActiveMonitorCount"
-  },
-  "nsisMultiMon::GetAllMonitorCount": {
-    "body": "nsisMultiMon::GetAllMonitorCount$1",
-    "description": "Usage: nsisMultiMon::GetAllMonitorCount",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
-    "prefix": "nsisMultiMon::GetAllMonitorCount"
-  },
-  "nsisMultiMon::GetMonitorName": {
-    "body": "nsisMultiMon::GetMonitorName ${1:id}$2",
-    "description": "Usage: nsisMultiMon::GetMonitorName id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
-    "prefix": "nsisMultiMon::GetMonitorName"
-  },
-  "nsisMultiMon::GetMonitorRect": {
-    "body": "nsisMultiMon::GetMonitorRect ${1:id}$2",
-    "description": "Usage: nsisMultiMon::GetMonitorRect id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
-    "prefix": "nsisMultiMon::GetMonitorRect"
-  },
-  "nsisMultiMon::GetVirtualDesktopRect": {
-    "body": "nsisMultiMon::GetVirtualDesktopRect$1",
-    "description": "Usage: nsisMultiMon::GetVirtualDesktopRect",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
-    "prefix": "nsisMultiMon::GetVirtualDesktopRect"
-  },
-  "nsisMultiMon::GetWorkArea": {
-    "body": "nsisMultiMon::GetWorkArea ${1:id}$2",
-    "description": "Usage: nsisMultiMon::GetWorkArea id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
-    "prefix": "nsisMultiMon::GetWorkArea"
-  },
-  "nsisMultiMon::IsPointOnMonitor": {
-    "body": "nsisMultiMon::IsPointOnMonitor ${1:id} ${2:x} ${3:y}$4",
-    "description": "Usage: nsisMultiMon::IsPointOnMonitor id x y",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
-    "prefix": "nsisMultiMon::IsPointOnMonitor"
-  }
+	"nsisMultiMon::CenterInstallerOnMonitor": {
+		"body": "nsisMultiMon::CenterInstallerOnMonitor ${1:id} ${2:work_area}$3",
+		"description": "Usage: nsisMultiMon::CenterInstallerOnMonitor id work_area",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
+		"prefix": "nsisMultiMon::CenterInstallerOnMonitor"
+	},
+	"nsisMultiMon::GetActiveMonitorCount": {
+		"body": "nsisMultiMon::GetActiveMonitorCount$1",
+		"description": "Usage: nsisMultiMon::GetActiveMonitorCount",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
+		"prefix": "nsisMultiMon::GetActiveMonitorCount"
+	},
+	"nsisMultiMon::GetAllMonitorCount": {
+		"body": "nsisMultiMon::GetAllMonitorCount$1",
+		"description": "Usage: nsisMultiMon::GetAllMonitorCount",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
+		"prefix": "nsisMultiMon::GetAllMonitorCount"
+	},
+	"nsisMultiMon::GetMonitorName": {
+		"body": "nsisMultiMon::GetMonitorName ${1:id}$2",
+		"description": "Usage: nsisMultiMon::GetMonitorName id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
+		"prefix": "nsisMultiMon::GetMonitorName"
+	},
+	"nsisMultiMon::GetMonitorRect": {
+		"body": "nsisMultiMon::GetMonitorRect ${1:id}$2",
+		"description": "Usage: nsisMultiMon::GetMonitorRect id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
+		"prefix": "nsisMultiMon::GetMonitorRect"
+	},
+	"nsisMultiMon::GetVirtualDesktopRect": {
+		"body": "nsisMultiMon::GetVirtualDesktopRect$1",
+		"description": "Usage: nsisMultiMon::GetVirtualDesktopRect",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
+		"prefix": "nsisMultiMon::GetVirtualDesktopRect"
+	},
+	"nsisMultiMon::GetWorkArea": {
+		"body": "nsisMultiMon::GetWorkArea ${1:id}$2",
+		"description": "Usage: nsisMultiMon::GetWorkArea id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
+		"prefix": "nsisMultiMon::GetWorkArea"
+	},
+	"nsisMultiMon::IsPointOnMonitor": {
+		"body": "nsisMultiMon::IsPointOnMonitor ${1:id} ${2:x} ${3:y}$4",
+		"description": "Usage: nsisMultiMon::IsPointOnMonitor id x y",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSISMultiMon_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisMultiMon.dll</span>",
+		"prefix": "nsisMultiMon::IsPointOnMonitor"
+	}
 }

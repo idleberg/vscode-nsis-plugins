@@ -1,121 +1,121 @@
 {
-  "ShellLink::GetShortCutArgs": {
-    "body": "ShellLink::GetShortCutArgs \"${1:shortcut}.lnk\"$2",
-    "description": "Usage: ShellLink::GetShortCutArgs ${1:shortcut}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::GetShortCutArgs"
-  },
-  "ShellLink::GetShortCutDescription": {
-    "body": "ShellLink::GetShortCutDescription \"${1:shortcut}.lnk\"$2",
-    "description": "Usage: ShellLink::GetShortCutDescription ${1:shortcut}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::GetShortCutDescription"
-  },
-  "ShellLink::GetShortCutHotkey": {
-    "body": "ShellLink::GetShortCutHotkey \"${1:shortcut}.lnk\"$2",
-    "description": "Usage: ShellLink::GetShortCutHotkey ${1:shortcut}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::GetShortCutHotkey"
-  },
-  "ShellLink::GetShortCutIconIndex": {
-    "body": "ShellLink::GetShortCutIconIndex \"${1:shortcut}.lnk\"$2",
-    "description": "Usage: ShellLink::GetShortCutIconIndex ${1:shortcut}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::GetShortCutIconIndex"
-  },
-  "ShellLink::GetShortCutIconLocation": {
-    "body": "ShellLink::GetShortCutIconLocation \"${1:shortcut}.lnk\"$2",
-    "description": "Usage: ShellLink::GetShortCutIconLocation ${1:shortcut}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::GetShortCutIconLocation"
-  },
-  "ShellLink::GetShortCutShowMode": {
-    "body": "ShellLink::GetShortCutShowMode \"${1:shortcut}.lnk\"$2",
-    "description": "Usage: ShellLink::GetShortCutShowMode ${1:shortcut}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::GetShortCutShowMode"
-  },
-  "ShellLink::GetShortCutTarget": {
-    "body": "ShellLink::GetShortCutTarget \"${1:shortcut}.lnk\"$2",
-    "description": "Usage: ShellLink::GetShortCutTarget ${1:shortcut}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::GetShortCutTarget"
-  },
-  "ShellLink::GetShortCutWorkingDirectory": {
-    "body": "ShellLink::GetShortCutWorkingDirectory \"${1:shortcut}.lnk\"$2",
-    "description": "Usage: ShellLink::GetShortCutWorkingDirectory ${1:shortcut}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::GetShortCutWorkingDirectory"
-  },
-  "ShellLink::SetRunAsAdministrator": {
-    "body": "ShellLink::SetRunAsAdministrator \"${1:shortcut}.lnk\"$2",
-    "description": "Usage: ShellLink::SetRunAsAdministrator ${1:shortcut}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::SetRunAsAdministrator"
-  },
-  "ShellLink::SetShortCutArgs": {
-    "body": "ShellLink::SetShortCutArgs \"${1:shortcut}.lnk\" \"${2:parameters}\"$3",
-    "description": "Usage: ShellLink::SetShortCutArgs ${1:shortcut} ${2:parameters}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::SetShortCutArgs"
-  },
-  "ShellLink::SetShortCutDescription": {
-    "body": "ShellLink::SetShortCutDescription \"${1:shortcut}.lnk\" \"${2:description}\"$3",
-    "description": "Usage: ShellLink::SetShortCutDescription ${1:shortcut} ${2:description}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::SetShortCutDescription"
-  },
-  "ShellLink::SetShortCutHotkey": {
-    "body": "ShellLink::SetShortCutHotkey \"${1:shortcut}.lnk\" \"${2:keyboard_shortcut}\"$3",
-    "description": "Usage: ShellLink::SetShortCutHotkey ${1:shortcut} ${2:keyboard_shortcut}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::SetShortCutHotkey"
-  },
-  "ShellLink::SetShortCutIconIndex": {
-    "body": "ShellLink::SetShortCutIconIndex \"${1:shortcut}.lnk\" ${2:icon_index}$3",
-    "description": "Usage: ShellLink::SetShortCutIconIndex ${1:shortcut} ${2:icon_index}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::SetShortCutIconIndex"
-  },
-  "ShellLink::SetShortCutIconLocation": {
-    "body": "ShellLink::SetShortCutIconLocation \"${1:shortcut}.lnk\" \"${2:icon}.ico\"$3",
-    "description": "Usage: ShellLink::SetShortCutIconLocation ${1:shortcut} ${2:icon}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::SetShortCutIconLocation"
-  },
-  "ShellLink::SetShortCutShowMode": {
-    "body": "ShellLink::SetShortCutShowMode \"${1:shortcut}.lnk\" \"${2:start_options}\"$3",
-    "description": "Usage: ShellLink::SetShortCutShowMode ${1:shortcut} ${2:start_options}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::SetShortCutShowMode"
-  },
-  "ShellLink::SetShortCutTarget": {
-    "body": "ShellLink::SetShortCutTarget \"${1:shortcut}.lnk\" \"${2:target_file}\"$3",
-    "description": "Usage: ShellLink::SetShortCutTarget ${1:shortcut} ${2:target_file}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::SetShortCutTarget"
-  },
-  "ShellLink::SetShortCutWorkingDirectory": {
-    "body": "ShellLink::SetShortCutWorkingDirectory \"${1:shortcut}.lnk\" \"${2:directory}\"$3",
-    "description": "Usage: ShellLink::SetShortCutWorkingDirectory ${1:shortcut} ${2:directory}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
-    "prefix": "ShellLink::SetShortCutWorkingDirectory"
-  }
+	"ShellLink::GetShortCutArgs": {
+		"body": "ShellLink::GetShortCutArgs \"${1:shortcut}.lnk\"$2",
+		"description": "Usage: ShellLink::GetShortCutArgs ${1:shortcut}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::GetShortCutArgs"
+	},
+	"ShellLink::GetShortCutDescription": {
+		"body": "ShellLink::GetShortCutDescription \"${1:shortcut}.lnk\"$2",
+		"description": "Usage: ShellLink::GetShortCutDescription ${1:shortcut}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::GetShortCutDescription"
+	},
+	"ShellLink::GetShortCutHotkey": {
+		"body": "ShellLink::GetShortCutHotkey \"${1:shortcut}.lnk\"$2",
+		"description": "Usage: ShellLink::GetShortCutHotkey ${1:shortcut}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::GetShortCutHotkey"
+	},
+	"ShellLink::GetShortCutIconIndex": {
+		"body": "ShellLink::GetShortCutIconIndex \"${1:shortcut}.lnk\"$2",
+		"description": "Usage: ShellLink::GetShortCutIconIndex ${1:shortcut}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::GetShortCutIconIndex"
+	},
+	"ShellLink::GetShortCutIconLocation": {
+		"body": "ShellLink::GetShortCutIconLocation \"${1:shortcut}.lnk\"$2",
+		"description": "Usage: ShellLink::GetShortCutIconLocation ${1:shortcut}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::GetShortCutIconLocation"
+	},
+	"ShellLink::GetShortCutShowMode": {
+		"body": "ShellLink::GetShortCutShowMode \"${1:shortcut}.lnk\"$2",
+		"description": "Usage: ShellLink::GetShortCutShowMode ${1:shortcut}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::GetShortCutShowMode"
+	},
+	"ShellLink::GetShortCutTarget": {
+		"body": "ShellLink::GetShortCutTarget \"${1:shortcut}.lnk\"$2",
+		"description": "Usage: ShellLink::GetShortCutTarget ${1:shortcut}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::GetShortCutTarget"
+	},
+	"ShellLink::GetShortCutWorkingDirectory": {
+		"body": "ShellLink::GetShortCutWorkingDirectory \"${1:shortcut}.lnk\"$2",
+		"description": "Usage: ShellLink::GetShortCutWorkingDirectory ${1:shortcut}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::GetShortCutWorkingDirectory"
+	},
+	"ShellLink::SetRunAsAdministrator": {
+		"body": "ShellLink::SetRunAsAdministrator \"${1:shortcut}.lnk\"$2",
+		"description": "Usage: ShellLink::SetRunAsAdministrator ${1:shortcut}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::SetRunAsAdministrator"
+	},
+	"ShellLink::SetShortCutArgs": {
+		"body": "ShellLink::SetShortCutArgs \"${1:shortcut}.lnk\" \"${2:parameters}\"$3",
+		"description": "Usage: ShellLink::SetShortCutArgs ${1:shortcut} ${2:parameters}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::SetShortCutArgs"
+	},
+	"ShellLink::SetShortCutDescription": {
+		"body": "ShellLink::SetShortCutDescription \"${1:shortcut}.lnk\" \"${2:description}\"$3",
+		"description": "Usage: ShellLink::SetShortCutDescription ${1:shortcut} ${2:description}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::SetShortCutDescription"
+	},
+	"ShellLink::SetShortCutHotkey": {
+		"body": "ShellLink::SetShortCutHotkey \"${1:shortcut}.lnk\" \"${2:keyboard_shortcut}\"$3",
+		"description": "Usage: ShellLink::SetShortCutHotkey ${1:shortcut} ${2:keyboard_shortcut}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::SetShortCutHotkey"
+	},
+	"ShellLink::SetShortCutIconIndex": {
+		"body": "ShellLink::SetShortCutIconIndex \"${1:shortcut}.lnk\" ${2:icon_index}$3",
+		"description": "Usage: ShellLink::SetShortCutIconIndex ${1:shortcut} ${2:icon_index}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::SetShortCutIconIndex"
+	},
+	"ShellLink::SetShortCutIconLocation": {
+		"body": "ShellLink::SetShortCutIconLocation \"${1:shortcut}.lnk\" \"${2:icon}.ico\"$3",
+		"description": "Usage: ShellLink::SetShortCutIconLocation ${1:shortcut} ${2:icon}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::SetShortCutIconLocation"
+	},
+	"ShellLink::SetShortCutShowMode": {
+		"body": "ShellLink::SetShortCutShowMode \"${1:shortcut}.lnk\" \"${2:start_options}\"$3",
+		"description": "Usage: ShellLink::SetShortCutShowMode ${1:shortcut} ${2:start_options}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::SetShortCutShowMode"
+	},
+	"ShellLink::SetShortCutTarget": {
+		"body": "ShellLink::SetShortCutTarget \"${1:shortcut}.lnk\" \"${2:target_file}\"$3",
+		"description": "Usage: ShellLink::SetShortCutTarget ${1:shortcut} ${2:target_file}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::SetShortCutTarget"
+	},
+	"ShellLink::SetShortCutWorkingDirectory": {
+		"body": "ShellLink::SetShortCutWorkingDirectory \"${1:shortcut}.lnk\" \"${2:directory}\"$3",
+		"description": "Usage: ShellLink::SetShortCutWorkingDirectory ${1:shortcut} ${2:directory}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShellLink_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShellLink.dll</span>",
+		"prefix": "ShellLink::SetShortCutWorkingDirectory"
+	}
 }

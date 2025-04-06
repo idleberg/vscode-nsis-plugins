@@ -1,23 +1,23 @@
 {
-  "ExDlg::create_dlg": {
-    "body": "ExDlg::create_dlg \"${1:dialog_id}\" \"${2:file}.res\"$3",
-    "description": "Usage: ExDlg::create_dlg dialog_id res_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ExDlg_plug-in",
-    "leftLabelHTML": "<span class='support class'>ExDlg.dll</span>",
-    "prefix": "ExDlg::create_dlg"
-  },
-  "ExDlg::dealloc": {
-    "body": "ExDlg::dealloc $${2:handle}$3",
-    "description": "Usage: ExDlg::dealloc handle",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ExDlg_plug-in",
-    "leftLabelHTML": "<span class='support class'>ExDlg.dll</span>",
-    "prefix": "ExDlg::dealloc"
-  },
-  "ExDlg::push_windowtext": {
-    "body": "ExDlg::push_windowtext \"${1:control_id}\" $\"${2:handle}\"$3",
-    "description": "Usage: ExDlg::push_windowtext control_id handle",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ExDlg_plug-in",
-    "leftLabelHTML": "<span class='support class'>ExDlg.dll</span>",
-    "prefix": "ExDlg::push_windowtext"
-  }
+	"ExDlg::create_dlg": {
+		"body": "ExDlg::create_dlg \"${1:dialog_id}\" \"${2:file}.res\"$3",
+		"description": "Usage: ExDlg::create_dlg dialog_id res_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ExDlg_plug-in",
+		"leftLabelHTML": "<span class='support class'>ExDlg.dll</span>",
+		"prefix": "ExDlg::create_dlg"
+	},
+	"ExDlg::dealloc": {
+		"body": "ExDlg::dealloc $${2:handle}$3",
+		"description": "Usage: ExDlg::dealloc handle",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ExDlg_plug-in",
+		"leftLabelHTML": "<span class='support class'>ExDlg.dll</span>",
+		"prefix": "ExDlg::dealloc"
+	},
+	"ExDlg::push_windowtext": {
+		"body": "ExDlg::push_windowtext \"${1:control_id}\" $\"${2:handle}\"$3",
+		"description": "Usage: ExDlg::push_windowtext control_id handle",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ExDlg_plug-in",
+		"leftLabelHTML": "<span class='support class'>ExDlg.dll</span>",
+		"prefix": "ExDlg::push_windowtext"
+	}
 }

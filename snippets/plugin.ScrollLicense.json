@@ -1,16 +1,16 @@
 {
-  "ScrollLicense::Set": {
-    "body": "ScrollLicense::Set /NOUNLOAD$1",
-    "description": "Usage: ScrollLicense::Set /NOUNLOAD$1",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ScrollLicense_plug-in",
-    "leftLabelHTML": "<span class='support class'>ScrollLicense.dll</span>",
-    "prefix": "ScrollLicense::Set"
-  },
-  "ScrollLicense::Unload": {
-    "body": "ScrollLicense::Unload$1",
-    "description": "Usage: ScrollLicense::Unload$1",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ScrollLicense_plug-in",
-    "leftLabelHTML": "<span class='support class'>ScrollLicense.dll</span>",
-    "prefix": "ScrollLicense::Unload"
-  }
+	"ScrollLicense::Set": {
+		"body": "ScrollLicense::Set /NOUNLOAD$1",
+		"description": "Usage: ScrollLicense::Set /NOUNLOAD$1",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ScrollLicense_plug-in",
+		"leftLabelHTML": "<span class='support class'>ScrollLicense.dll</span>",
+		"prefix": "ScrollLicense::Set"
+	},
+	"ScrollLicense::Unload": {
+		"body": "ScrollLicense::Unload$1",
+		"description": "Usage: ScrollLicense::Unload$1",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ScrollLicense_plug-in",
+		"leftLabelHTML": "<span class='support class'>ScrollLicense.dll</span>",
+		"prefix": "ScrollLicense::Unload"
+	}
 }

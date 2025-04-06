@@ -1,44 +1,44 @@
 {
-  "nsFlash::Destroy": {
-    "body": "nsFlash::Destroy$1",
-    "description": "Usage: nsFlash::Destroy",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsFlash_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsFlash.dll</span>",
-    "prefix": "nsFlash::Destroy"
-  },
-  "nsFlash::IsInstalled": {
-    "body": "nsFlash::IsInstalled\nPop ${1:var}$2",
-    "description": "Usage: nsFlash::IsInstalled",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsFlash_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsFlash.dll</span>",
-    "prefix": "nsFlash::IsInstalled"
-  },
-  "nsFlash::Load": {
-    "body": "nsFlash::Load ${1:hwnd} \"${2:swf_path}\"$3",
-    "description": "Usage: nsFlash::Load hwnd swf_path",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsFlash_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsFlash.dll</span>",
-    "prefix": "nsFlash::Load"
-  },
-  "nsFlash::Load /replace": {
-    "body": "nsFlash::Load /replace ${1:hwnd} \"${2:swf_path}\"$3",
-    "description": "Usage: nsFlash::Load /replace hwnd swf_path",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsFlash_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsFlash.dll</span>",
-    "prefix": "nsFlash::Load /replace"
-  },
-  "nsFlash::Window": {
-    "body": "nsFlash::Window \"${1:swf_path}\" \"${2:caption}\"$3",
-    "description": "Usage: nsFlash::Window swf_path caption",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsFlash_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsFlash.dll</span>",
-    "prefix": "nsFlash::Window"
-  },
-  "nsFlash::Window /size": {
-    "body": "nsFlash::Window /size ${1:WxH} \"${2:swf_path}\" \"${3:caption}\"$4",
-    "description": "Usage: nsFlash::Window /size WxH swf_path caption",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsFlash_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsFlash.dll</span>",
-    "prefix": "nsFlash::Window /size"
-  }
+	"nsFlash::Destroy": {
+		"body": "nsFlash::Destroy$1",
+		"description": "Usage: nsFlash::Destroy",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsFlash_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsFlash.dll</span>",
+		"prefix": "nsFlash::Destroy"
+	},
+	"nsFlash::IsInstalled": {
+		"body": "nsFlash::IsInstalled\nPop ${1:var}$2",
+		"description": "Usage: nsFlash::IsInstalled",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsFlash_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsFlash.dll</span>",
+		"prefix": "nsFlash::IsInstalled"
+	},
+	"nsFlash::Load": {
+		"body": "nsFlash::Load ${1:hwnd} \"${2:swf_path}\"$3",
+		"description": "Usage: nsFlash::Load hwnd swf_path",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsFlash_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsFlash.dll</span>",
+		"prefix": "nsFlash::Load"
+	},
+	"nsFlash::Load /replace": {
+		"body": "nsFlash::Load /replace ${1:hwnd} \"${2:swf_path}\"$3",
+		"description": "Usage: nsFlash::Load /replace hwnd swf_path",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsFlash_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsFlash.dll</span>",
+		"prefix": "nsFlash::Load /replace"
+	},
+	"nsFlash::Window": {
+		"body": "nsFlash::Window \"${1:swf_path}\" \"${2:caption}\"$3",
+		"description": "Usage: nsFlash::Window swf_path caption",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsFlash_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsFlash.dll</span>",
+		"prefix": "nsFlash::Window"
+	},
+	"nsFlash::Window /size": {
+		"body": "nsFlash::Window /size ${1:WxH} \"${2:swf_path}\" \"${3:caption}\"$4",
+		"description": "Usage: nsFlash::Window /size WxH swf_path caption",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsFlash_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsFlash.dll</span>",
+		"prefix": "nsFlash::Window /size"
+	}
 }

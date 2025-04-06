@@ -1,44 +1,44 @@
 {
-  "Dialogs::Author": {
-    "body": "Dialogs::Author $${1:return_var}$2",
-    "description": "Usage: Dialogs::Author return_var",
-    "descriptionMoreLink": "http://nsis.sourceforge.net/Dialogs_plug-in",
-    "leftLabelHTML": "<span class='support class'>Dialogs.dll</span>",
-    "prefix": "Dialogs::Author"
-  },
-  "Dialogs::Folder": {
-    "body": "Dialogs::Folder \"${1:caption}\" \"${2:text}\" \"${3:directory}\" $${4:return_var}$5",
-    "description": "Usage: Dialogs::Folder caption text directory return_var",
-    "descriptionMoreLink": "http://nsis.sourceforge.net/Dialogs_plug-in",
-    "leftLabelHTML": "<span class='support class'>Dialogs.dll</span>",
-    "prefix": "Dialogs::Folder"
-  },
-  "Dialogs::InputBox": {
-    "body": "Dialogs::InputBox \"${1:caption}\" \"${2:text}\" \"${3:OK}\" \"${4:cancel}\" \"${5:0|1}\" $${6:return_var}$7",
-    "description": "Usage: Dialogs::InputBox caption text OK cancel 0|1 return_var",
-    "descriptionMoreLink": "http://nsis.sourceforge.net/Dialogs_plug-in",
-    "leftLabelHTML": "<span class='support class'>Dialogs.dll</span>",
-    "prefix": "Dialogs::InputBox"
-  },
-  "Dialogs::InputRegCode": {
-    "body": "Dialogs::InputRegCode \"${1:caption}\" \"${2:text}\" \"${3:Username:}\" \"${4:Serial:}\" \"${5:key}\" $${6:return_var}$7",
-    "description": "Usage: Dialogs::InputRegCode caption text Username Serial key return_var",
-    "descriptionMoreLink": "http://nsis.sourceforge.net/Dialogs_plug-in",
-    "leftLabelHTML": "<span class='support class'>Dialogs.dll</span>",
-    "prefix": "Dialogs::InputRegCode"
-  },
-  "Dialogs::Open": {
-    "body": "Dialogs::Open \"${1:All Files|*.*}\" \"${2:default_mask}\" \"${3:caption}\" \"${4:directory}\" $${5:return_var}$6",
-    "description": "Usage: Dialogs::Open files default_mask caption directory return_var",
-    "descriptionMoreLink": "http://nsis.sourceforge.net/Dialogs_plug-in",
-    "leftLabelHTML": "<span class='support class'>Dialogs.dll</span>",
-    "prefix": "Dialogs::Open"
-  },
-  "Dialogs::Ver": {
-    "body": "Dialogs::Ver $${1:return_var}$2",
-    "description": "Usage: Dialogs::Ver return_var",
-    "descriptionMoreLink": "http://nsis.sourceforge.net/Dialogs_plug-in",
-    "leftLabelHTML": "<span class='support class'>Dialogs.dll</span>",
-    "prefix": "Dialogs::Ver"
-  }
+	"Dialogs::Author": {
+		"body": "Dialogs::Author $${1:return_var}$2",
+		"description": "Usage: Dialogs::Author return_var",
+		"descriptionMoreLink": "http://nsis.sourceforge.net/Dialogs_plug-in",
+		"leftLabelHTML": "<span class='support class'>Dialogs.dll</span>",
+		"prefix": "Dialogs::Author"
+	},
+	"Dialogs::Folder": {
+		"body": "Dialogs::Folder \"${1:caption}\" \"${2:text}\" \"${3:directory}\" $${4:return_var}$5",
+		"description": "Usage: Dialogs::Folder caption text directory return_var",
+		"descriptionMoreLink": "http://nsis.sourceforge.net/Dialogs_plug-in",
+		"leftLabelHTML": "<span class='support class'>Dialogs.dll</span>",
+		"prefix": "Dialogs::Folder"
+	},
+	"Dialogs::InputBox": {
+		"body": "Dialogs::InputBox \"${1:caption}\" \"${2:text}\" \"${3:OK}\" \"${4:cancel}\" \"${5:0|1}\" $${6:return_var}$7",
+		"description": "Usage: Dialogs::InputBox caption text OK cancel 0|1 return_var",
+		"descriptionMoreLink": "http://nsis.sourceforge.net/Dialogs_plug-in",
+		"leftLabelHTML": "<span class='support class'>Dialogs.dll</span>",
+		"prefix": "Dialogs::InputBox"
+	},
+	"Dialogs::InputRegCode": {
+		"body": "Dialogs::InputRegCode \"${1:caption}\" \"${2:text}\" \"${3:Username:}\" \"${4:Serial:}\" \"${5:key}\" $${6:return_var}$7",
+		"description": "Usage: Dialogs::InputRegCode caption text Username Serial key return_var",
+		"descriptionMoreLink": "http://nsis.sourceforge.net/Dialogs_plug-in",
+		"leftLabelHTML": "<span class='support class'>Dialogs.dll</span>",
+		"prefix": "Dialogs::InputRegCode"
+	},
+	"Dialogs::Open": {
+		"body": "Dialogs::Open \"${1:All Files|*.*}\" \"${2:default_mask}\" \"${3:caption}\" \"${4:directory}\" $${5:return_var}$6",
+		"description": "Usage: Dialogs::Open files default_mask caption directory return_var",
+		"descriptionMoreLink": "http://nsis.sourceforge.net/Dialogs_plug-in",
+		"leftLabelHTML": "<span class='support class'>Dialogs.dll</span>",
+		"prefix": "Dialogs::Open"
+	},
+	"Dialogs::Ver": {
+		"body": "Dialogs::Ver $${1:return_var}$2",
+		"description": "Usage: Dialogs::Ver return_var",
+		"descriptionMoreLink": "http://nsis.sourceforge.net/Dialogs_plug-in",
+		"leftLabelHTML": "<span class='support class'>Dialogs.dll</span>",
+		"prefix": "Dialogs::Ver"
+	}
 }

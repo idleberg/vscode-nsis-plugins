@@ -1,240 +1,240 @@
 {
-  "AccessControl::ClearOnFile": {
-    "body": "AccessControl::ClearOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
-    "description": "Usage: AccessControl::ClearOnFile filename trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::ClearOnFile"
-  },
-  "AccessControl::ClearOnFile /NOINHERIT": {
-    "body": "AccessControl::ClearOnFile /NOINHERIT \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
-    "description": "Usage: AccessControl::ClearOnFile /NOINHERIT filename trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::ClearOnFile /NOINHERIT"
-  },
-  "AccessControl::ClearOnRegKey": {
-    "body": "AccessControl::ClearOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
-    "description": "Usage: AccessControl::ClearOnRegKey rootkey regkey trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::ClearOnRegKey"
-  },
-  "AccessControl::ClearOnRegKey /NOINHERIT": {
-    "body": "AccessControl::ClearOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
-    "description": "Usage: AccessControl::ClearOnRegKey /NOINHERIT rootkey regkey trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::ClearOnRegKey /NOINHERIT"
-  },
-  "AccessControl::DenyOnFile": {
-    "body": "AccessControl::DenyOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
-    "description": "Usage: AccessControl::DenyOnFile filename trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::DenyOnFile"
-  },
-  "AccessControl::DenyOnFile /NOINHERIT": {
-    "body": "AccessControl::DenyOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
-    "description": "Usage: AccessControl::DenyOnFile filename trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::DenyOnFile /NOINHERIT"
-  },
-  "AccessControl::DenyOnRegKey": {
-    "body": "AccessControl::DenyOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
-    "description": "Usage: AccessControl::DenyOnRegKey rootkey regkey trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::DenyOnRegKey"
-  },
-  "AccessControl::DenyOnRegKey /NOINHERIT": {
-    "body": "AccessControl::DenyOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
-    "description": "Usage: AccessControl::DenyOnRegKey /NOINHERIT rootkey regkey trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::DenyOnRegKey /NOINHERIT"
-  },
-  "AccessControl::DisableFileInheritance": {
-    "body": "AccessControl::DisableFileInheritance \"${1:filename}\"$2",
-    "description": "Usage: AccessControl::DisableFileInheritance filename",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::DisableFileInheritance"
-  },
-  "AccessControl::DisableRegKeyInheritance": {
-    "body": "AccessControl::DisableRegKeyInheritance \"${1:rootkey}\" \"${2:regkey}\"$3",
-    "description": "Usage: AccessControl::DisableRegKeyInheritance rootkey regkey",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::DisableRegKeyInheritance"
-  },
-  "AccessControl::EnableFileInheritance": {
-    "body": "AccessControl::EnableFileInheritance \"${1:filename}\"$2",
-    "description": "Usage: AccessControl::EnableFileInheritance filename",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::EnableFileInheritance"
-  },
-  "AccessControl::EnableRegKeyInheritance": {
-    "body": "AccessControl::EnableRegKeyInheritance \"${1:rootkey}\" \"${2:regkey}\"$3",
-    "description": "Usage: AccessControl::EnableRegKeyInheritance rootkey regkey",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::EnableRegKeyInheritance"
-  },
-  "AccessControl::GetCurrentUserName": {
-    "body": "AccessControl::GetCurrentUserName$1",
-    "description": "Usage: AccessControl::GetCurrentUserName",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::GetCurrentUserName"
-  },
-  "AccessControl::GetFileGroup": {
-    "body": "AccessControl::GetFileGroup \"${1:filename}\"$2",
-    "description": "Usage: AccessControl::GetFileGroup filename",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::GetFileGroup"
-  },
-  "AccessControl::GetFileOwner": {
-    "body": "AccessControl::GetFileOwner \"${1:filename}\"$2",
-    "description": "Usage: AccessControl::GetFileOwner filename",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::GetFileOwner"
-  },
-  "AccessControl::GetRegKeyGroup": {
-    "body": "AccessControl::GetRegKeyGroup \"${1:rootkey}\" \"${2:regkey}\"$3",
-    "description": "Usage: AccessControl::GetRegKeyGroup rootkey regkey",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::GetRegKeyGroup"
-  },
-  "AccessControl::GetRegKeyOwner": {
-    "body": "AccessControl::GetRegKeyOwner \"${1:rootkey}\" \"${2:regkey}\"$3",
-    "description": "Usage: AccessControl::GetRegKeyOwner rootkey regkey",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::GetRegKeyOwner"
-  },
-  "AccessControl::GrantOnFile": {
-    "body": "AccessControl::GrantOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
-    "description": "Usage: AccessControl::GrantOnFile filename trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::GrantOnFile"
-  },
-  "AccessControl::GrantOnFile /NOINHERIT": {
-    "body": "AccessControl::GrantOnFile /NOINHERIT \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
-    "description": "Usage: AccessControl::GrantOnFile /NOINHERIT filename trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::GrantOnFile /NOINHERIT"
-  },
-  "AccessControl::GrantOnRegKey": {
-    "body": "AccessControl::GrantOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
-    "description": "Usage: AccessControl::GrantOnRegKey rootkey regkey trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::GrantOnRegKey"
-  },
-  "AccessControl::GrantOnRegKey /NOINHERIT": {
-    "body": "AccessControl::GrantOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
-    "description": "Usage: AccessControl::GrantOnRegKey /NOINHERIT rootkey regkey trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::GrantOnRegKey /NOINHERIT"
-  },
-  "AccessControl::RevokeOnFile": {
-    "body": "AccessControl::RevokeOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
-    "description": "Usage: AccessControl::RevokeOnFile filename trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::RevokeOnFile"
-  },
-  "AccessControl::RevokeOnFile /NOINHERIT": {
-    "body": "AccessControl::RevokeOnFile /NOINHERIT \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
-    "description": "Usage: AccessControl::RevokeOnFile /NOINHERIT filename trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::RevokeOnFile /NOINHERIT"
-  },
-  "AccessControl::RevokeOnRegKey": {
-    "body": "AccessControl::RevokeOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
-    "description": "Usage: AccessControl::RevokeOnRegKey rootkey regkey trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::RevokeOnRegKey"
-  },
-  "AccessControl::RevokeOnRegKey /NOINHERIT": {
-    "body": "AccessControl::RevokeOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
-    "description": "Usage: AccessControl::RevokeOnRegKey /NOINHERIT rootkey regkey trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::RevokeOnRegKey /NOINHERIT"
-  },
-  "AccessControl::SetFileGroup": {
-    "body": "AccessControl::SetFileGroup \"${1:filename}\" \"${2:trustee}\"$3",
-    "description": "Usage: AccessControl::SetFileGroup filename trustee",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::SetFileGroup"
-  },
-  "AccessControl::SetFileOwner": {
-    "body": "AccessControl::SetFileOwner \"${1:filename}\" \"${2:trustee}\"$3",
-    "description": "Usage: AccessControl::SetFileOwner filename trustee",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::SetFileOwner"
-  },
-  "AccessControl::SetOnFile": {
-    "body": "AccessControl::GrantOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
-    "description": "Usage: AccessControl::GrantOnFile filename trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::SetOnFile"
-  },
-  "AccessControl::SetOnFile /NOINHERIT": {
-    "body": "AccessControl::GrantOnFile /NOINHERIT \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
-    "description": "Usage: AccessControl::GrantOnFile /NOINHERIT filename trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::SetOnFile /NOINHERIT"
-  },
-  "AccessControl::SetOnRegKey": {
-    "body": "AccessControl::SetOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
-    "description": "Usage: AccessControl::SetOnRegKey rootkey regkey trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::SetOnRegKey"
-  },
-  "AccessControl::SetOnRegKey /NOINHERIT": {
-    "body": "AccessControl::SetOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
-    "description": "Usage: AccessControl::SetOnRegKey /NOINHERIT rootkey regkey trustee permissions",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::SetOnRegKey /NOINHERIT"
-  },
-  "AccessControl::SetRegKeyGroup": {
-    "body": "AccessControl::SetRegKeyGroup \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\"$4",
-    "description": "Usage: AccessControl::SetRegKeyGroup rootkey regkey trustee",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::SetRegKeyGroup"
-  },
-  "AccessControl::SetRegKeyOwner": {
-    "body": "AccessControl::SetRegKeyOwner \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\"$4",
-    "description": "Usage: AccessControl::SetRegKeyOwner rootkey regkey trustee",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::SetRegKeyOwner"
-  },
-  "AccessControl::SidToName": {
-    "body": "AccessControl::SidToName \"${1:sidstring}\"$2",
-    "description": "Usage: AccessControl::SidToName sidstring",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
-    "leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
-    "prefix": "AccessControl::SidToName"
-  }
+	"AccessControl::ClearOnFile": {
+		"body": "AccessControl::ClearOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
+		"description": "Usage: AccessControl::ClearOnFile filename trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::ClearOnFile"
+	},
+	"AccessControl::ClearOnFile /NOINHERIT": {
+		"body": "AccessControl::ClearOnFile /NOINHERIT \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
+		"description": "Usage: AccessControl::ClearOnFile /NOINHERIT filename trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::ClearOnFile /NOINHERIT"
+	},
+	"AccessControl::ClearOnRegKey": {
+		"body": "AccessControl::ClearOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
+		"description": "Usage: AccessControl::ClearOnRegKey rootkey regkey trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::ClearOnRegKey"
+	},
+	"AccessControl::ClearOnRegKey /NOINHERIT": {
+		"body": "AccessControl::ClearOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
+		"description": "Usage: AccessControl::ClearOnRegKey /NOINHERIT rootkey regkey trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::ClearOnRegKey /NOINHERIT"
+	},
+	"AccessControl::DenyOnFile": {
+		"body": "AccessControl::DenyOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
+		"description": "Usage: AccessControl::DenyOnFile filename trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::DenyOnFile"
+	},
+	"AccessControl::DenyOnFile /NOINHERIT": {
+		"body": "AccessControl::DenyOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
+		"description": "Usage: AccessControl::DenyOnFile filename trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::DenyOnFile /NOINHERIT"
+	},
+	"AccessControl::DenyOnRegKey": {
+		"body": "AccessControl::DenyOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
+		"description": "Usage: AccessControl::DenyOnRegKey rootkey regkey trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::DenyOnRegKey"
+	},
+	"AccessControl::DenyOnRegKey /NOINHERIT": {
+		"body": "AccessControl::DenyOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
+		"description": "Usage: AccessControl::DenyOnRegKey /NOINHERIT rootkey regkey trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::DenyOnRegKey /NOINHERIT"
+	},
+	"AccessControl::DisableFileInheritance": {
+		"body": "AccessControl::DisableFileInheritance \"${1:filename}\"$2",
+		"description": "Usage: AccessControl::DisableFileInheritance filename",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::DisableFileInheritance"
+	},
+	"AccessControl::DisableRegKeyInheritance": {
+		"body": "AccessControl::DisableRegKeyInheritance \"${1:rootkey}\" \"${2:regkey}\"$3",
+		"description": "Usage: AccessControl::DisableRegKeyInheritance rootkey regkey",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::DisableRegKeyInheritance"
+	},
+	"AccessControl::EnableFileInheritance": {
+		"body": "AccessControl::EnableFileInheritance \"${1:filename}\"$2",
+		"description": "Usage: AccessControl::EnableFileInheritance filename",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::EnableFileInheritance"
+	},
+	"AccessControl::EnableRegKeyInheritance": {
+		"body": "AccessControl::EnableRegKeyInheritance \"${1:rootkey}\" \"${2:regkey}\"$3",
+		"description": "Usage: AccessControl::EnableRegKeyInheritance rootkey regkey",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::EnableRegKeyInheritance"
+	},
+	"AccessControl::GetCurrentUserName": {
+		"body": "AccessControl::GetCurrentUserName$1",
+		"description": "Usage: AccessControl::GetCurrentUserName",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::GetCurrentUserName"
+	},
+	"AccessControl::GetFileGroup": {
+		"body": "AccessControl::GetFileGroup \"${1:filename}\"$2",
+		"description": "Usage: AccessControl::GetFileGroup filename",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::GetFileGroup"
+	},
+	"AccessControl::GetFileOwner": {
+		"body": "AccessControl::GetFileOwner \"${1:filename}\"$2",
+		"description": "Usage: AccessControl::GetFileOwner filename",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::GetFileOwner"
+	},
+	"AccessControl::GetRegKeyGroup": {
+		"body": "AccessControl::GetRegKeyGroup \"${1:rootkey}\" \"${2:regkey}\"$3",
+		"description": "Usage: AccessControl::GetRegKeyGroup rootkey regkey",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::GetRegKeyGroup"
+	},
+	"AccessControl::GetRegKeyOwner": {
+		"body": "AccessControl::GetRegKeyOwner \"${1:rootkey}\" \"${2:regkey}\"$3",
+		"description": "Usage: AccessControl::GetRegKeyOwner rootkey regkey",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::GetRegKeyOwner"
+	},
+	"AccessControl::GrantOnFile": {
+		"body": "AccessControl::GrantOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
+		"description": "Usage: AccessControl::GrantOnFile filename trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::GrantOnFile"
+	},
+	"AccessControl::GrantOnFile /NOINHERIT": {
+		"body": "AccessControl::GrantOnFile /NOINHERIT \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
+		"description": "Usage: AccessControl::GrantOnFile /NOINHERIT filename trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::GrantOnFile /NOINHERIT"
+	},
+	"AccessControl::GrantOnRegKey": {
+		"body": "AccessControl::GrantOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
+		"description": "Usage: AccessControl::GrantOnRegKey rootkey regkey trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::GrantOnRegKey"
+	},
+	"AccessControl::GrantOnRegKey /NOINHERIT": {
+		"body": "AccessControl::GrantOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
+		"description": "Usage: AccessControl::GrantOnRegKey /NOINHERIT rootkey regkey trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::GrantOnRegKey /NOINHERIT"
+	},
+	"AccessControl::RevokeOnFile": {
+		"body": "AccessControl::RevokeOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
+		"description": "Usage: AccessControl::RevokeOnFile filename trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::RevokeOnFile"
+	},
+	"AccessControl::RevokeOnFile /NOINHERIT": {
+		"body": "AccessControl::RevokeOnFile /NOINHERIT \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
+		"description": "Usage: AccessControl::RevokeOnFile /NOINHERIT filename trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::RevokeOnFile /NOINHERIT"
+	},
+	"AccessControl::RevokeOnRegKey": {
+		"body": "AccessControl::RevokeOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
+		"description": "Usage: AccessControl::RevokeOnRegKey rootkey regkey trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::RevokeOnRegKey"
+	},
+	"AccessControl::RevokeOnRegKey /NOINHERIT": {
+		"body": "AccessControl::RevokeOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
+		"description": "Usage: AccessControl::RevokeOnRegKey /NOINHERIT rootkey regkey trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::RevokeOnRegKey /NOINHERIT"
+	},
+	"AccessControl::SetFileGroup": {
+		"body": "AccessControl::SetFileGroup \"${1:filename}\" \"${2:trustee}\"$3",
+		"description": "Usage: AccessControl::SetFileGroup filename trustee",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::SetFileGroup"
+	},
+	"AccessControl::SetFileOwner": {
+		"body": "AccessControl::SetFileOwner \"${1:filename}\" \"${2:trustee}\"$3",
+		"description": "Usage: AccessControl::SetFileOwner filename trustee",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::SetFileOwner"
+	},
+	"AccessControl::SetOnFile": {
+		"body": "AccessControl::GrantOnFile \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
+		"description": "Usage: AccessControl::GrantOnFile filename trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::SetOnFile"
+	},
+	"AccessControl::SetOnFile /NOINHERIT": {
+		"body": "AccessControl::GrantOnFile /NOINHERIT \"${1:filename}\" \"${2:trustee}\" \"${3:permissions}\"$4",
+		"description": "Usage: AccessControl::GrantOnFile /NOINHERIT filename trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::SetOnFile /NOINHERIT"
+	},
+	"AccessControl::SetOnRegKey": {
+		"body": "AccessControl::SetOnRegKey \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
+		"description": "Usage: AccessControl::SetOnRegKey rootkey regkey trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::SetOnRegKey"
+	},
+	"AccessControl::SetOnRegKey /NOINHERIT": {
+		"body": "AccessControl::SetOnRegKey /NOINHERIT \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\" \"${4:permissions}\"$5",
+		"description": "Usage: AccessControl::SetOnRegKey /NOINHERIT rootkey regkey trustee permissions",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::SetOnRegKey /NOINHERIT"
+	},
+	"AccessControl::SetRegKeyGroup": {
+		"body": "AccessControl::SetRegKeyGroup \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\"$4",
+		"description": "Usage: AccessControl::SetRegKeyGroup rootkey regkey trustee",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::SetRegKeyGroup"
+	},
+	"AccessControl::SetRegKeyOwner": {
+		"body": "AccessControl::SetRegKeyOwner \"${1:rootkey}\" \"${2:regkey}\" \"${3:trustee}\"$4",
+		"description": "Usage: AccessControl::SetRegKeyOwner rootkey regkey trustee",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::SetRegKeyOwner"
+	},
+	"AccessControl::SidToName": {
+		"body": "AccessControl::SidToName \"${1:sidstring}\"$2",
+		"description": "Usage: AccessControl::SidToName sidstring",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AccessControl_plug-in",
+		"leftLabelHTML": "<span class='support class'>AccessControl.dll</span>",
+		"prefix": "AccessControl::SidToName"
+	}
 }

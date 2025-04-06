@@ -1,16 +1,16 @@
 {
-  "Crypto::HashData": {
-    "body": "Crypto::HashData \"${1:algorithm}\" \"${2:string}\"$3",
-    "description": "Usage: Crypto::HashData algorithm string",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Crypto_plug-in",
-    "leftLabelHTML": "<span class='support class'>Crypto.dll</span>",
-    "prefix": "Crypto::HashData"
-  },
-  "Crypto::HashFile": {
-    "body": "Crypto::HashFile \"${1:algorithm}\" \"${2:file}\"$3",
-    "description": "Usage: Crypto::HashFile algorithm file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Crypto_plug-in",
-    "leftLabelHTML": "<span class='support class'>Crypto.dll</span>",
-    "prefix": "Crypto::HashFile"
-  }
+	"Crypto::HashData": {
+		"body": "Crypto::HashData \"${1:algorithm}\" \"${2:string}\"$3",
+		"description": "Usage: Crypto::HashData algorithm string",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Crypto_plug-in",
+		"leftLabelHTML": "<span class='support class'>Crypto.dll</span>",
+		"prefix": "Crypto::HashData"
+	},
+	"Crypto::HashFile": {
+		"body": "Crypto::HashFile \"${1:algorithm}\" \"${2:file}\"$3",
+		"description": "Usage: Crypto::HashFile algorithm file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Crypto_plug-in",
+		"leftLabelHTML": "<span class='support class'>Crypto.dll</span>",
+		"prefix": "Crypto::HashFile"
+	}
 }

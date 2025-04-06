@@ -1,7 +1,7 @@
 {
-  "body": "SimpleSC::ContinueService ${1:name_of_service} ${2:timeout}$3",
-  "description": "Usage: SimpleSC::ContinueService name_of_service timeout",
-  "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Service_Plugin",
-  "leftLabelHTML": "<span class='support class'>SimpleSC.dll</span>",
-  "prefix": "SimpleSC::ContinueService"
+	"body": "SimpleSC::ContinueService ${1:name_of_service} ${2:timeout}$3",
+	"description": "Usage: SimpleSC::ContinueService name_of_service timeout",
+	"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Service_Plugin",
+	"leftLabelHTML": "<span class='support class'>SimpleSC.dll</span>",
+	"prefix": "SimpleSC::ContinueService"
 }

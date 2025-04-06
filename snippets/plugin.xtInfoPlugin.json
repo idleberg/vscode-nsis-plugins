@@ -1,184 +1,184 @@
 {
-  "xtInfoPlugin::CompareVersion": {
-    "body": "xtInfoPlugin::CompareVersion$1",
-    "descriptions": "Usage: xtInfoPlugin::CompareVersion",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::CompareVersion"
-  },
-  "xtInfoPlugin::GetDotNetFrameworkId": {
-    "body": "xtInfoPlugin::GetDotNetFrameworkId$1",
-    "descriptions": "Usage: xtInfoPlugin::GetDotNetFrameworkId",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetDotNetFrameworkId"
-  },
-  "xtInfoPlugin::GetDotNetFrameworkVersion": {
-    "body": "xtInfoPlugin::GetDotNetFrameworkVersion$1",
-    "descriptions": "Usage: xtInfoPlugin::GetDotNetFrameworkVersion",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetDotNetFrameworkVersion"
-  },
-  "xtInfoPlugin::GetInstaller": {
-    "body": "xtInfoPlugin::GetInstaller$1",
-    "descriptions": "Usage: xtInfoPlugin::GetInstaller",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetInstaller"
-  },
-  "xtInfoPlugin::GetInstallerFileName": {
-    "body": "xtInfoPlugin::GetInstallerFileName$1",
-    "descriptions": "Usage: xtInfoPlugin::GetInstallerFileName",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetInstallerFileName"
-  },
-  "xtInfoPlugin::GetInstallerFullPath": {
-    "body": "xtInfoPlugin::GetInstallerFullPath$1",
-    "descriptions": "Usage: xtInfoPlugin::GetInstallerFullPath",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetInstallerFullPath"
-  },
-  "xtInfoPlugin::GetInternetExplorerId": {
-    "body": "xtInfoPlugin::GetInternetExplorerId$1",
-    "descriptions": "Usage: xtInfoPlugin::GetInternetExplorerId",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetInternetExplorerId"
-  },
-  "xtInfoPlugin::GetInternetExplorerVersion": {
-    "body": "xtInfoPlugin::GetInternetExplorerVersion$1",
-    "descriptions": "Usage: xtInfoPlugin::GetInternetExplorerVersion",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetInternetExplorerVersion"
-  },
-  "xtInfoPlugin::GetLanguage": {
-    "body": "xtInfoPlugin::GetLanguage$1",
-    "descriptions": "Usage: xtInfoPlugin::GetLanguage",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetLanguage"
-  },
-  "xtInfoPlugin::GetMDACId": {
-    "body": "xtInfoPlugin::GetMDACId$1",
-    "descriptions": "Usage: xtInfoPlugin::GetMDACId",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetMDACId"
-  },
-  "xtInfoPlugin::GetMDACVersion": {
-    "body": "xtInfoPlugin::GetMDACVersion$1",
-    "descriptions": "Usage: xtInfoPlugin::GetMDACVersion",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetMDACVersion"
-  },
-  "xtInfoPlugin::GetOLEDBId": {
-    "body": "xtInfoPlugin::GetOLEDBId$1",
-    "descriptions": "Usage: xtInfoPlugin::GetOLEDBId",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetOLEDBId"
-  },
-  "xtInfoPlugin::GetOLEDBVersion": {
-    "body": "xtInfoPlugin::GetOLEDBVersion$1",
-    "descriptions": "Usage: xtInfoPlugin::GetOLEDBVersion",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetOLEDBVersion"
-  },
-  "xtInfoPlugin::GetWindowsId": {
-    "body": "xtInfoPlugin::GetWindowsId$1",
-    "descriptions": "Usage: xtInfoPlugin::GetWindowsId",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetWindowsId"
-  },
-  "xtInfoPlugin::GetWindowsServicePackId": {
-    "body": "xtInfoPlugin::GetWindowsServicePackId$1",
-    "descriptions": "Usage: xtInfoPlugin::GetWindowsServicePackId",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetWindowsServicePackId"
-  },
-  "xtInfoPlugin::GetWindowsVersion": {
-    "body": "xtInfoPlugin::GetWindowsVersion$1",
-    "descriptions": "Usage: xtInfoPlugin::GetWindowsVersion",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::GetWindowsVersion"
-  },
-  "xtInfoPlugin::IsAdministrator": {
-    "body": "xtInfoPlugin::IsAdministrator$1",
-    "descriptions": "Usage: xtInfoPlugin::IsAdministrator",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::IsAdministrator"
-  },
-  "xtInfoPlugin::IsDotNetFrameworkInstalled": {
-    "body": "xtInfoPlugin::IsDotNetFrameworkInstalled$1",
-    "descriptions": "Usage: xtInfoPlugin::IsDotNetFrameworkInstalled",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::IsDotNetFrameworkInstalled"
-  },
-  "xtInfoPlugin::IsWindows2000": {
-    "body": "xtInfoPlugin::IsWindows2000$1",
-    "descriptions": "Usage: xtInfoPlugin::IsWindows2000",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::IsWindows2000"
-  },
-  "xtInfoPlugin::IsWindows2003": {
-    "body": "xtInfoPlugin::IsWindows2003$1",
-    "descriptions": "Usage: xtInfoPlugin::IsWindows2003",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::IsWindows2003"
-  },
-  "xtInfoPlugin::IsWindows95": {
-    "body": "xtInfoPlugin::IsWindows95$1",
-    "descriptions": "Usage: xtInfoPlugin::IsWindows95",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::IsWindows95"
-  },
-  "xtInfoPlugin::IsWindows98": {
-    "body": "xtInfoPlugin::IsWindows98$1",
-    "descriptions": "Usage: xtInfoPlugin::IsWindows98",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::IsWindows98"
-  },
-  "xtInfoPlugin::IsWindowsME": {
-    "body": "xtInfoPlugin::IsWindowsME$1",
-    "descriptions": "Usage: xtInfoPlugin::IsWindowsME",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::IsWindowsME"
-  },
-  "xtInfoPlugin::IsWindowsNT3": {
-    "body": "xtInfoPlugin::IsWindowsNT3$1",
-    "descriptions": "Usage: xtInfoPlugin::IsWindowsNT3",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::IsWindowsNT3"
-  },
-  "xtInfoPlugin::IsWindowsNT4": {
-    "body": "xtInfoPlugin::IsWindowsNT4$1",
-    "descriptions": "Usage: xtInfoPlugin::IsWindowsNT4",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::IsWindowsNT4"
-  },
-  "xtInfoPlugin::IsWindowsXP": {
-    "body": "xtInfoPlugin::IsWindowsXP$1",
-    "descriptions": "Usage: xtInfoPlugin::IsWindowsXP",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
-    "leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
-    "prefix": "xtInfoPlugin::IsWindowsXP"
-  }
+	"xtInfoPlugin::CompareVersion": {
+		"body": "xtInfoPlugin::CompareVersion$1",
+		"descriptions": "Usage: xtInfoPlugin::CompareVersion",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::CompareVersion"
+	},
+	"xtInfoPlugin::GetDotNetFrameworkId": {
+		"body": "xtInfoPlugin::GetDotNetFrameworkId$1",
+		"descriptions": "Usage: xtInfoPlugin::GetDotNetFrameworkId",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetDotNetFrameworkId"
+	},
+	"xtInfoPlugin::GetDotNetFrameworkVersion": {
+		"body": "xtInfoPlugin::GetDotNetFrameworkVersion$1",
+		"descriptions": "Usage: xtInfoPlugin::GetDotNetFrameworkVersion",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetDotNetFrameworkVersion"
+	},
+	"xtInfoPlugin::GetInstaller": {
+		"body": "xtInfoPlugin::GetInstaller$1",
+		"descriptions": "Usage: xtInfoPlugin::GetInstaller",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetInstaller"
+	},
+	"xtInfoPlugin::GetInstallerFileName": {
+		"body": "xtInfoPlugin::GetInstallerFileName$1",
+		"descriptions": "Usage: xtInfoPlugin::GetInstallerFileName",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetInstallerFileName"
+	},
+	"xtInfoPlugin::GetInstallerFullPath": {
+		"body": "xtInfoPlugin::GetInstallerFullPath$1",
+		"descriptions": "Usage: xtInfoPlugin::GetInstallerFullPath",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetInstallerFullPath"
+	},
+	"xtInfoPlugin::GetInternetExplorerId": {
+		"body": "xtInfoPlugin::GetInternetExplorerId$1",
+		"descriptions": "Usage: xtInfoPlugin::GetInternetExplorerId",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetInternetExplorerId"
+	},
+	"xtInfoPlugin::GetInternetExplorerVersion": {
+		"body": "xtInfoPlugin::GetInternetExplorerVersion$1",
+		"descriptions": "Usage: xtInfoPlugin::GetInternetExplorerVersion",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetInternetExplorerVersion"
+	},
+	"xtInfoPlugin::GetLanguage": {
+		"body": "xtInfoPlugin::GetLanguage$1",
+		"descriptions": "Usage: xtInfoPlugin::GetLanguage",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetLanguage"
+	},
+	"xtInfoPlugin::GetMDACId": {
+		"body": "xtInfoPlugin::GetMDACId$1",
+		"descriptions": "Usage: xtInfoPlugin::GetMDACId",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetMDACId"
+	},
+	"xtInfoPlugin::GetMDACVersion": {
+		"body": "xtInfoPlugin::GetMDACVersion$1",
+		"descriptions": "Usage: xtInfoPlugin::GetMDACVersion",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetMDACVersion"
+	},
+	"xtInfoPlugin::GetOLEDBId": {
+		"body": "xtInfoPlugin::GetOLEDBId$1",
+		"descriptions": "Usage: xtInfoPlugin::GetOLEDBId",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetOLEDBId"
+	},
+	"xtInfoPlugin::GetOLEDBVersion": {
+		"body": "xtInfoPlugin::GetOLEDBVersion$1",
+		"descriptions": "Usage: xtInfoPlugin::GetOLEDBVersion",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetOLEDBVersion"
+	},
+	"xtInfoPlugin::GetWindowsId": {
+		"body": "xtInfoPlugin::GetWindowsId$1",
+		"descriptions": "Usage: xtInfoPlugin::GetWindowsId",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetWindowsId"
+	},
+	"xtInfoPlugin::GetWindowsServicePackId": {
+		"body": "xtInfoPlugin::GetWindowsServicePackId$1",
+		"descriptions": "Usage: xtInfoPlugin::GetWindowsServicePackId",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetWindowsServicePackId"
+	},
+	"xtInfoPlugin::GetWindowsVersion": {
+		"body": "xtInfoPlugin::GetWindowsVersion$1",
+		"descriptions": "Usage: xtInfoPlugin::GetWindowsVersion",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::GetWindowsVersion"
+	},
+	"xtInfoPlugin::IsAdministrator": {
+		"body": "xtInfoPlugin::IsAdministrator$1",
+		"descriptions": "Usage: xtInfoPlugin::IsAdministrator",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::IsAdministrator"
+	},
+	"xtInfoPlugin::IsDotNetFrameworkInstalled": {
+		"body": "xtInfoPlugin::IsDotNetFrameworkInstalled$1",
+		"descriptions": "Usage: xtInfoPlugin::IsDotNetFrameworkInstalled",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::IsDotNetFrameworkInstalled"
+	},
+	"xtInfoPlugin::IsWindows2000": {
+		"body": "xtInfoPlugin::IsWindows2000$1",
+		"descriptions": "Usage: xtInfoPlugin::IsWindows2000",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::IsWindows2000"
+	},
+	"xtInfoPlugin::IsWindows2003": {
+		"body": "xtInfoPlugin::IsWindows2003$1",
+		"descriptions": "Usage: xtInfoPlugin::IsWindows2003",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::IsWindows2003"
+	},
+	"xtInfoPlugin::IsWindows95": {
+		"body": "xtInfoPlugin::IsWindows95$1",
+		"descriptions": "Usage: xtInfoPlugin::IsWindows95",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::IsWindows95"
+	},
+	"xtInfoPlugin::IsWindows98": {
+		"body": "xtInfoPlugin::IsWindows98$1",
+		"descriptions": "Usage: xtInfoPlugin::IsWindows98",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::IsWindows98"
+	},
+	"xtInfoPlugin::IsWindowsME": {
+		"body": "xtInfoPlugin::IsWindowsME$1",
+		"descriptions": "Usage: xtInfoPlugin::IsWindowsME",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::IsWindowsME"
+	},
+	"xtInfoPlugin::IsWindowsNT3": {
+		"body": "xtInfoPlugin::IsWindowsNT3$1",
+		"descriptions": "Usage: xtInfoPlugin::IsWindowsNT3",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::IsWindowsNT3"
+	},
+	"xtInfoPlugin::IsWindowsNT4": {
+		"body": "xtInfoPlugin::IsWindowsNT4$1",
+		"descriptions": "Usage: xtInfoPlugin::IsWindowsNT4",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::IsWindowsNT4"
+	},
+	"xtInfoPlugin::IsWindowsXP": {
+		"body": "xtInfoPlugin::IsWindowsXP$1",
+		"descriptions": "Usage: xtInfoPlugin::IsWindowsXP",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/XtInfoPlugin_plug-in",
+		"leftLabelHTML": "<span class='support class'>xtInfoPlugin.dll</span>",
+		"prefix": "xtInfoPlugin::IsWindowsXP"
+	}
 }

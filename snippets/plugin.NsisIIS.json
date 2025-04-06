@@ -1,121 +1,121 @@
 {
-  "NsisIIS::CreateAppPool": {
-    "body": "NsisIIS::CreateAppPool \"${1:app_pool}\"$2",
-    "description": "Usage: NsisIIS::CreateAppPool app_pool",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::CreateAppPool"
-  },
-  "NsisIIS::CreateVDir": {
-    "body": "NsisIIS::CreateVDir \"${1:vdir_name}\" \"${2:physical_path}\"$3",
-    "description": "Usage: NsisIIS::CreateVDir vdir_name physical_path",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::CreateVDir"
-  },
-  "NsisIIS::CreateWebSite": {
-    "body": "NsisIIS::CreateWebSite \"${1:name}\" \"${2:physical_path}\" \"${3:host}:${4:port}\"$5",
-    "description": "Usage: NsisIIS::CreateWebSite name physical_path host:port",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::CreateWebSite"
-  },
-  "NsisIIS::DeleteAppPool": {
-    "body": "NsisIIS::DeleteAppPool \"${1:app_pool}\"$2",
-    "description": "Usage: NsisIIS::DeleteAppPool app_pool",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::DeleteAppPool"
-  },
-  "NsisIIS::DeleteVDir": {
-    "body": "NsisIIS::DeleteVDir \"${1:vdir_name}\"$2",
-    "description": "Usage: NsisIIS::DeleteVDir vdir_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::DeleteVDir"
-  },
-  "NsisIIS::DeleteWebSite": {
-    "body": "NsisIIS::DeleteWebSite \"${1:index}\"$2",
-    "description": "Usage: NsisIIS::DeleteWebSite index",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::DeleteWebSite"
-  },
-  "NsisIIS::GetAppPool": {
-    "body": "NsisIIS::GetAppPool \"${1:app_pool}\"$2",
-    "description": "Usage: NsisIIS::GetAppPool app_pool",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::GetAppPool"
-  },
-  "NsisIIS::GetIIsInfo": {
-    "body": "NsisIIS::GetIIsInfo$1",
-    "description": "Usage: NsisIIS::GetIIsInfo",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::GetIIsInfo"
-  },
-  "NsisIIS::GetVDir": {
-    "body": "NsisIIS::GetVDir \"${1:vdir_name}\"$2",
-    "description": "Usage: NsisIIS::GetVDir vdir_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::GetVDir"
-  },
-  "NsisIIS::GetWebSite": {
-    "body": "NsisIIS::GetWebSite \"${1:index}\"$2",
-    "description": "Usage: NsisIIS::GetWebSite index",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::GetWebSite"
-  },
-  "NsisIIS::ListAppPools": {
-    "body": "NsisIIS::ListAppPools$1",
-    "description": "Usage: NsisIIS::ListAppPools",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::ListAppPools"
-  },
-  "NsisIIS::ListVDirs": {
-    "body": "NsisIIS::ListVDirs$1",
-    "description": "Usage: NsisIIS::ListVDirs",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::ListVDirs"
-  },
-  "NsisIIS::ListWebSites": {
-    "body": "NsisIIS::ListWebSites$1",
-    "description": "Usage: NsisIIS::ListWebSites",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::ListWebSites"
-  },
-  "NsisIIS::Pause": {
-    "body": "NsisIIS::Pause$1",
-    "description": "Usage: NsisIIS::Pause",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::Pause"
-  },
-  "NsisIIS::Resume": {
-    "body": "NsisIIS::Resume$1",
-    "description": "Usage: NsisIIS::Resume",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::Resume"
-  },
-  "NsisIIS::Start": {
-    "body": "NsisIIS::Start$1",
-    "description": "Usage: NsisIIS::Start",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::Start"
-  },
-  "NsisIIS::Stop": {
-    "body": "NsisIIS::Stop$1",
-    "description": "Usage: NsisIIS::Stop",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
-    "prefix": "NsisIIS::Stop"
-  }
+	"NsisIIS::CreateAppPool": {
+		"body": "NsisIIS::CreateAppPool \"${1:app_pool}\"$2",
+		"description": "Usage: NsisIIS::CreateAppPool app_pool",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::CreateAppPool"
+	},
+	"NsisIIS::CreateVDir": {
+		"body": "NsisIIS::CreateVDir \"${1:vdir_name}\" \"${2:physical_path}\"$3",
+		"description": "Usage: NsisIIS::CreateVDir vdir_name physical_path",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::CreateVDir"
+	},
+	"NsisIIS::CreateWebSite": {
+		"body": "NsisIIS::CreateWebSite \"${1:name}\" \"${2:physical_path}\" \"${3:host}:${4:port}\"$5",
+		"description": "Usage: NsisIIS::CreateWebSite name physical_path host:port",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::CreateWebSite"
+	},
+	"NsisIIS::DeleteAppPool": {
+		"body": "NsisIIS::DeleteAppPool \"${1:app_pool}\"$2",
+		"description": "Usage: NsisIIS::DeleteAppPool app_pool",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::DeleteAppPool"
+	},
+	"NsisIIS::DeleteVDir": {
+		"body": "NsisIIS::DeleteVDir \"${1:vdir_name}\"$2",
+		"description": "Usage: NsisIIS::DeleteVDir vdir_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::DeleteVDir"
+	},
+	"NsisIIS::DeleteWebSite": {
+		"body": "NsisIIS::DeleteWebSite \"${1:index}\"$2",
+		"description": "Usage: NsisIIS::DeleteWebSite index",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::DeleteWebSite"
+	},
+	"NsisIIS::GetAppPool": {
+		"body": "NsisIIS::GetAppPool \"${1:app_pool}\"$2",
+		"description": "Usage: NsisIIS::GetAppPool app_pool",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::GetAppPool"
+	},
+	"NsisIIS::GetIIsInfo": {
+		"body": "NsisIIS::GetIIsInfo$1",
+		"description": "Usage: NsisIIS::GetIIsInfo",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::GetIIsInfo"
+	},
+	"NsisIIS::GetVDir": {
+		"body": "NsisIIS::GetVDir \"${1:vdir_name}\"$2",
+		"description": "Usage: NsisIIS::GetVDir vdir_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::GetVDir"
+	},
+	"NsisIIS::GetWebSite": {
+		"body": "NsisIIS::GetWebSite \"${1:index}\"$2",
+		"description": "Usage: NsisIIS::GetWebSite index",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::GetWebSite"
+	},
+	"NsisIIS::ListAppPools": {
+		"body": "NsisIIS::ListAppPools$1",
+		"description": "Usage: NsisIIS::ListAppPools",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::ListAppPools"
+	},
+	"NsisIIS::ListVDirs": {
+		"body": "NsisIIS::ListVDirs$1",
+		"description": "Usage: NsisIIS::ListVDirs",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::ListVDirs"
+	},
+	"NsisIIS::ListWebSites": {
+		"body": "NsisIIS::ListWebSites$1",
+		"description": "Usage: NsisIIS::ListWebSites",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::ListWebSites"
+	},
+	"NsisIIS::Pause": {
+		"body": "NsisIIS::Pause$1",
+		"description": "Usage: NsisIIS::Pause",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::Pause"
+	},
+	"NsisIIS::Resume": {
+		"body": "NsisIIS::Resume$1",
+		"description": "Usage: NsisIIS::Resume",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::Resume"
+	},
+	"NsisIIS::Start": {
+		"body": "NsisIIS::Start$1",
+		"description": "Usage: NsisIIS::Start",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::Start"
+	},
+	"NsisIIS::Stop": {
+		"body": "NsisIIS::Stop$1",
+		"description": "Usage: NsisIIS::Stop",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisIIS_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisIIS.dll</span>",
+		"prefix": "NsisIIS::Stop"
+	}
 }

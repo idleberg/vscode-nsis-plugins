@@ -1,9 +1,9 @@
 {
-  "ExtractDllEx::extract": {
-    "body": "ExtractDllEx::extract$1",
-    "description": "Usage: ExtractDllEx::extract",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ExtractDLLEx_plug-in",
-    "leftLabelHTML": "<span class='support class'>ExtractDllEx.dll</span>",
-    "prefix": "ExtractDllEx::extract"
-  }
+	"ExtractDllEx::extract": {
+		"body": "ExtractDllEx::extract$1",
+		"description": "Usage: ExtractDllEx::extract",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ExtractDLLEx_plug-in",
+		"leftLabelHTML": "<span class='support class'>ExtractDllEx.dll</span>",
+		"prefix": "ExtractDllEx::extract"
+	}
 }

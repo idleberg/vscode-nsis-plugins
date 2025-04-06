@@ -1,212 +1,212 @@
 {
-  "SimpleFC::AddApplication": {
-    "body": "SimpleFC::AddApplication \"${1:name}\" \"${2:path}\" ${3:scope} ${4:ip_version} ${5:remote_addresses} ${6:status}$7",
-    "description": "Usage: SimpleFC::AddApplication name path scope ip_version remote_addresses status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AddApplication"
-  },
-  "SimpleFC::AddPort": {
-    "body": "SimpleFC::AddPort ${1:port} \"${2:name}\" ${3:protocol} ${4:scope} ${5:ip_version} ${6:remote_addresses} ${7:status}$8",
-    "description": "Usage: SimpleFC::AddPort port name protocol scope ip_version remote_addresses status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AddPort"
-  },
-  "SimpleFC::AdvExistsRule": {
-    "body": "SimpleFC::AdvAddRule \"${1:name}\" \"${2:description}\" ${3:protocol} ${4:direction} ${5:status} ${6:profile} ${7:action} ${8:application} ${9:icmp_types_and_codes} ${10:group} ${11:local_ports} ${12:remote_ports} ${13:local_address} ${14:remote_address}$15",
-    "description": "Usage: SimpleFC::AdvAddRule name description protocol direction status profile action application icmp_types_and_codes :group :local_ports :remote_ports :local_address :remote_address",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AdvExistsRule"
-  },
-  "SimpleFC::AdvRemoveRule": {
-    "body": "SimpleFC::AdvRemoveRule \"${1:name}\"$2",
-    "description": "Usage: SimpleFC::AdvRemoveRule name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AdvRemoveRule"
-  },
-  "SimpleFC::AllowDisallowExceptionsNotAllowed": {
-    "body": "SimpleFC::AllowDisallowExceptionsNotAllowed ${1:status}$2",
-    "description": "Usage: SimpleFC::AllowDisallowExceptionsNotAllowed status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AllowDisallowExceptionsNotAllowed"
-  },
-  "SimpleFC::AllowDisallowIcmpInboundEchoRequest": {
-    "body": "SimpleFC::AllowDisallowIcmpInboundEchoRequest ${1:status}$2",
-    "description": "Usage: SimpleFC::AllowDisallowIcmpInboundEchoRequest status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AllowDisallowIcmpInboundEchoRequest"
-  },
-  "SimpleFC::AllowDisallowIcmpInboundMaskRequest": {
-    "body": "SimpleFC::AllowDisallowIcmpInboundMaskRequest ${1:status}$2",
-    "description": "Usage: SimpleFC::AllowDisallowIcmpInboundMaskRequest status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AllowDisallowIcmpInboundMaskRequest"
-  },
-  "SimpleFC::AllowDisallowIcmpInboundRouterRequest": {
-    "body": "SimpleFC::AllowDisallowIcmpInboundRouterRequest ${1:status}$2",
-    "description": "Usage: SimpleFC::AllowDisallowIcmpInboundRouterRequest status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AllowDisallowIcmpInboundRouterRequest"
-  },
-  "SimpleFC::AllowDisallowIcmpInboundTimestampRequest": {
-    "body": "SimpleFC::AllowDisallowIcmpInboundTimestampRequest ${1:status}$2",
-    "description": "Usage: SimpleFC::AllowDisallowIcmpInboundTimestampRequest status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AllowDisallowIcmpInboundTimestampRequest"
-  },
-  "SimpleFC::AllowDisallowIcmpOutboundDestinationUnreachable": {
-    "body": "SimpleFC::AllowDisallowIcmpOutboundDestinationUnreachable ${1:status}$2",
-    "description": "Usage: SimpleFC::AllowDisallowIcmpOutboundDestinationUnreachable status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AllowDisallowIcmpOutboundDestinationUnreachable"
-  },
-  "SimpleFC::AllowDisallowIcmpOutboundPacketTooBig": {
-    "body": "SimpleFC::AllowDisallowIcmpOutboundPacketTooBig ${1:status}$2",
-    "description": "Usage: SimpleFC::AllowDisallowIcmpOutboundPacketTooBig status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AllowDisallowIcmpOutboundPacketTooBig"
-  },
-  "SimpleFC::AllowDisallowIcmpOutboundParameterProblem": {
-    "body": "SimpleFC::AllowDisallowIcmpOutboundParameterProblem ${1:status}$2",
-    "description": "Usage: SimpleFC::AllowDisallowIcmpOutboundParameterProblem status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AllowDisallowIcmpOutboundParameterProblem"
-  },
-  "SimpleFC::AllowDisallowIcmpOutboundSourceQuench": {
-    "body": "SimpleFC::AllowDisallowIcmpOutboundSourceQuench ${1:status}$2",
-    "description": "Usage: SimpleFC::AllowDisallowIcmpOutboundSourceQuench status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AllowDisallowIcmpOutboundSourceQuench"
-  },
-  "SimpleFC::AllowDisallowIcmpOutboundTimeExceeded": {
-    "body": "SimpleFC::AllowDisallowIcmpOutboundTimeExceeded ${1:status}$2",
-    "description": "Usage: SimpleFC::AllowDisallowIcmpOutboundTimeExceeded status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AllowDisallowIcmpOutboundTimeExceeded"
-  },
-  "SimpleFC::AllowDisallowIcmpRedirect": {
-    "body": "SimpleFC::AllowDisallowIcmpRedirect ${1:status}$2",
-    "description": "Usage: SimpleFC::AllowDisallowIcmpRedirect status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AllowDisallowIcmpRedirect"
-  },
-  "SimpleFC::AreExceptionsNotAllowed": {
-    "body": "SimpleFC::AreExceptionsNotAllowed$1",
-    "description": "Usage: SimpleFC::AreExceptionsNotAllowed",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AreExceptionsNotAllowed"
-  },
-  "SimpleFC::AreNotificationsEnabled": {
-    "body": "SimpleFC::AreNotificationsEnabled$1",
-    "description": "Usage: SimpleFC::AreNotificationsEnabled",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::AreNotificationsEnabled"
-  },
-  "SimpleFC::EnableDisableApplication": {
-    "body": "SimpleFC::EnableDisableApplication \"${1:path}\"$2",
-    "description": "Usage: SimpleFC::EnableDisableApplication path",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::EnableDisableApplication"
-  },
-  "SimpleFC::EnableDisableFirewall": {
-    "body": "SimpleFC::EnableDisableFirewall ${1:status}$2",
-    "description": "Usage: SimpleFC::EnableDisableFirewall status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::EnableDisableFirewall"
-  },
-  "SimpleFC::EnableDisableNotifications": {
-    "body": "SimpleFC::EnableDisableNotifications ${1:status}$2",
-    "description": "Usage: SimpleFC::EnableDisableNotifications status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::EnableDisableNotifications"
-  },
-  "SimpleFC::EnableDisablePort": {
-    "body": "SimpleFC::EnableDisablePort ${1:port} ${2:protocol}$3",
-    "description": "Usage: SimpleFC::EnableDisablePort port protocol",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::EnableDisablePort"
-  },
-  "SimpleFC::IsApplicationAdded": {
-    "body": "SimpleFC::IsApplicationAdded \"${1:path}\"$2",
-    "description": "Usage: SimpleFC::IsApplicationAdded path",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::IsApplicationAdded"
-  },
-  "SimpleFC::IsFirewallEnabled": {
-    "body": "SimpleFC::IsFirewallEnabled$1",
-    "description": "Usage: SimpleFC::IsFirewallEnabled",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::IsFirewallEnabled"
-  },
-  "SimpleFC::IsFirewallServiceRunning": {
-    "body": "SimpleFC::IsFirewallServiceRunning$1",
-    "description": "Usage: SimpleFC::IsFirewallServiceRunning",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::IsFirewallServiceRunning"
-  },
-  "SimpleFC::IsPortAdded": {
-    "body": "SimpleFC::IsPortAdded ${1:port} ${2:protocol}$3",
-    "description": "Usage: SimpleFC::IsPortAdded port protocol",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::IsPortAdded"
-  },
-  "SimpleFC::IsPortEnabled": {
-    "body": "SimpleFC::IsPortEnabled ${1:port} ${2:protocol}$3",
-    "description": "Usage: SimpleFC::IsPortEnabled port protocol",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::IsPortEnabled"
-  },
-  "SimpleFC::RemoveApplication": {
-    "body": "SimpleFC::RemoveApplication \"${1:path}\"$2",
-    "description": "Usage: SimpleFC::RemoveApplication path",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::RemoveApplication"
-  },
-  "SimpleFC::RemovePort": {
-    "body": "SimpleFC::RemovePort ${1:port} ${2:protocol}$3",
-    "description": "Usage: SimpleFC::RemovePort port protocol",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::RemovePort"
-  },
-  "SimpleFC::RestoreDefaults": {
-    "body": "SimpleFC::RestoreDefaults$1",
-    "description": "Usage: SimpleFC::RestoreDefaults",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::RestoreDefaults"
-  },
-  "SimpleFC::StartStopFirewallService": {
-    "body": "SimpleFC::StartStopFirewallService ${1:status}$2",
-    "description": "Usage: SimpleFC::StartStopFirewallService status",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
-    "leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
-    "prefix": "SimpleFC::StartStopFirewallService"
-  }
+	"SimpleFC::AddApplication": {
+		"body": "SimpleFC::AddApplication \"${1:name}\" \"${2:path}\" ${3:scope} ${4:ip_version} ${5:remote_addresses} ${6:status}$7",
+		"description": "Usage: SimpleFC::AddApplication name path scope ip_version remote_addresses status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AddApplication"
+	},
+	"SimpleFC::AddPort": {
+		"body": "SimpleFC::AddPort ${1:port} \"${2:name}\" ${3:protocol} ${4:scope} ${5:ip_version} ${6:remote_addresses} ${7:status}$8",
+		"description": "Usage: SimpleFC::AddPort port name protocol scope ip_version remote_addresses status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AddPort"
+	},
+	"SimpleFC::AdvExistsRule": {
+		"body": "SimpleFC::AdvAddRule \"${1:name}\" \"${2:description}\" ${3:protocol} ${4:direction} ${5:status} ${6:profile} ${7:action} ${8:application} ${9:icmp_types_and_codes} ${10:group} ${11:local_ports} ${12:remote_ports} ${13:local_address} ${14:remote_address}$15",
+		"description": "Usage: SimpleFC::AdvAddRule name description protocol direction status profile action application icmp_types_and_codes :group :local_ports :remote_ports :local_address :remote_address",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AdvExistsRule"
+	},
+	"SimpleFC::AdvRemoveRule": {
+		"body": "SimpleFC::AdvRemoveRule \"${1:name}\"$2",
+		"description": "Usage: SimpleFC::AdvRemoveRule name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AdvRemoveRule"
+	},
+	"SimpleFC::AllowDisallowExceptionsNotAllowed": {
+		"body": "SimpleFC::AllowDisallowExceptionsNotAllowed ${1:status}$2",
+		"description": "Usage: SimpleFC::AllowDisallowExceptionsNotAllowed status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AllowDisallowExceptionsNotAllowed"
+	},
+	"SimpleFC::AllowDisallowIcmpInboundEchoRequest": {
+		"body": "SimpleFC::AllowDisallowIcmpInboundEchoRequest ${1:status}$2",
+		"description": "Usage: SimpleFC::AllowDisallowIcmpInboundEchoRequest status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AllowDisallowIcmpInboundEchoRequest"
+	},
+	"SimpleFC::AllowDisallowIcmpInboundMaskRequest": {
+		"body": "SimpleFC::AllowDisallowIcmpInboundMaskRequest ${1:status}$2",
+		"description": "Usage: SimpleFC::AllowDisallowIcmpInboundMaskRequest status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AllowDisallowIcmpInboundMaskRequest"
+	},
+	"SimpleFC::AllowDisallowIcmpInboundRouterRequest": {
+		"body": "SimpleFC::AllowDisallowIcmpInboundRouterRequest ${1:status}$2",
+		"description": "Usage: SimpleFC::AllowDisallowIcmpInboundRouterRequest status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AllowDisallowIcmpInboundRouterRequest"
+	},
+	"SimpleFC::AllowDisallowIcmpInboundTimestampRequest": {
+		"body": "SimpleFC::AllowDisallowIcmpInboundTimestampRequest ${1:status}$2",
+		"description": "Usage: SimpleFC::AllowDisallowIcmpInboundTimestampRequest status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AllowDisallowIcmpInboundTimestampRequest"
+	},
+	"SimpleFC::AllowDisallowIcmpOutboundDestinationUnreachable": {
+		"body": "SimpleFC::AllowDisallowIcmpOutboundDestinationUnreachable ${1:status}$2",
+		"description": "Usage: SimpleFC::AllowDisallowIcmpOutboundDestinationUnreachable status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AllowDisallowIcmpOutboundDestinationUnreachable"
+	},
+	"SimpleFC::AllowDisallowIcmpOutboundPacketTooBig": {
+		"body": "SimpleFC::AllowDisallowIcmpOutboundPacketTooBig ${1:status}$2",
+		"description": "Usage: SimpleFC::AllowDisallowIcmpOutboundPacketTooBig status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AllowDisallowIcmpOutboundPacketTooBig"
+	},
+	"SimpleFC::AllowDisallowIcmpOutboundParameterProblem": {
+		"body": "SimpleFC::AllowDisallowIcmpOutboundParameterProblem ${1:status}$2",
+		"description": "Usage: SimpleFC::AllowDisallowIcmpOutboundParameterProblem status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AllowDisallowIcmpOutboundParameterProblem"
+	},
+	"SimpleFC::AllowDisallowIcmpOutboundSourceQuench": {
+		"body": "SimpleFC::AllowDisallowIcmpOutboundSourceQuench ${1:status}$2",
+		"description": "Usage: SimpleFC::AllowDisallowIcmpOutboundSourceQuench status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AllowDisallowIcmpOutboundSourceQuench"
+	},
+	"SimpleFC::AllowDisallowIcmpOutboundTimeExceeded": {
+		"body": "SimpleFC::AllowDisallowIcmpOutboundTimeExceeded ${1:status}$2",
+		"description": "Usage: SimpleFC::AllowDisallowIcmpOutboundTimeExceeded status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AllowDisallowIcmpOutboundTimeExceeded"
+	},
+	"SimpleFC::AllowDisallowIcmpRedirect": {
+		"body": "SimpleFC::AllowDisallowIcmpRedirect ${1:status}$2",
+		"description": "Usage: SimpleFC::AllowDisallowIcmpRedirect status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AllowDisallowIcmpRedirect"
+	},
+	"SimpleFC::AreExceptionsNotAllowed": {
+		"body": "SimpleFC::AreExceptionsNotAllowed$1",
+		"description": "Usage: SimpleFC::AreExceptionsNotAllowed",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AreExceptionsNotAllowed"
+	},
+	"SimpleFC::AreNotificationsEnabled": {
+		"body": "SimpleFC::AreNotificationsEnabled$1",
+		"description": "Usage: SimpleFC::AreNotificationsEnabled",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::AreNotificationsEnabled"
+	},
+	"SimpleFC::EnableDisableApplication": {
+		"body": "SimpleFC::EnableDisableApplication \"${1:path}\"$2",
+		"description": "Usage: SimpleFC::EnableDisableApplication path",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::EnableDisableApplication"
+	},
+	"SimpleFC::EnableDisableFirewall": {
+		"body": "SimpleFC::EnableDisableFirewall ${1:status}$2",
+		"description": "Usage: SimpleFC::EnableDisableFirewall status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::EnableDisableFirewall"
+	},
+	"SimpleFC::EnableDisableNotifications": {
+		"body": "SimpleFC::EnableDisableNotifications ${1:status}$2",
+		"description": "Usage: SimpleFC::EnableDisableNotifications status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::EnableDisableNotifications"
+	},
+	"SimpleFC::EnableDisablePort": {
+		"body": "SimpleFC::EnableDisablePort ${1:port} ${2:protocol}$3",
+		"description": "Usage: SimpleFC::EnableDisablePort port protocol",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::EnableDisablePort"
+	},
+	"SimpleFC::IsApplicationAdded": {
+		"body": "SimpleFC::IsApplicationAdded \"${1:path}\"$2",
+		"description": "Usage: SimpleFC::IsApplicationAdded path",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::IsApplicationAdded"
+	},
+	"SimpleFC::IsFirewallEnabled": {
+		"body": "SimpleFC::IsFirewallEnabled$1",
+		"description": "Usage: SimpleFC::IsFirewallEnabled",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::IsFirewallEnabled"
+	},
+	"SimpleFC::IsFirewallServiceRunning": {
+		"body": "SimpleFC::IsFirewallServiceRunning$1",
+		"description": "Usage: SimpleFC::IsFirewallServiceRunning",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::IsFirewallServiceRunning"
+	},
+	"SimpleFC::IsPortAdded": {
+		"body": "SimpleFC::IsPortAdded ${1:port} ${2:protocol}$3",
+		"description": "Usage: SimpleFC::IsPortAdded port protocol",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::IsPortAdded"
+	},
+	"SimpleFC::IsPortEnabled": {
+		"body": "SimpleFC::IsPortEnabled ${1:port} ${2:protocol}$3",
+		"description": "Usage: SimpleFC::IsPortEnabled port protocol",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::IsPortEnabled"
+	},
+	"SimpleFC::RemoveApplication": {
+		"body": "SimpleFC::RemoveApplication \"${1:path}\"$2",
+		"description": "Usage: SimpleFC::RemoveApplication path",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::RemoveApplication"
+	},
+	"SimpleFC::RemovePort": {
+		"body": "SimpleFC::RemovePort ${1:port} ${2:protocol}$3",
+		"description": "Usage: SimpleFC::RemovePort port protocol",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::RemovePort"
+	},
+	"SimpleFC::RestoreDefaults": {
+		"body": "SimpleFC::RestoreDefaults$1",
+		"description": "Usage: SimpleFC::RestoreDefaults",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::RestoreDefaults"
+	},
+	"SimpleFC::StartStopFirewallService": {
+		"body": "SimpleFC::StartStopFirewallService ${1:status}$2",
+		"description": "Usage: SimpleFC::StartStopFirewallService status",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSIS_Simple_Firewall_Plugin",
+		"leftLabelHTML": "<span class='support class'>SimpleFC.dll</span>",
+		"prefix": "SimpleFC::StartStopFirewallService"
+	}
 }

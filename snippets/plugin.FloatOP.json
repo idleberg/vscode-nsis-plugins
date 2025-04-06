@@ -1,44 +1,44 @@
 {
-  "FloatOp::Autor": {
-    "body": "FloatOp::Autor ${1:result_var}$2",
-    "description": "Usage: FloatOp::Autor result_var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/FloatOP_plug-in",
-    "leftLabelHTML": "<span class='support class'>FloatOp.dll</span>",
-    "prefix": "FloatOp::Autor"
-  },
-  "FloatOp::D (divide)": {
-    "body": "FloatOp::D \"${1:value1}\" \"${2:value2}\" $${3:result_var}$4",
-    "description": "Usage: FloatOp::D value1 value2 result_var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/FloatOP_plug-in",
-    "leftLabelHTML": "<span class='support class'>FloatOp.dll</span>",
-    "prefix": "FloatOp::D divide"
-  },
-  "FloatOp::M (multiply)": {
-    "body": "FloatOp::M \"${1:value1}\" \"${2:value2}\" $${3:result_var}$4",
-    "description": "Usage: FloatOp::M value1 value2 result_var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/FloatOP_plug-in",
-    "leftLabelHTML": "<span class='support class'>FloatOp.dll</span>",
-    "prefix": "FloatOp::M multiply"
-  },
-  "FloatOp::R (subtract)": {
-    "body": "FloatOp::R \"${1:value1}\" \"${2:value2}\" $${3:result_var}$4",
-    "description": "Usage: FloatOp::R value1 value2 result_var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/FloatOP_plug-in",
-    "leftLabelHTML": "<span class='support class'>FloatOp.dll</span>",
-    "prefix": "FloatOp::R subtract"
-  },
-  "FloatOp::S (add)": {
-    "body": "FloatOp::S \"${1:value1}\" \"${2:value2}\" $${3:result_var}$4",
-    "description": "Usage: FloatOp::S value1 value2 result_var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/FloatOP_plug-in",
-    "leftLabelHTML": "<span class='support class'>FloatOp.dll</span>",
-    "prefix": "FloatOp::S add"
-  },
-  "FloatOp::Ver": {
-    "body": "FloatOp::Ver $${1:result_var}$2",
-    "description": "Usage: FloatOp::Ver result_var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/FloatOP_plug-in",
-    "leftLabelHTML": "<span class='support class'>FloatOp.dll</span>",
-    "prefix": "FloatOp::Ver"
-  }
+	"FloatOp::Autor": {
+		"body": "FloatOp::Autor ${1:result_var}$2",
+		"description": "Usage: FloatOp::Autor result_var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/FloatOP_plug-in",
+		"leftLabelHTML": "<span class='support class'>FloatOp.dll</span>",
+		"prefix": "FloatOp::Autor"
+	},
+	"FloatOp::D (divide)": {
+		"body": "FloatOp::D \"${1:value1}\" \"${2:value2}\" $${3:result_var}$4",
+		"description": "Usage: FloatOp::D value1 value2 result_var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/FloatOP_plug-in",
+		"leftLabelHTML": "<span class='support class'>FloatOp.dll</span>",
+		"prefix": "FloatOp::D divide"
+	},
+	"FloatOp::M (multiply)": {
+		"body": "FloatOp::M \"${1:value1}\" \"${2:value2}\" $${3:result_var}$4",
+		"description": "Usage: FloatOp::M value1 value2 result_var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/FloatOP_plug-in",
+		"leftLabelHTML": "<span class='support class'>FloatOp.dll</span>",
+		"prefix": "FloatOp::M multiply"
+	},
+	"FloatOp::R (subtract)": {
+		"body": "FloatOp::R \"${1:value1}\" \"${2:value2}\" $${3:result_var}$4",
+		"description": "Usage: FloatOp::R value1 value2 result_var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/FloatOP_plug-in",
+		"leftLabelHTML": "<span class='support class'>FloatOp.dll</span>",
+		"prefix": "FloatOp::R subtract"
+	},
+	"FloatOp::S (add)": {
+		"body": "FloatOp::S \"${1:value1}\" \"${2:value2}\" $${3:result_var}$4",
+		"description": "Usage: FloatOp::S value1 value2 result_var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/FloatOP_plug-in",
+		"leftLabelHTML": "<span class='support class'>FloatOp.dll</span>",
+		"prefix": "FloatOp::S add"
+	},
+	"FloatOp::Ver": {
+		"body": "FloatOp::Ver $${1:result_var}$2",
+		"description": "Usage: FloatOp::Ver result_var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/FloatOP_plug-in",
+		"leftLabelHTML": "<span class='support class'>FloatOp.dll</span>",
+		"prefix": "FloatOp::Ver"
+	}
 }

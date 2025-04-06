@@ -1,16 +1,16 @@
 {
-  "nsisFirewall::AddAuthorizedApplication": {
-    "body": "nsisFirewall::AddAuthorizedApplication \"${1:application_path}\" \"${2:rule_name}\"$3",
-    "description": "Usage: nsisFirewall::AddAuthorizedApplication application_path rule_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisFirewall_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisFirewall.dll</span>",
-    "prefix": "nsisFirewall::AddAuthorizedApplication"
-  },
-  "nsisFirewall::RemoveAuthorizedApplication": {
-    "body": "nsisFirewall::RemoveAuthorizedApplication \"${1:application_path}\"$2",
-    "description": "Usage: nsisFirewall::RemoveAuthorizedApplication application_path",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisFirewall_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisFirewall.dll</span>",
-    "prefix": "nsisFirewall::RemoveAuthorizedApplication"
-  }
+	"nsisFirewall::AddAuthorizedApplication": {
+		"body": "nsisFirewall::AddAuthorizedApplication \"${1:application_path}\" \"${2:rule_name}\"$3",
+		"description": "Usage: nsisFirewall::AddAuthorizedApplication application_path rule_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisFirewall_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisFirewall.dll</span>",
+		"prefix": "nsisFirewall::AddAuthorizedApplication"
+	},
+	"nsisFirewall::RemoveAuthorizedApplication": {
+		"body": "nsisFirewall::RemoveAuthorizedApplication \"${1:application_path}\"$2",
+		"description": "Usage: nsisFirewall::RemoveAuthorizedApplication application_path",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisFirewall_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisFirewall.dll</span>",
+		"prefix": "nsisFirewall::RemoveAuthorizedApplication"
+	}
 }

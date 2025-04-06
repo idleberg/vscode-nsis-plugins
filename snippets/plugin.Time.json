@@ -1,72 +1,72 @@
 {
-  "${Time::GetFileTimeUTC}": {
-    "body": "\\${Time::GetFileTimeUTC} \"${1:file}\" $${2:creation_time} $${3:last_write_time} $${4:last_access_time}$5",
-    "description": "Usage: ${Time::GetFileTimeUTC} file creation_time last_write_time last_access_time",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
-    "leftLabelHTML": "<span class='support class'>time.dll</span>",
-    "prefix": "Time::GetFileTimeUTC"
-  },
-  "${Time::GetFileTime}": {
-    "body": "\\${Time::GetFileTime} \"${1:file}\" $${2:creation_time} $${3:last_write_time} $${4:last_access_time}$5",
-    "description": "Usage: ${Time::GetFileTime} file creation_time last_write_time last_access_time",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
-    "leftLabelHTML": "<span class='support class'>time.dll</span>",
-    "prefix": "Time::GetFileTime"
-  },
-  "${Time::GetLocalTimeUTC}": {
-    "body": "\\${Time::GetLocalTimeUTC} $${1:var}$2",
-    "description": "Usage: ${Time::GetLocalTimeUTC} var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
-    "leftLabelHTML": "<span class='support class'>time.dll</span>",
-    "prefix": "Time::GetLocalTimeUTC"
-  },
-  "${Time::MathTime}": {
-    "body": "\\${Time::MathTime} \"${1:expression}\" $${2:var}$3",
-    "description": "Usage: ${Time::MathTime} expression var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
-    "leftLabelHTML": "<span class='support class'>time.dll</span>",
-    "prefix": "Time::MathTime"
-  },
-  "${Time::SetFileTimeUTC}": {
-    "body": "\\${Time::SetFileTimeUTC} \"${1:file}\" \"$${2:creation_time}\" \"${3:last_write_time}\" \"${4:last_access_time}\" $${5:var}$6",
-    "description": "Usage: ${Time::SetFileTimeUTC} file creation_time last_write_time last_access_time var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
-    "leftLabelHTML": "<span class='support class'>time.dll</span>",
-    "prefix": "Time::SetFileTimeUTC"
-  },
-  "${Time::SetFileTime}": {
-    "body": "\\${Time::SetFileTime} \"${1:file}\" \"$${2:creation_time}\" \"${3:last_write_time}\" \"${4:last_access_time}\" $${5:var}$6",
-    "description": "Usage: ${Time::SetFileTime} file creation_time last_write_time last_access_time var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
-    "leftLabelHTML": "<span class='support class'>time.dll</span>",
-    "prefix": "Time::SetFileTime"
-  },
-  "${Time::SetLocalTimeUTC}": {
-    "body": "\\${Time::SetLocalTimeUTC} \"${1:local_time}\" $${2:var}$3",
-    "description": "Usage: ${Time::SetLocalTimeUTC} local_time var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
-    "leftLabelHTML": "<span class='support class'>time.dll</span>",
-    "prefix": "Time::SetLocalTimeUTC"
-  },
-  "${Time::SetLocalTime}": {
-    "body": "\\${Time::SetLocalTime} \"${1:local_time}\" $${2:var}$3",
-    "description": "Usage: ${Time::SetLocalTime} local_time var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
-    "leftLabelHTML": "<span class='support class'>time.dll</span>",
-    "prefix": "Time::SetLocalTime"
-  },
-  "${Time::TimeString}": {
-    "body": "\\${Time::TimeString} \"${1:time}\" $${2:day} $${3:month} $${4:year} $${5:hour} $${6:minute} $${7:second}$8",
-    "description": "Usage: ${Time::TimeString} time day month year hour minute second",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
-    "leftLabelHTML": "<span class='support class'>time.dll</span>",
-    "prefix": "Time::TimeString"
-  },
-  "${Time::Unload}": {
-    "body": "\\${Time::Unload}$1",
-    "description": "Usage: ${Time::Unload}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
-    "leftLabelHTML": "<span class='support class'>time.dll</span>",
-    "prefix": "Time::Unload"
-  }
+	"${Time::GetFileTimeUTC}": {
+		"body": "\\${Time::GetFileTimeUTC} \"${1:file}\" $${2:creation_time} $${3:last_write_time} $${4:last_access_time}$5",
+		"description": "Usage: ${Time::GetFileTimeUTC} file creation_time last_write_time last_access_time",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
+		"leftLabelHTML": "<span class='support class'>time.dll</span>",
+		"prefix": "Time::GetFileTimeUTC"
+	},
+	"${Time::GetFileTime}": {
+		"body": "\\${Time::GetFileTime} \"${1:file}\" $${2:creation_time} $${3:last_write_time} $${4:last_access_time}$5",
+		"description": "Usage: ${Time::GetFileTime} file creation_time last_write_time last_access_time",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
+		"leftLabelHTML": "<span class='support class'>time.dll</span>",
+		"prefix": "Time::GetFileTime"
+	},
+	"${Time::GetLocalTimeUTC}": {
+		"body": "\\${Time::GetLocalTimeUTC} $${1:var}$2",
+		"description": "Usage: ${Time::GetLocalTimeUTC} var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
+		"leftLabelHTML": "<span class='support class'>time.dll</span>",
+		"prefix": "Time::GetLocalTimeUTC"
+	},
+	"${Time::MathTime}": {
+		"body": "\\${Time::MathTime} \"${1:expression}\" $${2:var}$3",
+		"description": "Usage: ${Time::MathTime} expression var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
+		"leftLabelHTML": "<span class='support class'>time.dll</span>",
+		"prefix": "Time::MathTime"
+	},
+	"${Time::SetFileTimeUTC}": {
+		"body": "\\${Time::SetFileTimeUTC} \"${1:file}\" \"$${2:creation_time}\" \"${3:last_write_time}\" \"${4:last_access_time}\" $${5:var}$6",
+		"description": "Usage: ${Time::SetFileTimeUTC} file creation_time last_write_time last_access_time var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
+		"leftLabelHTML": "<span class='support class'>time.dll</span>",
+		"prefix": "Time::SetFileTimeUTC"
+	},
+	"${Time::SetFileTime}": {
+		"body": "\\${Time::SetFileTime} \"${1:file}\" \"$${2:creation_time}\" \"${3:last_write_time}\" \"${4:last_access_time}\" $${5:var}$6",
+		"description": "Usage: ${Time::SetFileTime} file creation_time last_write_time last_access_time var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
+		"leftLabelHTML": "<span class='support class'>time.dll</span>",
+		"prefix": "Time::SetFileTime"
+	},
+	"${Time::SetLocalTimeUTC}": {
+		"body": "\\${Time::SetLocalTimeUTC} \"${1:local_time}\" $${2:var}$3",
+		"description": "Usage: ${Time::SetLocalTimeUTC} local_time var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
+		"leftLabelHTML": "<span class='support class'>time.dll</span>",
+		"prefix": "Time::SetLocalTimeUTC"
+	},
+	"${Time::SetLocalTime}": {
+		"body": "\\${Time::SetLocalTime} \"${1:local_time}\" $${2:var}$3",
+		"description": "Usage: ${Time::SetLocalTime} local_time var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
+		"leftLabelHTML": "<span class='support class'>time.dll</span>",
+		"prefix": "Time::SetLocalTime"
+	},
+	"${Time::TimeString}": {
+		"body": "\\${Time::TimeString} \"${1:time}\" $${2:day} $${3:month} $${4:year} $${5:hour} $${6:minute} $${7:second}$8",
+		"description": "Usage: ${Time::TimeString} time day month year hour minute second",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
+		"leftLabelHTML": "<span class='support class'>time.dll</span>",
+		"prefix": "Time::TimeString"
+	},
+	"${Time::Unload}": {
+		"body": "\\${Time::Unload}$1",
+		"description": "Usage: ${Time::Unload}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Time_plug-in",
+		"leftLabelHTML": "<span class='support class'>time.dll</span>",
+		"prefix": "Time::Unload"
+	}
 }

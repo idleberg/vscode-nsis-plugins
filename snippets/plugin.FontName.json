@@ -1,16 +1,16 @@
 {
-  "!insertmacro FontName": {
-    "body": "!insertmacro FontName \"${1:file}.ttf\"$2",
-    "description": "Usage: !insertmacro FontName font_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/FontName_plug-in",
-    "leftLabelHTML": "<span class='support class'>FontName.dll</span>",
-    "prefix": "FontName"
-  },
-  "!insertmacro FontNameVer": {
-    "body": "!insertmacro FontNameVer \"${1:file}.ttf\"$2",
-    "description": "Usage: !insertmacro FontNameVer",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/FontName_plug-in",
-    "leftLabelHTML": "<span class='support class'>FontName.dll</span>",
-    "prefix": "FontNameVer"
-  }
+	"!insertmacro FontName": {
+		"body": "!insertmacro FontName \"${1:file}.ttf\"$2",
+		"description": "Usage: !insertmacro FontName font_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/FontName_plug-in",
+		"leftLabelHTML": "<span class='support class'>FontName.dll</span>",
+		"prefix": "FontName"
+	},
+	"!insertmacro FontNameVer": {
+		"body": "!insertmacro FontNameVer \"${1:file}.ttf\"$2",
+		"description": "Usage: !insertmacro FontNameVer",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/FontName_plug-in",
+		"leftLabelHTML": "<span class='support class'>FontName.dll</span>",
+		"prefix": "FontNameVer"
+	}
 }

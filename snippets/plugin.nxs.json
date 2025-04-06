@@ -1,65 +1,65 @@
 {
-  "nxs::Destroy": {
-    "body": "nxs::Destroy$1",
-    "description": "Usage: nxs::Destroy",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
-    "leftLabelHTML": "<span class='support class'>nxs.dll</span>",
-    "prefix": "nxs::Destroy"
-  },
-  "nxs::HasUserAborted": {
-    "body": "nxs::HasUserAborted$3",
-    "description": "Usage: nxs::HasUserAborted",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
-    "leftLabelHTML": "<span class='support class'>nxs.dll</span>",
-    "prefix": "nxs::HasUserAborted"
-  },
-  "nxs::HasUserAborted /NOUNLOAD": {
-    "body": "nxs::HasUserAborted /NOUNLOAD$1",
-    "description": "Usage: nxs::HasUserAborted /NOUNLOAD",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
-    "leftLabelHTML": "<span class='support class'>nxs.dll</span>",
-    "prefix": "nxs::HasUserAborted /NOUNLOAD"
-  },
-  "nxs::Show": {
-    "body": "nxs::Show \"${1:caption}\" ${2:options}$3",
-    "description": "Usage: nxs::Show caption options",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
-    "leftLabelHTML": "<span class='support class'>nxs.dll</span>",
-    "prefix": "nxs::Show"
-  },
-  "nxs::Show /NOUNLOAD": {
-    "body": "nxs::Show /NOUNLOAD \"${1:caption}\" ${2:options}$3",
-    "description": "Usage: nxs::Show /NOUNLOAD caption options",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
-    "leftLabelHTML": "<span class='support class'>nxs.dll</span>",
-    "prefix": "nxs::Show /NOUNLOAD"
-  },
-  "nxs::Update": {
-    "body": "nxs::Update \"${1:caption}\" ${2:options}$3",
-    "description": "Usage: nxs::Update caption options",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
-    "leftLabelHTML": "<span class='support class'>nxs.dll</span>",
-    "prefix": "nxs::Update"
-  },
-  "nxs::Update /NOUNLOAD": {
-    "body": "nxs::Update /NOUNLOAD \"${1:caption}\" ${2:options}$3",
-    "description": "Usage: nxs::Update /NOUNLOAD caption options",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
-    "leftLabelHTML": "<span class='support class'>nxs.dll</span>",
-    "prefix": "nxs::Update /NOUNLOAD"
-  },
-  "nxs::getWindow": {
-    "body": "nxs::getWindow$1",
-    "description": "Usage: nxs::getWindow",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
-    "leftLabelHTML": "<span class='support class'>nxs.dll</span>",
-    "prefix": "nxs::getWindow"
-  },
-  "nxs::getWindow /NOUNLOAD": {
-    "body": "nxs::getWindow /NOUNLOAD$1",
-    "description": "Usage: nxs::getWindow /NOUNLOAD",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
-    "leftLabelHTML": "<span class='support class'>nxs.dll</span>",
-    "prefix": "nxs::getWindow /NOUNLOAD"
-  }
+	"nxs::Destroy": {
+		"body": "nxs::Destroy$1",
+		"description": "Usage: nxs::Destroy",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
+		"leftLabelHTML": "<span class='support class'>nxs.dll</span>",
+		"prefix": "nxs::Destroy"
+	},
+	"nxs::HasUserAborted": {
+		"body": "nxs::HasUserAborted$3",
+		"description": "Usage: nxs::HasUserAborted",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
+		"leftLabelHTML": "<span class='support class'>nxs.dll</span>",
+		"prefix": "nxs::HasUserAborted"
+	},
+	"nxs::HasUserAborted /NOUNLOAD": {
+		"body": "nxs::HasUserAborted /NOUNLOAD$1",
+		"description": "Usage: nxs::HasUserAborted /NOUNLOAD",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
+		"leftLabelHTML": "<span class='support class'>nxs.dll</span>",
+		"prefix": "nxs::HasUserAborted /NOUNLOAD"
+	},
+	"nxs::Show": {
+		"body": "nxs::Show \"${1:caption}\" ${2:options}$3",
+		"description": "Usage: nxs::Show caption options",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
+		"leftLabelHTML": "<span class='support class'>nxs.dll</span>",
+		"prefix": "nxs::Show"
+	},
+	"nxs::Show /NOUNLOAD": {
+		"body": "nxs::Show /NOUNLOAD \"${1:caption}\" ${2:options}$3",
+		"description": "Usage: nxs::Show /NOUNLOAD caption options",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
+		"leftLabelHTML": "<span class='support class'>nxs.dll</span>",
+		"prefix": "nxs::Show /NOUNLOAD"
+	},
+	"nxs::Update": {
+		"body": "nxs::Update \"${1:caption}\" ${2:options}$3",
+		"description": "Usage: nxs::Update caption options",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
+		"leftLabelHTML": "<span class='support class'>nxs.dll</span>",
+		"prefix": "nxs::Update"
+	},
+	"nxs::Update /NOUNLOAD": {
+		"body": "nxs::Update /NOUNLOAD \"${1:caption}\" ${2:options}$3",
+		"description": "Usage: nxs::Update /NOUNLOAD caption options",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
+		"leftLabelHTML": "<span class='support class'>nxs.dll</span>",
+		"prefix": "nxs::Update /NOUNLOAD"
+	},
+	"nxs::getWindow": {
+		"body": "nxs::getWindow$1",
+		"description": "Usage: nxs::getWindow",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
+		"leftLabelHTML": "<span class='support class'>nxs.dll</span>",
+		"prefix": "nxs::getWindow"
+	},
+	"nxs::getWindow /NOUNLOAD": {
+		"body": "nxs::getWindow /NOUNLOAD$1",
+		"description": "Usage: nxs::getWindow /NOUNLOAD",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Nxs_plug-in",
+		"leftLabelHTML": "<span class='support class'>nxs.dll</span>",
+		"prefix": "nxs::getWindow /NOUNLOAD"
+	}
 }

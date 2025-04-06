@@ -1,65 +1,65 @@
 {
-  "${CPUFeatures.CPUIsAMD}": {
-    "body": "\\${CPUFeatures.CPUIsAMD}$1",
-    "description": "Usage: ${CPUFeatures.CPUIsAMD}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
-    "leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
-    "prefix": "CPUFeatures.CPUIsAMD"
-  },
-  "${CPUFeatures.CPUIsIntel}": {
-    "body": "\\${CPUFeatures.CPUIsIntel}$1",
-    "description": "Usage: ${CPUFeatures.CPUIsIntel}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
-    "leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
-    "prefix": "CPUFeatures.CPUIsIntel"
-  },
-  "${CPUFeatures.CPUSupportsAll}": {
-    "body": "\\${CPUFeatures.CPUSupportsAll}$1",
-    "description": "Usage: ${CPUFeatures.CPUSupportsAll}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
-    "leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
-    "prefix": "CPUFeatures.CPUSupportsAll"
-  },
-  "${CPUFeatures.CPUSupports}": {
-    "body": "\\${CPUFeatures.CPUSupports}$1",
-    "description": "Usage: ${CPUFeatures.CPUSupports}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
-    "leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
-    "prefix": "CPUFeatures.CPUSupports"
-  },
-  "${CPUFeatures.CheckFeature}": {
-    "body": "\\${CPUFeatures.CheckFeature} \"${1:feature(s)}\" $${2:out_var}$3",
-    "description": "Usage: ${CPUFeatures.CheckFeature} features out_var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
-    "leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
-    "prefix": "CPUFeatures.CheckFeature"
-  },
-  "${CPUFeatures.GetCount}": {
-    "body": "\\${CPUFeatures.GetCount} $${1:out_var}$2",
-    "description": "Usage: ${CPUFeatures.GetCount} out_var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
-    "leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
-    "prefix": "CPUFeatures.GetCount"
-  },
-  "${CPUFeatures.GetFeatures}": {
-    "body": "\\${CPUFeatures.GetFeatures} $${1:out_var}$2",
-    "description": "Usage: ${CPUFeatures.GetFeatures} out_var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
-    "leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
-    "prefix": "CPUFeatures.GetFeatures"
-  },
-  "${CPUFeatures.GetFlags}": {
-    "body": "\\${CPUFeatures.GetFlags} $${1:out_var}$2",
-    "description": "Usage: ${CPUFeatures.GetFlags} out_var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
-    "leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
-    "prefix": "CPUFeatures.GetFlags"
-  },
-  "${CPUFeatures.GetVendor}": {
-    "body": "\\${CPUFeatures.GetVendor} $${1:out_var}$2",
-    "description": "Usage: ${CPUFeatures.GetVendor} out_var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
-    "leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
-    "prefix": "CPUFeatures.GetVendor"
-  }
+	"${CPUFeatures.CPUIsAMD}": {
+		"body": "\\${CPUFeatures.CPUIsAMD}$1",
+		"description": "Usage: ${CPUFeatures.CPUIsAMD}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
+		"leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
+		"prefix": "CPUFeatures.CPUIsAMD"
+	},
+	"${CPUFeatures.CPUIsIntel}": {
+		"body": "\\${CPUFeatures.CPUIsIntel}$1",
+		"description": "Usage: ${CPUFeatures.CPUIsIntel}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
+		"leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
+		"prefix": "CPUFeatures.CPUIsIntel"
+	},
+	"${CPUFeatures.CPUSupportsAll}": {
+		"body": "\\${CPUFeatures.CPUSupportsAll}$1",
+		"description": "Usage: ${CPUFeatures.CPUSupportsAll}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
+		"leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
+		"prefix": "CPUFeatures.CPUSupportsAll"
+	},
+	"${CPUFeatures.CPUSupports}": {
+		"body": "\\${CPUFeatures.CPUSupports}$1",
+		"description": "Usage: ${CPUFeatures.CPUSupports}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
+		"leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
+		"prefix": "CPUFeatures.CPUSupports"
+	},
+	"${CPUFeatures.CheckFeature}": {
+		"body": "\\${CPUFeatures.CheckFeature} \"${1:feature(s)}\" $${2:out_var}$3",
+		"description": "Usage: ${CPUFeatures.CheckFeature} features out_var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
+		"leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
+		"prefix": "CPUFeatures.CheckFeature"
+	},
+	"${CPUFeatures.GetCount}": {
+		"body": "\\${CPUFeatures.GetCount} $${1:out_var}$2",
+		"description": "Usage: ${CPUFeatures.GetCount} out_var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
+		"leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
+		"prefix": "CPUFeatures.GetCount"
+	},
+	"${CPUFeatures.GetFeatures}": {
+		"body": "\\${CPUFeatures.GetFeatures} $${1:out_var}$2",
+		"description": "Usage: ${CPUFeatures.GetFeatures} out_var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
+		"leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
+		"prefix": "CPUFeatures.GetFeatures"
+	},
+	"${CPUFeatures.GetFlags}": {
+		"body": "\\${CPUFeatures.GetFlags} $${1:out_var}$2",
+		"description": "Usage: ${CPUFeatures.GetFlags} out_var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
+		"leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
+		"prefix": "CPUFeatures.GetFlags"
+	},
+	"${CPUFeatures.GetVendor}": {
+		"body": "\\${CPUFeatures.GetVendor} $${1:out_var}$2",
+		"description": "Usage: ${CPUFeatures.GetVendor} out_var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CPUFeatures_plug-in",
+		"leftLabelHTML": "<span class='support class'>CPUFeatures.dll</span>",
+		"prefix": "CPUFeatures.GetVendor"
+	}
 }

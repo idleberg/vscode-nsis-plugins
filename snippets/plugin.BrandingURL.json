@@ -1,16 +1,16 @@
 {
-  "BrandingURL::Set": {
-    "body": "BrandingURL::Set /NOUNLOAD \"${1:red}\" \"${2:green}\" \"${3:blue}\" \"${4:url}\"$5",
-    "description": "Usage: BrandingURL::Set /NOUNLOAD red green blue url",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/BrandingURL_plug-in",
-    "leftLabelHTML": "<span class='support class'>BrandingURL.dll</span>",
-    "prefix": "BrandingURL::Set"
-  },
-  "BrandingURL::Unload": {
-    "body": "BrandingURL::Unload$1",
-    "description": "Usage: BrandingURL::Unload",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/BrandingURL_plug-in",
-    "leftLabelHTML": "<span class='support class'>BrandingURL.dll</span>",
-    "prefix": "BrandingURL::Unload"
-  }
+	"BrandingURL::Set": {
+		"body": "BrandingURL::Set /NOUNLOAD \"${1:red}\" \"${2:green}\" \"${3:blue}\" \"${4:url}\"$5",
+		"description": "Usage: BrandingURL::Set /NOUNLOAD red green blue url",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/BrandingURL_plug-in",
+		"leftLabelHTML": "<span class='support class'>BrandingURL.dll</span>",
+		"prefix": "BrandingURL::Set"
+	},
+	"BrandingURL::Unload": {
+		"body": "BrandingURL::Unload$1",
+		"description": "Usage: BrandingURL::Unload",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/BrandingURL_plug-in",
+		"leftLabelHTML": "<span class='support class'>BrandingURL.dll</span>",
+		"prefix": "BrandingURL::Unload"
+	}
 }

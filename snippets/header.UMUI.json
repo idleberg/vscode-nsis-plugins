@@ -1,304 +1,304 @@
 {
-  "!define UMUI_ALTERNATEUNWELCOMEFINISHABORTPAGE_INI": {
-    "body": "!define UMUI_ALTERNATEUNWELCOMEFINISHABORTPAGE_INI \"${1:ini_file}\"$2",
-    "description": "Usage: !define UMUI_ALTERNATEUNWELCOMEFINISHABORTPAGE_INI ini_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_ALTERNATEUNWELCOMEFINISHABORTPAGE_INI"
-  },
-  "!define UMUI_ALTERNATEWELCOMEFINISHABORTPAGE_INI": {
-    "body": "!define UMUI_ALTERNATEWELCOMEFINISHABORTPAGE_INI \"${1:ini_file}\"$2",
-    "description": "Usage: !define UMUI_ALTERNATEWELCOMEFINISHABORTPAGE_INI ini_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_ALTERNATEWELCOMEFINISHABORTPAGE_INI"
-  },
-  "!define UMUI_BOTTOMIMAGE_BMP": {
-    "body": "!define UMUI_BOTTOMIMAGE_BMP \"${1:bmp_file}\"$2",
-    "description": "Usage: !define UMUI_BOTTOMIMAGE_BMP bmp_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_BOTTOMIMAGE_BMP"
-  },
-  "!define UMUI_BRANDINGTEXTBACKCOLOR": {
-    "body": "!define UMUI_BRANDINGTEXTBACKCOLOR \"${1:RRGGBB}\"$2",
-    "description": "Usage: !define UMUI_BRANDINGTEXTBACKCOLOR RRGGBB",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_BRANDINGTEXTBACKCOLOR"
-  },
-  "!define UMUI_BRANDINGTEXTFRONTCOLOR": {
-    "body": "!define UMUI_BRANDINGTEXTFRONTCOLOR \"${1:RRGGBB}\"$2",
-    "description": "Usage: !define UMUI_BRANDINGTEXTFRONTCOLOR RRGGBB",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_BRANDINGTEXTFRONTCOLOR"
-  },
-  "!define UMUI_CUSTOM_SKIN": {
-    "body": "!define UMUI_CUSTOM_SKIN \"${1:custom_skin_path}\"$2",
-    "description": "Usage: !define UMUI_CUSTOM_SKIN custom_skin_path",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_CUSTOM_SKIN"
-  },
-  "!define UMUI_HEADERIMAGE_BMP": {
-    "body": "!define UMUI_HEADERIMAGE_BMP \"${1:bmp_file}\"$2",
-    "description": "Usage: !define UMUI_HEADERIMAGE_BMP bmp_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_HEADERIMAGE_BMP"
-  },
-  "!define UMUI_LEFTIMAGE_BMP": {
-    "body": "!define UMUI_LEFTIMAGE_BMP \"${1:bmp_file}\"$2",
-    "description": "Usage: !define UMUI_LEFTIMAGE_BMP bmp_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_LEFTIMAGE_BMP"
-  },
-  "!define UMUI_NO_BOTTOMIMAGE": {
-    "body": "!define UMUI_NO_BOTTOMIMAGE$1",
-    "description": "Usage: !define UMUI_NO_BOTTOMIMAGE",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_NO_BOTTOMIMAGE"
-  },
-  "!define UMUI_SKIN": {
-    "body": "!define UMUI_SKIN \"${1:skin_name}\"$2",
-    "description": "Usage: !define UMUI_SKIN skin_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_SKIN"
-  },
-  "!define UMUI_TEXT_LIGHTCOLOR": {
-    "body": "!define UMUI_TEXT_LIGHTCOLOR \"${1:RRGGBB}\"$2",
-    "description": "Usage: !define UMUI_TEXT_LIGHTCOLOR RRGGBB",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_TEXT_LIGHTCOLOR"
-  },
-  "!define UMUI_UI": {
-    "body": "!define UMUI_UI \"${1:ui_file}\"$2",
-    "description": "Usage: !define UMUI_UI ui_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UI"
-  },
-  "!define UMUI_UI_COMPONENTSPAGE_NODESC": {
-    "body": "!define UMUI_UI_COMPONENTSPAGE_NODESC \"${1:ui_file}\"$2",
-    "description": "Usage: !define UMUI_UI_COMPONENTSPAGE_NODESC ui_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UI_COMPONENTSPAGE_NODESC"
-  },
-  "!define UMUI_UI_COMPONENTSPAGE_SMALLDESC": {
-    "body": "!define UMUI_UI_COMPONENTSPAGE_SMALLDESC \"${1:ui_file}\"$2",
-    "description": "Usage: !define UMUI_UI_COMPONENTSPAGE_SMALLDESC ui_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UI_COMPONENTSPAGE_SMALLDESC"
-  },
-  "!define UMUI_UNBOTTOMIMAGE_BMP": {
-    "body": "!define UMUI_UNBOTTOMIMAGE_BMP \"${1:bmp_file}\"$2",
-    "description": "Usage: !define UMUI_UNBOTTOMIMAGE_BMP bmp_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UNBOTTOMIMAGE_BMP"
-  },
-  "!define UMUI_UNHEADERIMAGE_BMP": {
-    "body": "!define UMUI_UNHEADERIMAGE_BMP \"${1:bmp_file}\"$2",
-    "description": "Usage: !define UMUI_UNHEADERIMAGE_BMP bmp_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UNHEADERIMAGE_BMP"
-  },
-  "!define UMUI_UNLEFTIMAGE_BMP": {
-    "body": "!define UMUI_UNLEFTIMAGE_BMP \"${1:bmp_file}\"$2",
-    "description": "Usage: !define UMUI_UNLEFTIMAGE_BMP bmp_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UNLEFTIMAGE_BMP"
-  },
-  "!define UMUI_UNWELCOMEFINISHABORTPAGE_INI": {
-    "body": "!define UMUI_UNWELCOMEFINISHABORTPAGE_INI \"${1:ini_file}\"$2",
-    "description": "Usage: !define UMUI_UNWELCOMEFINISHABORTPAGE_INI ini_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UNWELCOMEFINISHABORTPAGE_INI"
-  },
-  "!define UMUI_USE_ALTERNATE_PAGE": {
-    "body": "!define UMUI_USE_ALTERNATE_PAGE$1",
-    "description": "Usage: !define UMUI_USE_ALTERNATE_PAGE",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_USE_ALTERNATE_PAGE"
-  },
-  "!define UMUI_USE_BG": {
-    "body": "!define UMUI_USE_BG \"${1:bgskin_name}\"$2",
-    "description": "Usage: !define UMUI_USE_BG bgskin_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_USE_BG"
-  },
-  "!define UMUI_USE_CUSTOMBG": {
-    "body": "!define UMUI_USE_CUSTOMBG$1",
-    "description": "Usage: !define UMUI_USE_CUSTOMBG",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_USE_CUSTOMBG"
-  },
-  "!define UMUI_USE_UNALTERNATE_PAGE": {
-    "body": "!define UMUI_USE_UNALTERNATE_PAGE$1",
-    "description": "Usage: !define UMUI_USE_UNALTERNATE_PAGE",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_USE_UNALTERNATE_PAGE"
-  },
-  "!define UMUI_WELCOMEFINISHABORTPAGE_INI": {
-    "body": "!define UMUI_WELCOMEFINISHABORTPAGE_INI \"${1:ini_file}\"$2",
-    "description": "Usage: !define UMUI_WELCOMEFINISHABORTPAGE_INI ini_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_WELCOMEFINISHABORTPAGE_INI"
-  },
-  "!insertmacro UMUI_PAGE_ABORT": {
-    "body": "!insertmacro UMUI_PAGE_ABORT$1",
-    "description": "Usage: !insertmacro UMUI_PAGE_ABORT",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_PAGE_ABORT"
-  },
-  "!insertmacro UMUI_PAGE_ADDITIONALTASKS": {
-    "body": "!insertmacro UMUI_PAGE_ADDITIONALTASKS \"${1:page_id}\" \"${2:function}\"$3",
-    "description": "Usage: !insertmacro UMUI_PAGE_ADDITIONALTASKS page_id function",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_PAGE_ADDITIONALTASKS"
-  },
-  "!insertmacro UMUI_PAGE_ALTERNATIVESTARTMENU": {
-    "body": "!insertmacro UMUI_PAGE_ALTERNATIVESTARTMENU \"${1:page_id}\" $${2:var}$3",
-    "description": "Usage: !insertmacro UMUI_PAGE_ALTERNATIVESTARTMENU page_id $var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_PAGE_ALTERNATIVESTARTMENU"
-  },
-  "!insertmacro UMUI_PAGE_CONFIRM": {
-    "body": "!insertmacro UMUI_PAGE_CONFIRM$1",
-    "description": "Usage: !insertmacro UMUI_PAGE_CONFIRM",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_PAGE_CONFIRM"
-  },
-  "!insertmacro UMUI_PAGE_FILEDISKREQUEST": {
-    "body": "!insertmacro UMUI_PAGE_FILEDISKREQUEST$1",
-    "description": "Usage: !insertmacro UMUI_PAGE_FILEDISKREQUEST",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_PAGE_FILEDISKREQUEST"
-  },
-  "!insertmacro UMUI_PAGE_INFORMATION": {
-    "body": "!insertmacro UMUI_PAGE_INFORMATION \"${1:text_file}\"$2",
-    "description": "Usage: !insertmacro UMUI_PAGE_INFORMATION text_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_PAGE_INFORMATION"
-  },
-  "!insertmacro UMUI_PAGE_MAINTENANCE": {
-    "body": "!insertmacro UMUI_PAGE_MAINTENANCE$1",
-    "description": "Usage: !insertmacro UMUI_PAGE_MAINTENANCE",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_PAGE_MAINTENANCE"
-  },
-  "!insertmacro UMUI_PAGE_MULTILANGUAGE": {
-    "body": "!insertmacro UMUI_PAGE_MULTILANGUAGE$1",
-    "description": "Usage: !insertmacro UMUI_PAGE_MULTILANGUAGE",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_PAGE_MULTILANGUAGE"
-  },
-  "!insertmacro UMUI_PAGE_SERIALNUMBER": {
-    "body": "!insertmacro UMUI_PAGE_SERIALNUMBER \"${1:function}\"$2",
-    "description": "Usage: !insertmacro UMUI_PAGE_SERIALNUMBER function",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_PAGE_SERIALNUMBER"
-  },
-  "!insertmacro UMUI_PAGE_SETUPTYPE": {
-    "body": "!insertmacro UMUI_PAGE_SETUPTYPE$1",
-    "description": "Usage: !insertmacro UMUI_PAGE_SETUPTYPE",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_PAGE_SETUPTYPE"
-  },
-  "!insertmacro UMUI_PAGE_UPDATE": {
-    "body": "!insertmacro UMUI_PAGE_UPDATE$1",
-    "description": "Usage: !insertmacro UMUI_PAGE_UPDATE",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_PAGE_UPDATE"
-  },
-  "!insertmacro UMUI_UNPAGE_ABORT": {
-    "body": "!insertmacro UMUI_UNPAGE_ABORT$1",
-    "description": "Usage: !insertmacro UMUI_UNPAGE_ABORT",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UNPAGE_ABORT"
-  },
-  "!insertmacro UMUI_UNPAGE_ADDITIONALTASKS": {
-    "body": "!insertmacro UMUI_UNPAGE_ADDITIONALTASKS \"${1:page_id}\" \"${2:function}\"$3",
-    "description": "Usage: !insertmacro UMUI_UNPAGE_ADDITIONALTASKS page_id function",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UNPAGE_ADDITIONALTASKS"
-  },
-  "!insertmacro UMUI_UNPAGE_CONFIRM": {
-    "body": "!insertmacro UMUI_UNPAGE_CONFIRM$1",
-    "description": "Usage: !insertmacro UMUI_UNPAGE_CONFIRM",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UNPAGE_CONFIRM"
-  },
-  "!insertmacro UMUI_UNPAGE_FILEDISKREQUEST": {
-    "body": "!insertmacro UMUI_UNPAGE_FILEDISKREQUEST",
-    "description": "Usage: !insertmacro UMUI_UNPAGE_FILEDISKREQUE",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UNPAGE_FILEDISKREQUEST$1"
-  },
-  "!insertmacro UMUI_UNPAGE_INFORMATION": {
-    "body": "!insertmacro UMUI_UNPAGE_INFORMATION \"${1:text_file}\"$2",
-    "description": "Usage: !insertmacro UMUI_UNPAGE_INFORMATION text_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UNPAGE_INFORMATION$1"
-  },
-  "!insertmacro UMUI_UNPAGE_MULTILANGUAGE": {
-    "body": "!insertmacro UMUI_UNPAGE_MULTILANGUAGE",
-    "description": "Usage: !insertmacro UMUI_UNPAGE_MULTILANGUA",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UNPAGE_MULTILANGUAGE$1"
-  },
-  "!insertmacro UMUI_UNPAGE_SERIALNUMBER": {
-    "body": "!insertmacro UMUI_UNPAGE_SERIALNUMBER \"${1:function}\"$2",
-    "description": "Usage: !insertmacro UMUI_UNPAGE_SERIALNUMBER function",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UNPAGE_SERIALNUMBER"
-  },
-  "!insertmacro UMUI_UNPAGE_SETUPTYPE": {
-    "body": "!insertmacro UMUI_UNPAGE_SETUPTYPE$1",
-    "description": "Usage: !insertmacro UMUI_UNPAGE_SETUPTYPE",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
-    "leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
-    "prefix": "UMUI_UNPAGE_SETUPTYPE"
-  },
-  "!macro UMUI_BG": {
-    "body": "!macro UMUI_BG\n\t${1:# your code here}\n!macroend$2",
-    "prefix": "UMUI_BG"
-  },
-  "!macro UMUI_BG_Destroy": {
-    "body": "!macro UMUI_BG_Destroy\n\t${1:# your code here}\n!macroend$2",
-    "prefix": "UMUI_BG_Destroy"
-  }
+	"!define UMUI_ALTERNATEUNWELCOMEFINISHABORTPAGE_INI": {
+		"body": "!define UMUI_ALTERNATEUNWELCOMEFINISHABORTPAGE_INI \"${1:ini_file}\"$2",
+		"description": "Usage: !define UMUI_ALTERNATEUNWELCOMEFINISHABORTPAGE_INI ini_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_ALTERNATEUNWELCOMEFINISHABORTPAGE_INI"
+	},
+	"!define UMUI_ALTERNATEWELCOMEFINISHABORTPAGE_INI": {
+		"body": "!define UMUI_ALTERNATEWELCOMEFINISHABORTPAGE_INI \"${1:ini_file}\"$2",
+		"description": "Usage: !define UMUI_ALTERNATEWELCOMEFINISHABORTPAGE_INI ini_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_ALTERNATEWELCOMEFINISHABORTPAGE_INI"
+	},
+	"!define UMUI_BOTTOMIMAGE_BMP": {
+		"body": "!define UMUI_BOTTOMIMAGE_BMP \"${1:bmp_file}\"$2",
+		"description": "Usage: !define UMUI_BOTTOMIMAGE_BMP bmp_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_BOTTOMIMAGE_BMP"
+	},
+	"!define UMUI_BRANDINGTEXTBACKCOLOR": {
+		"body": "!define UMUI_BRANDINGTEXTBACKCOLOR \"${1:RRGGBB}\"$2",
+		"description": "Usage: !define UMUI_BRANDINGTEXTBACKCOLOR RRGGBB",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_BRANDINGTEXTBACKCOLOR"
+	},
+	"!define UMUI_BRANDINGTEXTFRONTCOLOR": {
+		"body": "!define UMUI_BRANDINGTEXTFRONTCOLOR \"${1:RRGGBB}\"$2",
+		"description": "Usage: !define UMUI_BRANDINGTEXTFRONTCOLOR RRGGBB",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_BRANDINGTEXTFRONTCOLOR"
+	},
+	"!define UMUI_CUSTOM_SKIN": {
+		"body": "!define UMUI_CUSTOM_SKIN \"${1:custom_skin_path}\"$2",
+		"description": "Usage: !define UMUI_CUSTOM_SKIN custom_skin_path",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_CUSTOM_SKIN"
+	},
+	"!define UMUI_HEADERIMAGE_BMP": {
+		"body": "!define UMUI_HEADERIMAGE_BMP \"${1:bmp_file}\"$2",
+		"description": "Usage: !define UMUI_HEADERIMAGE_BMP bmp_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_HEADERIMAGE_BMP"
+	},
+	"!define UMUI_LEFTIMAGE_BMP": {
+		"body": "!define UMUI_LEFTIMAGE_BMP \"${1:bmp_file}\"$2",
+		"description": "Usage: !define UMUI_LEFTIMAGE_BMP bmp_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_LEFTIMAGE_BMP"
+	},
+	"!define UMUI_NO_BOTTOMIMAGE": {
+		"body": "!define UMUI_NO_BOTTOMIMAGE$1",
+		"description": "Usage: !define UMUI_NO_BOTTOMIMAGE",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_NO_BOTTOMIMAGE"
+	},
+	"!define UMUI_SKIN": {
+		"body": "!define UMUI_SKIN \"${1:skin_name}\"$2",
+		"description": "Usage: !define UMUI_SKIN skin_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_SKIN"
+	},
+	"!define UMUI_TEXT_LIGHTCOLOR": {
+		"body": "!define UMUI_TEXT_LIGHTCOLOR \"${1:RRGGBB}\"$2",
+		"description": "Usage: !define UMUI_TEXT_LIGHTCOLOR RRGGBB",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_TEXT_LIGHTCOLOR"
+	},
+	"!define UMUI_UI": {
+		"body": "!define UMUI_UI \"${1:ui_file}\"$2",
+		"description": "Usage: !define UMUI_UI ui_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UI"
+	},
+	"!define UMUI_UI_COMPONENTSPAGE_NODESC": {
+		"body": "!define UMUI_UI_COMPONENTSPAGE_NODESC \"${1:ui_file}\"$2",
+		"description": "Usage: !define UMUI_UI_COMPONENTSPAGE_NODESC ui_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UI_COMPONENTSPAGE_NODESC"
+	},
+	"!define UMUI_UI_COMPONENTSPAGE_SMALLDESC": {
+		"body": "!define UMUI_UI_COMPONENTSPAGE_SMALLDESC \"${1:ui_file}\"$2",
+		"description": "Usage: !define UMUI_UI_COMPONENTSPAGE_SMALLDESC ui_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UI_COMPONENTSPAGE_SMALLDESC"
+	},
+	"!define UMUI_UNBOTTOMIMAGE_BMP": {
+		"body": "!define UMUI_UNBOTTOMIMAGE_BMP \"${1:bmp_file}\"$2",
+		"description": "Usage: !define UMUI_UNBOTTOMIMAGE_BMP bmp_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UNBOTTOMIMAGE_BMP"
+	},
+	"!define UMUI_UNHEADERIMAGE_BMP": {
+		"body": "!define UMUI_UNHEADERIMAGE_BMP \"${1:bmp_file}\"$2",
+		"description": "Usage: !define UMUI_UNHEADERIMAGE_BMP bmp_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UNHEADERIMAGE_BMP"
+	},
+	"!define UMUI_UNLEFTIMAGE_BMP": {
+		"body": "!define UMUI_UNLEFTIMAGE_BMP \"${1:bmp_file}\"$2",
+		"description": "Usage: !define UMUI_UNLEFTIMAGE_BMP bmp_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UNLEFTIMAGE_BMP"
+	},
+	"!define UMUI_UNWELCOMEFINISHABORTPAGE_INI": {
+		"body": "!define UMUI_UNWELCOMEFINISHABORTPAGE_INI \"${1:ini_file}\"$2",
+		"description": "Usage: !define UMUI_UNWELCOMEFINISHABORTPAGE_INI ini_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UNWELCOMEFINISHABORTPAGE_INI"
+	},
+	"!define UMUI_USE_ALTERNATE_PAGE": {
+		"body": "!define UMUI_USE_ALTERNATE_PAGE$1",
+		"description": "Usage: !define UMUI_USE_ALTERNATE_PAGE",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_USE_ALTERNATE_PAGE"
+	},
+	"!define UMUI_USE_BG": {
+		"body": "!define UMUI_USE_BG \"${1:bgskin_name}\"$2",
+		"description": "Usage: !define UMUI_USE_BG bgskin_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_USE_BG"
+	},
+	"!define UMUI_USE_CUSTOMBG": {
+		"body": "!define UMUI_USE_CUSTOMBG$1",
+		"description": "Usage: !define UMUI_USE_CUSTOMBG",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_USE_CUSTOMBG"
+	},
+	"!define UMUI_USE_UNALTERNATE_PAGE": {
+		"body": "!define UMUI_USE_UNALTERNATE_PAGE$1",
+		"description": "Usage: !define UMUI_USE_UNALTERNATE_PAGE",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_USE_UNALTERNATE_PAGE"
+	},
+	"!define UMUI_WELCOMEFINISHABORTPAGE_INI": {
+		"body": "!define UMUI_WELCOMEFINISHABORTPAGE_INI \"${1:ini_file}\"$2",
+		"description": "Usage: !define UMUI_WELCOMEFINISHABORTPAGE_INI ini_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_WELCOMEFINISHABORTPAGE_INI"
+	},
+	"!insertmacro UMUI_PAGE_ABORT": {
+		"body": "!insertmacro UMUI_PAGE_ABORT$1",
+		"description": "Usage: !insertmacro UMUI_PAGE_ABORT",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_PAGE_ABORT"
+	},
+	"!insertmacro UMUI_PAGE_ADDITIONALTASKS": {
+		"body": "!insertmacro UMUI_PAGE_ADDITIONALTASKS \"${1:page_id}\" \"${2:function}\"$3",
+		"description": "Usage: !insertmacro UMUI_PAGE_ADDITIONALTASKS page_id function",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_PAGE_ADDITIONALTASKS"
+	},
+	"!insertmacro UMUI_PAGE_ALTERNATIVESTARTMENU": {
+		"body": "!insertmacro UMUI_PAGE_ALTERNATIVESTARTMENU \"${1:page_id}\" $${2:var}$3",
+		"description": "Usage: !insertmacro UMUI_PAGE_ALTERNATIVESTARTMENU page_id $var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_PAGE_ALTERNATIVESTARTMENU"
+	},
+	"!insertmacro UMUI_PAGE_CONFIRM": {
+		"body": "!insertmacro UMUI_PAGE_CONFIRM$1",
+		"description": "Usage: !insertmacro UMUI_PAGE_CONFIRM",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_PAGE_CONFIRM"
+	},
+	"!insertmacro UMUI_PAGE_FILEDISKREQUEST": {
+		"body": "!insertmacro UMUI_PAGE_FILEDISKREQUEST$1",
+		"description": "Usage: !insertmacro UMUI_PAGE_FILEDISKREQUEST",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_PAGE_FILEDISKREQUEST"
+	},
+	"!insertmacro UMUI_PAGE_INFORMATION": {
+		"body": "!insertmacro UMUI_PAGE_INFORMATION \"${1:text_file}\"$2",
+		"description": "Usage: !insertmacro UMUI_PAGE_INFORMATION text_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_PAGE_INFORMATION"
+	},
+	"!insertmacro UMUI_PAGE_MAINTENANCE": {
+		"body": "!insertmacro UMUI_PAGE_MAINTENANCE$1",
+		"description": "Usage: !insertmacro UMUI_PAGE_MAINTENANCE",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_PAGE_MAINTENANCE"
+	},
+	"!insertmacro UMUI_PAGE_MULTILANGUAGE": {
+		"body": "!insertmacro UMUI_PAGE_MULTILANGUAGE$1",
+		"description": "Usage: !insertmacro UMUI_PAGE_MULTILANGUAGE",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_PAGE_MULTILANGUAGE"
+	},
+	"!insertmacro UMUI_PAGE_SERIALNUMBER": {
+		"body": "!insertmacro UMUI_PAGE_SERIALNUMBER \"${1:function}\"$2",
+		"description": "Usage: !insertmacro UMUI_PAGE_SERIALNUMBER function",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_PAGE_SERIALNUMBER"
+	},
+	"!insertmacro UMUI_PAGE_SETUPTYPE": {
+		"body": "!insertmacro UMUI_PAGE_SETUPTYPE$1",
+		"description": "Usage: !insertmacro UMUI_PAGE_SETUPTYPE",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_PAGE_SETUPTYPE"
+	},
+	"!insertmacro UMUI_PAGE_UPDATE": {
+		"body": "!insertmacro UMUI_PAGE_UPDATE$1",
+		"description": "Usage: !insertmacro UMUI_PAGE_UPDATE",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_PAGE_UPDATE"
+	},
+	"!insertmacro UMUI_UNPAGE_ABORT": {
+		"body": "!insertmacro UMUI_UNPAGE_ABORT$1",
+		"description": "Usage: !insertmacro UMUI_UNPAGE_ABORT",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UNPAGE_ABORT"
+	},
+	"!insertmacro UMUI_UNPAGE_ADDITIONALTASKS": {
+		"body": "!insertmacro UMUI_UNPAGE_ADDITIONALTASKS \"${1:page_id}\" \"${2:function}\"$3",
+		"description": "Usage: !insertmacro UMUI_UNPAGE_ADDITIONALTASKS page_id function",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UNPAGE_ADDITIONALTASKS"
+	},
+	"!insertmacro UMUI_UNPAGE_CONFIRM": {
+		"body": "!insertmacro UMUI_UNPAGE_CONFIRM$1",
+		"description": "Usage: !insertmacro UMUI_UNPAGE_CONFIRM",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UNPAGE_CONFIRM"
+	},
+	"!insertmacro UMUI_UNPAGE_FILEDISKREQUEST": {
+		"body": "!insertmacro UMUI_UNPAGE_FILEDISKREQUEST",
+		"description": "Usage: !insertmacro UMUI_UNPAGE_FILEDISKREQUE",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UNPAGE_FILEDISKREQUEST$1"
+	},
+	"!insertmacro UMUI_UNPAGE_INFORMATION": {
+		"body": "!insertmacro UMUI_UNPAGE_INFORMATION \"${1:text_file}\"$2",
+		"description": "Usage: !insertmacro UMUI_UNPAGE_INFORMATION text_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UNPAGE_INFORMATION$1"
+	},
+	"!insertmacro UMUI_UNPAGE_MULTILANGUAGE": {
+		"body": "!insertmacro UMUI_UNPAGE_MULTILANGUAGE",
+		"description": "Usage: !insertmacro UMUI_UNPAGE_MULTILANGUA",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UNPAGE_MULTILANGUAGE$1"
+	},
+	"!insertmacro UMUI_UNPAGE_SERIALNUMBER": {
+		"body": "!insertmacro UMUI_UNPAGE_SERIALNUMBER \"${1:function}\"$2",
+		"description": "Usage: !insertmacro UMUI_UNPAGE_SERIALNUMBER function",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UNPAGE_SERIALNUMBER"
+	},
+	"!insertmacro UMUI_UNPAGE_SETUPTYPE": {
+		"body": "!insertmacro UMUI_UNPAGE_SETUPTYPE$1",
+		"description": "Usage: !insertmacro UMUI_UNPAGE_SETUPTYPE",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UltraModernUI",
+		"leftLabelHTML": "<span class='support function'>UMUI.nsh</span>",
+		"prefix": "UMUI_UNPAGE_SETUPTYPE"
+	},
+	"!macro UMUI_BG": {
+		"body": "!macro UMUI_BG\n\t${1:# your code here}\n!macroend$2",
+		"prefix": "UMUI_BG"
+	},
+	"!macro UMUI_BG_Destroy": {
+		"body": "!macro UMUI_BG_Destroy\n\t${1:# your code here}\n!macroend$2",
+		"prefix": "UMUI_BG_Destroy"
+	}
 }

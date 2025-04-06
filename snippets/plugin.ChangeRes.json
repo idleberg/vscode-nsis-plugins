@@ -1,9 +1,9 @@
 {
-  "ChangeRes::ChangeResolution": {
-    "body": "ChangeRes::ChangeResolution ${1:width} ${2:height} ${3:color_depth} ${4:frequency}$5",
-    "description": "Usage: ChangeRes::ChangeResolution width height color_depth frequency",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ChangeRes_plug-in",
-    "leftLabelHTML": "<span class='support class'>ChangeRes.dll</span>",
-    "prefix": "ChangeRes::ChangeResolution"
-  }
+	"ChangeRes::ChangeResolution": {
+		"body": "ChangeRes::ChangeResolution ${1:width} ${2:height} ${3:color_depth} ${4:frequency}$5",
+		"description": "Usage: ChangeRes::ChangeResolution width height color_depth frequency",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ChangeRes_plug-in",
+		"leftLabelHTML": "<span class='support class'>ChangeRes.dll</span>",
+		"prefix": "ChangeRes::ChangeResolution"
+	}
 }

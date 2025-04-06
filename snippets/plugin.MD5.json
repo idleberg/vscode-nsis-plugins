@@ -1,23 +1,23 @@
 {
-  "md5dll::GetMD5File": {
-    "body": "md5dll::GetMD5File \"${1:file}\"$2",
-    "description": "Usage: md5dll::GetMD5File file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/MD5_plugin",
-    "leftLabelHTML": "<span class='support class'>md5dll.dll</span>",
-    "prefix": "md5dll::GetMD5File"
-  },
-  "md5dll::GetMD5Random": {
-    "body": "md5dll::GetMD5Random$1",
-    "description": "Usage: md5dll::GetMD5Random",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/MD5_plugin",
-    "leftLabelHTML": "<span class='support class'>md5dll.dll</span>",
-    "prefix": "md5dll::GetMD5Random"
-  },
-  "md5dll::GetMD5String": {
-    "body": "md5dll::GetMD5String \"${1:string}\"$2",
-    "description": "Usage: md5dll::GetMD5String string",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/MD5_plugin",
-    "leftLabelHTML": "<span class='support class'>md5dll.dll</span>",
-    "prefix": "md5dll::GetMD5String"
-  }
+	"md5dll::GetMD5File": {
+		"body": "md5dll::GetMD5File \"${1:file}\"$2",
+		"description": "Usage: md5dll::GetMD5File file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/MD5_plugin",
+		"leftLabelHTML": "<span class='support class'>md5dll.dll</span>",
+		"prefix": "md5dll::GetMD5File"
+	},
+	"md5dll::GetMD5Random": {
+		"body": "md5dll::GetMD5Random$1",
+		"description": "Usage: md5dll::GetMD5Random",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/MD5_plugin",
+		"leftLabelHTML": "<span class='support class'>md5dll.dll</span>",
+		"prefix": "md5dll::GetMD5Random"
+	},
+	"md5dll::GetMD5String": {
+		"body": "md5dll::GetMD5String \"${1:string}\"$2",
+		"description": "Usage: md5dll::GetMD5String string",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/MD5_plugin",
+		"leftLabelHTML": "<span class='support class'>md5dll.dll</span>",
+		"prefix": "md5dll::GetMD5String"
+	}
 }

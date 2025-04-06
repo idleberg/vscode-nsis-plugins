@@ -1,9 +1,9 @@
 {
-  "EventLog::WriteEventLog": {
-    "body": "EventLog::WriteEventLog \"${1:server}\" \"${2:log}\" \"${3:type}\" \"${4:category}\" \"${5:message}\" \"${6:text}\"$7",
-    "description": "Usage: EventLog::WriteEventLog server log type category message text",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EventLog_plug-in",
-    "leftLabelHTML": "<span class='support class'>EventLog.dll</span>",
-    "prefix": "EventLog::WriteEventLog"
-  }
+	"EventLog::WriteEventLog": {
+		"body": "EventLog::WriteEventLog \"${1:server}\" \"${2:log}\" \"${3:type}\" \"${4:category}\" \"${5:message}\" \"${6:text}\"$7",
+		"description": "Usage: EventLog::WriteEventLog server log type category message text",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EventLog_plug-in",
+		"leftLabelHTML": "<span class='support class'>EventLog.dll</span>",
+		"prefix": "EventLog::WriteEventLog"
+	}
 }

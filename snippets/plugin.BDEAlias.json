@@ -1,16 +1,16 @@
 {
-  "BDEAlias::AddAliasDebug": {
-    "body": "BDEAlias::AddAliasDebug ${1:arguments}$2",
-    "description": "Usage: BDEAlias::AddAliasDebug arguments",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/BDEAlias_plug-in",
-    "leftLabelHTML": "<span class='support class'>BaseConvert.dll</span>",
-    "prefix": "BDEAlias::AddAliasDebug"
-  },
-  "BDEAlias::DeleteAlias": {
-    "body": "BDEAlias::DeleteAlias$1",
-    "description": "Usage: BDEAlias::DeleteAlias",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/BDEAlias_plug-in",
-    "leftLabelHTML": "<span class='support class'>BaseConvert.dll</span>",
-    "prefix": "BDEAlias::DeleteAlias"
-  }
+	"BDEAlias::AddAliasDebug": {
+		"body": "BDEAlias::AddAliasDebug ${1:arguments}$2",
+		"description": "Usage: BDEAlias::AddAliasDebug arguments",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/BDEAlias_plug-in",
+		"leftLabelHTML": "<span class='support class'>BaseConvert.dll</span>",
+		"prefix": "BDEAlias::AddAliasDebug"
+	},
+	"BDEAlias::DeleteAlias": {
+		"body": "BDEAlias::DeleteAlias$1",
+		"description": "Usage: BDEAlias::DeleteAlias",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/BDEAlias_plug-in",
+		"leftLabelHTML": "<span class='support class'>BaseConvert.dll</span>",
+		"prefix": "BDEAlias::DeleteAlias"
+	}
 }

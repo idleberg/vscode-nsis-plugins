@@ -1,7 +1,7 @@
 {
-  "body": "ExLicensePage::showPage \"${1:file}\"$2",
-  "description": "Usage: ExLicensePage::showPage file",
-  "descriptionMoreURL": "http://nsis.sourceforge.net/ExLicensePage_plug-in",
-  "leftLabelHTML": "<span class='support class'>ExLicensePage.dll</span>",
-  "prefix": "ExLicensePage::showPage"
+	"body": "ExLicensePage::showPage \"${1:file}\"$2",
+	"description": "Usage: ExLicensePage::showPage file",
+	"descriptionMoreURL": "http://nsis.sourceforge.net/ExLicensePage_plug-in",
+	"leftLabelHTML": "<span class='support class'>ExLicensePage.dll</span>",
+	"prefix": "ExLicensePage::showPage"
 }

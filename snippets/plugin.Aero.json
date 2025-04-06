@@ -1,16 +1,16 @@
 {
-  "Aero::Apply": {
-    "body": "Aero::Apply \"${1:options}\"$2",
-    "description": "Usage: Aero::Apply options",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Aero_plug-in",
-    "leftLabelHTML": "<span class='support class'>Aero.dll</span>",
-    "prefix": "Aero::Apply"
-  },
-  "Aero::Apply /NOBRANDING": {
-    "body": "Aero::Apply /NOBRANDING \"${1:options}\"$2",
-    "description": "Usage: Aero::Apply /NOBRANDING options",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Aero_plug-in",
-    "leftLabelHTML": "<span class='support class'>Aero.dll</span>",
-    "prefix": "Aero::Apply /NOBRANDING"
-  }
+	"Aero::Apply": {
+		"body": "Aero::Apply \"${1:options}\"$2",
+		"description": "Usage: Aero::Apply options",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Aero_plug-in",
+		"leftLabelHTML": "<span class='support class'>Aero.dll</span>",
+		"prefix": "Aero::Apply"
+	},
+	"Aero::Apply /NOBRANDING": {
+		"body": "Aero::Apply /NOBRANDING \"${1:options}\"$2",
+		"description": "Usage: Aero::Apply /NOBRANDING options",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Aero_plug-in",
+		"leftLabelHTML": "<span class='support class'>Aero.dll</span>",
+		"prefix": "Aero::Apply /NOBRANDING"
+	}
 }

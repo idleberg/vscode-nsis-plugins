@@ -1,16 +1,16 @@
 {
-  "Expr": {
-    "body": "\\${Expr} ${1:expression}$2",
-    "description": "Usage: ${Expr} expression",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsExpr_plug-in",
-    "leftLabelHTML": "<span class='support function'>nsExpr.nsh.nsh</span>",
-    "prefix": "Expr"
-  },
-  "ExprEval": {
-    "body": "\\${ExprEval} ${1:expression}$2",
-    "description": "Usage: ${ExprEval} expression",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsExpr_plug-in",
-    "leftLabelHTML": "<span class='support function'>nsExpr.nsh.nsh</span>",
-    "prefix": "ExprEval"
-  }
+	"Expr": {
+		"body": "\\${Expr} ${1:expression}$2",
+		"description": "Usage: ${Expr} expression",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsExpr_plug-in",
+		"leftLabelHTML": "<span class='support function'>nsExpr.nsh.nsh</span>",
+		"prefix": "Expr"
+	},
+	"ExprEval": {
+		"body": "\\${ExprEval} ${1:expression}$2",
+		"description": "Usage: ${ExprEval} expression",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsExpr_plug-in",
+		"leftLabelHTML": "<span class='support function'>nsExpr.nsh.nsh</span>",
+		"prefix": "ExprEval"
+	}
 }

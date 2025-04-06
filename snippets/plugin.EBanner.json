@@ -1,37 +1,37 @@
 {
-  "EBanner::play": {
-    "body": "EBanner::play /NOUNLOAD \"${1:image}\"$2",
-    "description": "Usage: EBanner::play /NOUNLOAD image",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>EBanner.dll</span>",
-    "prefix": "EBanner::play"
-  },
-  "EBanner::play /LOOP": {
-    "body": "EBanner::play /NOUNLOAD /LOOP \"${1:image}\"$2",
-    "description": "Usage: EBanner::play /NOUNLOAD /LOOP image",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>EBanner.dll</span>",
-    "prefix": "EBanner::play /LOOP"
-  },
-  "EBanner::show": {
-    "body": "EBanner::show /NOUNLOAD \"${1:image}\"$2",
-    "description": "Usage: EBanner::show /NOUNLOAD image",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>EBanner.dll</span>",
-    "prefix": "EBanner::show"
-  },
-  "EBanner::show [/options]": {
-    "body": "EBanner::show /NOUNLOAD ${1:options} \"${2:image}\"$3",
-    "description": "Usage: EBanner::show /NOUNLOAD options image",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>EBanner.dll</span>",
-    "prefix": "EBanner::show [/options]"
-  },
-  "EBanner::stop": {
-    "body": "EBanner::stop$1",
-    "description": "Usage: EBanner::stop",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>EBanner.dll</span>",
-    "prefix": "EBanner::stop"
-  }
+	"EBanner::play": {
+		"body": "EBanner::play /NOUNLOAD \"${1:image}\"$2",
+		"description": "Usage: EBanner::play /NOUNLOAD image",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>EBanner.dll</span>",
+		"prefix": "EBanner::play"
+	},
+	"EBanner::play /LOOP": {
+		"body": "EBanner::play /NOUNLOAD /LOOP \"${1:image}\"$2",
+		"description": "Usage: EBanner::play /NOUNLOAD /LOOP image",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>EBanner.dll</span>",
+		"prefix": "EBanner::play /LOOP"
+	},
+	"EBanner::show": {
+		"body": "EBanner::show /NOUNLOAD \"${1:image}\"$2",
+		"description": "Usage: EBanner::show /NOUNLOAD image",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>EBanner.dll</span>",
+		"prefix": "EBanner::show"
+	},
+	"EBanner::show [/options]": {
+		"body": "EBanner::show /NOUNLOAD ${1:options} \"${2:image}\"$3",
+		"description": "Usage: EBanner::show /NOUNLOAD options image",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>EBanner.dll</span>",
+		"prefix": "EBanner::show [/options]"
+	},
+	"EBanner::stop": {
+		"body": "EBanner::stop$1",
+		"description": "Usage: EBanner::stop",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>EBanner.dll</span>",
+		"prefix": "EBanner::stop"
+	}
 }

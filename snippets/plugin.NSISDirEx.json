@@ -1,30 +1,30 @@
 {
-  "NSISDirEx::AddInstFile": {
-    "body": "NSISDirEx::AddInstFile /NOUNLOAD \"${1:file}\" \"${2:text}\"$3",
-    "description": "Usage: NSISDirEx::AddInstFile /NOUNLOAD file text",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSISDirEx_plug-in",
-    "leftLabelHTML": "<span class='support class'>NSISDirEx.dll</span>",
-    "prefix": "NSISDirEx::AddInstFile"
-  },
-  "NSISDirEx::GetUncompressedSize": {
-    "body": "NSISDirEx::GetUncompressedSize /NOUNLOAD$1",
-    "description": "Usage: NSISDirEx::GetUncompressedSize /NOUNLOAD",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSISDirEx_plug-in",
-    "leftLabelHTML": "<span class='support class'>NSISDirEx.dll</span>",
-    "prefix": "NSISDirEx::GetUncompressedSize"
-  },
-  "NSISDirEx::Init": {
-    "body": "NSISDirEx::Init /NOUNLOAD \"${1:caption}\" \"${2:text}\" \"${3:directory}\" \"${4:required_space}\"$5",
-    "description": "Usage: NSISDirEx::Init /NOUNLOAD caption text directory required_space",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSISDirEx_plug-in",
-    "leftLabelHTML": "<span class='support class'>NSISDirEx.dll</span>",
-    "prefix": "NSISDirEx::Init"
-  },
-  "NSISDirEx::Install": {
-    "body": "NSISDirEx::Install \"${1:directory}\"$2",
-    "description": "Usage: NSISDirEx::Install directory",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NSISDirEx_plug-in",
-    "leftLabelHTML": "<span class='support class'>NSISDirEx.dll</span>",
-    "prefix": "NSISDirEx::Install"
-  }
+	"NSISDirEx::AddInstFile": {
+		"body": "NSISDirEx::AddInstFile /NOUNLOAD \"${1:file}\" \"${2:text}\"$3",
+		"description": "Usage: NSISDirEx::AddInstFile /NOUNLOAD file text",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSISDirEx_plug-in",
+		"leftLabelHTML": "<span class='support class'>NSISDirEx.dll</span>",
+		"prefix": "NSISDirEx::AddInstFile"
+	},
+	"NSISDirEx::GetUncompressedSize": {
+		"body": "NSISDirEx::GetUncompressedSize /NOUNLOAD$1",
+		"description": "Usage: NSISDirEx::GetUncompressedSize /NOUNLOAD",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSISDirEx_plug-in",
+		"leftLabelHTML": "<span class='support class'>NSISDirEx.dll</span>",
+		"prefix": "NSISDirEx::GetUncompressedSize"
+	},
+	"NSISDirEx::Init": {
+		"body": "NSISDirEx::Init /NOUNLOAD \"${1:caption}\" \"${2:text}\" \"${3:directory}\" \"${4:required_space}\"$5",
+		"description": "Usage: NSISDirEx::Init /NOUNLOAD caption text directory required_space",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSISDirEx_plug-in",
+		"leftLabelHTML": "<span class='support class'>NSISDirEx.dll</span>",
+		"prefix": "NSISDirEx::Init"
+	},
+	"NSISDirEx::Install": {
+		"body": "NSISDirEx::Install \"${1:directory}\"$2",
+		"description": "Usage: NSISDirEx::Install directory",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NSISDirEx_plug-in",
+		"leftLabelHTML": "<span class='support class'>NSISDirEx.dll</span>",
+		"prefix": "NSISDirEx::Install"
+	}
 }

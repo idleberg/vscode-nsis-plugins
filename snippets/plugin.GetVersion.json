@@ -1,72 +1,72 @@
 {
-  "GetVersion::WindowsName": {
-    "body": "GetVersion::WindowsName$1",
-    "descriptions": "Usage: GetVersion::WindowsName",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
-    "leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
-    "prefix": "GetVersion::WindowsName"
-  },
-  "GetVersion::WindowsPlatformArchitecture": {
-    "body": "GetVersion::WindowsPlatformArchitecture$1",
-    "descriptions": "Usage: GetVersion::WindowsPlatformArchitecture",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
-    "leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
-    "prefix": "GetVersion::WindowsPlatformArchitecture"
-  },
-  "GetVersion::WindowsPlatformId": {
-    "body": "GetVersion::WindowsPlatformId$1",
-    "descriptions": "Usage: GetVersion::WindowsPlatformId",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
-    "leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
-    "prefix": "GetVersion::WindowsPlatformId"
-  },
-  "GetVersion::WindowsServerName": {
-    "body": "GetVersion::WindowsServerName$1",
-    "descriptions": "Usage: GetVersion::WindowsServerName",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
-    "leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
-    "prefix": "GetVersion::WindowsServerName"
-  },
-  "GetVersion::WindowsServicePack": {
-    "body": "GetVersion::WindowsServicePack$1",
-    "descriptions": "Usage: GetVersion::WindowsServicePack",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
-    "leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
-    "prefix": "GetVersion::WindowsServicePack"
-  },
-  "GetVersion::WindowsServicePackBuild": {
-    "body": "GetVersion::WindowsServicePackBuild$1",
-    "descriptions": "Usage: GetVersion::WindowsServicePackBuild",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
-    "leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
-    "prefix": "GetVersion::WindowsServicePackBuild"
-  },
-  "GetVersion::WindowsServicePackMajor": {
-    "body": "GetVersion::WindowsServicePackMajor$1",
-    "descriptions": "Usage: GetVersion::WindowsServicePackMajor",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
-    "leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
-    "prefix": "GetVersion::WindowsServicePackMajor"
-  },
-  "GetVersion::WindowsServicePackMinor": {
-    "body": "GetVersion::WindowsServicePackMinor$1",
-    "descriptions": "Usage: GetVersion::WindowsServicePackMinor",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
-    "leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
-    "prefix": "GetVersion::WindowsServicePackMinor"
-  },
-  "GetVersion::WindowsType": {
-    "body": "GetVersion::WindowsType$1",
-    "descriptions": "Usage: GetVersion::WindowsType",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
-    "leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
-    "prefix": "GetVersion::WindowsType"
-  },
-  "GetVersion::WindowsVersion": {
-    "body": "GetVersion::WindowsVersion$1",
-    "descriptions": "Usage: GetVersion::WindowsVersion",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
-    "leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
-    "prefix": "GetVersion::WindowsVersion"
-  }
+	"GetVersion::WindowsName": {
+		"body": "GetVersion::WindowsName$1",
+		"descriptions": "Usage: GetVersion::WindowsName",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
+		"leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
+		"prefix": "GetVersion::WindowsName"
+	},
+	"GetVersion::WindowsPlatformArchitecture": {
+		"body": "GetVersion::WindowsPlatformArchitecture$1",
+		"descriptions": "Usage: GetVersion::WindowsPlatformArchitecture",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
+		"leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
+		"prefix": "GetVersion::WindowsPlatformArchitecture"
+	},
+	"GetVersion::WindowsPlatformId": {
+		"body": "GetVersion::WindowsPlatformId$1",
+		"descriptions": "Usage: GetVersion::WindowsPlatformId",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
+		"leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
+		"prefix": "GetVersion::WindowsPlatformId"
+	},
+	"GetVersion::WindowsServerName": {
+		"body": "GetVersion::WindowsServerName$1",
+		"descriptions": "Usage: GetVersion::WindowsServerName",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
+		"leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
+		"prefix": "GetVersion::WindowsServerName"
+	},
+	"GetVersion::WindowsServicePack": {
+		"body": "GetVersion::WindowsServicePack$1",
+		"descriptions": "Usage: GetVersion::WindowsServicePack",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
+		"leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
+		"prefix": "GetVersion::WindowsServicePack"
+	},
+	"GetVersion::WindowsServicePackBuild": {
+		"body": "GetVersion::WindowsServicePackBuild$1",
+		"descriptions": "Usage: GetVersion::WindowsServicePackBuild",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
+		"leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
+		"prefix": "GetVersion::WindowsServicePackBuild"
+	},
+	"GetVersion::WindowsServicePackMajor": {
+		"body": "GetVersion::WindowsServicePackMajor$1",
+		"descriptions": "Usage: GetVersion::WindowsServicePackMajor",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
+		"leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
+		"prefix": "GetVersion::WindowsServicePackMajor"
+	},
+	"GetVersion::WindowsServicePackMinor": {
+		"body": "GetVersion::WindowsServicePackMinor$1",
+		"descriptions": "Usage: GetVersion::WindowsServicePackMinor",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
+		"leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
+		"prefix": "GetVersion::WindowsServicePackMinor"
+	},
+	"GetVersion::WindowsType": {
+		"body": "GetVersion::WindowsType$1",
+		"descriptions": "Usage: GetVersion::WindowsType",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
+		"leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
+		"prefix": "GetVersion::WindowsType"
+	},
+	"GetVersion::WindowsVersion": {
+		"body": "GetVersion::WindowsVersion$1",
+		"descriptions": "Usage: GetVersion::WindowsVersion",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/GetVersion_(Windows)_plug-in",
+		"leftLabelHTML": "<span class='support class'>GetVersion.dll</span>",
+		"prefix": "GetVersion::WindowsVersion"
+	}
 }

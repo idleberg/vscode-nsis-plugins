@@ -1,156 +1,156 @@
 {
-  "UserMgr::AddPrivilege": {
-    "body": "UserMgr::AddPrivilege \"${1:USERID}\" \"${2:PRIVILEGE}\"$3",
-    "description": "Usage: UserMgr::AddPrivilege USERID PRIVILEGE",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::AddPrivilege"
-  },
-  "UserMgr::AddToGroup": {
-    "body": "UserMgr::AddToGroup \"${1:USERID}\" \"${2:GROUPID}\"$3",
-    "description": "Usage: UserMgr::AddToGroup USERID GROUPID",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::AddToGroup"
-  },
-  "UserMgr::BuiltAccountEnv": {
-    "body": "UserMgr::BuiltAccountEnv \"${1:USERID}\" \"${2:PASSWORD}\"$3",
-    "description": "Usage: UserMgr::BuiltAccountEnv USERID PASSWORD",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::BuiltAccountEnv"
-  },
-  "UserMgr::ChangeUserPassword": {
-    "body": "UserMgr::ChangeUserPassword \"${1:USERID}\" \"${2:OLDPASSWORD}\" \"${3:NEWPASSWORD}\"$4",
-    "description": "Usage: UserMgr::ChangeUserPassword USERID OLDPASSWORD NEWPASSWORD",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::ChangeUserPassword"
-  },
-  "UserMgr::CreateAccount": {
-    "body": "UserMgr::CreateAccount \"${1:USERID}\" \"${2:PASSWORD}\" \"${3:COMMENT}\"$4",
-    "description": "Usage: UserMgr::CreateAccount USERID PASSWORD COMMENT",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::CreateAccount"
-  },
-  "UserMgr::CreateAccountEx": {
-    "body": "UserMgr::CreateAccountEx \"${1:USERID}\" \"${2:PASSWORD}\" \"${3:COMMENT}\" \"${4:FULLNAME}\" \"${5:USERCOMMENT}\" \"${6:FLAGS}\"$7",
-    "description": "Usage: UserMgr::CreateAccountEx USERID PASSWORD COMMENT FULLNAME USERCOMMENT FLAGS",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::CreateAccountEx"
-  },
-  "UserMgr::CreateGroup": {
-    "body": "UserMgr::CreateGroup \"${1:GROUPID}\" \"${2:COMMENT}\"$3",
-    "description": "Usage: UserMgr::CreateGroup GROUPID COMMENT",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::CreateGroup"
-  },
-  "UserMgr::DeleteAccount": {
-    "body": "UserMgr::DeleteAccount \"${1:USERID}\"$3",
-    "description": "Usage: UserMgr::DeleteAccount USERID",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::DeleteAccount"
-  },
-  "UserMgr::DeleteGroup": {
-    "body": "UserMgr::DeleteGroup \"${1:GROUPID}\"$3",
-    "description": "Usage: UserMgr::DeleteGroup GROUPID",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::DeleteGroup"
-  },
-  "UserMgr::GetCurrentDomain": {
-    "body": "UserMgr::GetCurrentDomain$1",
-    "description": "Usage: UserMgr::GetCurrentDomain",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::GetCurrentDomain"
-  },
-  "UserMgr::GetCurrentUserName": {
-    "body": "UserMgr::GetCurrentUserName$1",
-    "description": "Usage: UserMgr::GetCurrentUserName",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::GetCurrentUserName"
-  },
-  "UserMgr::GetLocalizedStdAccountName": {
-    "body": "UserMgr::GetLocalizedStdAccountName \"${1:STDACCOUNTSID}\"$2",
-    "description": "Usage: UserMgr::GetLocalizedStdAccountName STDACCOUNTSID",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::GetLocalizedStdAccountName"
-  },
-  "UserMgr::GetSIDFromUserName": {
-    "body": "UserMgr::GetSIDFromUserName \"${1:DOMAIN} \"${2:USERID}\"$3",
-    "description": "Usage: UserMgr::GetSIDFromUserName DOMAIN USERID",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::GetSIDFromUserName"
-  },
-  "UserMgr::GetUserInfo": {
-    "body": "UserMgr::GetUserInfo \"${1:USERID}\" \"${2:FIELD}\"$3",
-    "description": "Usage: UserMgr::GetUserInfo USERID FIELD",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::GetUserInfo"
-  },
-  "UserMgr::GetUserNameFromSID": {
-    "body": "UserMgr::GetUserNameFromSID \"${1:SID}$2",
-    "description": "Usage: UserMgr::GetUserNameFromSID SID",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::GetUserNameFromSID"
-  },
-  "UserMgr::HasPrivilege": {
-    "body": "UserMgr::HasPrivilege \"${1:USERID}\" \"${2:PRIVILEGE}\"$3",
-    "description": "Usage: UserMgr::HasPrivilege USERID PRIVILEGE",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::HasPrivilege"
-  },
-  "UserMgr::IsMemberOfGroup": {
-    "body": "UserMgr::IsMemberOfGroup \"${1:USERID}\" \"${2:GROUPID}\"$3",
-    "description": "Usage: UserMgr::IsMemberOfGroup USERID GROUPID",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::IsMemberOfGroup"
-  },
-  "UserMgr::RegUnLoadUserHive": {
-    "body": "UserMgr::RegUnLoadUserHive \"${1:USERID}\"$2",
-    "description": "Usage: UserMgr::RegUnLoadUserHive USERID",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::RegUnLoadUserHive"
-  },
-  "UserMgr::RemoveFromGroup": {
-    "body": "UserMgr::RemoveFromGroup \"${1:USERID}\" \"${2:GROUPID}\"$3",
-    "description": "Usage: UserMgr::RemoveFromGroup USERID GROUPID",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::RemoveFromGroup"
-  },
-  "UserMgr::RemovePrivilege": {
-    "body": "UserMgr::RemovePrivilege \"${1:USERID}\" \"${2:PRIVILEGE}\"$3",
-    "description": "Usage: UserMgr::RemovePrivilege USERID PRIVILEGE",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::RemovePrivilege"
-  },
-  "UserMgr::SetRegKeyAccess": {
-    "body": "UserMgr::SetRegKeyAccess \"${1:USERID}\" \"${2:ROOTKEY}\" \"${3:REGKEY}\" \"${4:ACCESSMASK}\"$5",
-    "description": "Usage: UserMgr::SetRegKeyAccess USERID ROOTKEY REGKEY ACCESSMASK",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::SetRegKeyAccess"
-  },
-  "UserMgr::SetUserInfo": {
-    "body": "UserMgr::SetUserInfo \"${1:USERID}\" \"${2:FIELD}\" \"${3:VALUE}\"$4",
-    "description": "Usage: UserMgr::SetUserInfo USERID FIELD VALUE",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
-    "leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
-    "prefix": "UserMgr::SetUserInfo"
-  }
+	"UserMgr::AddPrivilege": {
+		"body": "UserMgr::AddPrivilege \"${1:USERID}\" \"${2:PRIVILEGE}\"$3",
+		"description": "Usage: UserMgr::AddPrivilege USERID PRIVILEGE",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::AddPrivilege"
+	},
+	"UserMgr::AddToGroup": {
+		"body": "UserMgr::AddToGroup \"${1:USERID}\" \"${2:GROUPID}\"$3",
+		"description": "Usage: UserMgr::AddToGroup USERID GROUPID",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::AddToGroup"
+	},
+	"UserMgr::BuiltAccountEnv": {
+		"body": "UserMgr::BuiltAccountEnv \"${1:USERID}\" \"${2:PASSWORD}\"$3",
+		"description": "Usage: UserMgr::BuiltAccountEnv USERID PASSWORD",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::BuiltAccountEnv"
+	},
+	"UserMgr::ChangeUserPassword": {
+		"body": "UserMgr::ChangeUserPassword \"${1:USERID}\" \"${2:OLDPASSWORD}\" \"${3:NEWPASSWORD}\"$4",
+		"description": "Usage: UserMgr::ChangeUserPassword USERID OLDPASSWORD NEWPASSWORD",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::ChangeUserPassword"
+	},
+	"UserMgr::CreateAccount": {
+		"body": "UserMgr::CreateAccount \"${1:USERID}\" \"${2:PASSWORD}\" \"${3:COMMENT}\"$4",
+		"description": "Usage: UserMgr::CreateAccount USERID PASSWORD COMMENT",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::CreateAccount"
+	},
+	"UserMgr::CreateAccountEx": {
+		"body": "UserMgr::CreateAccountEx \"${1:USERID}\" \"${2:PASSWORD}\" \"${3:COMMENT}\" \"${4:FULLNAME}\" \"${5:USERCOMMENT}\" \"${6:FLAGS}\"$7",
+		"description": "Usage: UserMgr::CreateAccountEx USERID PASSWORD COMMENT FULLNAME USERCOMMENT FLAGS",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::CreateAccountEx"
+	},
+	"UserMgr::CreateGroup": {
+		"body": "UserMgr::CreateGroup \"${1:GROUPID}\" \"${2:COMMENT}\"$3",
+		"description": "Usage: UserMgr::CreateGroup GROUPID COMMENT",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::CreateGroup"
+	},
+	"UserMgr::DeleteAccount": {
+		"body": "UserMgr::DeleteAccount \"${1:USERID}\"$3",
+		"description": "Usage: UserMgr::DeleteAccount USERID",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::DeleteAccount"
+	},
+	"UserMgr::DeleteGroup": {
+		"body": "UserMgr::DeleteGroup \"${1:GROUPID}\"$3",
+		"description": "Usage: UserMgr::DeleteGroup GROUPID",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::DeleteGroup"
+	},
+	"UserMgr::GetCurrentDomain": {
+		"body": "UserMgr::GetCurrentDomain$1",
+		"description": "Usage: UserMgr::GetCurrentDomain",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::GetCurrentDomain"
+	},
+	"UserMgr::GetCurrentUserName": {
+		"body": "UserMgr::GetCurrentUserName$1",
+		"description": "Usage: UserMgr::GetCurrentUserName",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::GetCurrentUserName"
+	},
+	"UserMgr::GetLocalizedStdAccountName": {
+		"body": "UserMgr::GetLocalizedStdAccountName \"${1:STDACCOUNTSID}\"$2",
+		"description": "Usage: UserMgr::GetLocalizedStdAccountName STDACCOUNTSID",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::GetLocalizedStdAccountName"
+	},
+	"UserMgr::GetSIDFromUserName": {
+		"body": "UserMgr::GetSIDFromUserName \"${1:DOMAIN} \"${2:USERID}\"$3",
+		"description": "Usage: UserMgr::GetSIDFromUserName DOMAIN USERID",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::GetSIDFromUserName"
+	},
+	"UserMgr::GetUserInfo": {
+		"body": "UserMgr::GetUserInfo \"${1:USERID}\" \"${2:FIELD}\"$3",
+		"description": "Usage: UserMgr::GetUserInfo USERID FIELD",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::GetUserInfo"
+	},
+	"UserMgr::GetUserNameFromSID": {
+		"body": "UserMgr::GetUserNameFromSID \"${1:SID}$2",
+		"description": "Usage: UserMgr::GetUserNameFromSID SID",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::GetUserNameFromSID"
+	},
+	"UserMgr::HasPrivilege": {
+		"body": "UserMgr::HasPrivilege \"${1:USERID}\" \"${2:PRIVILEGE}\"$3",
+		"description": "Usage: UserMgr::HasPrivilege USERID PRIVILEGE",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::HasPrivilege"
+	},
+	"UserMgr::IsMemberOfGroup": {
+		"body": "UserMgr::IsMemberOfGroup \"${1:USERID}\" \"${2:GROUPID}\"$3",
+		"description": "Usage: UserMgr::IsMemberOfGroup USERID GROUPID",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::IsMemberOfGroup"
+	},
+	"UserMgr::RegUnLoadUserHive": {
+		"body": "UserMgr::RegUnLoadUserHive \"${1:USERID}\"$2",
+		"description": "Usage: UserMgr::RegUnLoadUserHive USERID",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::RegUnLoadUserHive"
+	},
+	"UserMgr::RemoveFromGroup": {
+		"body": "UserMgr::RemoveFromGroup \"${1:USERID}\" \"${2:GROUPID}\"$3",
+		"description": "Usage: UserMgr::RemoveFromGroup USERID GROUPID",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::RemoveFromGroup"
+	},
+	"UserMgr::RemovePrivilege": {
+		"body": "UserMgr::RemovePrivilege \"${1:USERID}\" \"${2:PRIVILEGE}\"$3",
+		"description": "Usage: UserMgr::RemovePrivilege USERID PRIVILEGE",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::RemovePrivilege"
+	},
+	"UserMgr::SetRegKeyAccess": {
+		"body": "UserMgr::SetRegKeyAccess \"${1:USERID}\" \"${2:ROOTKEY}\" \"${3:REGKEY}\" \"${4:ACCESSMASK}\"$5",
+		"description": "Usage: UserMgr::SetRegKeyAccess USERID ROOTKEY REGKEY ACCESSMASK",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::SetRegKeyAccess"
+	},
+	"UserMgr::SetUserInfo": {
+		"body": "UserMgr::SetUserInfo \"${1:USERID}\" \"${2:FIELD}\" \"${3:VALUE}\"$4",
+		"description": "Usage: UserMgr::SetUserInfo USERID FIELD VALUE",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UserMgr_plug-in",
+		"leftLabelHTML": "<span class='support class'>UserMgr.dll</span>",
+		"prefix": "UserMgr::SetUserInfo"
+	}
 }

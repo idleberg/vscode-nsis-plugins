@@ -1,51 +1,51 @@
 {
-  "EnVar::AddValue": {
-    "body": "EnVar::AddValue ${1:variable} \"${2:path}\"$0",
-    "description": "Usage: EnVar::AddValue variable_name path",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
-    "leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
-    "prefix": "EnVar::AddValue"
-  },
-  "EnVar::AddValueEx": {
-    "body": "EnVar::AddValueEx ${1:variable} \"${2:path}\"$0",
-    "description": "Usage: EnVar::AddValueEx variable_name path",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
-    "leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
-    "prefix": "EnVar::AddValueEx"
-  },
-  "EnVar::Check": {
-    "body": "EnVar::Check ${1:variable} \"${2:path}\"$0",
-    "description": "Usage: EnVar::Check variable_name path",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
-    "leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
-    "prefix": "EnVar::Check"
-  },
-  "EnVar::Delete": {
-    "body": "EnVar::Delete ${1:variable}$0",
-    "description": "Usage: EnVar::Delete variable_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
-    "leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
-    "prefix": "EnVar::Delete"
-  },
-  "EnVar::DeleteValue": {
-    "body": "EnVar::DeleteValue ${1:variable} \"${2:path}\"$0",
-    "description": "Usage: EnVar::DeleteValue variable_name path",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
-    "leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
-    "prefix": "EnVar::DeleteValue"
-  },
-  "EnVar::SetHKCU": {
-    "body": "EnVar::SetHKCU$0",
-    "description": "Usage: EnVar::SetHKCU ",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
-    "leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
-    "prefix": "EnVar::SetHKCU"
-  },
-  "EnVar::SetHKLM": {
-    "body": "EnVar::SetHKLM$0",
-    "description": "Usage: EnVar::SetHKLM ",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
-    "leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
-    "prefix": "EnVar::SetHKLM"
-  }
+	"EnVar::AddValue": {
+		"body": "EnVar::AddValue ${1:variable} \"${2:path}\"$0",
+		"description": "Usage: EnVar::AddValue variable_name path",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
+		"leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
+		"prefix": "EnVar::AddValue"
+	},
+	"EnVar::AddValueEx": {
+		"body": "EnVar::AddValueEx ${1:variable} \"${2:path}\"$0",
+		"description": "Usage: EnVar::AddValueEx variable_name path",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
+		"leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
+		"prefix": "EnVar::AddValueEx"
+	},
+	"EnVar::Check": {
+		"body": "EnVar::Check ${1:variable} \"${2:path}\"$0",
+		"description": "Usage: EnVar::Check variable_name path",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
+		"leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
+		"prefix": "EnVar::Check"
+	},
+	"EnVar::Delete": {
+		"body": "EnVar::Delete ${1:variable}$0",
+		"description": "Usage: EnVar::Delete variable_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
+		"leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
+		"prefix": "EnVar::Delete"
+	},
+	"EnVar::DeleteValue": {
+		"body": "EnVar::DeleteValue ${1:variable} \"${2:path}\"$0",
+		"description": "Usage: EnVar::DeleteValue variable_name path",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
+		"leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
+		"prefix": "EnVar::DeleteValue"
+	},
+	"EnVar::SetHKCU": {
+		"body": "EnVar::SetHKCU$0",
+		"description": "Usage: EnVar::SetHKCU ",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
+		"leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
+		"prefix": "EnVar::SetHKCU"
+	},
+	"EnVar::SetHKLM": {
+		"body": "EnVar::SetHKLM$0",
+		"description": "Usage: EnVar::SetHKLM ",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EnVar_plug-in",
+		"leftLabelHTML": "<span class='support class'>EnVar.dll</span>",
+		"prefix": "EnVar::SetHKLM"
+	}
 }

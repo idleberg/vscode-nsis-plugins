@@ -1,16 +1,16 @@
 {
-  "CABSetup::DataSetSize": {
-    "body": "CABSetup::DataSetSize \"/REPORTFILE=${1:file}.rpt\" |$2",
-    "description": "Usage: CABSetup::DataSetSize /REPORTFILE=file |",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CABSetup_plug-in",
-    "leftLabelHTML": "<span class='support class'>CABSetup.dll</span>",
-    "prefix": "CABSetup::DataSetSize"
-  },
-  "CABSetup::Extract": {
-    "body": "CABSetup::Extract \"/SOURCE=${1:file}.cab\" \"/TARGET=${2:target}\" ${3:options} |$4",
-    "description": "Usage: CABSetup::Extract /SOURCE=file /TARGET=target options |",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CABSetup_plug-in",
-    "leftLabelHTML": "<span class='support class'>CABSetup.dll</span>",
-    "prefix": "CABSetup::Extract"
-  }
+	"CABSetup::DataSetSize": {
+		"body": "CABSetup::DataSetSize \"/REPORTFILE=${1:file}.rpt\" |$2",
+		"description": "Usage: CABSetup::DataSetSize /REPORTFILE=file |",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CABSetup_plug-in",
+		"leftLabelHTML": "<span class='support class'>CABSetup.dll</span>",
+		"prefix": "CABSetup::DataSetSize"
+	},
+	"CABSetup::Extract": {
+		"body": "CABSetup::Extract \"/SOURCE=${1:file}.cab\" \"/TARGET=${2:target}\" ${3:options} |$4",
+		"description": "Usage: CABSetup::Extract /SOURCE=file /TARGET=target options |",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CABSetup_plug-in",
+		"leftLabelHTML": "<span class='support class'>CABSetup.dll</span>",
+		"prefix": "CABSetup::Extract"
+	}
 }

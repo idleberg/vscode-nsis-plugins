@@ -1,184 +1,184 @@
 {
-  "${Stack::Debug}": {
-    "body": "\\${Stack::Debug} \"${1:handle}\"$2",
-    "description": "Usage: ${Stack::Debug} handle",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "Stack::Debug"
-  },
-  "${Stack::Unload}": {
-    "body": "\\${Stack::Unload}$1",
-    "description": "Usage: ${Stack::Unload}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "Stack::Unload"
-  },
-  "${Stack::dll_clear}": {
-    "body": "\\${Stack::dll_clear} \"${1:handle}\"$2",
-    "description": "Usage: ${Stack::dll_clear} handle",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_clear}"
-  },
-  "${Stack::dll_create}": {
-    "body": "\\${Stack::dll_create} $${1:var}$2",
-    "description": "Usage: ${Stack::dll_create} var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_create}"
-  },
-  "${Stack::dll_delete_range}": {
-    "body": "\\${Stack::dll_delete_range} \"${1:handle}\" \"${2:index1}\" \"${3:index2}\" $${4:var}$5",
-    "description": "Usage: ${Stack::dll_delete_range} handle index1 index2 var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_delete_range}"
-  },
-  "${Stack::dll_delete}": {
-    "body": "\\${Stack::dll_delete} \"${1:handle}\" \"${2:string}\" $${3:var} $${4:var}$5",
-    "description": "Usage: ${Stack::dll_delete} handle string var var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_delete}"
-  },
-  "${Stack::dll_destroy}": {
-    "body": "\\${Stack::dll_destroy} \"${1:handle}\"$2",
-    "description": "Usage: ${Stack::dll_destroy} handle",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_destroy}"
-  },
-  "${Stack::dll_exchange}": {
-    "body": "\\${Stack::dll_exchange} \"${1:handle}\" \"${2:index1}\" \"${3:index2}\" $${4:var}$5",
-    "description": "Usage: ${Stack::dll_exchange} handle index1 index2 var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_exchange}"
-  },
-  "${Stack::dll_insert}": {
-    "body": "\\${Stack::dll_insert} \"${1:handle}\" \"${2:string}\" \"${3:index}\" $${4:var}$5",
-    "description": "Usage: ${Stack::dll_insert} handle string index var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_insert}"
-  },
-  "${Stack::dll_move_range}": {
-    "body": "\\${Stack::dll_move_range} \"${1:handle}\" \"${2:index1}\" \"${3:index2}\" \"${4:index3}\" $${5:var}$6",
-    "description": "Usage: ${Stack::dll_move_range} handle index1 index2 index3 var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_move_range}"
-  },
-  "${Stack::dll_move}": {
-    "body": "\\${Stack::dll_move} \"${1:handle}\" \"${2:index1}\" \"${3:index2}\" $${4:var}$5",
-    "description": "Usage: ${Stack::dll_move} handle index1 index2 var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_move}"
-  },
-  "${Stack::dll_push_sort_int}": {
-    "body": "\\${Stack::dll_push_sort_int} \"${1:handle}\" \"${2:index}\" \"${3:order}\"$4",
-    "description": "Usage: ${Stack::dll_push_sort_int} handle index order",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_push_sort_int}"
-  },
-  "${Stack::dll_push_sort}": {
-    "body": "\\${Stack::dll_push_sort} \"${1:handle}\" \"${2:index}\" \"${3:order}\"$4",
-    "description": "Usage: ${Stack::dll_push_sort} handle index order",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_push_sort}"
-  },
-  "${Stack::dll_read}": {
-    "body": "\\${Stack::dll_read} \"${1:handle}\" \"${2:string}\" $${3:var} $${4:var}$5",
-    "description": "Usage: ${Stack::dll_read} handle string var var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_read}"
-  },
-  "${Stack::dll_reverse_range}": {
-    "body": "\\${Stack::dll_reverse_range} \"${1:handle}\" \"${2:index1}\" \"${3:index2}\" $${4:var}$5",
-    "description": "Usage: ${Stack::dll_reverse_range} handle index1 index2 var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_reverse_range}"
-  },
-  "${Stack::dll_size}": {
-    "body": "\\${Stack::dll_size} \"${1:handle}\" $${2:order}$3",
-    "description": "Usage: ${Stack::dll_size} handle $order",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_size}"
-  },
-  "${Stack::dll_sort_all_int}": {
-    "body": "\\${Stack::dll_sort_all_int} \"${1:handle}\" \"${2:order}\"$3",
-    "description": "Usage: ${Stack::dll_sort_all_int} handle order",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_sort_all_int}"
-  },
-  "${Stack::dll_sort_all}": {
-    "body": "\\${Stack::dll_sort_all} \"${1:handle}\" \"${2:order}\"$3",
-    "description": "Usage: ${Stack::dll_sort_all} handle order",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_sort_all}"
-  },
-  "${Stack::dll_write}": {
-    "body": "\\${Stack::dll_write} \"${1:handle}\" \"${2:string}\" \"${3:index}\" $${4:var}$5",
-    "description": "Usage: ${Stack::dll_write} handle string index var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::dll_write}"
-  },
-  "${Stack::ns_clear}": {
-    "body": "\\${Stack::ns_clear}$1",
-    "description": "Usage: ${Stack::ns_clear}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::ns_clear}"
-  },
-  "${Stack::ns_pop_front}": {
-    "body": "\\${Stack::ns_pop_front} $${1:var} $${2:var}$3",
-    "description": "Usage: ${Stack::ns_pop_front} var var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::ns_pop_front}"
-  },
-  "${Stack::ns_push_back}": {
-    "body": "\\${Stack::ns_push_back} \"${1:string}\"$2",
-    "description": "Usage: ${Stack::ns_push_back} string",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::ns_push_back}"
-  },
-  "${Stack::ns_push_front}": {
-    "body": "\\${Stack::ns_push_front} \"${1:string}\"$2",
-    "description": "Usage: ${Stack::ns_push_front} string",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::ns_push_front}"
-  },
-  "${Stack::ns_read}": {
-    "body": "\\${Stack::ns_read} \"${1:index}\" $${2:var} $${3:var}$4",
-    "description": "Usage: ${Stack::ns_read} index var var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::ns_read}"
-  },
-  "${Stack::ns_size}": {
-    "body": "\\${Stack::ns_size} $${1:var}$2",
-    "description": "Usage: ${Stack::ns_size} var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::ns_size}"
-  },
-  "${Stack::ns_write}": {
-    "body": "\\${Stack::ns_write} \"${1:string}\" \"${2:index}\" $${3:var}$4",
-    "description": "Usage: ${Stack::ns_write} string index var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
-    "leftLabelHTML": "<span class='support class'>stack.dll</span>",
-    "prefix": "${Stack::ns_write}"
-  }
+	"${Stack::Debug}": {
+		"body": "\\${Stack::Debug} \"${1:handle}\"$2",
+		"description": "Usage: ${Stack::Debug} handle",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "Stack::Debug"
+	},
+	"${Stack::Unload}": {
+		"body": "\\${Stack::Unload}$1",
+		"description": "Usage: ${Stack::Unload}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "Stack::Unload"
+	},
+	"${Stack::dll_clear}": {
+		"body": "\\${Stack::dll_clear} \"${1:handle}\"$2",
+		"description": "Usage: ${Stack::dll_clear} handle",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_clear}"
+	},
+	"${Stack::dll_create}": {
+		"body": "\\${Stack::dll_create} $${1:var}$2",
+		"description": "Usage: ${Stack::dll_create} var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_create}"
+	},
+	"${Stack::dll_delete_range}": {
+		"body": "\\${Stack::dll_delete_range} \"${1:handle}\" \"${2:index1}\" \"${3:index2}\" $${4:var}$5",
+		"description": "Usage: ${Stack::dll_delete_range} handle index1 index2 var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_delete_range}"
+	},
+	"${Stack::dll_delete}": {
+		"body": "\\${Stack::dll_delete} \"${1:handle}\" \"${2:string}\" $${3:var} $${4:var}$5",
+		"description": "Usage: ${Stack::dll_delete} handle string var var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_delete}"
+	},
+	"${Stack::dll_destroy}": {
+		"body": "\\${Stack::dll_destroy} \"${1:handle}\"$2",
+		"description": "Usage: ${Stack::dll_destroy} handle",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_destroy}"
+	},
+	"${Stack::dll_exchange}": {
+		"body": "\\${Stack::dll_exchange} \"${1:handle}\" \"${2:index1}\" \"${3:index2}\" $${4:var}$5",
+		"description": "Usage: ${Stack::dll_exchange} handle index1 index2 var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_exchange}"
+	},
+	"${Stack::dll_insert}": {
+		"body": "\\${Stack::dll_insert} \"${1:handle}\" \"${2:string}\" \"${3:index}\" $${4:var}$5",
+		"description": "Usage: ${Stack::dll_insert} handle string index var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_insert}"
+	},
+	"${Stack::dll_move_range}": {
+		"body": "\\${Stack::dll_move_range} \"${1:handle}\" \"${2:index1}\" \"${3:index2}\" \"${4:index3}\" $${5:var}$6",
+		"description": "Usage: ${Stack::dll_move_range} handle index1 index2 index3 var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_move_range}"
+	},
+	"${Stack::dll_move}": {
+		"body": "\\${Stack::dll_move} \"${1:handle}\" \"${2:index1}\" \"${3:index2}\" $${4:var}$5",
+		"description": "Usage: ${Stack::dll_move} handle index1 index2 var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_move}"
+	},
+	"${Stack::dll_push_sort_int}": {
+		"body": "\\${Stack::dll_push_sort_int} \"${1:handle}\" \"${2:index}\" \"${3:order}\"$4",
+		"description": "Usage: ${Stack::dll_push_sort_int} handle index order",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_push_sort_int}"
+	},
+	"${Stack::dll_push_sort}": {
+		"body": "\\${Stack::dll_push_sort} \"${1:handle}\" \"${2:index}\" \"${3:order}\"$4",
+		"description": "Usage: ${Stack::dll_push_sort} handle index order",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_push_sort}"
+	},
+	"${Stack::dll_read}": {
+		"body": "\\${Stack::dll_read} \"${1:handle}\" \"${2:string}\" $${3:var} $${4:var}$5",
+		"description": "Usage: ${Stack::dll_read} handle string var var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_read}"
+	},
+	"${Stack::dll_reverse_range}": {
+		"body": "\\${Stack::dll_reverse_range} \"${1:handle}\" \"${2:index1}\" \"${3:index2}\" $${4:var}$5",
+		"description": "Usage: ${Stack::dll_reverse_range} handle index1 index2 var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_reverse_range}"
+	},
+	"${Stack::dll_size}": {
+		"body": "\\${Stack::dll_size} \"${1:handle}\" $${2:order}$3",
+		"description": "Usage: ${Stack::dll_size} handle $order",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_size}"
+	},
+	"${Stack::dll_sort_all_int}": {
+		"body": "\\${Stack::dll_sort_all_int} \"${1:handle}\" \"${2:order}\"$3",
+		"description": "Usage: ${Stack::dll_sort_all_int} handle order",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_sort_all_int}"
+	},
+	"${Stack::dll_sort_all}": {
+		"body": "\\${Stack::dll_sort_all} \"${1:handle}\" \"${2:order}\"$3",
+		"description": "Usage: ${Stack::dll_sort_all} handle order",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_sort_all}"
+	},
+	"${Stack::dll_write}": {
+		"body": "\\${Stack::dll_write} \"${1:handle}\" \"${2:string}\" \"${3:index}\" $${4:var}$5",
+		"description": "Usage: ${Stack::dll_write} handle string index var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::dll_write}"
+	},
+	"${Stack::ns_clear}": {
+		"body": "\\${Stack::ns_clear}$1",
+		"description": "Usage: ${Stack::ns_clear}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::ns_clear}"
+	},
+	"${Stack::ns_pop_front}": {
+		"body": "\\${Stack::ns_pop_front} $${1:var} $${2:var}$3",
+		"description": "Usage: ${Stack::ns_pop_front} var var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::ns_pop_front}"
+	},
+	"${Stack::ns_push_back}": {
+		"body": "\\${Stack::ns_push_back} \"${1:string}\"$2",
+		"description": "Usage: ${Stack::ns_push_back} string",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::ns_push_back}"
+	},
+	"${Stack::ns_push_front}": {
+		"body": "\\${Stack::ns_push_front} \"${1:string}\"$2",
+		"description": "Usage: ${Stack::ns_push_front} string",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::ns_push_front}"
+	},
+	"${Stack::ns_read}": {
+		"body": "\\${Stack::ns_read} \"${1:index}\" $${2:var} $${3:var}$4",
+		"description": "Usage: ${Stack::ns_read} index var var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::ns_read}"
+	},
+	"${Stack::ns_size}": {
+		"body": "\\${Stack::ns_size} $${1:var}$2",
+		"description": "Usage: ${Stack::ns_size} var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::ns_size}"
+	},
+	"${Stack::ns_write}": {
+		"body": "\\${Stack::ns_write} \"${1:string}\" \"${2:index}\" $${3:var}$4",
+		"description": "Usage: ${Stack::ns_write} string index var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Stack_plug-in",
+		"leftLabelHTML": "<span class='support class'>stack.dll</span>",
+		"prefix": "${Stack::ns_write}"
+	}
 }

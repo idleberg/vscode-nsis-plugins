@@ -1,37 +1,37 @@
 {
-  "HwInfo::GetCpuNameAndSpeed": {
-    "body": "HwInfo::GetCpuNameAndSpeed$1",
-    "description": "Usage: HwInfo::GetCpuNameAndSpeed$1",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/HwInfo_plug-in",
-    "leftLabelHTML": "<span class='support class'>HwInfo.dll</span>",
-    "prefix": "HwInfo::GetCpuNameAndSpeed"
-  },
-  "HwInfo::GetCpuSpeed": {
-    "body": "HwInfo::GetCpuSpeed$1",
-    "description": "Usage: HwInfo::GetCpuSpeed$1",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/HwInfo_plug-in",
-    "leftLabelHTML": "<span class='support class'>HwInfo.dll</span>",
-    "prefix": "HwInfo::GetCpuSpeed"
-  },
-  "HwInfo::GetSystemMemory": {
-    "body": "HwInfo::GetSystemMemory$1",
-    "description": "Usage: HwInfo::GetSystemMemory$1",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/HwInfo_plug-in",
-    "leftLabelHTML": "<span class='support class'>HwInfo.dll</span>",
-    "prefix": "HwInfo::GetSystemMemory"
-  },
-  "HwInfo::GetVideoCardMemory": {
-    "body": "HwInfo::GetVideoCardMemory$1",
-    "description": "Usage: HwInfo::GetVideoCardMemory$1",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/HwInfo_plug-in",
-    "leftLabelHTML": "<span class='support class'>HwInfo.dll</span>",
-    "prefix": "HwInfo::GetVideoCardMemory"
-  },
-  "HwInfo::GetVideoCardName": {
-    "body": "HwInfo::GetVideoCardName$1",
-    "description": "Usage: HwInfo::GetVideoCardName$1",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/HwInfo_plug-in",
-    "leftLabelHTML": "<span class='support class'>HwInfo.dll</span>",
-    "prefix": "HwInfo::GetVideoCardName"
-  }
+	"HwInfo::GetCpuNameAndSpeed": {
+		"body": "HwInfo::GetCpuNameAndSpeed$1",
+		"description": "Usage: HwInfo::GetCpuNameAndSpeed$1",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/HwInfo_plug-in",
+		"leftLabelHTML": "<span class='support class'>HwInfo.dll</span>",
+		"prefix": "HwInfo::GetCpuNameAndSpeed"
+	},
+	"HwInfo::GetCpuSpeed": {
+		"body": "HwInfo::GetCpuSpeed$1",
+		"description": "Usage: HwInfo::GetCpuSpeed$1",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/HwInfo_plug-in",
+		"leftLabelHTML": "<span class='support class'>HwInfo.dll</span>",
+		"prefix": "HwInfo::GetCpuSpeed"
+	},
+	"HwInfo::GetSystemMemory": {
+		"body": "HwInfo::GetSystemMemory$1",
+		"description": "Usage: HwInfo::GetSystemMemory$1",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/HwInfo_plug-in",
+		"leftLabelHTML": "<span class='support class'>HwInfo.dll</span>",
+		"prefix": "HwInfo::GetSystemMemory"
+	},
+	"HwInfo::GetVideoCardMemory": {
+		"body": "HwInfo::GetVideoCardMemory$1",
+		"description": "Usage: HwInfo::GetVideoCardMemory$1",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/HwInfo_plug-in",
+		"leftLabelHTML": "<span class='support class'>HwInfo.dll</span>",
+		"prefix": "HwInfo::GetVideoCardMemory"
+	},
+	"HwInfo::GetVideoCardName": {
+		"body": "HwInfo::GetVideoCardName$1",
+		"description": "Usage: HwInfo::GetVideoCardName$1",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/HwInfo_plug-in",
+		"leftLabelHTML": "<span class='support class'>HwInfo.dll</span>",
+		"prefix": "HwInfo::GetVideoCardName"
+	}
 }

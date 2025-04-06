@@ -1,16 +1,16 @@
 {
-  "SAFER::Exec": {
-    "body": "SAFER::SupportsSAFER ${1:level} \"${2:file).exe\"$3",
-    "description": "Usage: SAFER::SupportsSAFER level file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/SAFER_plug-in",
-    "leftLabelHTML": "<span class='support class'>SAFER.dll</span>",
-    "prefix": "SAFER::Exec"
-  },
-  "SAFER::SupportsSAFER": {
-    "body": "SAFER::SupportsSAFER$1",
-    "description": "Usage: SAFER::SupportsSAFER",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/SAFER_plug-in",
-    "leftLabelHTML": "<span class='support class'>SAFER.dll</span>",
-    "prefix": "SAFER::SupportsSAFER"
-  }
+	"SAFER::Exec": {
+		"body": "SAFER::SupportsSAFER ${1:level} \"${2:file).exe\"$3",
+		"description": "Usage: SAFER::SupportsSAFER level file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/SAFER_plug-in",
+		"leftLabelHTML": "<span class='support class'>SAFER.dll</span>",
+		"prefix": "SAFER::Exec"
+	},
+	"SAFER::SupportsSAFER": {
+		"body": "SAFER::SupportsSAFER$1",
+		"description": "Usage: SAFER::SupportsSAFER",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/SAFER_plug-in",
+		"leftLabelHTML": "<span class='support class'>SAFER.dll</span>",
+		"prefix": "SAFER::SupportsSAFER"
+	}
 }

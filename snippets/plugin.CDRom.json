@@ -1,44 +1,44 @@
 {
-  "CDRom::Close": {
-    "body": "CDRom::Close \"${1:drive}\" .${2:R0}$3",
-    "description": "Usage: CDRom::Close drive}\" .R0",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CDRom_plug-in",
-    "leftLabelHTML": "<span class='support class'>CDRom.dll</span>",
-    "prefix": "CDRom::Close"
-  },
-  "CDRom::FindNext": {
-    "body": "CDRom::FindNext /NOUNLOAD \"${1:drive}\" .${2:R0}$3",
-    "description": "Usage: CDRom::FindNext /NOUNLOAD  drive .R0",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CDRom_plug-in",
-    "leftLabelHTML": "<span class='support class'>CDRom.dll</span>",
-    "prefix": "CDRom::FindNext"
-  },
-  "CDRom::Open": {
-    "body": "CDRom::Open \"${1:drive}\" .${2:R0}$3",
-    "description": "Usage: CDRom::Open drive .R0",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CDRom_plug-in",
-    "leftLabelHTML": "<span class='support class'>CDRom.dll</span>",
-    "prefix": "CDRom::Open"
-  },
-  "CDRom::Status": {
-    "body": "CDRom::Status \"${1:drive}\" .${2:R0}$3",
-    "description": "Usage: CDRom::Status drive .R0",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CDRom_plug-in",
-    "leftLabelHTML": "<span class='support class'>CDRom.dll</span>",
-    "prefix": "CDRom::Status"
-  },
-  "CDRom::VolumeName": {
-    "body": "CDRom::VolumeName \"${1:drive}\" .${2:R0}$3",
-    "description": "Usage: CDRom::VolumeName drive .R0",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CDRom_plug-in",
-    "leftLabelHTML": "<span class='support class'>CDRom.dll</span>",
-    "prefix": "CDRom::VolumeName"
-  },
-  "CDRom::VolumeSerialNumber": {
-    "body": "CDRom::VolumeSerialNumber \"${1:drive}\" .${2:R0}$3",
-    "description": "Usage: CDRom::VolumeSerialNumber drive .R0",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/CDRom_plug-in",
-    "leftLabelHTML": "<span class='support class'>CDRom.dll</span>",
-    "prefix": "CDRom::VolumeSerialNumber"
-  }
+	"CDRom::Close": {
+		"body": "CDRom::Close \"${1:drive}\" .${2:R0}$3",
+		"description": "Usage: CDRom::Close drive}\" .R0",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CDRom_plug-in",
+		"leftLabelHTML": "<span class='support class'>CDRom.dll</span>",
+		"prefix": "CDRom::Close"
+	},
+	"CDRom::FindNext": {
+		"body": "CDRom::FindNext /NOUNLOAD \"${1:drive}\" .${2:R0}$3",
+		"description": "Usage: CDRom::FindNext /NOUNLOAD  drive .R0",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CDRom_plug-in",
+		"leftLabelHTML": "<span class='support class'>CDRom.dll</span>",
+		"prefix": "CDRom::FindNext"
+	},
+	"CDRom::Open": {
+		"body": "CDRom::Open \"${1:drive}\" .${2:R0}$3",
+		"description": "Usage: CDRom::Open drive .R0",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CDRom_plug-in",
+		"leftLabelHTML": "<span class='support class'>CDRom.dll</span>",
+		"prefix": "CDRom::Open"
+	},
+	"CDRom::Status": {
+		"body": "CDRom::Status \"${1:drive}\" .${2:R0}$3",
+		"description": "Usage: CDRom::Status drive .R0",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CDRom_plug-in",
+		"leftLabelHTML": "<span class='support class'>CDRom.dll</span>",
+		"prefix": "CDRom::Status"
+	},
+	"CDRom::VolumeName": {
+		"body": "CDRom::VolumeName \"${1:drive}\" .${2:R0}$3",
+		"description": "Usage: CDRom::VolumeName drive .R0",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CDRom_plug-in",
+		"leftLabelHTML": "<span class='support class'>CDRom.dll</span>",
+		"prefix": "CDRom::VolumeName"
+	},
+	"CDRom::VolumeSerialNumber": {
+		"body": "CDRom::VolumeSerialNumber \"${1:drive}\" .${2:R0}$3",
+		"description": "Usage: CDRom::VolumeSerialNumber drive .R0",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/CDRom_plug-in",
+		"leftLabelHTML": "<span class='support class'>CDRom.dll</span>",
+		"prefix": "CDRom::VolumeSerialNumber"
+	}
 }

@@ -1,9 +1,9 @@
 {
-  "DumpLog::DumpLog": {
-    "body": "DumpLog::DumpLog \"${1:log_file}.txt\" .${2:r0}$3",
-    "description": "Usage: DumpLog::DumpLog log_file .r0",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/DumpLog_plug-in",
-    "leftLabelHTML": "<span class='support class'>DumpLog.dll</span>",
-    "prefix": "DumpLog::DumpLog"
-  }
+	"DumpLog::DumpLog": {
+		"body": "DumpLog::DumpLog \"${1:log_file}.txt\" .${2:r0}$3",
+		"description": "Usage: DumpLog::DumpLog log_file .r0",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/DumpLog_plug-in",
+		"leftLabelHTML": "<span class='support class'>DumpLog.dll</span>",
+		"prefix": "DumpLog::DumpLog"
+	}
 }

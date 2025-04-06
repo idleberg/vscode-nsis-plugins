@@ -1,30 +1,30 @@
 {
-  "Animate::hwnd": {
-    "body": "Animate::hwnd$1",
-    "description": "Usage: Animate::hwnd",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Animate_plug-in",
-    "leftLabelHTML": "<span class='support class'>Animate.dll</span>",
-    "prefix": "Animate::hwnd"
-  },
-  "Animate::show": {
-    "body": "Animate::show ${1:options} \"${2:file}\"$3",
-    "description": "Usage: Animate::show options file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Animate_plug-in",
-    "leftLabelHTML": "<span class='support class'>Animate.dll</span>",
-    "prefix": "Animate::show"
-  },
-  "Animate::show /NOUNLOAD": {
-    "body": "Animate::show /NOUNLOAD ${1:options} \"${2:file}\"$3",
-    "description": "Usage: Animate::show /NOUNLOAD options file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Animate_plug-in",
-    "leftLabelHTML": "<span class='support class'>Animate.dll</span>",
-    "prefix": "Animate::show /NOUNLOAD"
-  },
-  "Animate::wait": {
-    "body": "Animate::wait ${1:options} ${2:time_in_ms}$3",
-    "description": "Usage: Animate::wait options time_in_ms",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Animate_plug-in",
-    "leftLabelHTML": "<span class='support class'>Animate.dll</span>",
-    "prefix": "Animate::wait"
-  }
+	"Animate::hwnd": {
+		"body": "Animate::hwnd$1",
+		"description": "Usage: Animate::hwnd",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Animate_plug-in",
+		"leftLabelHTML": "<span class='support class'>Animate.dll</span>",
+		"prefix": "Animate::hwnd"
+	},
+	"Animate::show": {
+		"body": "Animate::show ${1:options} \"${2:file}\"$3",
+		"description": "Usage: Animate::show options file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Animate_plug-in",
+		"leftLabelHTML": "<span class='support class'>Animate.dll</span>",
+		"prefix": "Animate::show"
+	},
+	"Animate::show /NOUNLOAD": {
+		"body": "Animate::show /NOUNLOAD ${1:options} \"${2:file}\"$3",
+		"description": "Usage: Animate::show /NOUNLOAD options file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Animate_plug-in",
+		"leftLabelHTML": "<span class='support class'>Animate.dll</span>",
+		"prefix": "Animate::show /NOUNLOAD"
+	},
+	"Animate::wait": {
+		"body": "Animate::wait ${1:options} ${2:time_in_ms}$3",
+		"description": "Usage: Animate::wait options time_in_ms",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Animate_plug-in",
+		"leftLabelHTML": "<span class='support class'>Animate.dll</span>",
+		"prefix": "Animate::wait"
+	}
 }

@@ -1,58 +1,58 @@
 {
-  "Services::GetServiceNameFromDisplayName": {
-    "body": "Services::GetServiceNameFromDisplayName \"${1:display_name}\"$2",
-    "description": "Usage: Services::GetServiceNameFromDisplayName display_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
-    "leftLabelHTML": "<span class='support class'>Services.dll</span>",
-    "prefix": "Services::GetServiceNameFromDisplayName"
-  },
-  "Services::GrantLogonAsAService": {
-    "body": "Services::GrantLogonAsAService \"${1:user_name}\"$2",
-    "description": "Usage: Services::GrantLogonAsAService user_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
-    "leftLabelHTML": "<span class='support class'>Services.dll</span>",
-    "prefix": "Services::GrantLogonAsAService"
-  },
-  "Services::HasLogonAsAService": {
-    "body": "Services::HasLogonAsAService \"${1:user_name}\"$2",
-    "description": "Usage: Services::HasLogonAsAService user_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
-    "leftLabelHTML": "<span class='support class'>Services.dll</span>",
-    "prefix": "Services::HasLogonAsAService"
-  },
-  "Services::IsProcessUserAdministrator": {
-    "body": "Services::IsProcessUserAdministrator$1",
-    "description": "Usage: Services::IsProcessUserAdministrator",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
-    "leftLabelHTML": "<span class='support class'>Services.dll</span>",
-    "prefix": "Services::IsProcessUserAdministrator"
-  },
-  "Services::IsServiceInstalled": {
-    "body": "Services::IsServiceInstalled \"${1:service_name}\"$2",
-    "description": "Usage: Services::IsServiceInstalled service_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
-    "leftLabelHTML": "<span class='support class'>Services.dll</span>",
-    "prefix": "Services::IsServiceInstalled"
-  },
-  "Services::IsServiceRunning": {
-    "body": "Services::IsServiceRunning \"${1:service_name}\"$2",
-    "description": "Usage: Services::IsServiceRunning service_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
-    "leftLabelHTML": "<span class='support class'>Services.dll</span>",
-    "prefix": "Services::IsServiceRunning"
-  },
-  "Services::RemoveLogonAsAService": {
-    "body": "Services::RemoveLogonAsAService \"${1:user_name}\"$2",
-    "description": "Usage: Services::RemoveLogonAsAService user_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
-    "leftLabelHTML": "<span class='support class'>Services.dll</span>",
-    "prefix": "Services::RemoveLogonAsAService"
-  },
-  "Services::SendServiceCommand": {
-    "body": "Services::SendServiceCommand \"${1:command}\" \"${2:service_name}\"$3",
-    "description": "Usage: Services::SendServiceCommand command service_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
-    "leftLabelHTML": "<span class='support class'>Services.dll</span>",
-    "prefix": "Services::SendServiceCommand"
-  }
+	"Services::GetServiceNameFromDisplayName": {
+		"body": "Services::GetServiceNameFromDisplayName \"${1:display_name}\"$2",
+		"description": "Usage: Services::GetServiceNameFromDisplayName display_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
+		"leftLabelHTML": "<span class='support class'>Services.dll</span>",
+		"prefix": "Services::GetServiceNameFromDisplayName"
+	},
+	"Services::GrantLogonAsAService": {
+		"body": "Services::GrantLogonAsAService \"${1:user_name}\"$2",
+		"description": "Usage: Services::GrantLogonAsAService user_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
+		"leftLabelHTML": "<span class='support class'>Services.dll</span>",
+		"prefix": "Services::GrantLogonAsAService"
+	},
+	"Services::HasLogonAsAService": {
+		"body": "Services::HasLogonAsAService \"${1:user_name}\"$2",
+		"description": "Usage: Services::HasLogonAsAService user_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
+		"leftLabelHTML": "<span class='support class'>Services.dll</span>",
+		"prefix": "Services::HasLogonAsAService"
+	},
+	"Services::IsProcessUserAdministrator": {
+		"body": "Services::IsProcessUserAdministrator$1",
+		"description": "Usage: Services::IsProcessUserAdministrator",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
+		"leftLabelHTML": "<span class='support class'>Services.dll</span>",
+		"prefix": "Services::IsProcessUserAdministrator"
+	},
+	"Services::IsServiceInstalled": {
+		"body": "Services::IsServiceInstalled \"${1:service_name}\"$2",
+		"description": "Usage: Services::IsServiceInstalled service_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
+		"leftLabelHTML": "<span class='support class'>Services.dll</span>",
+		"prefix": "Services::IsServiceInstalled"
+	},
+	"Services::IsServiceRunning": {
+		"body": "Services::IsServiceRunning \"${1:service_name}\"$2",
+		"description": "Usage: Services::IsServiceRunning service_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
+		"leftLabelHTML": "<span class='support class'>Services.dll</span>",
+		"prefix": "Services::IsServiceRunning"
+	},
+	"Services::RemoveLogonAsAService": {
+		"body": "Services::RemoveLogonAsAService \"${1:user_name}\"$2",
+		"description": "Usage: Services::RemoveLogonAsAService user_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
+		"leftLabelHTML": "<span class='support class'>Services.dll</span>",
+		"prefix": "Services::RemoveLogonAsAService"
+	},
+	"Services::SendServiceCommand": {
+		"body": "Services::SendServiceCommand \"${1:command}\" \"${2:service_name}\"$3",
+		"description": "Usage: Services::SendServiceCommand command service_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Services_plug-in",
+		"leftLabelHTML": "<span class='support class'>Services.dll</span>",
+		"prefix": "Services::SendServiceCommand"
+	}
 }

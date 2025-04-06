@@ -1,79 +1,79 @@
 {
-  "MSIBanner::Destroy /NOUNLOAD": {
-    "body": "MSIBanner::Destroy$1",
-    "description": "Usage: MSIBanner::Destroy",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
-    "prefix": "MSIBanner::Destroy /NOUNLOAD"
-  },
-  "MSIBanner::Move": {
-    "body": "MSIBanner::Move ${1:progress_in_percent} \"${2:title}\"$3",
-    "description": "Usage: MSIBanner::Move progress_in_percent title",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
-    "prefix": "MSIBanner::Move"
-  },
-  "MSIBanner::Move /NOUNLOAD": {
-    "body": "MSIBanner::Move /NOUNLOAD ${1:progress_in_percent} \"${2:title}\"$3",
-    "description": "Usage: MSIBanner::Move /NOUNLOAD progress_in_percent title",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
-    "prefix": "MSIBanner::Move /NOUNLOAD"
-  },
-  "MSIBanner::Pos": {
-    "body": "MSIBanner::Pos ${1:progress_in_percent} \"${2:title}\"$3",
-    "description": "Usage: MSIBanner::Pos progress_in_percent title",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
-    "prefix": "MSIBanner::Pos"
-  },
-  "MSIBanner::Pos /NOUNLOAD": {
-    "body": "MSIBanner::Pos /NOUNLOAD ${1:progress_in_percent} \"${2:title}\"$3",
-    "description": "Usage: MSIBanner::Pos /NOUNLOAD progress_in_percent title",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
-    "prefix": "MSIBanner::Pos /NOUNLOAD"
-  },
-  "MSIBanner::Reset": {
-    "body": "MSIBanner::Reset \"${1:title}\"$2",
-    "description": "Usage: MSIBanner::Reset title",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
-    "prefix": "MSIBanner::Reset"
-  },
-  "MSIBanner::Reset /NOUNLOAD": {
-    "body": "MSIBanner::Reset /NOUNLOAD \"${1:title}\"$2",
-    "description": "Usage: MSIBanner::Reset /NOUNLOAD title",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
-    "prefix": "MSIBanner::Reset /NOUNLOAD"
-  },
-  "MSIBanner::Show": {
-    "body": "MSIBanner::Show \"${1:title}\"$2",
-    "description": "Usage: MSIBanner::Show title",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
-    "prefix": "MSIBanner::Show"
-  },
-  "MSIBanner::Show /NOUNLOAD": {
-    "body": "MSIBanner::Show /NOUNLOAD \"${1:title}\"$2",
-    "description": "Usage: MSIBanner::Show /NOUNLOAD title",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
-    "prefix": "MSIBanner::Show /NOUNLOAD"
-  },
-  "MSIBanner::Update": {
-    "body": "MSIBanner::Update \"${1:title}\"$2",
-    "description": "Usage: MSIBanner::Update title",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
-    "prefix": "MSIBanner::Update"
-  },
-  "MSIBanner::Update /NOUNLOAD": {
-    "body": "MSIBanner::Update /NOUNLOAD \"${1:title}\"$2",
-    "description": "Usage: MSIBanner::Update /NOUNLOAD title",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
-    "prefix": "MSIBanner::Update /NOUNLOAD"
-  }
+	"MSIBanner::Destroy /NOUNLOAD": {
+		"body": "MSIBanner::Destroy$1",
+		"description": "Usage: MSIBanner::Destroy",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
+		"prefix": "MSIBanner::Destroy /NOUNLOAD"
+	},
+	"MSIBanner::Move": {
+		"body": "MSIBanner::Move ${1:progress_in_percent} \"${2:title}\"$3",
+		"description": "Usage: MSIBanner::Move progress_in_percent title",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
+		"prefix": "MSIBanner::Move"
+	},
+	"MSIBanner::Move /NOUNLOAD": {
+		"body": "MSIBanner::Move /NOUNLOAD ${1:progress_in_percent} \"${2:title}\"$3",
+		"description": "Usage: MSIBanner::Move /NOUNLOAD progress_in_percent title",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
+		"prefix": "MSIBanner::Move /NOUNLOAD"
+	},
+	"MSIBanner::Pos": {
+		"body": "MSIBanner::Pos ${1:progress_in_percent} \"${2:title}\"$3",
+		"description": "Usage: MSIBanner::Pos progress_in_percent title",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
+		"prefix": "MSIBanner::Pos"
+	},
+	"MSIBanner::Pos /NOUNLOAD": {
+		"body": "MSIBanner::Pos /NOUNLOAD ${1:progress_in_percent} \"${2:title}\"$3",
+		"description": "Usage: MSIBanner::Pos /NOUNLOAD progress_in_percent title",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
+		"prefix": "MSIBanner::Pos /NOUNLOAD"
+	},
+	"MSIBanner::Reset": {
+		"body": "MSIBanner::Reset \"${1:title}\"$2",
+		"description": "Usage: MSIBanner::Reset title",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
+		"prefix": "MSIBanner::Reset"
+	},
+	"MSIBanner::Reset /NOUNLOAD": {
+		"body": "MSIBanner::Reset /NOUNLOAD \"${1:title}\"$2",
+		"description": "Usage: MSIBanner::Reset /NOUNLOAD title",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
+		"prefix": "MSIBanner::Reset /NOUNLOAD"
+	},
+	"MSIBanner::Show": {
+		"body": "MSIBanner::Show \"${1:title}\"$2",
+		"description": "Usage: MSIBanner::Show title",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
+		"prefix": "MSIBanner::Show"
+	},
+	"MSIBanner::Show /NOUNLOAD": {
+		"body": "MSIBanner::Show /NOUNLOAD \"${1:title}\"$2",
+		"description": "Usage: MSIBanner::Show /NOUNLOAD title",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
+		"prefix": "MSIBanner::Show /NOUNLOAD"
+	},
+	"MSIBanner::Update": {
+		"body": "MSIBanner::Update \"${1:title}\"$2",
+		"description": "Usage: MSIBanner::Update title",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
+		"prefix": "MSIBanner::Update"
+	},
+	"MSIBanner::Update /NOUNLOAD": {
+		"body": "MSIBanner::Update /NOUNLOAD \"${1:title}\"$2",
+		"description": "Usage: MSIBanner::Update /NOUNLOAD title",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/MSIBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>MSIBanner.dll</span>",
+		"prefix": "MSIBanner::Update /NOUNLOAD"
+	}
 }

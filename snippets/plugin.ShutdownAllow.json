@@ -1,16 +1,16 @@
 {
-  "ShutdownAllow::Allow": {
-    "body": "ShutdownAllow::Allow /NOUNLOAD$1",
-    "description": "Usage: ShutdownAllow::Allow /NOUNLOAD",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShutdownAllow_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShutDown.dll</span>",
-    "prefix": "ShutdownAllow::Allow"
-  },
-  "ShutdownAllow::Unload": {
-    "body": "ShutdownAllow::Unload$1",
-    "description": "Usage: ShutdownAllow::Unload",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ShutdownAllow_plug-in",
-    "leftLabelHTML": "<span class='support class'>ShutDown.dll</span>",
-    "prefix": "ShutdownAllow::Unload"
-  }
+	"ShutdownAllow::Allow": {
+		"body": "ShutdownAllow::Allow /NOUNLOAD$1",
+		"description": "Usage: ShutdownAllow::Allow /NOUNLOAD",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShutdownAllow_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShutDown.dll</span>",
+		"prefix": "ShutdownAllow::Allow"
+	},
+	"ShutdownAllow::Unload": {
+		"body": "ShutdownAllow::Unload$1",
+		"description": "Usage: ShutdownAllow::Unload",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ShutdownAllow_plug-in",
+		"leftLabelHTML": "<span class='support class'>ShutDown.dll</span>",
+		"prefix": "ShutdownAllow::Unload"
+	}
 }

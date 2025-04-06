@@ -1,16 +1,16 @@
 {
-  "Base64_Decode": {
-    "body": "\\${Base64_Decode} \"${1:text}\"$2",
-    "description": "Usage: ${Base64_Decode} text var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Base64",
-    "leftLabelHTML": "<span class='support function'>Base64.nsh</span>",
-    "prefix": "Base64_Decode"
-  },
-  "Base64_Encode": {
-    "body": "\\${Base64_Encode} \"${1:text}\"$2",
-    "description": "Usage: ${Base64_Decode} text var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Base64",
-    "leftLabelHTML": "<span class='support function'>Base64.nsh</span>",
-    "prefix": "Base64_Encode"
-  }
+	"Base64_Decode": {
+		"body": "\\${Base64_Decode} \"${1:text}\"$2",
+		"description": "Usage: ${Base64_Decode} text var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Base64",
+		"leftLabelHTML": "<span class='support function'>Base64.nsh</span>",
+		"prefix": "Base64_Decode"
+	},
+	"Base64_Encode": {
+		"body": "\\${Base64_Encode} \"${1:text}\"$2",
+		"description": "Usage: ${Base64_Decode} text var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Base64",
+		"leftLabelHTML": "<span class='support function'>Base64.nsh</span>",
+		"prefix": "Base64_Encode"
+	}
 }

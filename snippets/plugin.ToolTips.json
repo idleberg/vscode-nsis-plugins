@@ -1,16 +1,16 @@
 {
-  "ToolTips::Classic": {
-    "body": "ToolTips::Classic $${1:hwnd} \"${2:text}\"$3",
-    "description": "Usage: ToolTips::Classic hwnd text",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ToggleInstFiles_plug-in",
-    "leftLabelHTML": "<span class='support class'>ToggleInstFiles.dll</span>",
-    "prefix": "ToolTips::Classic"
-  },
-  "ToolTips::Modern": {
-    "body": "ToolTips::Modern $${1:hwnd} ${2:icon} \"${3:text}\"$4",
-    "description": "Usage: ToolTips::Modern hwnd icon text",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ToggleInstFiles_plug-in",
-    "leftLabelHTML": "<span class='support class'>ToggleInstFiles.dll</span>",
-    "prefix": "ToolTips::Modern"
-  }
+	"ToolTips::Classic": {
+		"body": "ToolTips::Classic $${1:hwnd} \"${2:text}\"$3",
+		"description": "Usage: ToolTips::Classic hwnd text",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ToggleInstFiles_plug-in",
+		"leftLabelHTML": "<span class='support class'>ToggleInstFiles.dll</span>",
+		"prefix": "ToolTips::Classic"
+	},
+	"ToolTips::Modern": {
+		"body": "ToolTips::Modern $${1:hwnd} ${2:icon} \"${3:text}\"$4",
+		"description": "Usage: ToolTips::Modern hwnd icon text",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ToggleInstFiles_plug-in",
+		"leftLabelHTML": "<span class='support class'>ToggleInstFiles.dll</span>",
+		"prefix": "ToolTips::Modern"
+	}
 }

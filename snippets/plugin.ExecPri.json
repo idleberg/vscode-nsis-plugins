@@ -1,9 +1,9 @@
 {
-  "ExecPri::ExecWait": {
-    "body": "ExecPri::ExecWait \"${1:application_to_run}.exe\" \"${2:priority_class}\"$3",
-    "description": "Usage: ExecPri::ExecWait application_to_run priority_class",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ExecPri_plug-in",
-    "leftLabelHTML": "<span class='support class'>ExecPri.dll</span>",
-    "prefix": "ExecPri::ExecWait"
-  }
+	"ExecPri::ExecWait": {
+		"body": "ExecPri::ExecWait \"${1:application_to_run}.exe\" \"${2:priority_class}\"$3",
+		"description": "Usage: ExecPri::ExecWait application_to_run priority_class",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ExecPri_plug-in",
+		"leftLabelHTML": "<span class='support class'>ExecPri.dll</span>",
+		"prefix": "ExecPri::ExecWait"
+	}
 }

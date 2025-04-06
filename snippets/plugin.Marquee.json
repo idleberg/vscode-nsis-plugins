@@ -1,16 +1,16 @@
 {
-  "Marquee::start": {
-    "body": "Marquee::start ${1:parameters} \"${2:text}\"$3",
-    "description": "Usage: Marquee::start ${1:parameters} \"${2:text}\"$3",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Marquee_plug-in",
-    "leftLabelHTML": "<span class='support class'>Marquee.dll</span>",
-    "prefix": "Marquee::start"
-  },
-  "Marquee::stop": {
-    "body": "Marquee::stop$1",
-    "description": "Usage: Marquee::stop$1",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Marquee_plug-in",
-    "leftLabelHTML": "<span class='support class'>Marquee.dll</span>",
-    "prefix": "Marquee::stop"
-  }
+	"Marquee::start": {
+		"body": "Marquee::start ${1:parameters} \"${2:text}\"$3",
+		"description": "Usage: Marquee::start ${1:parameters} \"${2:text}\"$3",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Marquee_plug-in",
+		"leftLabelHTML": "<span class='support class'>Marquee.dll</span>",
+		"prefix": "Marquee::start"
+	},
+	"Marquee::stop": {
+		"body": "Marquee::stop$1",
+		"description": "Usage: Marquee::stop$1",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Marquee_plug-in",
+		"leftLabelHTML": "<span class='support class'>Marquee.dll</span>",
+		"prefix": "Marquee::stop"
+	}
 }

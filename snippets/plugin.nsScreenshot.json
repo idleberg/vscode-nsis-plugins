@@ -1,16 +1,16 @@
 {
-  "nsScreenshot::Grab": {
-    "body": "nsScreenshot::Grab$1",
-    "description": "Usage: nsScreenshot::Grab$1",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsScreenshot_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsScreenshot.dll</span>",
-    "prefix": "nsScreenshot::Grab"
-  },
-  "nsScreenshot::Grab_FullScreen": {
-    "body": "nsScreenshot::Grab_FullScreen$1",
-    "description": "Usage: nsScreenshot::Grab_FullScreen$1",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsScreenshot_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsScreenshot.dll</span>",
-    "prefix": "nsScreenshot::Grab_FullScreen"
-  }
+	"nsScreenshot::Grab": {
+		"body": "nsScreenshot::Grab$1",
+		"description": "Usage: nsScreenshot::Grab$1",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsScreenshot_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsScreenshot.dll</span>",
+		"prefix": "nsScreenshot::Grab"
+	},
+	"nsScreenshot::Grab_FullScreen": {
+		"body": "nsScreenshot::Grab_FullScreen$1",
+		"description": "Usage: nsScreenshot::Grab_FullScreen$1",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsScreenshot_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsScreenshot.dll</span>",
+		"prefix": "nsScreenshot::Grab_FullScreen"
+	}
 }

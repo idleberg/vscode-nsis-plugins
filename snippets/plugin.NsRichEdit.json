@@ -1,23 +1,23 @@
 {
-  "nsRichEdit::AddPrintButton": {
-    "body": "nsRichEdit::AddPrintButton \"${1:button_text}\" \"${2:document_name}\"$3",
-    "description": "Usage: nsRichEdit::AddPrintButton button_text document_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsRichEdit_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsRichEdit.dll</span>",
-    "prefix": "nsRichEdit::AddPrintButton"
-  },
-  "nsRichEdit::Load": {
-    "body": "nsRichEdit::Load $${1:hwnd} \"${2:file_path}\"$3",
-    "description": "Usage: nsRichEdit::Load hwnd file_path",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsRichEdit_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsRichEdit.dll</span>",
-    "prefix": "nsRichEdit::Load"
-  },
-  "nsRichEdit::Print": {
-    "body": "nsRichEdit::Print $${1:hwnd} \"${2:document_name}\"$3",
-    "description": "Usage: nsRichEdit::Print hwnd document_name",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsRichEdit_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsRichEdit.dll</span>",
-    "prefix": "nsRichEdit::Print"
-  }
+	"nsRichEdit::AddPrintButton": {
+		"body": "nsRichEdit::AddPrintButton \"${1:button_text}\" \"${2:document_name}\"$3",
+		"description": "Usage: nsRichEdit::AddPrintButton button_text document_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsRichEdit_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsRichEdit.dll</span>",
+		"prefix": "nsRichEdit::AddPrintButton"
+	},
+	"nsRichEdit::Load": {
+		"body": "nsRichEdit::Load $${1:hwnd} \"${2:file_path}\"$3",
+		"description": "Usage: nsRichEdit::Load hwnd file_path",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsRichEdit_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsRichEdit.dll</span>",
+		"prefix": "nsRichEdit::Load"
+	},
+	"nsRichEdit::Print": {
+		"body": "nsRichEdit::Print $${1:hwnd} \"${2:document_name}\"$3",
+		"description": "Usage: nsRichEdit::Print hwnd document_name",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsRichEdit_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsRichEdit.dll</span>",
+		"prefix": "nsRichEdit::Print"
+	}
 }

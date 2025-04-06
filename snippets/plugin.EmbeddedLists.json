@@ -1,23 +1,23 @@
 {
-  "EmbeddedLists::Dialog": {
-    "body": "EmbeddedLists::Dialog \"${1:file}.ini\"$2",
-    "description": "Usage: EmbeddedLists::Dialog ini_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EmbeddedLists_plug-in",
-    "leftLabelHTML": "<span class='support class'>EmbeddedLists.dll</span>",
-    "prefix": "EmbeddedLists::Dialog"
-  },
-  "EmbeddedLists::InitDialog": {
-    "body": "EmbeddedLists::InitDialog \"${1:file}.ini\"$2",
-    "description": "Usage: EmbeddedLists::InitDialog ini_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EmbeddedLists_plug-in",
-    "leftLabelHTML": "<span class='support class'>EmbeddedLists.dll</span>",
-    "prefix": "EmbeddedLists::InitDialog"
-  },
-  "EmbeddedLists::Show": {
-    "body": "EmbeddedLists::Show$1",
-    "description": "Usage: EmbeddedLists::Show",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/EmbeddedLists_plug-in",
-    "leftLabelHTML": "<span class='support class'>EmbeddedLists.dll</span>",
-    "prefix": "EmbeddedLists::Show"
-  }
+	"EmbeddedLists::Dialog": {
+		"body": "EmbeddedLists::Dialog \"${1:file}.ini\"$2",
+		"description": "Usage: EmbeddedLists::Dialog ini_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EmbeddedLists_plug-in",
+		"leftLabelHTML": "<span class='support class'>EmbeddedLists.dll</span>",
+		"prefix": "EmbeddedLists::Dialog"
+	},
+	"EmbeddedLists::InitDialog": {
+		"body": "EmbeddedLists::InitDialog \"${1:file}.ini\"$2",
+		"description": "Usage: EmbeddedLists::InitDialog ini_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EmbeddedLists_plug-in",
+		"leftLabelHTML": "<span class='support class'>EmbeddedLists.dll</span>",
+		"prefix": "EmbeddedLists::InitDialog"
+	},
+	"EmbeddedLists::Show": {
+		"body": "EmbeddedLists::Show$1",
+		"description": "Usage: EmbeddedLists::Show",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/EmbeddedLists_plug-in",
+		"leftLabelHTML": "<span class='support class'>EmbeddedLists.dll</span>",
+		"prefix": "EmbeddedLists::Show"
+	}
 }

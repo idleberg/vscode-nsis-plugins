@@ -1,233 +1,233 @@
 {
-  "IpConfig::GetAllNetworkAdaptersIDs": {
-    "body": "IpConfig::GetAllNetworkAdaptersIDs$1",
-    "description": "Usage: IpConfig::GetAllNetworkAdaptersIDs",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetAllNetworkAdaptersIDs"
-  },
-  "IpConfig::GetAllNetworkAdaptersIDsCB": {
-    "body": "IpConfig::GetAllNetworkAdaptersIDsCB \"${1:callback}\"$2",
-    "description": "Usage: IpConfig::GetAllNetworkAdaptersIDsCB callback",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetAllNetworkAdaptersIDsCB"
-  },
-  "IpConfig::GetDNSSuffixSearchList": {
-    "body": "IpConfig::GetDNSSuffixSearchList$1",
-    "description": "Usage: IpConfig::GetDNSSuffixSearchList",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetDNSSuffixSearchList"
-  },
-  "IpConfig::GetEnabledNetworkAdaptersIDs": {
-    "body": "IpConfig::GetEnabledNetworkAdaptersIDs$1",
-    "description": "Usage: IpConfig::GetEnabledNetworkAdaptersIDs",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetEnabledNetworkAdaptersIDs"
-  },
-  "IpConfig::GetEnabledNetworkAdaptersIDsCB": {
-    "body": "IpConfig::GetEnabledNetworkAdaptersIDsCB \"${1:callback}\"$2",
-    "description": "Usage: IpConfig::GetEnabledNetworkAdaptersIDsCB callback",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetEnabledNetworkAdaptersIDsCB"
-  },
-  "IpConfig::GetHostName": {
-    "body": "IpConfig::GetHostName$1",
-    "description": "Usage: IpConfig::GetHostName",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetHostName"
-  },
-  "IpConfig::GetNetworkAdapterConnectionID": {
-    "body": "IpConfig::GetNetworkAdapterConnectionID \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterConnectionID network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterConnectionID"
-  },
-  "IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix": {
-    "body": "IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix"
-  },
-  "IpConfig::GetNetworkAdapterDHCPLeaseExpires": {
-    "body": "IpConfig::GetNetworkAdapterDHCPLeaseExpires \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterDHCPLeaseExpires network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterDHCPLeaseExpires"
-  },
-  "IpConfig::GetNetworkAdapterDHCPLeaseObtained": {
-    "body": "IpConfig::GetNetworkAdapterDHCPLeaseObtained \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterDHCPLeaseObtained network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterDHCPLeaseObtained"
-  },
-  "IpConfig::GetNetworkAdapterDHCPServer": {
-    "body": "IpConfig::GetNetworkAdapterDHCPServer \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterDHCPServer network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterDHCPServer"
-  },
-  "IpConfig::GetNetworkAdapterDNSServers": {
-    "body": "IpConfig::GetNetworkAdapterDNSServers \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterDNSServers network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterDNSServers"
-  },
-  "IpConfig::GetNetworkAdapterDNSServersCB": {
-    "body": "IpConfig::GetNetworkAdapterDNSServersCB \"${1:network_adapter_id}\" \"${2:callback}\"$3",
-    "description": "Usage: IpConfig::GetNetworkAdapterDNSServersCB network_adapter_id callback",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterDNSServersCB"
-  },
-  "IpConfig::GetNetworkAdapterDefaultIPGateways": {
-    "body": "IpConfig::GetNetworkAdapterDefaultIPGateways \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterDefaultIPGateways network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterDefaultIPGateways"
-  },
-  "IpConfig::GetNetworkAdapterDefaultIPGatewaysCB": {
-    "body": "IpConfig::GetNetworkAdapterDefaultIPGatewaysCB \"${1:network_adapter_id}\" \"${2:callback}\"$3",
-    "description": "Usage: IpConfig::GetNetworkAdapterDefaultIPGatewaysCB network_adapter_id callback",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterDefaultIPGatewaysCB"
-  },
-  "IpConfig::GetNetworkAdapterDescription": {
-    "body": "IpConfig::GetNetworkAdapterDescription \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterDescription network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterDescription"
-  },
-  "IpConfig::GetNetworkAdapterIDFromDescription": {
-    "body": "IpConfig::GetNetworkAdapterIDFromDescription \"${1:description}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterIDFromDescription description",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterIDFromDescription"
-  },
-  "IpConfig::GetNetworkAdapterIDFromIPAddress": {
-    "body": "IpConfig::GetNetworkAdapterIDFromIPAddress \"${1:ip_address}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterIDFromIPAddress ip_address",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterIDFromIPAddress"
-  },
-  "IpConfig::GetNetworkAdapterIDFromMACAddress": {
-    "body": "IpConfig::GetNetworkAdapterIDFromMACAddress \"${1:mac_address}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterIDFromMACAddress mac_address",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterIDFromMACAddress"
-  },
-  "IpConfig::GetNetworkAdapterIPAddresses": {
-    "body": "IpConfig::GetNetworkAdapterIPAddresses \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterIPAddresses network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterIPAddresses"
-  },
-  "IpConfig::GetNetworkAdapterIPAddressesCB": {
-    "body": "IpConfig::GetNetworkAdapterIPAddressesCB \"${1:network_adapter_id}\" \"${2:callback}\"$3",
-    "description": "Usage: IpConfig::GetNetworkAdapterIPAddressesCB network_adapter_id callback",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterIPAddressesCB"
-  },
-  "IpConfig::GetNetworkAdapterIPSubNets": {
-    "body": "IpConfig::GetNetworkAdapterIPSubNets \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterIPSubNets network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterIPSubNets"
-  },
-  "IpConfig::GetNetworkAdapterIPSubNetsCB": {
-    "body": "IpConfig::GetNetworkAdapterIPSubNetsCB \"${1:network_adapter_id}\" \"${2:callback}\"$3",
-    "description": "Usage: IpConfig::GetNetworkAdapterIPSubNetsCB network_adapter_id callback",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterIPSubNetsCB"
-  },
-  "IpConfig::GetNetworkAdapterMACAddress": {
-    "body": "IpConfig::GetNetworkAdapterMACAddress \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterMACAddress network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterMACAddress"
-  },
-  "IpConfig::GetNetworkAdapterPrimaryWINSServer": {
-    "body": "IpConfig::GetNetworkAdapterPrimaryWINSServer \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterPrimaryWINSServer network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterPrimaryWINSServer"
-  },
-  "IpConfig::GetNetworkAdapterSecondaryWINSServer": {
-    "body": "IpConfig::GetNetworkAdapterSecondaryWINSServer \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterSecondaryWINSServer network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterSecondaryWINSServer"
-  },
-  "IpConfig::GetNetworkAdapterType": {
-    "body": "IpConfig::GetNetworkAdapterType \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::GetNetworkAdapterType network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNetworkAdapterType"
-  },
-  "IpConfig::GetNodeType": {
-    "body": "IpConfig::GetPrimaryDNSSuffix$1",
-    "description": "Usage: IpConfig::GetPrimaryDNSSuffix",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetNodeType"
-  },
-  "IpConfig::GetPrimaryDNSSuffix": {
-    "body": "IpConfig::GetPrimaryDNSSuffix$1",
-    "description": "Usage: IpConfig::GetPrimaryDNSSuffix",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::GetPrimaryDNSSuffix"
-  },
-  "IpConfig::IsIPRoutingEnabled": {
-    "body": "IpConfig::IsIPRoutingEnabled$1",
-    "description": "Usage: IpConfig::IsIPRoutingEnabled",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::IsIPRoutingEnabled"
-  },
-  "IpConfig::IsNetworkAdapterAutoSense": {
-    "body": "IpConfig::IsNetworkAdapterAutoSense \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::IsNetworkAdapterAutoSense network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::IsNetworkAdapterAutoSense"
-  },
-  "IpConfig::IsNetworkAdapterDHCPEnabled": {
-    "body": "IpConfig::IsNetworkAdapterDHCPEnabled \"${1:network_adapter_id}\"$2",
-    "description": "Usage: IpConfig::IsNetworkAdapterDHCPEnabled network_adapter_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::IsNetworkAdapterDHCPEnabled"
-  },
-  "IpConfig::IsWINSProxyEnabled": {
-    "body": "IpConfig::IsWINSProxyEnabled$1",
-    "description": "Usage: IpConfig::IsWINSProxyEnabled",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
-    "leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
-    "prefix": "IpConfig::IsWINSProxyEnabled"
-  }
+	"IpConfig::GetAllNetworkAdaptersIDs": {
+		"body": "IpConfig::GetAllNetworkAdaptersIDs$1",
+		"description": "Usage: IpConfig::GetAllNetworkAdaptersIDs",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetAllNetworkAdaptersIDs"
+	},
+	"IpConfig::GetAllNetworkAdaptersIDsCB": {
+		"body": "IpConfig::GetAllNetworkAdaptersIDsCB \"${1:callback}\"$2",
+		"description": "Usage: IpConfig::GetAllNetworkAdaptersIDsCB callback",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetAllNetworkAdaptersIDsCB"
+	},
+	"IpConfig::GetDNSSuffixSearchList": {
+		"body": "IpConfig::GetDNSSuffixSearchList$1",
+		"description": "Usage: IpConfig::GetDNSSuffixSearchList",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetDNSSuffixSearchList"
+	},
+	"IpConfig::GetEnabledNetworkAdaptersIDs": {
+		"body": "IpConfig::GetEnabledNetworkAdaptersIDs$1",
+		"description": "Usage: IpConfig::GetEnabledNetworkAdaptersIDs",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetEnabledNetworkAdaptersIDs"
+	},
+	"IpConfig::GetEnabledNetworkAdaptersIDsCB": {
+		"body": "IpConfig::GetEnabledNetworkAdaptersIDsCB \"${1:callback}\"$2",
+		"description": "Usage: IpConfig::GetEnabledNetworkAdaptersIDsCB callback",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetEnabledNetworkAdaptersIDsCB"
+	},
+	"IpConfig::GetHostName": {
+		"body": "IpConfig::GetHostName$1",
+		"description": "Usage: IpConfig::GetHostName",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetHostName"
+	},
+	"IpConfig::GetNetworkAdapterConnectionID": {
+		"body": "IpConfig::GetNetworkAdapterConnectionID \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterConnectionID network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterConnectionID"
+	},
+	"IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix": {
+		"body": "IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix"
+	},
+	"IpConfig::GetNetworkAdapterDHCPLeaseExpires": {
+		"body": "IpConfig::GetNetworkAdapterDHCPLeaseExpires \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterDHCPLeaseExpires network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterDHCPLeaseExpires"
+	},
+	"IpConfig::GetNetworkAdapterDHCPLeaseObtained": {
+		"body": "IpConfig::GetNetworkAdapterDHCPLeaseObtained \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterDHCPLeaseObtained network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterDHCPLeaseObtained"
+	},
+	"IpConfig::GetNetworkAdapterDHCPServer": {
+		"body": "IpConfig::GetNetworkAdapterDHCPServer \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterDHCPServer network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterDHCPServer"
+	},
+	"IpConfig::GetNetworkAdapterDNSServers": {
+		"body": "IpConfig::GetNetworkAdapterDNSServers \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterDNSServers network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterDNSServers"
+	},
+	"IpConfig::GetNetworkAdapterDNSServersCB": {
+		"body": "IpConfig::GetNetworkAdapterDNSServersCB \"${1:network_adapter_id}\" \"${2:callback}\"$3",
+		"description": "Usage: IpConfig::GetNetworkAdapterDNSServersCB network_adapter_id callback",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterDNSServersCB"
+	},
+	"IpConfig::GetNetworkAdapterDefaultIPGateways": {
+		"body": "IpConfig::GetNetworkAdapterDefaultIPGateways \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterDefaultIPGateways network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterDefaultIPGateways"
+	},
+	"IpConfig::GetNetworkAdapterDefaultIPGatewaysCB": {
+		"body": "IpConfig::GetNetworkAdapterDefaultIPGatewaysCB \"${1:network_adapter_id}\" \"${2:callback}\"$3",
+		"description": "Usage: IpConfig::GetNetworkAdapterDefaultIPGatewaysCB network_adapter_id callback",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterDefaultIPGatewaysCB"
+	},
+	"IpConfig::GetNetworkAdapterDescription": {
+		"body": "IpConfig::GetNetworkAdapterDescription \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterDescription network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterDescription"
+	},
+	"IpConfig::GetNetworkAdapterIDFromDescription": {
+		"body": "IpConfig::GetNetworkAdapterIDFromDescription \"${1:description}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterIDFromDescription description",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterIDFromDescription"
+	},
+	"IpConfig::GetNetworkAdapterIDFromIPAddress": {
+		"body": "IpConfig::GetNetworkAdapterIDFromIPAddress \"${1:ip_address}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterIDFromIPAddress ip_address",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterIDFromIPAddress"
+	},
+	"IpConfig::GetNetworkAdapterIDFromMACAddress": {
+		"body": "IpConfig::GetNetworkAdapterIDFromMACAddress \"${1:mac_address}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterIDFromMACAddress mac_address",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterIDFromMACAddress"
+	},
+	"IpConfig::GetNetworkAdapterIPAddresses": {
+		"body": "IpConfig::GetNetworkAdapterIPAddresses \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterIPAddresses network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterIPAddresses"
+	},
+	"IpConfig::GetNetworkAdapterIPAddressesCB": {
+		"body": "IpConfig::GetNetworkAdapterIPAddressesCB \"${1:network_adapter_id}\" \"${2:callback}\"$3",
+		"description": "Usage: IpConfig::GetNetworkAdapterIPAddressesCB network_adapter_id callback",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterIPAddressesCB"
+	},
+	"IpConfig::GetNetworkAdapterIPSubNets": {
+		"body": "IpConfig::GetNetworkAdapterIPSubNets \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterIPSubNets network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterIPSubNets"
+	},
+	"IpConfig::GetNetworkAdapterIPSubNetsCB": {
+		"body": "IpConfig::GetNetworkAdapterIPSubNetsCB \"${1:network_adapter_id}\" \"${2:callback}\"$3",
+		"description": "Usage: IpConfig::GetNetworkAdapterIPSubNetsCB network_adapter_id callback",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterIPSubNetsCB"
+	},
+	"IpConfig::GetNetworkAdapterMACAddress": {
+		"body": "IpConfig::GetNetworkAdapterMACAddress \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterMACAddress network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterMACAddress"
+	},
+	"IpConfig::GetNetworkAdapterPrimaryWINSServer": {
+		"body": "IpConfig::GetNetworkAdapterPrimaryWINSServer \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterPrimaryWINSServer network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterPrimaryWINSServer"
+	},
+	"IpConfig::GetNetworkAdapterSecondaryWINSServer": {
+		"body": "IpConfig::GetNetworkAdapterSecondaryWINSServer \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterSecondaryWINSServer network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterSecondaryWINSServer"
+	},
+	"IpConfig::GetNetworkAdapterType": {
+		"body": "IpConfig::GetNetworkAdapterType \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::GetNetworkAdapterType network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNetworkAdapterType"
+	},
+	"IpConfig::GetNodeType": {
+		"body": "IpConfig::GetPrimaryDNSSuffix$1",
+		"description": "Usage: IpConfig::GetPrimaryDNSSuffix",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetNodeType"
+	},
+	"IpConfig::GetPrimaryDNSSuffix": {
+		"body": "IpConfig::GetPrimaryDNSSuffix$1",
+		"description": "Usage: IpConfig::GetPrimaryDNSSuffix",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::GetPrimaryDNSSuffix"
+	},
+	"IpConfig::IsIPRoutingEnabled": {
+		"body": "IpConfig::IsIPRoutingEnabled$1",
+		"description": "Usage: IpConfig::IsIPRoutingEnabled",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::IsIPRoutingEnabled"
+	},
+	"IpConfig::IsNetworkAdapterAutoSense": {
+		"body": "IpConfig::IsNetworkAdapterAutoSense \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::IsNetworkAdapterAutoSense network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::IsNetworkAdapterAutoSense"
+	},
+	"IpConfig::IsNetworkAdapterDHCPEnabled": {
+		"body": "IpConfig::IsNetworkAdapterDHCPEnabled \"${1:network_adapter_id}\"$2",
+		"description": "Usage: IpConfig::IsNetworkAdapterDHCPEnabled network_adapter_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::IsNetworkAdapterDHCPEnabled"
+	},
+	"IpConfig::IsWINSProxyEnabled": {
+		"body": "IpConfig::IsWINSProxyEnabled$1",
+		"description": "Usage: IpConfig::IsWINSProxyEnabled",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IpConfig_plugin",
+		"leftLabelHTML": "<span class='support class'>IpConfig.dll</span>",
+		"prefix": "IpConfig::IsWINSProxyEnabled"
+	}
 }

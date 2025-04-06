@@ -1,9 +1,9 @@
 {
-  "nsisDDE::Execute": {
-    "body": "nsisDDE::Execute ${1:options} \"${2:appname}\" \"${3:commands}\"$4",
-    "description": "Usage: nsisDDE::Execute options appname commands",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisDDE_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisDDE.dll</span>",
-    "prefix": "nsisDDE::Execute"
-  }
+	"nsisDDE::Execute": {
+		"body": "nsisDDE::Execute ${1:options} \"${2:appname}\" \"${3:commands}\"$4",
+		"description": "Usage: nsisDDE::Execute options appname commands",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisDDE_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisDDE.dll</span>",
+		"prefix": "nsisDDE::Execute"
+	}
 }

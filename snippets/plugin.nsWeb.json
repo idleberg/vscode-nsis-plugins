@@ -1,30 +1,30 @@
 {
-  "nsWeb::IsInet": {
-    "body": "nsWeb::IsInet ${1:var}$2",
-    "description": "Usage: nsWeb::IsInet var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsWeb_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsWeb.dll</span>",
-    "prefix": "nsWeb::IsInet"
-  },
-  "nsWeb::ShowHTMLInPage": {
-    "body": "nsWeb::ShowHTMLInPage \"${1:html_string}\"$2",
-    "description": "Usage: nsWeb::ShowHTMLInPage html_string",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsWeb_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsWeb.dll</span>",
-    "prefix": "nsWeb::ShowHTMLInPage"
-  },
-  "nsWeb::ShowWebInPage": {
-    "body": "nsWeb::ShowWebInPage \"${1:url_or_html}\"$2",
-    "description": "Usage: nsWeb::ShowWebInPage url_or_html",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsWeb_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsWeb.dll</span>",
-    "prefix": "nsWeb::ShowWebInPage"
-  },
-  "nsWeb::ShowWebInPopUp": {
-    "body": "nsWeb::ShowWebInPopUp \"${1:url_or_html}\"$2",
-    "description": "Usage: nsWeb::ShowWebInPopUp url_or_html",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsWeb_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsWeb.dll</span>",
-    "prefix": "nsWeb::ShowWebInPopUp"
-  }
+	"nsWeb::IsInet": {
+		"body": "nsWeb::IsInet ${1:var}$2",
+		"description": "Usage: nsWeb::IsInet var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsWeb_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsWeb.dll</span>",
+		"prefix": "nsWeb::IsInet"
+	},
+	"nsWeb::ShowHTMLInPage": {
+		"body": "nsWeb::ShowHTMLInPage \"${1:html_string}\"$2",
+		"description": "Usage: nsWeb::ShowHTMLInPage html_string",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsWeb_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsWeb.dll</span>",
+		"prefix": "nsWeb::ShowHTMLInPage"
+	},
+	"nsWeb::ShowWebInPage": {
+		"body": "nsWeb::ShowWebInPage \"${1:url_or_html}\"$2",
+		"description": "Usage: nsWeb::ShowWebInPage url_or_html",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsWeb_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsWeb.dll</span>",
+		"prefix": "nsWeb::ShowWebInPage"
+	},
+	"nsWeb::ShowWebInPopUp": {
+		"body": "nsWeb::ShowWebInPopUp \"${1:url_or_html}\"$2",
+		"description": "Usage: nsWeb::ShowWebInPopUp url_or_html",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsWeb_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsWeb.dll</span>",
+		"prefix": "nsWeb::ShowWebInPopUp"
+	}
 }

@@ -1,16 +1,16 @@
 {
-  "SkinnedButton::skinit": {
-    "body": "SkinnedButton::skinit \"{1:BitmapImage}\"$2",
-    "description": "Usage: SkinnedButton::skinit \"{1:BitmapImage}\"$2",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/SkinnedButton_plug-in",
-    "leftLabelHTML": "<span class='support class'>SkinnedButton.dll</span>",
-    "prefix": "SkinnedButton::skinit"
-  },
-  "SkinnedButton::skinit 0xRRGGBB": {
-    "body": "SkinnedButton::skinit \"{1:BitmapImage}\" 0x\"${2:RRGGBB}\"$3",
-    "description": "Usage: SkinnedButton::skinit \"{1:BitmapImage}\" 0x\"${2:RRGGBB}\"$3",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/SkinnedButton_plug-in",
-    "leftLabelHTML": "<span class='support class'>SkinnedButton.dll</span>",
-    "prefix": "SkinnedButton::skinit 0xRRGGBB"
-  }
+	"SkinnedButton::skinit": {
+		"body": "SkinnedButton::skinit \"{1:BitmapImage}\"$2",
+		"description": "Usage: SkinnedButton::skinit \"{1:BitmapImage}\"$2",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/SkinnedButton_plug-in",
+		"leftLabelHTML": "<span class='support class'>SkinnedButton.dll</span>",
+		"prefix": "SkinnedButton::skinit"
+	},
+	"SkinnedButton::skinit 0xRRGGBB": {
+		"body": "SkinnedButton::skinit \"{1:BitmapImage}\" 0x\"${2:RRGGBB}\"$3",
+		"description": "Usage: SkinnedButton::skinit \"{1:BitmapImage}\" 0x\"${2:RRGGBB}\"$3",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/SkinnedButton_plug-in",
+		"leftLabelHTML": "<span class='support class'>SkinnedButton.dll</span>",
+		"prefix": "SkinnedButton::skinit 0xRRGGBB"
+	}
 }

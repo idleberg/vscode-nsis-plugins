@@ -1,23 +1,23 @@
 {
-  "Internet::GetLocalHostIP": {
-    "body": "Internet::GetLocalHostIP $${1:return_var}$2",
-    "description": "Usage: Internet::GetLocalHostIP return_var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Internet_plug-in",
-    "leftLabelHTML": "<span class='support class'>Internet.dll</span>",
-    "prefix": "Internet::GetLocalHostIP"
-  },
-  "Internet::GetLocalHostName": {
-    "body": "Internet::GetLocalHostName $${1:return_var}$2",
-    "description": "Usage: Internet::GetLocalHostName return_var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Internet_plug-in",
-    "leftLabelHTML": "<span class='support class'>Internet.dll</span>",
-    "prefix": "Internet::GetLocalHostName"
-  },
-  "Internet::GetUrlCode": {
-    "body": "Internet::GetUrlCode \"${1:site}\" \"${2:file}\" $${3:return_var}$4",
-    "description": "Usage: Internet::GetUrlCode site file return_var",
-    "descriptionMoreURL": "http:/sis.sourceforge.net/Internet_plug-in",
-    "leftLabelHTML": "<span class='support class'>Internet.dll</span>",
-    "prefix": "Internet::GetUrlCode"
-  }
+	"Internet::GetLocalHostIP": {
+		"body": "Internet::GetLocalHostIP $${1:return_var}$2",
+		"description": "Usage: Internet::GetLocalHostIP return_var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Internet_plug-in",
+		"leftLabelHTML": "<span class='support class'>Internet.dll</span>",
+		"prefix": "Internet::GetLocalHostIP"
+	},
+	"Internet::GetLocalHostName": {
+		"body": "Internet::GetLocalHostName $${1:return_var}$2",
+		"description": "Usage: Internet::GetLocalHostName return_var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Internet_plug-in",
+		"leftLabelHTML": "<span class='support class'>Internet.dll</span>",
+		"prefix": "Internet::GetLocalHostName"
+	},
+	"Internet::GetUrlCode": {
+		"body": "Internet::GetUrlCode \"${1:site}\" \"${2:file}\" $${3:return_var}$4",
+		"description": "Usage: Internet::GetUrlCode site file return_var",
+		"descriptionMoreURL": "http:/sis.sourceforge.net/Internet_plug-in",
+		"leftLabelHTML": "<span class='support class'>Internet.dll</span>",
+		"prefix": "Internet::GetUrlCode"
+	}
 }

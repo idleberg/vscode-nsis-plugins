@@ -1,9 +1,9 @@
 {
-  "SFhelper::checkFile": {
-    "body": "SFhelper::checkFile \"${1:file}\"$2",
-    "description": "Usage: SFhelper::checkFile file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/SFhelper_Plugin",
-    "leftLabelHTML": "<span class='support class'>sfhelper.dll</span>",
-    "prefix": "SFhelper::checkFile"
-  }
+	"SFhelper::checkFile": {
+		"body": "SFhelper::checkFile \"${1:file}\"$2",
+		"description": "Usage: SFhelper::checkFile file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/SFhelper_Plugin",
+		"leftLabelHTML": "<span class='support class'>sfhelper.dll</span>",
+		"prefix": "SFhelper::checkFile"
+	}
 }

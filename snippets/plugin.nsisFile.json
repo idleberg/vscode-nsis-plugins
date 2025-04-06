@@ -1,37 +1,37 @@
 {
-  "nsisFile::BinToHex": {
-    "body": "nsisFile::BinToHex \"${1:string}\"$2",
-    "description": "Usage: nsisFile::BinToHex string",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisFile_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisFile.dll</span>",
-    "prefix": "nsisFile::BinToHex"
-  },
-  "nsisFile::FileFindBytes": {
-    "body": "nsisFile::FileFindBytes \"${1:file_handle}\" \"${2:string}\" \"${3:length}\"$4",
-    "description": "Usage: nsisFile::FileFindBytes file_handle string length",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisFile_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisFile.dll</span>",
-    "prefix": "nsisFile::FileFindBytes"
-  },
-  "nsisFile::FileReadBytes": {
-    "body": "nsisFile::FileReadBytes \"${1:file_handle}\" \"${2:string}\"$3",
-    "description": "Usage: nsisFile::FileReadBytes file_handle string",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisFile_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisFile.dll</span>",
-    "prefix": "nsisFile::FileReadBytes"
-  },
-  "nsisFile::FileTruncate": {
-    "body": "nsisFile::FileTruncate \"${1:file_handle}\"$2",
-    "description": "Usage: nsisFile::FileTruncate file_handle",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisFile_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisFile.dll</span>",
-    "prefix": "nsisFile::FileTruncate"
-  },
-  "nsisFile::HexToBin": {
-    "body": "nsisFile::HexToBin \"${1:hex_string}\"$2",
-    "description": "Usage: nsisFile::HexToBin hex_string",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisFile_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisFile.dll</span>",
-    "prefix": "nsisFile::HexToBin"
-  }
+	"nsisFile::BinToHex": {
+		"body": "nsisFile::BinToHex \"${1:string}\"$2",
+		"description": "Usage: nsisFile::BinToHex string",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisFile_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisFile.dll</span>",
+		"prefix": "nsisFile::BinToHex"
+	},
+	"nsisFile::FileFindBytes": {
+		"body": "nsisFile::FileFindBytes \"${1:file_handle}\" \"${2:string}\" \"${3:length}\"$4",
+		"description": "Usage: nsisFile::FileFindBytes file_handle string length",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisFile_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisFile.dll</span>",
+		"prefix": "nsisFile::FileFindBytes"
+	},
+	"nsisFile::FileReadBytes": {
+		"body": "nsisFile::FileReadBytes \"${1:file_handle}\" \"${2:string}\"$3",
+		"description": "Usage: nsisFile::FileReadBytes file_handle string",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisFile_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisFile.dll</span>",
+		"prefix": "nsisFile::FileReadBytes"
+	},
+	"nsisFile::FileTruncate": {
+		"body": "nsisFile::FileTruncate \"${1:file_handle}\"$2",
+		"description": "Usage: nsisFile::FileTruncate file_handle",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisFile_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisFile.dll</span>",
+		"prefix": "nsisFile::FileTruncate"
+	},
+	"nsisFile::HexToBin": {
+		"body": "nsisFile::HexToBin \"${1:hex_string}\"$2",
+		"description": "Usage: nsisFile::HexToBin hex_string",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisFile_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisFile.dll</span>",
+		"prefix": "nsisFile::HexToBin"
+	}
 }

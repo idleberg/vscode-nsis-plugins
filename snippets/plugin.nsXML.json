@@ -1,51 +1,51 @@
 {
-  "nsXML::endDocument": {
-    "body": "nsXML::endDocument$1",
-    "description": "Usage: nsXML::endDocument",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsXML_plug-in_(by_rsegal)",
-    "leftLabelHTML": "<span class='support class'>nsXML.dll</span>",
-    "prefix": "nsXML::endDocument"
-  },
-  "nsXML::init": {
-    "body": "nsXML::init$1",
-    "description": "Usage: nsXML::init",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsXML_plug-in_(by_rsegal)",
-    "leftLabelHTML": "<span class='support class'>nsXML.dll</span>",
-    "prefix": "nsXML::init"
-  },
-  "nsXML::initCOM": {
-    "body": "nsXML::initCOM$1",
-    "description": "Usage: nsXML::initCOM",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsXML_plug-in_(by_rsegal)",
-    "leftLabelHTML": "<span class='support class'>nsXML.dll</span>",
-    "prefix": "nsXML::initCOM"
-  },
-  "nsXML::insertElemVal": {
-    "body": "nsXML::insertElemVal \"${1:node}\" \"${2:value}\"$3",
-    "description": "Usage: nsXML::insertElemVal node value",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsXML_plug-in_(by_rsegal)",
-    "leftLabelHTML": "<span class='support class'>nsXML.dll</span>",
-    "prefix": "nsXML::insertElemVal"
-  },
-  "nsXML::startDocument": {
-    "body": "nsXML::startDocument$1",
-    "description": "Usage: nsXML::startDocument",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsXML_plug-in_(by_rsegal)",
-    "leftLabelHTML": "<span class='support class'>nsXML.dll</span>",
-    "prefix": "nsXML::startDocument"
-  },
-  "nsXML::uninitCOM": {
-    "body": "nsXML::uninitCOM$1",
-    "description": "Usage: nsXML::uninitCOM",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsXML_plug-in_(by_rsegal)",
-    "leftLabelHTML": "<span class='support class'>nsXML.dll</span>",
-    "prefix": "nsXML::uninitCOM"
-  },
-  "nsXML::write": {
-    "body": "nsXML::write \"${1:file}.xml\"$2",
-    "description": "Usage: nsXML::write file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsXML_plug-in_(by_rsegal)",
-    "leftLabelHTML": "<span class='support class'>nsXML.dll</span>",
-    "prefix": "nsXML::write"
-  }
+	"nsXML::endDocument": {
+		"body": "nsXML::endDocument$1",
+		"description": "Usage: nsXML::endDocument",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsXML_plug-in_(by_rsegal)",
+		"leftLabelHTML": "<span class='support class'>nsXML.dll</span>",
+		"prefix": "nsXML::endDocument"
+	},
+	"nsXML::init": {
+		"body": "nsXML::init$1",
+		"description": "Usage: nsXML::init",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsXML_plug-in_(by_rsegal)",
+		"leftLabelHTML": "<span class='support class'>nsXML.dll</span>",
+		"prefix": "nsXML::init"
+	},
+	"nsXML::initCOM": {
+		"body": "nsXML::initCOM$1",
+		"description": "Usage: nsXML::initCOM",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsXML_plug-in_(by_rsegal)",
+		"leftLabelHTML": "<span class='support class'>nsXML.dll</span>",
+		"prefix": "nsXML::initCOM"
+	},
+	"nsXML::insertElemVal": {
+		"body": "nsXML::insertElemVal \"${1:node}\" \"${2:value}\"$3",
+		"description": "Usage: nsXML::insertElemVal node value",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsXML_plug-in_(by_rsegal)",
+		"leftLabelHTML": "<span class='support class'>nsXML.dll</span>",
+		"prefix": "nsXML::insertElemVal"
+	},
+	"nsXML::startDocument": {
+		"body": "nsXML::startDocument$1",
+		"description": "Usage: nsXML::startDocument",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsXML_plug-in_(by_rsegal)",
+		"leftLabelHTML": "<span class='support class'>nsXML.dll</span>",
+		"prefix": "nsXML::startDocument"
+	},
+	"nsXML::uninitCOM": {
+		"body": "nsXML::uninitCOM$1",
+		"description": "Usage: nsXML::uninitCOM",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsXML_plug-in_(by_rsegal)",
+		"leftLabelHTML": "<span class='support class'>nsXML.dll</span>",
+		"prefix": "nsXML::uninitCOM"
+	},
+	"nsXML::write": {
+		"body": "nsXML::write \"${1:file}.xml\"$2",
+		"description": "Usage: nsXML::write file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsXML_plug-in_(by_rsegal)",
+		"leftLabelHTML": "<span class='support class'>nsXML.dll</span>",
+		"prefix": "nsXML::write"
+	}
 }

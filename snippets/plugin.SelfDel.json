@@ -1,9 +1,9 @@
 {
-  "SelfDel::del": {
-    "body": "SelfDel::del ${1:options}$2",
-    "description": "Usage: SelfDel::del [/RMDIR] [/REBOOT | /SHUTDOWN]",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/SelfDel_plug-in",
-    "leftLabelHTML": "<span class='support class'>SelfDel.dll</span>",
-    "prefix": "SelfDel::del"
-  }
+	"SelfDel::del": {
+		"body": "SelfDel::del ${1:options}$2",
+		"description": "Usage: SelfDel::del [/RMDIR] [/REBOOT | /SHUTDOWN]",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/SelfDel_plug-in",
+		"leftLabelHTML": "<span class='support class'>SelfDel.dll</span>",
+		"prefix": "SelfDel::del"
+	}
 }

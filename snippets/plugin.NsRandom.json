@@ -1,9 +1,9 @@
 {
-  "nsRandom::GetRandom": {
-    "body": "nsRandom::GetRandom$1",
-    "description": "Usage: nsRandom::GetRandom",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsRandom_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsRandom.dll</span>",
-    "prefix": "nsRandom::GetRandom"
-  }
+	"nsRandom::GetRandom": {
+		"body": "nsRandom::GetRandom$1",
+		"description": "Usage: nsRandom::GetRandom",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsRandom_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsRandom.dll</span>",
+		"prefix": "nsRandom::GetRandom"
+	}
 }

@@ -1,9 +1,9 @@
 {
-  "InvokeShellVerb::DoIt": {
-    "body": "InvokeShellVerb::DoIt \"${1:dir_path}\" \"${2:file_name}\" \"${3:resource_id}\"$4",
-    "description": "Usage: InvokeShellVerb::DoIt dir_path file_name resource_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/InvokeShellVerb_plug-in",
-    "leftLabelHTML": "<span class='support class'>InvokeShellVerb.dll</span>",
-    "prefix": "InvokeShellVerb::DoIt"
-  }
+	"InvokeShellVerb::DoIt": {
+		"body": "InvokeShellVerb::DoIt \"${1:dir_path}\" \"${2:file_name}\" \"${3:resource_id}\"$4",
+		"description": "Usage: InvokeShellVerb::DoIt dir_path file_name resource_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/InvokeShellVerb_plug-in",
+		"leftLabelHTML": "<span class='support class'>InvokeShellVerb.dll</span>",
+		"prefix": "InvokeShellVerb::DoIt"
+	}
 }

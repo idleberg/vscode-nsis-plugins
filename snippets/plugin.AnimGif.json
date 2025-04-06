@@ -1,23 +1,23 @@
 {
-  "AnimGif::play": {
-    "body": "AnimGif::play ${1:options} \"${2:file}.gif\"$3",
-    "description": "Usage: AnimGif::play options file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AnimGif_plug-in",
-    "leftLabelHTML": "<span class='support class'>>AnimGif.dll</span>",
-    "prefix": "AnimGif::play"
-  },
-  "AnimGif::play /NOUNLOAD": {
-    "body": "AnimGif::play /NOUNLOAD ${1:options} \"${2:file}.gif\"$3",
-    "description": "Usage: AnimGif::play /NOUNLOAD options file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AnimGif_plug-in",
-    "leftLabelHTML": "<span class='support class'>>AnimGif.dll</span>",
-    "prefix": "AnimGif::play /NOUNLOAD"
-  },
-  "AnimGif::stop": {
-    "body": "AnimGif::stop$1",
-    "description": "Usage: AnimGif::stop",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/AnimGif_plug-in",
-    "leftLabelHTML": "<span class='support class'>>AnimGif.dll</span>",
-    "prefix": "AnimGif::stop"
-  }
+	"AnimGif::play": {
+		"body": "AnimGif::play ${1:options} \"${2:file}.gif\"$3",
+		"description": "Usage: AnimGif::play options file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AnimGif_plug-in",
+		"leftLabelHTML": "<span class='support class'>>AnimGif.dll</span>",
+		"prefix": "AnimGif::play"
+	},
+	"AnimGif::play /NOUNLOAD": {
+		"body": "AnimGif::play /NOUNLOAD ${1:options} \"${2:file}.gif\"$3",
+		"description": "Usage: AnimGif::play /NOUNLOAD options file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AnimGif_plug-in",
+		"leftLabelHTML": "<span class='support class'>>AnimGif.dll</span>",
+		"prefix": "AnimGif::play /NOUNLOAD"
+	},
+	"AnimGif::stop": {
+		"body": "AnimGif::stop$1",
+		"description": "Usage: AnimGif::stop",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/AnimGif_plug-in",
+		"leftLabelHTML": "<span class='support class'>>AnimGif.dll</span>",
+		"prefix": "AnimGif::stop"
+	}
 }

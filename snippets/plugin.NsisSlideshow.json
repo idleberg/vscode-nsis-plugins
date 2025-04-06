@@ -1,23 +1,23 @@
 {
-  "nsisSlideshow::show": {
-    "body": "nsisSlideshow::show /NOUNLOAD \"${1:picture}\"$2",
-    "description": "Usage: nsisSlideshow::show /NOUNLOAD picture",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisSlideshow_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisSlideshow.dll</span>",
-    "prefix": "nsisSlideshow::show"
-  },
-  "nsisSlideshow::show [/options]": {
-    "body": "nsisSlideshow::show /NOUNLOAD ${1:options} \"${2:picture}\"$3",
-    "description": "Usage: nsisSlideshow::show /NOUNLOAD options picture",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisSlideshow_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisSlideshow.dll</span>",
-    "prefix": "nsisSlideshow::show [/options]"
-  },
-  "nsisSlideshow::stop": {
-    "body": "nsisSlideshow::stop$1",
-    "description": "Usage: nsisSlideshow::stop",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisSlideshow_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsisSlideshow.dll</span>",
-    "prefix": "nsisSlideshow::stop"
-  }
+	"nsisSlideshow::show": {
+		"body": "nsisSlideshow::show /NOUNLOAD \"${1:picture}\"$2",
+		"description": "Usage: nsisSlideshow::show /NOUNLOAD picture",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisSlideshow_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisSlideshow.dll</span>",
+		"prefix": "nsisSlideshow::show"
+	},
+	"nsisSlideshow::show [/options]": {
+		"body": "nsisSlideshow::show /NOUNLOAD ${1:options} \"${2:picture}\"$3",
+		"description": "Usage: nsisSlideshow::show /NOUNLOAD options picture",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisSlideshow_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisSlideshow.dll</span>",
+		"prefix": "nsisSlideshow::show [/options]"
+	},
+	"nsisSlideshow::stop": {
+		"body": "nsisSlideshow::stop$1",
+		"description": "Usage: nsisSlideshow::stop",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisSlideshow_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsisSlideshow.dll</span>",
+		"prefix": "nsisSlideshow::stop"
+	}
 }

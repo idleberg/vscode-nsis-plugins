@@ -1,23 +1,23 @@
 {
-  "UnTGZ::extract": {
-    "body": "UnTGZ::extract ${1:options} \"${2:archive}.tgz\"$3",
-    "description": "Usage: UnTGZ::extract options archive",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UnTGZ_plug-in",
-    "leftLabelHTML": "<span class='support class'>untgz.dll</span>",
-    "prefix": "UnTGZ::extract"
-  },
-  "UnTGZ::extractFile": {
-    "body": "UnTGZ::extractFile ${1:options} \"${2:archive}.tgz\" \"${3:file}\"$4",
-    "description": "Usage: UnTGZ::extractFile options archive file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UnTGZ_plug-in",
-    "leftLabelHTML": "<span class='support class'>untgz.dll</span>",
-    "prefix": "UnTGZ::extractFile"
-  },
-  "UnTGZ::extractV": {
-    "body": "UnTGZ::extractV ${1:options} \"${2:archive}.tgz\"$3",
-    "description": "Usage: UnTGZ::extractV options archive",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/UnTGZ_plug-in",
-    "leftLabelHTML": "<span class='support class'>untgz.dll</span>",
-    "prefix": "UnTGZ::extractV"
-  }
+	"UnTGZ::extract": {
+		"body": "UnTGZ::extract ${1:options} \"${2:archive}.tgz\"$3",
+		"description": "Usage: UnTGZ::extract options archive",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UnTGZ_plug-in",
+		"leftLabelHTML": "<span class='support class'>untgz.dll</span>",
+		"prefix": "UnTGZ::extract"
+	},
+	"UnTGZ::extractFile": {
+		"body": "UnTGZ::extractFile ${1:options} \"${2:archive}.tgz\" \"${3:file}\"$4",
+		"description": "Usage: UnTGZ::extractFile options archive file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UnTGZ_plug-in",
+		"leftLabelHTML": "<span class='support class'>untgz.dll</span>",
+		"prefix": "UnTGZ::extractFile"
+	},
+	"UnTGZ::extractV": {
+		"body": "UnTGZ::extractV ${1:options} \"${2:archive}.tgz\"$3",
+		"description": "Usage: UnTGZ::extractV options archive",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/UnTGZ_plug-in",
+		"leftLabelHTML": "<span class='support class'>untgz.dll</span>",
+		"prefix": "UnTGZ::extractV"
+	}
 }

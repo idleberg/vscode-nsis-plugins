@@ -1,9 +1,9 @@
 {
-  "SimpleBg::SetBg": {
-    "body": "SimpleBg::SetBg /NOUNLOAD ${1:R_top} ${2:G_top} ${3:B_top} ${4:R_bottom} ${5:G_bottom} ${6:B_bottom} \"${7:text}\"$8",
-    "description": "Usage: SimpleBg::SetBg /NOUNLOAD R_top G_top B_top R_bottom G_bottom B_bottom text}",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/SimpleBg_plug-in",
-    "leftLabelHTML": "<span class='support class'>SimpleBg.dll</span>",
-    "prefix": "SimpleBg::SetBg"
-  }
+	"SimpleBg::SetBg": {
+		"body": "SimpleBg::SetBg /NOUNLOAD ${1:R_top} ${2:G_top} ${3:B_top} ${4:R_bottom} ${5:G_bottom} ${6:B_bottom} \"${7:text}\"$8",
+		"description": "Usage: SimpleBg::SetBg /NOUNLOAD R_top G_top B_top R_bottom G_bottom B_bottom text}",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/SimpleBg_plug-in",
+		"leftLabelHTML": "<span class='support class'>SimpleBg.dll</span>",
+		"prefix": "SimpleBg::SetBg"
+	}
 }

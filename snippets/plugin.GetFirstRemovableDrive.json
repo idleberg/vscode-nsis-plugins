@@ -1,16 +1,16 @@
 {
-  "GetFirstRemovable::GetAll": {
-    "body": "GetFirstRemovable::GetAll$1",
-    "description": "Usage: GetFirstRemovable::GetAll",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/GetFirstRemovableDrive_plug-in",
-    "leftLabelHTML": "<span class='support class'>GetFirstRemovable.dll</span>",
-    "prefix": "GetFirstRemovable::GetAll"
-  },
-  "GetFirstRemovable::GetFirst": {
-    "body": "GetFirstRemovable::GetFirst$1",
-    "description": "Usage: GetFirstRemovable::GetFirst",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/GetFirstRemovableDrive_plug-in",
-    "leftLabelHTML": "<span class='support class'>GetFirstRemovable.dll</span>",
-    "prefix": "GetFirstRemovable::GetFirst"
-  }
+	"GetFirstRemovable::GetAll": {
+		"body": "GetFirstRemovable::GetAll$1",
+		"description": "Usage: GetFirstRemovable::GetAll",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/GetFirstRemovableDrive_plug-in",
+		"leftLabelHTML": "<span class='support class'>GetFirstRemovable.dll</span>",
+		"prefix": "GetFirstRemovable::GetAll"
+	},
+	"GetFirstRemovable::GetFirst": {
+		"body": "GetFirstRemovable::GetFirst$1",
+		"description": "Usage: GetFirstRemovable::GetFirst",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/GetFirstRemovableDrive_plug-in",
+		"leftLabelHTML": "<span class='support class'>GetFirstRemovable.dll</span>",
+		"prefix": "GetFirstRemovable::GetFirst"
+	}
 }

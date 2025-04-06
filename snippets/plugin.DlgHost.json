@@ -1,23 +1,23 @@
 {
-  "DlgHost::Close": {
-    "body": "DlgHost::Close$1",
-    "description": "Usage: DlgHost::Close",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/DlgHost_plug-in",
-    "leftLabelHTML": "<span class='support class'>DlgHost.dll</span>",
-    "prefix": "DlgHost::Close"
-  },
-  "DlgHost::DlgBox": {
-    "body": "DlgHost::DlgBox \"${1:options}\"$2",
-    "description": "Usage: DlgHost::DlgBox options",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/DlgHost_plug-in",
-    "leftLabelHTML": "<span class='support class'>DlgHost.dll</span>",
-    "prefix": "DlgHost::DlgBox"
-  },
-  "DlgHost::SetClient": {
-    "body": "DlgHost::SetClient $${1:handle}$2",
-    "description": "Usage: DlgHost::SetClient handle",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/DlgHost_plug-in",
-    "leftLabelHTML": "<span class='support class'>DlgHost.dll</span>",
-    "prefix": "DlgHost::SetClient"
-  }
+	"DlgHost::Close": {
+		"body": "DlgHost::Close$1",
+		"description": "Usage: DlgHost::Close",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/DlgHost_plug-in",
+		"leftLabelHTML": "<span class='support class'>DlgHost.dll</span>",
+		"prefix": "DlgHost::Close"
+	},
+	"DlgHost::DlgBox": {
+		"body": "DlgHost::DlgBox \"${1:options}\"$2",
+		"description": "Usage: DlgHost::DlgBox options",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/DlgHost_plug-in",
+		"leftLabelHTML": "<span class='support class'>DlgHost.dll</span>",
+		"prefix": "DlgHost::DlgBox"
+	},
+	"DlgHost::SetClient": {
+		"body": "DlgHost::SetClient $${1:handle}$2",
+		"description": "Usage: DlgHost::SetClient handle",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/DlgHost_plug-in",
+		"leftLabelHTML": "<span class='support class'>DlgHost.dll</span>",
+		"prefix": "DlgHost::SetClient"
+	}
 }

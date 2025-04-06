@@ -1,30 +1,30 @@
 {
-  "SpiderBanner::Destroy": {
-    "body": "SpiderBanner::Destroy$1",
-    "description": "Usage: SpiderBanner::Destroy",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/SpiderBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>SpiderBanner.dll</span>",
-    "prefix": "SpiderBanner::Destroy"
-  },
-  "SpiderBanner::Show": {
-    "body": "SpiderBanner::Show ${1:position} ${2:distance}$3",
-    "description": "Usage: SpiderBanner::Show position distance",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/SpiderBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>SpiderBanner.dll</span>",
-    "prefix": "SpiderBanner::Show"
-  },
-  "SpiderBanner::Show /MODERN": {
-    "body": "SpiderBanner::Show ${1:position} ${2:distance} /MODERN$3",
-    "description": "Usage: SpiderBanner::Show position distance /MODERN",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/SpiderBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>SpiderBanner.dll</span>",
-    "prefix": "SpiderBanner::Show /MODERN"
-  },
-  "SpiderBanner::ShowPBOnly": {
-    "body": "SpiderBanner::ShowPBOnly$1",
-    "description": "Usage: SpiderBanner::ShowPBOnly",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/SpiderBanner_plug-in",
-    "leftLabelHTML": "<span class='support class'>SpiderBanner.dll</span>",
-    "prefix": "SpiderBanner::ShowPBOnly"
-  }
+	"SpiderBanner::Destroy": {
+		"body": "SpiderBanner::Destroy$1",
+		"description": "Usage: SpiderBanner::Destroy",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/SpiderBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>SpiderBanner.dll</span>",
+		"prefix": "SpiderBanner::Destroy"
+	},
+	"SpiderBanner::Show": {
+		"body": "SpiderBanner::Show ${1:position} ${2:distance}$3",
+		"description": "Usage: SpiderBanner::Show position distance",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/SpiderBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>SpiderBanner.dll</span>",
+		"prefix": "SpiderBanner::Show"
+	},
+	"SpiderBanner::Show /MODERN": {
+		"body": "SpiderBanner::Show ${1:position} ${2:distance} /MODERN$3",
+		"description": "Usage: SpiderBanner::Show position distance /MODERN",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/SpiderBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>SpiderBanner.dll</span>",
+		"prefix": "SpiderBanner::Show /MODERN"
+	},
+	"SpiderBanner::ShowPBOnly": {
+		"body": "SpiderBanner::ShowPBOnly$1",
+		"description": "Usage: SpiderBanner::ShowPBOnly",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/SpiderBanner_plug-in",
+		"leftLabelHTML": "<span class='support class'>SpiderBanner.dll</span>",
+		"prefix": "SpiderBanner::ShowPBOnly"
+	}
 }

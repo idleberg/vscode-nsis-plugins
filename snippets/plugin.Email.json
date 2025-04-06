@@ -1,9 +1,9 @@
 {
-  "Email::EmailValidation": {
-    "body": "Email::EmailValidation ${1:email}$2",
-    "description": "Usage: Email::EmailValidation email",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Email_validation_plug-in",
-    "leftLabelHTML": "<span class='support class'>email.dll</span>",
-    "prefix": "Email::EmailValidation"
-  }
+	"Email::EmailValidation": {
+		"body": "Email::EmailValidation ${1:email}$2",
+		"description": "Usage: Email::EmailValidation email",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Email_validation_plug-in",
+		"leftLabelHTML": "<span class='support class'>email.dll</span>",
+		"prefix": "Email::EmailValidation"
+	}
 }

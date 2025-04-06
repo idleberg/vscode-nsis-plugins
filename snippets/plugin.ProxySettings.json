@@ -1,37 +1,37 @@
 {
-  "ProxySettings::GetConnectionCount": {
-    "body": "ProxySettings::GetConnectionCount $${1:var}$2",
-    "description": "Usage: ProxySettings::GetConnectionCount var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ProxySettings",
-    "leftLabelHTML": "<span class='support class'>ProxyChange.dll</span>",
-    "prefix": "ProxySettings::GetConnectionCount"
-  },
-  "ProxySettings::GetConnectionName": {
-    "body": "ProxySettings::GetConnectionName $${1:var}$2",
-    "description": "Usage: ProxySettings::GetConnectionName var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ProxySettings",
-    "leftLabelHTML": "<span class='support class'>ProxyChange.dll</span>",
-    "prefix": "ProxySettings::GetConnectionName"
-  },
-  "ProxySettings::GetConnectionProxy": {
-    "body": "ProxySettings::GetConnectionProxy $${1:var}$2",
-    "description": "Usage: ProxySettings::GetConnectionProxy var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ProxySettings",
-    "leftLabelHTML": "<span class='support class'>ProxyChange.dll</span>",
-    "prefix": "ProxySettings::GetConnectionProxy"
-  },
-  "ProxySettings::SetConnectionProxy": {
-    "body": "ProxySettings::SetConnectionProxy $${1:var}$2",
-    "description": "Usage: ProxySettings::SetConnectionProxy var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ProxySettings",
-    "leftLabelHTML": "<span class='support class'>ProxyChange.dll</span>",
-    "prefix": "ProxySettings::SetConnectionProxy"
-  },
-  "ProxySettings::SetConnectionProxyByProtocol": {
-    "body": "ProxySettings::SetConnectionProxyByProtocol $${1:var}$2",
-    "description": "Usage: ProxySettings::SetConnectionProxyByProtocol var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/ProxySettings",
-    "leftLabelHTML": "<span class='support class'>ProxyChange.dll</span>",
-    "prefix": "ProxySettings::SetConnectionProxyByProtocol"
-  }
+	"ProxySettings::GetConnectionCount": {
+		"body": "ProxySettings::GetConnectionCount $${1:var}$2",
+		"description": "Usage: ProxySettings::GetConnectionCount var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ProxySettings",
+		"leftLabelHTML": "<span class='support class'>ProxyChange.dll</span>",
+		"prefix": "ProxySettings::GetConnectionCount"
+	},
+	"ProxySettings::GetConnectionName": {
+		"body": "ProxySettings::GetConnectionName $${1:var}$2",
+		"description": "Usage: ProxySettings::GetConnectionName var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ProxySettings",
+		"leftLabelHTML": "<span class='support class'>ProxyChange.dll</span>",
+		"prefix": "ProxySettings::GetConnectionName"
+	},
+	"ProxySettings::GetConnectionProxy": {
+		"body": "ProxySettings::GetConnectionProxy $${1:var}$2",
+		"description": "Usage: ProxySettings::GetConnectionProxy var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ProxySettings",
+		"leftLabelHTML": "<span class='support class'>ProxyChange.dll</span>",
+		"prefix": "ProxySettings::GetConnectionProxy"
+	},
+	"ProxySettings::SetConnectionProxy": {
+		"body": "ProxySettings::SetConnectionProxy $${1:var}$2",
+		"description": "Usage: ProxySettings::SetConnectionProxy var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ProxySettings",
+		"leftLabelHTML": "<span class='support class'>ProxyChange.dll</span>",
+		"prefix": "ProxySettings::SetConnectionProxy"
+	},
+	"ProxySettings::SetConnectionProxyByProtocol": {
+		"body": "ProxySettings::SetConnectionProxyByProtocol $${1:var}$2",
+		"description": "Usage: ProxySettings::SetConnectionProxyByProtocol var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/ProxySettings",
+		"leftLabelHTML": "<span class='support class'>ProxyChange.dll</span>",
+		"prefix": "ProxySettings::SetConnectionProxyByProtocol"
+	}
 }

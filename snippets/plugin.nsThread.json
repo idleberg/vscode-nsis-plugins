@@ -1,23 +1,23 @@
 {
-  "${Thread_Create}": {
-    "body": "\\${Thread_Create} \"${1:thread_proc}\" $${2:thread_id}$3",
-    "description": "Usage: ${Thread_Create} thread_proc thread_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsThread_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsThread.dll</span>",
-    "prefix": "${Thread_Create}"
-  },
-  "${Thread_JoinFor}": {
-    "body": "\\${Thread_JoinFor} $${1:thread_id} ${2:time_in_ms} $${3:result}$4",
-    "description": "Usage: ${Thread_JoinFor} thread_id time_in_ms result",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsThread_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsThread.dll</span>",
-    "prefix": "${Thread_JoinFor}"
-  },
-  "${Thread_Join}": {
-    "body": "\\${Thread_Join} $${1:thread_id}$2",
-    "description": "Usage: ${Thread_Join} thread_id",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsThread_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsThread.dll</span>",
-    "prefix": "${Thread_Join}"
-  }
+	"${Thread_Create}": {
+		"body": "\\${Thread_Create} \"${1:thread_proc}\" $${2:thread_id}$3",
+		"description": "Usage: ${Thread_Create} thread_proc thread_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsThread_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsThread.dll</span>",
+		"prefix": "${Thread_Create}"
+	},
+	"${Thread_JoinFor}": {
+		"body": "\\${Thread_JoinFor} $${1:thread_id} ${2:time_in_ms} $${3:result}$4",
+		"description": "Usage: ${Thread_JoinFor} thread_id time_in_ms result",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsThread_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsThread.dll</span>",
+		"prefix": "${Thread_JoinFor}"
+	},
+	"${Thread_Join}": {
+		"body": "\\${Thread_Join} $${1:thread_id}$2",
+		"description": "Usage: ${Thread_Join} thread_id",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsThread_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsThread.dll</span>",
+		"prefix": "${Thread_Join}"
+	}
 }

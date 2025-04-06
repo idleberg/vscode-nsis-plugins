@@ -1,30 +1,30 @@
 {
-  "NsisCrypt::Base64Decode": {
-    "body": "NsisCrypt::Base64Decode \"${1:string}\"$2",
-    "description": "Usage: NsisCrypt::Base64Decode string",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisCrypt_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisCrypt.dll</span>",
-    "prefix": "NsisCrypt::Base64Decode"
-  },
-  "NsisCrypt::DecryptSymmetric": {
-    "body": "NsisCrypt::DecryptSymmetric \"${1:encoded_cipher}\" \"${2:algorithm}\" \"${3:encoded_key}\" \"${4:encoded_iv}\"$5",
-    "description": "Usage: NsisCrypt::DecryptSymmetric encoded_cipher algorithm encoded_key encoded_iv",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisCrypt_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisCrypt.dll</span>",
-    "prefix": "NsisCrypt::DecryptSymmetric"
-  },
-  "NsisCrypt::EncryptSymmetric": {
-    "body": "NsisCrypt::EncryptSymmetric \"${1:string}\" \"${2:algorithm}\" \"${3:encoded_key}\" \"${4:encoded_iv}\"$5",
-    "description": "Usage: NsisCrypt::EncryptSymmetric string algorithm encoded_key encoded_iv",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisCrypt_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisCrypt.dll</span>",
-    "prefix": "NsisCrypt::EncryptSymmetric"
-  },
-  "NsisCrypt::Hash": {
-    "body": "NsisCrypt::Hash \"${1:string}\" \"${2:algorithm}\"$3",
-    "description": "Usage: NsisCrypt::Hash string algorithm",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/NsisCrypt_plug-in",
-    "leftLabelHTML": "<span class='support class'>NsisCrypt.dll</span>",
-    "prefix": "NsisCrypt::Hash"
-  }
+	"NsisCrypt::Base64Decode": {
+		"body": "NsisCrypt::Base64Decode \"${1:string}\"$2",
+		"description": "Usage: NsisCrypt::Base64Decode string",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisCrypt_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisCrypt.dll</span>",
+		"prefix": "NsisCrypt::Base64Decode"
+	},
+	"NsisCrypt::DecryptSymmetric": {
+		"body": "NsisCrypt::DecryptSymmetric \"${1:encoded_cipher}\" \"${2:algorithm}\" \"${3:encoded_key}\" \"${4:encoded_iv}\"$5",
+		"description": "Usage: NsisCrypt::DecryptSymmetric encoded_cipher algorithm encoded_key encoded_iv",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisCrypt_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisCrypt.dll</span>",
+		"prefix": "NsisCrypt::DecryptSymmetric"
+	},
+	"NsisCrypt::EncryptSymmetric": {
+		"body": "NsisCrypt::EncryptSymmetric \"${1:string}\" \"${2:algorithm}\" \"${3:encoded_key}\" \"${4:encoded_iv}\"$5",
+		"description": "Usage: NsisCrypt::EncryptSymmetric string algorithm encoded_key encoded_iv",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisCrypt_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisCrypt.dll</span>",
+		"prefix": "NsisCrypt::EncryptSymmetric"
+	},
+	"NsisCrypt::Hash": {
+		"body": "NsisCrypt::Hash \"${1:string}\" \"${2:algorithm}\"$3",
+		"description": "Usage: NsisCrypt::Hash string algorithm",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/NsisCrypt_plug-in",
+		"leftLabelHTML": "<span class='support class'>NsisCrypt.dll</span>",
+		"prefix": "NsisCrypt::Hash"
+	}
 }

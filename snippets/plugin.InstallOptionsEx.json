@@ -1,23 +1,23 @@
 {
-  "InstallOptionsEx::initDialog": {
-    "body": "InstallOptionsEx::initDialog \"${1:file}.ini\"$2",
-    "description": "Usage: InstallOptionsEx::initDialog ini_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/InstallOptionsEx_plug-in",
-    "leftLabelHTML": "<span class='support class'>InstallOptionsEx.dll</span>",
-    "prefix": "InstallOptionsEx::initDialog"
-  },
-  "InstallOptionsEx::initDialog /NOUNLOAD": {
-    "body": "InstallOptionsEx::initDialog /NOUNLOAD \"${1:file}.ini\"$2",
-    "description": "Usage: InstallOptionsEx::initDialog /NOUNLOAD ini_file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/InstallOptionsEx_plug-in",
-    "leftLabelHTML": "<span class='support class'>InstallOptionsEx.dll</span>",
-    "prefix": "InstallOptionsEx::initDialog /NOUNLOAD"
-  },
-  "InstallOptionsEx::show": {
-    "body": "InstallOptionsEx::show$1",
-    "description": "Usage: InstallOptionsEx::show",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/InstallOptionsEx_plug-in",
-    "leftLabelHTML": "<span class='support class'>InstallOptionsEx.dll</span>",
-    "prefix": "InstallOptionsEx::show"
-  }
+	"InstallOptionsEx::initDialog": {
+		"body": "InstallOptionsEx::initDialog \"${1:file}.ini\"$2",
+		"description": "Usage: InstallOptionsEx::initDialog ini_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/InstallOptionsEx_plug-in",
+		"leftLabelHTML": "<span class='support class'>InstallOptionsEx.dll</span>",
+		"prefix": "InstallOptionsEx::initDialog"
+	},
+	"InstallOptionsEx::initDialog /NOUNLOAD": {
+		"body": "InstallOptionsEx::initDialog /NOUNLOAD \"${1:file}.ini\"$2",
+		"description": "Usage: InstallOptionsEx::initDialog /NOUNLOAD ini_file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/InstallOptionsEx_plug-in",
+		"leftLabelHTML": "<span class='support class'>InstallOptionsEx.dll</span>",
+		"prefix": "InstallOptionsEx::initDialog /NOUNLOAD"
+	},
+	"InstallOptionsEx::show": {
+		"body": "InstallOptionsEx::show$1",
+		"description": "Usage: InstallOptionsEx::show",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/InstallOptionsEx_plug-in",
+		"leftLabelHTML": "<span class='support class'>InstallOptionsEx.dll</span>",
+		"prefix": "InstallOptionsEx::show"
+	}
 }

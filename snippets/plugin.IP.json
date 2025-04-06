@@ -1,9 +1,9 @@
 {
-  "IP::get_ip": {
-    "body": "IP::get_ip$1",
-    "description": "Usage: IP::get_ip",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/IP_plug-in",
-    "leftLabelHTML": "<span class='support class'>IP.dll</span>",
-    "prefix": "IP::get_ip"
-  }
+	"IP::get_ip": {
+		"body": "IP::get_ip$1",
+		"description": "Usage: IP::get_ip",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/IP_plug-in",
+		"leftLabelHTML": "<span class='support class'>IP.dll</span>",
+		"prefix": "IP::get_ip"
+	}
 }

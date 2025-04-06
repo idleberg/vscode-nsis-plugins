@@ -1,142 +1,142 @@
 {
-  "nsArray::Clear": {
-    "body": "nsArray::Clear ${1:array}$3",
-    "description": "Usage: nsArray::Clear array",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Clear"
-  },
-  "nsArray::Get": {
-    "body": "nsArray::SetList ${1:array} ${2:key}$3",
-    "description": "Usage: nsArray::SetList array key",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Get"
-  },
-  "nsArray::Get /at": {
-    "body": "nsArray::SetList ${1:array} /at=${2:position}$3",
-    "description": "Usage: nsArray::SetList array /at=position",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Get /at"
-  },
-  "nsArray::Get /next": {
-    "body": "nsArray::SetList ${1:array} /next$3",
-    "description": "Usage: nsArray::SetList array /next",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Get /next"
-  },
-  "nsArray::Get /prev": {
-    "body": "nsArray::SetList ${1:array} /prev$3",
-    "description": "Usage: nsArray::SetList array /prev",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Get /prev"
-  },
-  "nsArray::Get /reset": {
-    "body": "nsArray::SetList ${1:array} /reset$3",
-    "description": "Usage: nsArray::SetList array /reset",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Get /reset"
-  },
-  "nsArray::Join": {
-    "body": "nsArray::Join ${1:array} ${2:join_string}$3",
-    "description": "Usage: nsArray::Join array join_string",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Join"
-  },
-  "nsArray::Join /noempty": {
-    "body": "nsArray::Join ${1:array} ${2:join_string} /noempty$3",
-    "description": "Usage: nsArray::Join array join_string /noempty",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Join /noempty"
-  },
-  "nsArray::Length": {
-    "body": "nsArray::Length ${1:array}$3",
-    "description": "Usage: nsArray::Length array",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Length"
-  },
-  "nsArray::Remove": {
-    "body": "nsArray::Remove ${1:array} ${2:element}$3",
-    "description": "Usage: nsArray::Remove array element",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Remove"
-  },
-  "nsArray::RemoveList": {
-    "body": "nsArray::RemoveList ${1:array} ${2:elements} /end$3",
-    "description": "Usage: nsArray::RemoveList array elements /end",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::RemoveList"
-  },
-  "nsArray::Set": {
-    "body": "nsArray::Set ${1:array} ${2:value}$3",
-    "description": "Usage: nsArray::Set array value",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Set"
-  },
-  "nsArray::Set /at": {
-    "body": "nsArray::Set ${1:array} /at=${2:position} ${3:value}$4",
-    "description": "Usage: nsArray::Set array /at=position value",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Set /at"
-  },
-  "nsArray::Set /key": {
-    "body": "nsArray::Set ${1:array} /key=${2:key} ${3:value}$4",
-    "description": "Usage: nsArray::Set array /key=key value",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Set /key"
-  },
-  "nsArray::SetList": {
-    "body": "nsArray::SetList ${1:array} ${2:elements} /end$3",
-    "description": "Usage: nsArray::SetList array elements /end",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::SetList"
-  },
-  "nsArray::Sort": {
-    "body": "nsArray::Sort ${1:array} ${2:flags}$3",
-    "description": "Usage: nsArray::Sort array flags",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Sort"
-  },
-  "nsArray::Split": {
-    "body": "nsArray::Join ${1:array} ${2:split_string} ${3:delimiter}$4",
-    "description": "Usage: nsArray::Join array split_string delimiter",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Split"
-  },
-  "nsArray::Split /ignorecase": {
-    "body": "nsArray::Join ${1:array} ${2:split_string} ${3:delimiter} /ignorecase$4",
-    "description": "Usage: nsArray::Join array split_string delimiter /ignorecase",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Split /ignorecase"
-  },
-  "nsArray::Split /noempty": {
-    "body": "nsArray::Join ${1:array} ${2:split_string} ${3:delimiter} /noempty$4",
-    "description": "Usage: nsArray::Join array split_string delimiter /noempty",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Split /noempty"
-  },
-  "nsArray::Split /noempty /ignorecase": {
-    "body": "nsArray::Join ${1:array} ${2:split_string} ${3:delimiter} /noempty /ignorecase$4",
-    "description": "Usage: nsArray::Join array split_string delimiter /noempty /ignorecase",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
-    "leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
-    "prefix": "nsArray::Split /noempty /ignorecase"
-  }
+	"nsArray::Clear": {
+		"body": "nsArray::Clear ${1:array}$3",
+		"description": "Usage: nsArray::Clear array",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Clear"
+	},
+	"nsArray::Get": {
+		"body": "nsArray::SetList ${1:array} ${2:key}$3",
+		"description": "Usage: nsArray::SetList array key",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Get"
+	},
+	"nsArray::Get /at": {
+		"body": "nsArray::SetList ${1:array} /at=${2:position}$3",
+		"description": "Usage: nsArray::SetList array /at=position",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Get /at"
+	},
+	"nsArray::Get /next": {
+		"body": "nsArray::SetList ${1:array} /next$3",
+		"description": "Usage: nsArray::SetList array /next",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Get /next"
+	},
+	"nsArray::Get /prev": {
+		"body": "nsArray::SetList ${1:array} /prev$3",
+		"description": "Usage: nsArray::SetList array /prev",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Get /prev"
+	},
+	"nsArray::Get /reset": {
+		"body": "nsArray::SetList ${1:array} /reset$3",
+		"description": "Usage: nsArray::SetList array /reset",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Get /reset"
+	},
+	"nsArray::Join": {
+		"body": "nsArray::Join ${1:array} ${2:join_string}$3",
+		"description": "Usage: nsArray::Join array join_string",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Join"
+	},
+	"nsArray::Join /noempty": {
+		"body": "nsArray::Join ${1:array} ${2:join_string} /noempty$3",
+		"description": "Usage: nsArray::Join array join_string /noempty",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Join /noempty"
+	},
+	"nsArray::Length": {
+		"body": "nsArray::Length ${1:array}$3",
+		"description": "Usage: nsArray::Length array",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Length"
+	},
+	"nsArray::Remove": {
+		"body": "nsArray::Remove ${1:array} ${2:element}$3",
+		"description": "Usage: nsArray::Remove array element",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Remove"
+	},
+	"nsArray::RemoveList": {
+		"body": "nsArray::RemoveList ${1:array} ${2:elements} /end$3",
+		"description": "Usage: nsArray::RemoveList array elements /end",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::RemoveList"
+	},
+	"nsArray::Set": {
+		"body": "nsArray::Set ${1:array} ${2:value}$3",
+		"description": "Usage: nsArray::Set array value",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Set"
+	},
+	"nsArray::Set /at": {
+		"body": "nsArray::Set ${1:array} /at=${2:position} ${3:value}$4",
+		"description": "Usage: nsArray::Set array /at=position value",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Set /at"
+	},
+	"nsArray::Set /key": {
+		"body": "nsArray::Set ${1:array} /key=${2:key} ${3:value}$4",
+		"description": "Usage: nsArray::Set array /key=key value",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Set /key"
+	},
+	"nsArray::SetList": {
+		"body": "nsArray::SetList ${1:array} ${2:elements} /end$3",
+		"description": "Usage: nsArray::SetList array elements /end",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::SetList"
+	},
+	"nsArray::Sort": {
+		"body": "nsArray::Sort ${1:array} ${2:flags}$3",
+		"description": "Usage: nsArray::Sort array flags",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Sort"
+	},
+	"nsArray::Split": {
+		"body": "nsArray::Join ${1:array} ${2:split_string} ${3:delimiter}$4",
+		"description": "Usage: nsArray::Join array split_string delimiter",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Split"
+	},
+	"nsArray::Split /ignorecase": {
+		"body": "nsArray::Join ${1:array} ${2:split_string} ${3:delimiter} /ignorecase$4",
+		"description": "Usage: nsArray::Join array split_string delimiter /ignorecase",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Split /ignorecase"
+	},
+	"nsArray::Split /noempty": {
+		"body": "nsArray::Join ${1:array} ${2:split_string} ${3:delimiter} /noempty$4",
+		"description": "Usage: nsArray::Join array split_string delimiter /noempty",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Split /noempty"
+	},
+	"nsArray::Split /noempty /ignorecase": {
+		"body": "nsArray::Join ${1:array} ${2:split_string} ${3:delimiter} /noempty /ignorecase$4",
+		"description": "Usage: nsArray::Join array split_string delimiter /noempty /ignorecase",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Arrays_in_NSIS",
+		"leftLabelHTML": "<span class='support class'>nsArray.dll</span>",
+		"prefix": "nsArray::Split /noempty /ignorecase"
+	}
 }

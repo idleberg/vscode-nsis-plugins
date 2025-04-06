@@ -1,23 +1,23 @@
 {
-  "Nsis7z::Extract": {
-    "body": "Nsis7z::Extract \"${1:file}.7z\"$2",
-    "description": "Usage: Nsis7z::Extract file",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Nsis7z_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsis7z.dll</span>",
-    "prefix": "Nsis7z::Extract"
-  },
-  "Nsis7z::ExtractWithCallback": {
-    "body": "Nsis7z::ExtractWithCallback \"${1:file}.7z\" $${2:var}$3",
-    "description": "Usage: Nsis7z::ExtractWithCallback file var",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Nsis7z_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsis7z.dll</span>",
-    "prefix": "Nsis7z::ExtractWithCallback"
-  },
-  "Nsis7z::ExtractWithDetails": {
-    "body": "Nsis7z::ExtractWithDetails \"${1:file}.7z\" \"${2:%s}\"$3",
-    "description": "Usage: Nsis7z::ExtractWithDetails file %s",
-    "descriptionMoreURL": "http://nsis.sourceforge.net/Nsis7z_plug-in",
-    "leftLabelHTML": "<span class='support class'>nsis7z.dll</span>",
-    "prefix": "Nsis7z::ExtractWithDetails"
-  }
+	"Nsis7z::Extract": {
+		"body": "Nsis7z::Extract \"${1:file}.7z\"$2",
+		"description": "Usage: Nsis7z::Extract file",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Nsis7z_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsis7z.dll</span>",
+		"prefix": "Nsis7z::Extract"
+	},
+	"Nsis7z::ExtractWithCallback": {
+		"body": "Nsis7z::ExtractWithCallback \"${1:file}.7z\" $${2:var}$3",
+		"description": "Usage: Nsis7z::ExtractWithCallback file var",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Nsis7z_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsis7z.dll</span>",
+		"prefix": "Nsis7z::ExtractWithCallback"
+	},
+	"Nsis7z::ExtractWithDetails": {
+		"body": "Nsis7z::ExtractWithDetails \"${1:file}.7z\" \"${2:%s}\"$3",
+		"description": "Usage: Nsis7z::ExtractWithDetails file %s",
+		"descriptionMoreURL": "http://nsis.sourceforge.net/Nsis7z_plug-in",
+		"leftLabelHTML": "<span class='support class'>nsis7z.dll</span>",
+		"prefix": "Nsis7z::ExtractWithDetails"
+	}
 }
