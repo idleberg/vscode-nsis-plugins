@@ -1,3 +1,8 @@
+# v1.3.2 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/v1.3.2)
+
+- update tooling
+- update dependencies
+
 # v1.3.1 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/v1.3.1)
 
 - switch CI provider
@@ -93,4 +98,3 @@
 # v0.1.0 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/v0.1.0)
 
 - first release
-
