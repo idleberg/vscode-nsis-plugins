@@ -1,18 +1,37 @@
 # Development
-.eslintcache
 *.map
-lib/
+.circleci/
+.editorconfig
+.eslintcache
+.eslintrc*
+.gitignore
+.github/
+.husky/
+.travis.yml
+gulpfile.js
+package-lock.json
+rollup.config.js
+src/
+tools/
+tsconfig.json
 tsconfig.tsbuildinfo
+tslint.json
+types/
+webpack.config.js
 
 # Package managers
-bower_components/
 node_modules/
 npm-debug.log*
 package-lock.json
 vendor/
+yarn-error.log
 yarn.lock
 
+# Visual Studio Code
+**/**.vsix
+.vscode-test/**
+.vscode/**
+
 # Project specific
-*.vsix
-images/logo.svg
+resources/logo.svg
 todo.md
