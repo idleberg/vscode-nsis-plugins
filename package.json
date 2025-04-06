@@ -13,7 +13,7 @@
 		"lint": "vscode-linter",
 		"publish:ovsx": "ovsx publish --no-dependencies",
 		"publish:vsce": "vsce publish --githubBranch main --no-dependencies",
-		"prepare": "husky install",
+		"prepare": "husky",
 		"test": "echo \"no tests yet\" && exit 0",
 		"vscode:prepublish": "npm run build"
 	},
