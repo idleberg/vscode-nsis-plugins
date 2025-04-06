@@ -767,6 +767,7 @@
 		"gulp-rename": "^2.0.0",
 		"husky": "^9.1.7",
 		"nano-staged": "^0.8.0",
+		"prettier": "^3.5.3",
 		"vscode-linter": "^0.3.1"
 	},
 	"nano-staged": {
