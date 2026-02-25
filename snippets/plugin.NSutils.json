@@ -1,0 +1,191 @@
+{
+	"NSutils::GetVersionInfoString": {
+		"body": "NSutils::GetVersionInfoString ${1:ExeName} ${2:VersionInfoString}$0",
+		"description": "Usage: NSutils::GetVersionInfoString ExeName VersionInfoString",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::GetVersionInfoString"
+	},
+	"NSutils::GetFileVersion": {
+		"body": "NSutils::GetFileVersion ${1:ExeName}$0",
+		"description": "Usage: NSutils::GetFileVersion ExeName VersionInfoString",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::GetFileVersion"
+	},
+	"NSutils::GetProductVersion": {
+		"body": "NSutils::GetProductVersion ${1:ExeName}$0",
+		"description": "Usage: NSutils::GetProductVersion ExeName VersionInfoString",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::GetProductVersion"
+	},
+	"NSutils::ReadResourceString": {
+		"body": "NSutils::ReadResourceString ${1:ExeName} ${2:StringID} ${3:StringLANG}$0",
+		"description": "Usage: NSutils::ReadResourceString StringID StringLANG",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::ReadResourceString"
+	},
+	"NSutils::WriteResourceString": {
+		"body": "NSutils::WriteResourceString ${1:ExeName} ${2:StringID} ${3:StringLANG} \"${4:StringValue}\"$0",
+		"description": "Usage: NSutils::WriteResourceString StringID StringLANG \"The string\"",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::WriteResourceString"
+	},
+	"NSutils::ExecutePendingFileRenameOperations": {
+		"body": "NSutils::ExecutePendingFileRenameOperations \"${1:FileSubstring}\" \"${2:LogFile}\"$0",
+		"description": "Usage: NSutils::ExecutePendingFileRenameOperations FileSubstring LogFile",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::ExecutePendingFileRenameOperations"
+	},
+	"NSutils::FindPendingFileRenameOperations": {
+		"body": "NSutils::FindPendingFileRenameOperations \"${1:FileSubstring}\"$0",
+		"description": "Usage: NSutils::FindPendingFileRenameOperations FileSubstring",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::FindPendingFileRenameOperations"
+	},
+	"NSutils::DisableProgressStepBack": {
+		"body": "NSutils::DisableProgressStepBack ${1:ProgressBarHandle}$0",
+		"description": "Usage: NSutils::DisableProgressStepBack ProgressBarHandle",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::DisableProgressStepBack"
+	},
+	"NSutils::RestoreProgressStepBack": {
+		"body": "NSutils::RestoreProgressStepBack ${1:ProgressBarHandle}$0",
+		"description": "Usage: NSutils::RestoreProgressStepBack ProgressBarHandle",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::RestoreProgressStepBack"
+	},
+	"NSutils::RedirectProgressBar": {
+		"body": "NSutils::RedirectProgressBar ${1:ProgressBarHandle} ${2:ProgressBar2Handle}$0",
+		"description": "Usage: NSutils::RedirectProgressBar ProgressBarHandle ProgressBar2Handle|NULL",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::RedirectProgressBar"
+	},
+	"NSutils::StartTimer": {
+		"body": "NSutils::StartTimer ${1:TimerPeriodMS}$0",
+		"description": "Usage: NSutils::StartTimer TimerPeriodMS",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::StartTimer"
+	},
+	"NSutils::StopTimer": {
+		"body": "NSutils::StopTimer ${1:TimerPeriodMS}$0",
+		"description": "Usage: NSutils::StopTimer",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::StopTimer"
+	},
+	"NSutils::StartReceivingClicks": {
+		"body": "NSutils::StartReceivingClicks ${1:ParentHwnd} ${2:NsisCallbackFunction}$0",
+		"description": "Usage: NSutils::StartReceivingClicks ParentHwnd NsisCallbackFunction",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::StartReceivingClicks"
+	},
+	"NSutils::StopReceivingClicks": {
+		"body": "NSutils::StopReceivingClicks ${1:ParentHwnd}$0",
+		"description": "Usage: NSutils::StopReceivingClicks ParentHwnd",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::StopReceivingClicks"
+	},
+	"NSutils::LoadImageFile": {
+		"body": "NSutils::LoadImageFile ${1:ImageFile|URL} ${2:Width} ${3:Height} ${4:AlignH} ${5:AlignV}$0",
+		"description": "Usage: NSutils::LoadImageFile ImageFile|URL Width Height AlignH AlignV",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::LoadImageFile"
+	},
+	"NSutils::RejectCloseMessages": {
+		"body": "NSutils::RejectCloseMessages ${1:true|false}$0",
+		"description": "Usage: NSutils::RejectCloseMessages true|false",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::RejectCloseMessages"
+	},
+	"NSutils::CloseFileHandles": {
+		"body": "NSutils::CloseFileHandles \"${1:File}\"$0",
+		"description": "Usage: NSutils::CloseFileHandles \"File\"",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::CloseFileHandles"
+	},
+	"NSutils::RegMultiSzInsertBefore": {
+		"body": "NSutils::RegMultiSzInsertBefore \"${1:RegKeyName}\" \"${2:RegValueName}\" ${3:KeyFlags} \"${4:InsertStr}\" \"${5:InsertBeforeStr}\"$0",
+		"description": "Usage: NSutils::RegMultiSzInsertBefore \"RegKeyName\" \"RegValueName\" KeyFlags \"InsertStr\" \"InsertBeforeStr\"",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::RegMultiSzInsertBefore"
+	},
+	"NSutils::RegMultiSzInsertAfter": {
+		"body": "NSutils::RegMultiSzInsertAfter \"${1:RegKeyName}\" \"${2:RegValueName}\" ${3:KeyFlags} \"${4:InsertStr}\" \"${5:InsertAfterStr}\"$0",
+		"description": "Usage: NSutils::RegMultiSzInsertAfter \"RegKeyName\" \"RegValueName\" KeyFlags \"InsertStr\" \"InsertAfterStr\"",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::RegMultiSzInsertAfter"
+	},
+	"NSutils::RegMultiSzInsertAtIndex": {
+		"body": "NSutils::RegMultiSzInsertAtIndex \"${1:RegKeyName}\" \"${2:RegValueName}\" ${3:KeyFlags} \"${4:InsertStr}\" ${5:Index}$0",
+		"description": "Usage: NSutils::RegMultiSzInsertAtIndex \"RegKeyName\" \"RegValueName\" KeyFlags Index \"InsertStr\"",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::RegMultiSzInsertAtIndex"
+	},
+	"NSutils::RegMultiSzDelete": {
+		"body": "NSutils::RegMultiSzDelete \"${1:RegKeyName}\" \"${2:RegValueName}\" ${3:KeyFlags} \"${4:DeleteStr}\" ${5:RemoveValueIfEmpty}$0",
+		"description": "Usage: NSutils::RegMultiSzDelete \"RegKeyName\" \"RegValueName\" KeyFlags \"DeleteStr\" RemoveValueIfEmpty",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::RegMultiSzDelete"
+	},
+	"NSutils::RegMultiSzRead": {
+		"body": "NSutils::RegMultiSzRead \"${1:RegKeyName}\" \"${2:RegValueName}\" ${3:KeyFlags} ${4:Index}$0",
+		"description": "Usage: NSutils::RegMultiSzRead \"RegKeyName\" \"RegValueName\" KeyFlags Index",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::RegMultiSzRead"
+	},
+	"NSutils::RegBinaryInsertString": {
+		"body": "NSutils::RegBinaryInsertString \"${1:RegKeyName}\" \"${2:RegValueName}\" ${3:KeyFlags} ${4:Offset} \"${5:String}\"$0",
+		"description": "Usage: NSutils::RegBinaryInsertString \"RegKeyName\" \"RegValueName\" KeyFlags Offset String",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::RegBinaryInsertString"
+	},
+	"NSutils::CPUID": {
+		"body": "NSutils::CPUIDFuncId ${1:FuncId}$0",
+		"description": "Usage: NSutils::CPUID FuncId",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::CPUID"
+	},
+	"NSutils::CompareFiles": {
+		"body": "NSutils::CompareFiles \"${1:File1}\" \"${2:File2}\"$0",
+		"description": "Usage: NSutils::CompareFiles File1 File2",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::CompareFiles"
+	},
+	"NSutils::RemoveSoftwareRestrictionPolicies": {
+		"body": "NSutils::RemoveSoftwareRestrictionPolicies \"${1:FileSubstring}\" \"${2:LogFile}\"$0",
+		"description": "Usage: NSutils::RemoveSoftwareRestrictionPolicies \"FileSubstring\" \"LogFile\"",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::RemoveSoftwareRestrictionPolicies"
+	},
+	"NSutils::DriveIsSSD": {
+		"body": "NSutils::DriveIsSSD \"${1:FileOrDirectory}\"$0",
+		"description": "Usage: NSutils::DriveIsSSD \"FileOrDirectory\"",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nsutils",
+		"leftLabelHTML": "<span class='support class'>NSutils.dll</span>",
+		"prefix": "NSutils::DriveIsSSD"
+	}
+}
