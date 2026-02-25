@@ -1,0 +1,9 @@
+{
+	"NScurl::http": {
+		"body": "NScurl::http ${1:method} ${2:url} ${3:output}$0",
+		"description": "Usage: NScurl::http method url output parameters",
+		"descriptionMoreURL": "https://github.com/negrutiu/nsis-nscurl",
+		"leftLabelHTML": "<span class='support class'>NScurl.dll</span>",
+		"prefix": "NScurl::http"
+	}
+}
