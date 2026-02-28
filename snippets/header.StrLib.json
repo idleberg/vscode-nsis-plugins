@@ -1,0 +1,163 @@
+{
+	"StartsWith": {
+		"body": "\\${StartsWith} ${1:needle}$0",
+		"description": "Usage: ${StartsWith} needle",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "StartsWith"
+	},
+	"StartsWithS": {
+		"body": "\\${StartsWithS} ${1:needle}$0",
+		"description": "Usage: ${StartsWithS} needle",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "StartsWithS"
+	},
+	"EndsWith": {
+		"body": "\\${EndsWith} ${1:needle}$0",
+		"description": "Usage: ${EndsWith} needle",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "EndsWith"
+	},
+	"EndsWithS": {
+		"body": "\\${EndsWithS} ${1:needle}$0",
+		"description": "Usage: ${EndsWithS} needle",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "EndsWithS"
+	},
+	"Contains": {
+		"body": "\\${Contains} ${1:needle}$0",
+		"description": "Usage: ${Contains} needle",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "Contains"
+	},
+	"ContainsS": {
+		"body": "\\${ContainsS} ${1:needle}$0",
+		"description": "Usage: ${ContainsS} needle",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "ContainsS"
+	},
+	"IsLowerCase": {
+		"body": "\\${IsLowerCase} ${1:needle}$0",
+		"description": "Usage: ${IsLowerCase} needle",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "IsLowerCase"
+	},
+	"IsUpperCase": {
+		"body": "\\${IsUpperCase} ${1:needle}$0",
+		"description": "Usage: ${IsUpperCase} needle",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "IsUpperCase"
+	},
+	"TrimLeft": {
+		"body": "\\${TrimLeft} ${1:input} ${2:output}$0",
+		"description": "Usage: ${TrimLeft} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "TrimLeft"
+	},
+	"TrimRight": {
+		"body": "\\${TrimRight} ${1:input} ${2:output}$0",
+		"description": "Usage: ${TrimRight} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "TrimRight"
+	},
+	"Trim": {
+		"body": "\\${Trim} ${1:input} ${2:output}$0",
+		"description": "Usage: ${Trim} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "Trim"
+	},
+	"PadLeft": {
+		"body": "\\${PadLeft} ${1:length} ${2:padstring} ${3:output}$0",
+		"description": "Usage: ${PadLeft} length padstring output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "PadLeft"
+	},
+	"PadRight": {
+		"body": "\\${PadRight} ${1:length} ${2:padstring} ${3:output}$0",
+		"description": "Usage: ${PadRight} length padstring output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "PadRight"
+	},
+	"Reverse": {
+		"body": "\\${Reverse} ${1:input} ${2:output}$0",
+		"description": "Usage: ${Reverse} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "Reverse"
+	},
+	"ToLowerCase": {
+		"body": "\\${ToLowerCase} ${1:input} ${2:output}$0",
+		"description": "Usage: ${ToLowerCase} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "ToLowerCase"
+	},
+	"ToUpperCase": {
+		"body": "\\${ToUpperCase} ${1:input} ${2:output}$0",
+		"description": "Usage: ${ToUpperCase} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "ToUpperCase"
+	},
+	"ToCapitalCase": {
+		"body": "\\${ToCapitalCase} ${1:input} ${2:output}$0",
+		"description": "Usage: ${ToCapitalCase} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "ToCapitalCase"
+	},
+	"ToPascalCase": {
+		"body": "\\${ToPascalCase} ${1:input} ${2:output}$0",
+		"description": "Usage: ${ToPascalCase} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "ToPascalCase"
+	},
+	"ToCamelCase": {
+		"body": "\\${ToCamelCase} ${1:input} ${2:output}$0",
+		"description": "Usage: ${ToCamelCase} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "ToCamelCase"
+	},
+	"ToSnakeCase": {
+		"body": "\\${ToSnakeCase} ${1:input} ${2:output}$0",
+		"description": "Usage: ${ToSnakeCase} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "ToSnakeCase"
+	},
+	"ToConstantCase": {
+		"body": "\\${ToConstantCase} ${1:input} ${2:output}$0",
+		"description": "Usage: ${ToConstantCase} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "ToConstantCase"
+	},
+	"ToKebabCase": {
+		"body": "\\${ToKebabCase} ${1:input} ${2:output}$0",
+		"description": "Usage: ${ToKebabCase} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "ToKebabCase"
+	},
+	"Slugify": {
+		"body": "\\${Slugify} ${1:input} ${2:output}$0",
+		"description": "Usage: ${Slugify} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-strlib",
+		"leftLabelHTML": "<span class='support function'>StrLib.nsh</span>",
+		"prefix": "Slugify"
+	}
+}
