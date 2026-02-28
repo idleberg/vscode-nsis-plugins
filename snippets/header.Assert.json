@@ -1,0 +1,37 @@
+{
+	"Assert": {
+		"body": "\\${Assert} ${1:operator}$0",
+		"description": "Usage: ${Assert} operator",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-assert",
+		"leftLabelHTML": "<span class='support function'>nsExpr.nsh.nsh</span>",
+		"prefix": "Assert"
+	},
+	"AssertNot": {
+		"body": "\\${AssertNot} ${1:operator}$0",
+		"description": "Usage: ${AssertNot} operator",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-assert",
+		"leftLabelHTML": "<span class='support function'>nsExpr.nsh.nsh</span>",
+		"prefix": "AssertNot"
+	},
+	"AssertDefined": {
+		"body": "\\${AssertDefined} ${1:define}$0",
+		"description": "Usage: ${AssertDefined} define",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-assert",
+		"leftLabelHTML": "<span class='support function'>nsExpr.nsh.nsh</span>",
+		"prefix": "AssertDefined"
+	},
+	"AssertUndefined": {
+		"body": "\\${AssertUndefined} ${1:define}$0",
+		"description": "Usage: ${AssertUndefined} define",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-assert",
+		"leftLabelHTML": "<span class='support function'>nsExpr.nsh.nsh</span>",
+		"prefix": "AssertUndefined"
+	},
+	"AssertSummary": {
+		"body": "\\${AssertSummary}$0",
+		"description": "Usage: ${AssertSummary}",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-assert",
+		"leftLabelHTML": "<span class='support function'>nsExpr.nsh.nsh</span>",
+		"prefix": "AssertSummary"
+	}
+}
