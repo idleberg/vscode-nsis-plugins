@@ -3,7 +3,7 @@
 		"body": "\\${PowerShellExec} \"${1:command}\"$2",
 		"description": "Usage: ${PowerShellExec} command",
 		"descriptionMoreURL": "http://nsis.sourceforge.net/PowerShell_support",
-		"leftLabelHTML": "<span class='support function'>PowerShellExec.nsh.nsh</span>",
+		"leftLabelHTML": "<span class='support function'>PowerShellExec.nsh</span>",
 		"prefix": "PowerShellExec"
 	}
 }
