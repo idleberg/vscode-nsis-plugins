@@ -782,9 +782,8 @@
 		"idleberg.nsis"
 	],
 	"devDependencies": {
-		"@commitlint/cli": "^19.8.0",
-		"@commitlint/config-conventional": "^19.8.0",
-		"prettier": "^3.5.3",
+		"@commitlint/cli": "^20.4.2",
+		"@commitlint/config-conventional": "^20.4.2",
 		"sharp-cli": "^5.2.0",
 		"vscode-linter": "^0.3.1"
 	},
