@@ -49,6 +49,10 @@
 			},
 			{
 				"language": "nsis",
+				"path": "./snippets/header.Assert.json"
+			},
+			{
+				"language": "nsis",
 				"path": "./snippets/header.Base64.json"
 			},
 			{
@@ -69,7 +73,15 @@
 			},
 			{
 				"language": "nsis",
+				"path": "./snippets/header.PathLib.json"
+			},
+			{
+				"language": "nsis",
 				"path": "./snippets/header.PowerShellExec.json"
+			},
+			{
+				"language": "nsis",
+				"path": "./snippets/header.StrLib.json"
 			},
 			{
 				"language": "nsis",
@@ -409,6 +421,10 @@
 			},
 			{
 				"language": "nsis",
+				"path": "./snippets/plugin.NScurl.json"
+			},
+			{
+				"language": "nsis",
 				"path": "./snippets/plugin.NsFlash.json"
 			},
 			{
@@ -542,6 +558,10 @@
 			{
 				"language": "nsis",
 				"path": "./snippets/plugin.nsUnzip.json"
+			},
+			{
+				"language": "nsis",
+				"path": "./snippets/plugin.NSutils.json"
 			},
 			{
 				"language": "nsis",
