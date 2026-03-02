@@ -77,42 +77,42 @@
 		"prefix": "Path.IsSymLink"
 	},
 	"Path.Normalize": {
-		"body": "\\${Path.Normalize} ${1:input} ${:output}$0",
+		"body": "\\${Path.Normalize} ${1:input} ${2:output}$0",
 		"description": "Usage: ${Path.Normalize} input output",
 		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
 		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
 		"prefix": "Path.Normalize"
 	},
 	"Path.Join": {
-		"body": "\\${Path.Join} ${1:input} ${:output}$0",
+		"body": "\\${Path.Join} ${1:input} ${2:output}$0",
 		"description": "Usage: ${Path.Join} input output",
 		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
 		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
 		"prefix": "Path.Join"
 	},
 	"Path.Resolve": {
-		"body": "\\${Path.Resolve} ${1:input} ${:output}$0",
+		"body": "\\${Path.Resolve} ${1:input} ${2:output}$0",
 		"description": "Usage: ${Path.Resolve} input output",
 		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
 		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
 		"prefix": "Path.Resolve"
 	},
 	"Path.Dirname": {
-		"body": "\\${Path.Dirname} ${1:input} ${:output}$0",
+		"body": "\\${Path.Dirname} ${1:input} ${2:output}$0",
 		"description": "Usage: ${Path.Dirname} input output",
 		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
 		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
 		"prefix": "Path.Dirname"
 	},
 	"Path.Extname": {
-		"body": "\\${Path.Extname} ${1:input} ${:output}$0",
+		"body": "\\${Path.Extname} ${1:input} ${2:output}$0",
 		"description": "Usage: ${Path.Extname} input output",
 		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
 		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
 		"prefix": "Path.Extname"
 	},
 	"Path.Basename": {
-		"body": "\\${Path.Basename} ${1:input} ${:output}$0",
+		"body": "\\${Path.Basename} ${1:input} ${2:output}$0",
 		"description": "Usage: ${Path.Basename} input output",
 		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
 		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
