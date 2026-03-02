@@ -13,7 +13,8 @@
 		"build": "sharp resize 1024 1024 --input src/logo.svg --output resources/logo.png",
 		"publish:ovsx": "ovsx publish --no-dependencies",
 		"publish:vsce": "vsce publish --githubBranch main --no-dependencies",
-		"test": "echo \"no tests yet\" && exit 0"
+		"test": "echo \"no tests yet\" && exit 0",
+		"vscode:prepublish": "npm run build"
 	},
 	"keywords": [
 		"nsis",
