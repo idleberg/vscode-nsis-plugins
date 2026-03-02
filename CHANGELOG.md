@@ -1,3 +1,8 @@
+# v2.0.0 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/v2.0.0)
+
+- change license to MIT-only
+- update tooling
+
 # v1.3.2 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/v1.3.2)
 
 - update tooling
