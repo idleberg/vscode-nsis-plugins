@@ -1,0 +1,121 @@
+{
+	"Path.IsAbsolute": {
+		"body": "\\${Path.IsAbsolute} ${1:path}$0",
+		"description": "Usage: ${Path.IsAbsolute} path",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.IsAbsolute"
+	},
+	"Path.IsRelative": {
+		"body": "\\${Path.IsRelative} ${1:path}$0",
+		"description": "Usage: ${Path.IsRelative} path",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.IsRelative"
+	},
+	"Path.IsUNC": {
+		"body": "\\${Path.IsUNC} ${1:path}$0",
+		"description": "Usage: ${Path.IsUNC} path",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.IsUNC"
+	},
+	"Path.IsValid": {
+		"body": "\\${Path.IsValid} ${1:path}$0",
+		"description": "Usage: ${Path.IsValid} path",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.IsValid"
+	},
+	"Path.IsValidFileName": {
+		"body": "\\${Path.IsValidFileName} ${1:path}$0",
+		"description": "Usage: ${Path.IsValidFileName} path",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.IsValidFileName"
+	},
+	"Path.IsFile": {
+		"body": "\\${Path.IsFile} ${1:path}$0",
+		"description": "Usage: ${Path.IsFile} path",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.IsFile"
+	},
+	"Path.IsDirectory": {
+		"body": "\\${Path.IsDirectory} ${1:path}$0",
+		"description": "Usage: ${Path.IsDirectory} path",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.IsDirectory"
+	},
+	"Path.IsReadable": {
+		"body": "\\${Path.IsReadable} ${1:path}$0",
+		"description": "Usage: ${Path.IsReadable} path",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.IsReadable"
+	},
+	"Path.IsWritable": {
+		"body": "\\${Path.IsWritable} ${1:path}$0",
+		"description": "Usage: ${Path.IsWritable} path",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.IsWritable"
+	},
+	"Path.IsHidden": {
+		"body": "\\${Path.IsHidden} ${1:path}$0",
+		"description": "Usage: ${Path.IsHidden} path",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.IsHidden"
+	},
+	"Path.IsSymLink": {
+		"body": "\\${Path.IsSymLink} ${1:path}$0",
+		"description": "Usage: ${Path.IsSymLink} path",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.IsSymLink"
+	},
+	"Path.Normalize": {
+		"body": "\\${Path.Normalize} ${1:input} ${:output}$0",
+		"description": "Usage: ${Path.Normalize} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.Normalize"
+	},
+	"Path.Join": {
+		"body": "\\${Path.Join} ${1:input} ${:output}$0",
+		"description": "Usage: ${Path.Join} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.Join"
+	},
+	"Path.Resolve": {
+		"body": "\\${Path.Resolve} ${1:input} ${:output}$0",
+		"description": "Usage: ${Path.Resolve} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.Resolve"
+	},
+	"Path.Dirname": {
+		"body": "\\${Path.Dirname} ${1:input} ${:output}$0",
+		"description": "Usage: ${Path.Dirname} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.Dirname"
+	},
+	"Path.Extname": {
+		"body": "\\${Path.Extname} ${1:input} ${:output}$0",
+		"description": "Usage: ${Path.Extname} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.Extname"
+	},
+	"Path.Basename": {
+		"body": "\\${Path.Basename} ${1:input} ${:output}$0",
+		"description": "Usage: ${Path.Basename} input output",
+		"descriptionMoreURL": "https://github.com/idleberg/nsis-pathlab",
+		"leftLabelHTML": "<span class='support function'>PathLib.nsh</span>",
+		"prefix": "Path.Basename"
+	}
+}
