@@ -784,6 +784,7 @@
 	"devDependencies": {
 		"@commitlint/cli": "^20.4.2",
 		"@commitlint/config-conventional": "^20.4.2",
+		"@idleberg/configs": "^0.4.2",
 		"sharp-cli": "^5.2.0",
 		"vscode-linter": "^0.3.1"
 	},
