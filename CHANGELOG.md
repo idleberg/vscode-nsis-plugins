@@ -1,6 +1,14 @@
 # v2.0.0 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/v2.0.0)
 
+- add macro snippets:
+	- Assert
+	- PathLib
+	- StrLib
+- add plugin snippets:
+	- NScurl
+	- NSutils
 - change license to MIT-only
+- update depencencies
 - update tooling
 
 # v1.3.2 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/v1.3.2)
