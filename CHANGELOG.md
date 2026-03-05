@@ -1,4 +1,4 @@
-# v2.0.0 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/v2.0.0)
+# v1.4.0 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/v1.4.0)
 
 - add macro snippets:
 	- Assert
