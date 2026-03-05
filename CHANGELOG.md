@@ -8,7 +8,7 @@
 	- NScurl
 	- NSutils
 - change license to MIT-only
-- update depencencies
+- update dependencies
 - update tooling
 
 # v1.3.2 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/v1.3.2)
