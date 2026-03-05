@@ -1,5 +1,6 @@
 # Development
 *.map
+.github/
 .circleci/
 .editorconfig
 .eslintcache
@@ -8,6 +9,7 @@
 .husky/
 .travis.yml
 gulpfile.js
+lefthook.toml
 package-lock.json
 rollup.config.js
 src/
