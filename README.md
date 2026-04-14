@@ -1,8 +1,7 @@
 # vscode-nsis-plugins
 
+[![License](https://img.shields.io/github/license/idleberg/vscode-applescript?color=blue&style=for-the-badge)](LICENSE)
 [![Version](https://img.shields.io/github/v/release/idleberg/vscode-nsis-plugins?style=for-the-badge)](https://github.com/idleberg/vscode-nsis-plugins/releases)
-[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/idleberg.nsis-plugins?style=for-the-badge&label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=idleberg.nsis-plugins)
-[![Open VSX Downloads](https://img.shields.io/open-vsx/dt/idleberg/nsis-plugins?style=for-the-badge&label=Open%20VSX)](https://open-vsx.org/extension/idleberg/nsis-plugins)
 [![Build](https://img.shields.io/github/actions/workflow/status/idleberg/vscode-nsis-plugins/default.yml?style=for-the-badge)](https://github.com/idleberg/vscode-nsis-plugins/actions)
 
 IntelliSense for third-party plug-ins for Nullsoft Scriptable Install System (NSIS)
@@ -245,4 +244,4 @@ $ git clone https://github.com/idleberg/vscode-nsis-plugins nsis-plugins
 
 ## License
 
-This work is dual-licensed under [The MIT License](https://opensource.org/licenses/MIT) and the [GNU General Public License, version 2.0](https://opensource.org/licenses/GPL-2.0)
+This work is dual-licensed under [The MIT License](LICENSE).
