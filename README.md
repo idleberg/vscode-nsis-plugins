@@ -1,6 +1,6 @@
 # vscode-nsis-plugins
 
-[![License](https://img.shields.io/github/license/idleberg/vscode-applescript?color=blue&style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/github/license/idleberg/vscode-nsis-plugins?color=blue&style=for-the-badge)](LICENSE)
 [![Version](https://img.shields.io/github/v/release/idleberg/vscode-nsis-plugins?style=for-the-badge)](https://github.com/idleberg/vscode-nsis-plugins/releases)
 [![Build](https://img.shields.io/github/actions/workflow/status/idleberg/vscode-nsis-plugins/default.yml?style=for-the-badge)](https://github.com/idleberg/vscode-nsis-plugins/actions)
 
