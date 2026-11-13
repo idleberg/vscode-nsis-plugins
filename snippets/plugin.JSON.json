@@ -1,0 +1,149 @@
+{
+	"JSON::Count": {
+		"body": "JSON::Count \"${1:name}\" \"${2:path}\"$0",
+		"description": "Usage: JSON::Count name path",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::Count"
+	},
+	"JSON::EntryAt": {
+		"body": "JSON::EntryAt \"${1:name}\" \"${2:path}\" \"${3:index}\"$0",
+		"description": "Usage: JSON::EntryAt name path index",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::EntryAt"
+	},
+	"JSON::Free": {
+		"body": "JSON::Free \"${1:name}\"$0",
+		"description": "Usage: JSON::Free name",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::Free"
+	},
+	"JSON::Get": {
+		"body": "JSON::Get \"${1:name}\" \"${2:path}\"$0",
+		"description": "Usage: JSON::Get name path",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::Get"
+	},
+	"JSON::LastError": {
+		"body": "JSON::LastError$0",
+		"description": "Usage: JSON::LastError",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::LastError"
+	},
+	"JSON::Load": {
+		"body": "JSON::Load \"${1:name}\" \"${2:file}\"$0",
+		"description": "Usage: JSON::Load name file",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::Load"
+	},
+	"JSON::New": {
+		"body": "JSON::New \"${1:name}\"$0",
+		"description": "Usage: JSON::New name",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::New"
+	},
+	"JSON::Remove": {
+		"body": "JSON::Remove \"${1:name}\" \"${2:path}\"$0",
+		"description": "Usage: JSON::Remove name path",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::Remove"
+	},
+	"JSON::Save": {
+		"body": "JSON::Save \"${1:name}\" \"${2:file}\"$0",
+		"description": "Usage: JSON::Save name file",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::Save"
+	},
+	"JSON::SetArray": {
+		"body": "JSON::SetArray \"${1:name}\" \"${2:path}\"$0",
+		"description": "Usage: JSON::SetArray name path",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::SetArray"
+	},
+	"JSON::SetBool": {
+		"body": "JSON::SetBool \"${1:name}\" \"${2:path}\" \"${3:value}\"$0",
+		"description": "Usage: JSON::SetBool name path value",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::SetBool"
+	},
+	"JSON::SetFloat": {
+		"body": "JSON::SetFloat \"${1:name}\" \"${2:path}\" \"${3:value}\"$0",
+		"description": "Usage: JSON::SetFloat name path value",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::SetFloat"
+	},
+	"JSON::SetInt": {
+		"body": "JSON::SetInt \"${1:name}\" \"${2:path}\" \"${3:value}\"$0",
+		"description": "Usage: JSON::SetInt name path value",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::SetInt"
+	},
+	"JSON::SetNull": {
+		"body": "JSON::SetNull \"${1:name}\" \"${2:path}\"$0",
+		"description": "Usage: JSON::SetNull name path",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::SetNull"
+	},
+	"JSON::SetObject": {
+		"body": "JSON::SetObject \"${1:name}\" \"${2:path}\"$0",
+		"description": "Usage: JSON::SetObject name path",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::SetObject"
+	},
+	"JSON::SetRaw": {
+		"body": "JSON::SetRaw \"${1:name}\" \"${2:path}\" \"${3:value}\"$0",
+		"description": "Usage: JSON::SetRaw name path value",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::SetRaw"
+	},
+	"JSON::SetString": {
+		"body": "JSON::SetString \"${1:name}\" \"${2:path}\" \"${3:value}\"$0",
+		"description": "Usage: JSON::SetString name path value",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::SetString"
+	},
+	"JSON::Type": {
+		"body": "JSON::Type \"${1:name}\" \"${2:path}\"$0",
+		"description": "Usage: JSON::Type name path",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support class'>JSON.dll</span>",
+		"prefix": "JSON::Type"
+	},
+	"JsonBreak": {
+		"body": "\\${JsonBreak}$0",
+		"description": "Usage: ${JsonBreak}",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support function'>JSON.nsh</span>",
+		"prefix": "JsonBreak"
+	},
+	"JsonForEach": {
+		"body": "\\${JsonForEach} \"${1:name}\" \"${2:path}\" \\$${3:key} \\$${4:value}\n\t${5:# your code here}\n\\${JsonNext}$0",
+		"description": "Usage: ${JsonForEach} name path key value",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support function'>JSON.nsh</span>",
+		"prefix": "JsonForEach"
+	},
+	"JsonNext": {
+		"body": "\\${JsonNext}$0",
+		"description": "Usage: ${JsonNext}",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-json",
+		"leftLabelHTML": "<span class='support function'>JSON.nsh</span>",
+		"prefix": "JsonNext"
+	}
+}

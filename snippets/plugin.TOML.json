@@ -1,0 +1,149 @@
+{
+	"TOML::Count": {
+		"body": "TOML::Count \"${1:name}\" \"${2:path}\"$0",
+		"description": "Usage: TOML::Count name path",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::Count"
+	},
+	"TOML::EntryAt": {
+		"body": "TOML::EntryAt \"${1:name}\" \"${2:path}\" \"${3:index}\"$0",
+		"description": "Usage: TOML::EntryAt name path index",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::EntryAt"
+	},
+	"TOML::Free": {
+		"body": "TOML::Free \"${1:name}\"$0",
+		"description": "Usage: TOML::Free name",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::Free"
+	},
+	"TOML::Get": {
+		"body": "TOML::Get \"${1:name}\" \"${2:path}\"$0",
+		"description": "Usage: TOML::Get name path",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::Get"
+	},
+	"TOML::LastError": {
+		"body": "TOML::LastError$0",
+		"description": "Usage: TOML::LastError",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::LastError"
+	},
+	"TOML::Load": {
+		"body": "TOML::Load \"${1:name}\" \"${2:file}\"$0",
+		"description": "Usage: TOML::Load name file",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::Load"
+	},
+	"TOML::New": {
+		"body": "TOML::New \"${1:name}\"$0",
+		"description": "Usage: TOML::New name",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::New"
+	},
+	"TOML::Remove": {
+		"body": "TOML::Remove \"${1:name}\" \"${2:path}\"$0",
+		"description": "Usage: TOML::Remove name path",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::Remove"
+	},
+	"TOML::Save": {
+		"body": "TOML::Save \"${1:name}\" \"${2:file}\"$0",
+		"description": "Usage: TOML::Save name file",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::Save"
+	},
+	"TOML::SetArray": {
+		"body": "TOML::SetArray \"${1:name}\" \"${2:path}\"$0",
+		"description": "Usage: TOML::SetArray name path",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::SetArray"
+	},
+	"TOML::SetBool": {
+		"body": "TOML::SetBool \"${1:name}\" \"${2:path}\" \"${3:value}\"$0",
+		"description": "Usage: TOML::SetBool name path value",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::SetBool"
+	},
+	"TOML::SetDate": {
+		"body": "TOML::SetDate \"${1:name}\" \"${2:path}\" \"${3:value}\"$0",
+		"description": "Usage: TOML::SetDate name path value",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::SetDate"
+	},
+	"TOML::SetFloat": {
+		"body": "TOML::SetFloat \"${1:name}\" \"${2:path}\" \"${3:value}\"$0",
+		"description": "Usage: TOML::SetFloat name path value",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::SetFloat"
+	},
+	"TOML::SetInt": {
+		"body": "TOML::SetInt \"${1:name}\" \"${2:path}\" \"${3:value}\"$0",
+		"description": "Usage: TOML::SetInt name path value",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::SetInt"
+	},
+	"TOML::SetRaw": {
+		"body": "TOML::SetRaw \"${1:name}\" \"${2:path}\" \"${3:value}\"$0",
+		"description": "Usage: TOML::SetRaw name path value",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::SetRaw"
+	},
+	"TOML::SetString": {
+		"body": "TOML::SetString \"${1:name}\" \"${2:path}\" \"${3:value}\"$0",
+		"description": "Usage: TOML::SetString name path value",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::SetString"
+	},
+	"TOML::SetTable": {
+		"body": "TOML::SetTable \"${1:name}\" \"${2:path}\"$0",
+		"description": "Usage: TOML::SetTable name path",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::SetTable"
+	},
+	"TOML::Type": {
+		"body": "TOML::Type \"${1:name}\" \"${2:path}\"$0",
+		"description": "Usage: TOML::Type name path",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support class'>TOML.dll</span>",
+		"prefix": "TOML::Type"
+	},
+	"TomlBreak": {
+		"body": "\\${TomlBreak}$0",
+		"description": "Usage: ${TomlBreak}",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support function'>TOML.nsh</span>",
+		"prefix": "TomlBreak"
+	},
+	"TomlForEach": {
+		"body": "\\${TomlForEach} \"${1:name}\" \"${2:path}\" \\$${3:key} \\$${4:value}\n\t${5:# your code here}\n\\${TomlNext}$0",
+		"description": "Usage: ${TomlForEach} name path key value",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support function'>TOML.nsh</span>",
+		"prefix": "TomlForEach"
+	},
+	"TomlNext": {
+		"body": "\\${TomlNext}$0",
+		"description": "Usage: ${TomlNext}",
+		"descriptionMoreURL": "https://github.com/nsis-community/plugin-toml",
+		"leftLabelHTML": "<span class='support function'>TOML.nsh</span>",
+		"prefix": "TomlNext"
+	}
+}

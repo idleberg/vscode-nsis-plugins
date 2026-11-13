@@ -354,6 +354,10 @@
 			},
 			{
 				"language": "nsis",
+				"path": "./snippets/plugin.JSON.json"
+			},
+			{
+				"language": "nsis",
 				"path": "./snippets/plugin.KillProc.json"
 			},
 			{
@@ -715,6 +719,10 @@
 			{
 				"language": "nsis",
 				"path": "./snippets/plugin.ToggleInstFiles.json"
+			},
+			{
+				"language": "nsis",
+				"path": "./snippets/plugin.TOML.json"
 			},
 			{
 				"language": "nsis",
