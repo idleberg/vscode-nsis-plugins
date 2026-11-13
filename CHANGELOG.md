@@ -1,3 +1,9 @@
+# v1.5.0 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/v1.5.0)
+
+- add plugin snippets:
+	- JSON
+	- TOML
+
 # v1.4.0 [#](https://github.com/idleberg/vscode-nsis-plugins/releases/tag/v1.4.0)
 
 - add macro snippets:
